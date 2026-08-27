@@ -30,7 +30,7 @@ export default function DashboardSection({ data, onGo }: {
 
   return (
     <>
-      <div className="crumbs"><span className="crumb current">Versuni</span></div>
+      <div className="crumbs"><span className="crumb current">Dashboard</span></div>
       <div className="page-tagline">The whole intelligence machine, at a glance.</div>
       <details className="page-details">
         <summary>Details</summary>

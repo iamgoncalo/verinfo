@@ -20,7 +20,7 @@ const DATA = siteData as unknown as SiteData;
 export type Section = "home" | "products" | "house" | "tags" | "competitors" | "economics" | "distribution" | "sources";
 
 export default function App() {
-  const [section, setSection] = useState<Section>("home");
+  const [section, setSection] = useState<Section>("products");
   const [search, setSearch] = useState("");
   const [gridMode, setGridMode] = useState<"grid" | "list">("grid");
   const [openProductId, setOpenProductId] = useState<string | null>(null);
@@ -80,7 +80,7 @@ export default function App() {
     <div className="app">
       <div className="topbar">
         <button className="mobile-nav-btn" onClick={() => setMobileNavOpen((o) => !o)} aria-label="Menu"><IconList /></button>
-        <div className="brandmark" onClick={() => go("home")}>
+        <div className="brandmark" onClick={() => go("products")}>
           <VersuniLogo height={20} />
           <span className="word2">Product Universe</span>
         </div>
@@ -111,7 +111,7 @@ export default function App() {
             onClick={() => go("home")}
           >
             <span className="ic"><IconDashboard /></span>
-            Home
+            Dashboard
           </div>
           <div className="side-group">
             {sideItems.map((it) => (
