@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type { SiteData, AssocRec, LabelRec } from "../types";
 import { ProductGrid } from "./ProductsSection";
 
@@ -34,14 +34,14 @@ const TAG_TYPES = Object.keys(TYPE_LABEL);
 const REALM_COLOR: Record<string, string> = {
   CAPABILITY: "#2f7d4f", INTELLIGENCE: "#0f766e", DIGITAL: "#3538cd", SPACE: "#b5461f",
   MEDIUM: "#7c3aed", USER_JOB: "#9a6a12", NEED: "#c2570a", MAINTENANCE: "#726d63",
-  ECONOMIC: "#0d9488", LIFECYCLE: "#475569",
+  ECONOMIC: "#0d9488", LIFECYCLE: "#475569", AVAILABILITY: "#be185d",
 };
 const REALM_LABEL: Record<string, string> = {
   CAPABILITY: "Capability", INTELLIGENCE: "Intelligence", DIGITAL: "Digital", SPACE: "Space",
   MEDIUM: "Medium", USER_JOB: "Job", NEED: "Need", MAINTENANCE: "Maintenance",
-  ECONOMIC: "Economic", LIFECYCLE: "Lifecycle",
+  ECONOMIC: "Economic", LIFECYCLE: "Lifecycle", AVAILABILITY: "Availability",
 };
-const REALM_ORDER = ["CAPABILITY", "INTELLIGENCE", "DIGITAL", "SPACE", "MEDIUM", "MAINTENANCE", "ECONOMIC", "LIFECYCLE", "USER_JOB", "NEED"];
+const REALM_ORDER = ["CAPABILITY", "INTELLIGENCE", "DIGITAL", "SPACE", "MEDIUM", "MAINTENANCE", "ECONOMIC", "LIFECYCLE", "USER_JOB", "NEED", "AVAILABILITY"];
 
 function edgeBadge(a: AssocRec): { label: string; color: string } {
   if (a.evidenceState === "INFERRED") return { label: "HYPOTHESIS", color: "#9a6a12" };
@@ -58,6 +58,19 @@ export default function SmartTagsSection({ data, onOpenProduct }: { data: SiteDa
   const [activeEdge, setActiveEdge] = useState<AssocRec | null>(null);
   const [realmFilter, setRealmFilter] = useState<string | null>(null);
   const [selectedTag, setSelectedTag] = useState<{ realm: string; tag: string } | null>(null);
+  const selectedTagRef = useRef<HTMLDivElement>(null);
+  const drilldownRef = useRef<HTMLDivElement>(null);
+
+  // Clicking a tag anywhere on this page (standout cloud, drilldown row) genuinely does
+  // something -- but the panel that shows the result can be well off-screen (the standout
+  // cloud sits between the realm rings above and the results below). Without this, a click
+  // looked like it did nothing until the user scrolled to find it.
+  useEffect(() => {
+    if (selectedTag) selectedTagRef.current?.scrollIntoView({ behavior: "auto", block: "start" });
+  }, [selectedTag]);
+  useEffect(() => {
+    if (realmFilter && !selectedTag) drilldownRef.current?.scrollIntoView({ behavior: "auto", block: "start" });
+  }, [realmFilter]);
 
   const nodesById = useMemo(() => {
     const m: Record<string, NodeRef> = {};
@@ -240,18 +253,26 @@ export default function SmartTagsSection({ data, onOpenProduct }: { data: SiteDa
           </div>
 
           {realmFilter && (
-            <RealmDrilldown
-              realm={realmFilter}
-              breakdown={realmTagBreakdown}
-              selectedTag={selectedTag?.realm === realmFilter ? selectedTag.tag : null}
-              onSelectTag={(tag) => setSelectedTag({ realm: realmFilter, tag })}
-              onClose={() => { setRealmFilter(null); setSelectedTag(null); }}
-            />
+            <div ref={drilldownRef}>
+              <RealmDrilldown
+                realm={realmFilter}
+                breakdown={realmTagBreakdown}
+                selectedTag={selectedTag?.realm === realmFilter ? selectedTag.tag : null}
+                onSelectTag={(tag) => setSelectedTag({ realm: realmFilter, tag })}
+                onClose={() => { setRealmFilter(null); setSelectedTag(null); }}
+              />
+            </div>
           )}
 
           <div className="section-title">What defines this portfolio</div>
-          <div className="section-sub" style={{ marginTop: -6 }}>
-            The strongest tags across the whole catalog, ranked by total weighted presence — size and position both encode prominence.
+          <div className="section-sub" style={{ marginTop: -6, marginBottom: 10 }}>Bigger = stronger across the catalog. Click any tag.</div>
+          <div className="tag-profile-legend">
+            {Array.from(new Set(standoutTags.map((t) => t.realm))).map((r) => (
+              <span className="legend-item" key={r}>
+                <span className="legend-dot" style={{ background: REALM_COLOR[r] }} />
+                {REALM_LABEL[r] || r}
+              </span>
+            ))}
           </div>
           <div className="standout-cloud">
             {standoutTags.map((t, i) => {
@@ -273,7 +294,7 @@ export default function SmartTagsSection({ data, onOpenProduct }: { data: SiteDa
           </div>
 
           {selectedTag && (
-            <>
+            <div ref={selectedTagRef}>
               <div className="section-title">
                 Products tagged <span style={{ color: REALM_COLOR[selectedTag.realm] }}>{selectedTag.tag}</span>
                 <span style={{ fontWeight: 500, color: "var(--text-faint)", fontSize: 12, marginLeft: 8 }}>
@@ -285,7 +306,7 @@ export default function SmartTagsSection({ data, onOpenProduct }: { data: SiteDa
               ) : (
                 <div className="empty-state">No products carry this exact tag.</div>
               )}
-            </>
+            </div>
           )}
         </>
       )}
