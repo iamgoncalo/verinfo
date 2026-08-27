@@ -1,0 +1,172 @@
+product_id,field,raw_value,unit,normalized_value,normalized_unit,source_id,exact_source_location,epistemic_state
+preethi-mg-zodiac-mg218,power_w,750W,W,750,W,src-preethi-p-zodiac-mg218,product page spec table,OBSERVED
+preethi-mg-zodiac-mg218,voltage,230V/50Hz,V,230,V,src-preethi-p-zodiac-mg218,product page spec table,OBSERVED
+preethi-mg-zodiac-mg218,jar_count,4 jars (incl 2.1L Master Chef Plus),count,4,count,src-preethi-p-zodiac-mg218,product page spec table,OBSERVED
+preethi-mg-zodiac-mg218,speed_settings,3 speeds + incher,,,,src-preethi-p-zodiac-mg218,product page spec table,OBSERVED
+preethi-mg-zodiac2-mg255,power_w,1000W,W,1000,W,src-preethi-p-zodiac2-mg255,product page spec table,OBSERVED
+preethi-mg-zodiac2-mg255,jar_count,3 jars,count,3,count,src-preethi-p-zodiac2-mg255,product page spec table,OBSERVED
+preethi-mg-blueleaf-mg281,power_w,1000W,W,1000,W,src-preethi-p-blueleaf-mg281,product page spec table,OBSERVED
+preethi-mg-blueleaf-mg281,jar_count,7 jars,count,7,count,src-preethi-p-blueleaf-mg281,product page spec table,OBSERVED
+preethi-mg-diamond-mg214,power_w,750W,W,750,W,src-preethi-p-diamond-mg214,product page title/spec,OBSERVED
+preethi-mg-ecoplus-mg138,voltage,110V,V,110,V,src-preethi-p-ecoplus-mg138,product title,OBSERVED
+preethi-gs-glamsteel-3b,burner_count,3 burners,count,3,count,src-preethi-p-glamsteel,product page,OBSERVED
+preethi-gs-glamsteel-3b,body_material,stainless steel,,,,src-preethi-p-glamsteel,product page,OBSERVED
+preethi-gs-glamsteel-3b,ignition_type,manual ignition,,,,src-preethi-p-glamsteel,product page,OBSERVED
+preethi-gs-glamsteel-3b,certification,ISI certified,,,,src-preethi-p-glamsteel,product page,OBSERVED
+preethi-gs-silverin-2b,burner_count,2 burners,count,2,count,src-preethi-p-silverin,product page,OBSERVED
+preethi-gs-silverin-2b,top_material,glass top,,,,src-preethi-p-silverin,product page,OBSERVED
+preethi-gs-silverin-2b,certification,ISI certified,,,,src-preethi-p-silverin,product page,OBSERVED
+preethi-gs-silverin-2b,warranty,5-yr glass/burner warranty,,,,src-preethi-p-silverin,product page,OBSERVED
+preethi-ic-ic125,power_w,2100W,W,2100,W,src-preethi-p-indicook-ic125,product page,OBSERVED
+preethi-ic-ic125,controls,feather-touch controls,,,,src-preethi-p-indicook-ic125,product page,OBSERVED
+preethi-ic-ic125,top_material,crystal glass top,,,,src-preethi-p-indicook-ic125,product page,OBSERVED
+preethi-ic-ic116,power_w,1600W,W,1600,W,src-preethi-p-indicook-ic116,product page,OBSERVED
+preethi-ch-kh311,width_cm,90cm,cm,90,cm,src-preethi-p-alcor-kh311,product page,OBSERVED
+preethi-ch-kh311,mount_type,wall-mounted,,,,src-preethi-p-alcor-kh311,product page,OBSERVED
+preethi-ch-kh311,auto_clean,motion-sensor auto-clean,,,,src-preethi-p-alcor-kh311,product page,OBSERVED
+preethi-ch-kh311,motor_warranty_years,10-yr motor warranty,years,10,years,src-preethi-p-alcor-kh311,product page,OBSERVED
+preethi-ch-kh311,suction_m3h,UNKNOWN,,,,src-preethi-p-alcor-kh311,not stated on page,UNKNOWN
+preethi-pc-pc024,material,99% pure virgin aluminium (Hindalco-sourced),,,,src-preethi-p-pc024,product page,OBSERVED
+preethi-pc-pc024,capacity_l,5L,L,5,L,src-preethi-p-pc024,product page,OBSERVED
+preethi-pc-pc024,compatibility,induction+gas compatible,,,,src-preethi-p-pc024,product page,OBSERVED
+preethi-cw-kadai26,coating,non-stick (5-star effect),,,,src-preethi-p-kadai26,product page,OBSERVED
+preethi-cw-kadai26,diameter_cm,26cm,cm,26,cm,src-preethi-p-kadai26,product page,OBSERVED
+preethi-cw-kadai26,compatibility,gas+induction compatible,,,,src-preethi-p-kadai26,product page,OBSERVED
+preethi-cw-csw037,coating,C3+ Greblon 3-layer non-stick,,,,src-preethi-p-csw037,product page,OBSERVED
+preethi-cw-csw037,diameter_cm,24cm,cm,24,cm,src-preethi-p-csw037,product page,OBSERVED
+philips-air-ac0650-20,cadr_m3h,170,m3/h,170,m3/h,src-45ecc10733b0,product spec page,OBSERVED
+philips-air-ac0650-20,room_coverage_m2,44,m2,44,m2,src-45ecc10733b0,product spec page,OBSERVED
+philips-air-ac0650-20,noise_range_dba,19-49,dBA,,,src-45ecc10733b0,product spec page,OBSERVED
+philips-air-ac0650-20,power_max_w,12,W,12,W,src-45ecc10733b0,product spec page,OBSERVED
+philips-air-ac0650-20,filter_architecture,HEPA NanoProtect + pre-filter (2-in-1),,,,src-45ecc10733b0,product spec page,OBSERVED
+philips-air-ac0650-20,filter_life_months,12,months,12,months,src-45ecc10733b0,product spec page,OBSERVED
+philips-air-ac0650-20,connectivity,"Wi-Fi, Air+ app",,,,src-45ecc10733b0,product spec page,OBSERVED
+philips-air-ac0951-13,cadr_m3h,250,m3/h,250,m3/h,src-c4c366a776ba,product spec page,OBSERVED
+philips-air-ac0951-13,room_coverage_m2,65,m2,65,m2,src-c4c366a776ba,product spec page,OBSERVED
+philips-air-ac0951-13,noise_range_dba,20.5-49.0,dBA,,,src-c4c366a776ba,product spec page,OBSERVED
+philips-air-ac0951-13,power_max_w,23,W,23,W,src-c4c366a776ba,product spec page,OBSERVED
+philips-air-ac0951-13,sensors,PM2.5 (AeraSense),,,,src-c4c366a776ba,product spec page,OBSERVED
+philips-air-ac0951-13,connectivity,"Wi-Fi, Air+ app",,,,src-c4c366a776ba,product spec page,OBSERVED
+philips-air-ac0951-13,ai_claim,AI technology that adapts to your routine (Auto+ mode),,,,src-c4c366a776ba,product spec page,OBSERVED
+philips-air-ac2220-10,cadr_m3h,420,m3/h,420,m3/h,src-08703bb70836,product spec page,OBSERVED
+philips-air-ac2220-10,room_coverage_m2,109,m2,109,m2,src-08703bb70836,product spec page,OBSERVED
+philips-air-ac2220-10,noise_range_dba,13-45,dBA,,,src-08703bb70836,product spec page,OBSERVED
+philips-air-ac2220-10,power_max_w,28,W,28,W,src-08703bb70836,product spec page,OBSERVED
+philips-air-ac2220-10,filter_life_months,36,months,36,months,src-08703bb70836,product spec page,OBSERVED
+philips-air-ac2220-10,ai_claim,AI technology that adapts to your routine (Auto+ mode),,,,src-08703bb70836,product spec page,OBSERVED
+philips-air-ac3220-10,cadr_m3h,520,m3/h,520,m3/h,src-2bcfed181e45,product spec page,OBSERVED
+philips-air-ac3220-10,room_coverage_m2,135,m2,135,m2,src-2bcfed181e45,product spec page,OBSERVED
+philips-air-ac3220-10,noise_range_dba,15-47.5,dBA,,,src-2bcfed181e45,product spec page,OBSERVED
+philips-air-ac3220-10,power_max_w,36,W,36,W,src-2bcfed181e45,product spec page,OBSERVED
+philips-air-ac3220-10,connectivity,"Wi-Fi, Air+ app, Alexa/Google",,,,src-2bcfed181e45,product spec page,OBSERVED
+philips-air-ac3220-10,ai_claim,AI technology that adapts to your routine while minimising noise and energy use,,,,src-2bcfed181e45,product spec page,OBSERVED
+philips-air-ac3420-10,cadr_m3h,300,m3/h,300,m3/h,src-1b5dbd9d9a5b,product spec page,OBSERVED
+philips-air-ac3420-10,room_coverage_m2,78,m2,78,m2,src-1b5dbd9d9a5b,product spec page,OBSERVED
+philips-air-ac3420-10,noise_range_dba,16.5-51,dBA,,,src-1b5dbd9d9a5b,product spec page,OBSERVED
+philips-air-ac3420-10,power_max_w,43,W,43,W,src-1b5dbd9d9a5b,product spec page,OBSERVED
+philips-air-ac3420-10,humidification,"Yes, 650 ml/h, 3.2L tank",,,,src-1b5dbd9d9a5b,product spec page,OBSERVED
+philips-air-ac3420-10,sensors,"PM2.5, temp, humidity",,,,src-1b5dbd9d9a5b,product spec page,OBSERVED
+philips-air-ac4220-12,cadr_m3h,600,m3/h,600,m3/h,src-ed67ff134930,product spec page,OBSERVED
+philips-air-ac4220-12,room_coverage_m2,156,m2,156,m2,src-ed67ff134930,product spec page,OBSERVED
+philips-air-amf765-30,cadr_m3h,270,m3/h,270,m3/h,src-decc9efab772,product spec page,OBSERVED
+philips-air-amf765-30,room_coverage_m2,70,m2,70,m2,src-decc9efab772,product spec page,OBSERVED
+philips-air-amf765-30,noise_range_dba,20-47,dBA,,,src-decc9efab772,product spec page,OBSERVED
+philips-air-amf765-30,power_max_w,40,W,40,W,src-decc9efab772,product spec page,OBSERVED
+philips-air-amf765-30,fan,Yes,,,,src-decc9efab772,product spec page,OBSERVED
+philips-air-amf765-30,ai_claim,Powered by AI technology; Select Auto+ mode for AI technology that adapts to your routine,,,,src-decc9efab772,product spec page,OBSERVED
+philips-air-amf870-35,cadr_m3h,270,m3/h,270,m3/h,src-82864615a92a,product spec page,OBSERVED
+philips-air-amf870-35,room_coverage_m2,70,m2,70,m2,src-82864615a92a,product spec page,OBSERVED
+philips-air-amf870-35,power_max_w,40 (fan) / 2200 (heat),W,,,src-82864615a92a,product spec page,OBSERVED
+philips-air-amf870-35,fan,Yes,,,,src-82864615a92a,product spec page,OBSERVED
+philips-air-amf870-35,heating,Yes,,,,src-82864615a92a,product spec page,OBSERVED
+philips-air-amf870-35,ai_claim,Powered by the AI (artificial intelligence) technology; self-adapting technology with AI,,,,src-82864615a92a,product spec page,OBSERVED
+philips-air-amf220-15,cadr_m3h,165,m3/h,165,m3/h,src-4b97a4f1b2b7,product spec page,OBSERVED
+philips-air-amf220-15,room_coverage_m2,42,m2,42,m2,src-4b97a4f1b2b7,product spec page,OBSERVED
+philips-air-amf220-15,fan,Yes,,,,src-4b97a4f1b2b7,product spec page,OBSERVED
+philips-air-amf220-15,heating,Yes,,,,src-4b97a4f1b2b7,product spec page,OBSERVED
+philips-cf-bar305-00,brew_architecture,"Manual portafilter, auto grind+tamp",,,,src-9c34250cbd2f,product spec page,OBSERVED
+philips-cf-bar305-00,grinder,Integrated auto burr grinder,,,,src-9c34250cbd2f,product spec page,OBSERVED
+philips-cf-bar305-00,pressure_bar,16 bar,bar,16,bar,src-9c34250cbd2f,product spec page,OBSERVED
+philips-cf-psa3218-01,grinder,"Built-in, 15 grind settings",,,,src-272587afd087,product spec page,OBSERVED
+philips-cf-psa3218-01,milk_system,Manual steam wand + 450ml jug,,,,src-272587afd087,product spec page,OBSERVED
+philips-cf-ep3347-90,recipe_count,6 beverages,,,,src-a28d98669ed9,product spec page,OBSERVED
+philips-cf-ep3347-90,grinder,"100% ceramic, 12-step",,,,src-a28d98669ed9,product spec page,OBSERVED
+philips-cf-ep3347-90,milk_system,"LatteGo (2-part, no tubes)",,,,src-a28d98669ed9,product spec page,OBSERVED
+philips-cf-ep8757-20,recipe_count,50+ hot and cold,,,,src-cb4997ea6277,product spec page,OBSERVED
+philips-cf-ep8757-20,connectivity,"WiFi + app, Barista Assistant",,,,src-cb4997ea6277,product spec page,OBSERVED
+lor-barista-cf-lm8018,brew_architecture,Capsule (dual: L'OR + Nespresso-compatible),,,,src-f8631c28b2ba,product spec page,OBSERVED
+lor-barista-cf-lm8018,pressure_bar,19 bar,bar,19,bar,src-f8631c28b2ba,product spec page,OBSERVED
+saeco-cf-xelsis-suprema-sm8889,recipe_count,50+,,,,src-6dccc892209d,product spec page,OBSERVED
+saeco-cf-xelsis-suprema-sm8889,milk_system,LattePerfetto (external carafe),,,,src-6dccc892209d,product spec page,OBSERVED
+saeco-cf-xelsis-suprema-sm8889,connectivity,"Built-in WiFi, AI Smart Assistant",,,,src-6dccc892209d,product spec page,OBSERVED
+saeco-cf-granaroma-sm6480,recipe_count,up to 16,,,,src-08e312e7fd77,product spec page,OBSERVED
+saeco-cf-granaroma-sm6480,connectivity,WiFi (select EU countries),,,,src-08e312e7fd77,product spec page,OBSERVED
+gaggia-cf-classicup,brew_architecture,Manual portafilter,,,,src-e3c4ed0a0732,product spec page,OBSERVED
+gaggia-cf-classicup,pressure_bar,9 bar brewing / 15 bar pump,bar,9,bar,src-e3c4ed0a0732,product spec page,OBSERVED
+philips-hs-hsp5300-01,resolution,"2048x1536 (~2K), 3MP sensor, 160deg FoV",,,,src-ed5516a8cc7d,product spec page,OBSERVED
+philips-hs-hsp5300-01,sensors,"PIR motion, person detection, anti-tamper siren",,,,src-ed5516a8cc7d,product spec page,OBSERVED
+philips-hs-hsp5300-01,connectivity,Wi-Fi 2.4GHz (min 2Mbps),,,,src-ed5516a8cc7d,product spec page,OBSERVED
+philips-hs-hsp5300-01,power_source,Built-in 5900mAh battery (~3mo life) OR wired 8-24VAC,,,,src-ed5516a8cc7d,product spec page,OBSERVED
+philips-hs-hsp5500-02,resolution,2K clarity,,,,src-7b3d5a00a7fe,product spec page,OBSERVED
+philips-hs-hsp5500-02,detection_features,"AI people/pet/cry detection, motion tracking, privacy shutter, pan-tilt",,,,src-7b3d5a00a7fe,product spec page,OBSERVED
+philips-pet-paw5320-02,capacity,"4.5 L dry food, 2-12mm kibble",,,,src-68f8556e2e5e,product spec page,OBSERVED
+philips-pet-paw5320-02,camera,"HD/1080p camera, 2-way audio",,,,src-68f8556e2e5e,product spec page,OBSERVED
+philips-pet-paw3210-02,capacity_l,2.2,L,2.2,L,src-f5cde5d08b2c,product spec page,OBSERVED
+philips-pet-paw3210-02,connectivity,"None (non-connected, corded only)",,,,src-f5cde5d08b2c,product spec page,OBSERVED
+philips-garden-rsl3000-10,cutting_width_cm,18,cm,18,cm,src-a1978fb897fd,product spec page,OBSERVED
+philips-garden-rsl3000-10,mapping,"GPS-based mapping, parallel-line cutting pattern",,,,src-a1978fb897fd,product spec page,OBSERVED
+philips-garden-rsl3000-10,battery,"Li-ion 46W, 130 min runtime / 120 min recharge",,,,src-a1978fb897fd,product spec page,OBSERVED
+philips-garden-rsl3000-10,coverage_m2,1000,m2,1000,m2,src-a1978fb897fd,product spec page,OBSERVED
+philips-garden-rsl3000-10,connectivity,"Wi-Fi, range <200m, HomeRun app",,,,src-a1978fb897fd,product spec page,OBSERVED
+philips-air-ac1715-10-br,cadr_m3h,300,m3/h,300,m3/h,src-cdb3bb38ff1c,product spec page,OBSERVED
+philips-air-ac1715-10-br,room_coverage_m2,78,m2,78,m2,src-cdb3bb38ff1c,product spec page,OBSERVED
+walita-af-ri9270-90,capacity_l,6.2 L total / 4.5 L usable,L,4.5,L,src-0e53081714c4,product spec page,OBSERVED
+walita-af-ri9270-90,power_w,2000,W,2000,W,src-0e53081714c4,product spec page,OBSERVED
+walita-af-ri9270-90,temp_range_c,80-200,C,,,src-0e53081714c4,product spec page,OBSERVED
+walita-cf-ep4441-53,brew_architecture,"LatteGo, 12 grind levels, 15 bar, 12 drink types",,,,src-8251eed2d558,product spec page,OBSERVED
+walita-cf-ep4441-53,power_w,1400,W,1400,W,src-8251eed2d558,product spec page,OBSERVED
+walita-fp-hr7304-90,power_w,1000,W,1000,W,src-bde2003cdb70,product spec page,OBSERVED
+walita-vac-xc2011-01,power_w,167 (motor),W,167,W,src-76b7751a8513,product spec page,OBSERVED
+walita-vac-xc2011-01,runtime_min,up to 40 min (Eco) / 10 min (Turbo),,,,src-76b7751a8513,product spec page,OBSERVED
+walita-hum-hu1510-04,capacity_l,3,L,3,L,src-90b2f810c403,product spec page,OBSERVED
+walita-hum-hu1510-04,connectivity,Air+ app,,,,src-90b2f810c403,product spec page,OBSERVED
+philips-af-na555-00,capacity_l,9L (6L+3L),L,9,L,src-d803554e7073,product spec page,OBSERVED
+philips-af-na555-00,power_w,2750,W,2750,W,src-d803554e7073,product spec page,OBSERVED
+philips-af-na555-00,temp_range_c,40-200,C,,,src-d803554e7073,product spec page,OBSERVED
+philips-af-na555-00,basket_architecture,"Dual basket, one steam-capable",,,,src-d803554e7073,product spec page,OBSERVED
+philips-af-hd9880-90,capacity_l,8.3L / 2kg,L,8.3,L,src-64457916d529,product spec page,OBSERVED
+philips-af-hd9880-90,power_w,2200,W,2200,W,src-64457916d529,product spec page,OBSERVED
+philips-af-hd9880-90,cooking_modes,"22 functions, 80+ auto-cook",,,,src-64457916d529,product spec page,OBSERVED
+philips-af-hd9880-90,connectivity,WiFi + HomeID app,,,,src-64457916d529,product spec page,OBSERVED
+philips-ck-hd3095-87,capacity,4L / 16 cups,,,,src-7b3bcc413717,product spec page,OBSERVED
+philips-ck-hd3095-87,cooking_modes,10 preset programs,,,,src-7b3bcc413717,product spec page,OBSERVED
+philips-bl-hr2767-00,capacity,700/500/300 ml tumblers,,,,src-9b8a38fd4675,product spec page,OBSERVED
+philips-bl-hr2767-00,power_w,1000,W,1000,W,src-9b8a38fd4675,product spec page,OBSERVED
+philips-jc-hr1855-70r1,capacity,800 ml jug / 1.2L pulp,,,,src-4433cf2b9a84,product spec page,OBSERVED
+philips-jc-hr1855-70r1,power_w,800,W,800,W,src-4433cf2b9a84,product spec page,OBSERVED
+philips-bf-hd2383-22,power_w,700,W,700,W,src-8518e34a6689,product spec page,OBSERVED
+philips-bf-hd9365-10,capacity_l,1.7,L,1.7,L,src-3e23dbede5f4,product spec page,OBSERVED
+philips-bf-hd9365-10,power_w,1850-2200,W,,,src-3e23dbede5f4,product spec page,OBSERVED
+philips-fc-xu7100-01,runtime_min,up to 180 min,,,,src-155e5f1784c5,product spec page,OBSERVED
+philips-fc-xu7100-01,navigation,"360 deg laser navigation (LiDAR), saves up to 5 maps",,,,src-155e5f1784c5,product spec page,OBSERVED
+philips-fc-xu7100-01,wet_dry,Yes (vacuum+mop simultaneous),,,,src-155e5f1784c5,product spec page,OBSERVED
+philips-fc-xu7100-01,station,"Auto-Empty station, 3.0L disposable anti-allergy bag",,,,src-155e5f1784c5,product spec page,OBSERVED
+philips-fc-xu7100-01,suction_metric,5000 Pa,,,,src-155e5f1784c5,product spec page,OBSERVED
+philips-fc-xw9383-01,wet_dry,Yes,,,,src-2a95957d20e0,product spec page,OBSERVED
+philips-fc-xw9383-01,runtime_min,25-55 min depending on mode,,,,src-2a95957d20e0,product spec page,OBSERVED
+philips-fc-xw9383-01,station,"After-clean & Storage station, auto self-cleaning",,,,src-2a95957d20e0,product spec page,OBSERVED
+philips-fc-xw9383-01,suction_metric,840 L/min airflow max,,,,src-2a95957d20e0,product spec page,OBSERVED
+philips-fc-fc9729-09,power_w,900,W,900,W,src-216485c3db3b,product spec page,OBSERVED
+philips-fc-fc9729-09,wet_dry,Dry only,,,,src-216485c3db3b,product spec page,OBSERVED
+philips-fc-fc9729-09,suction_metric,"PowerCyclone 8, 99.9% dust pick-up",,,,src-216485c3db3b,product spec page,OBSERVED
+philips-gc-gc215-20,steam_rate_g_min,45,g/min,45,g/min,src-0ab0fc980c3d,product spec page,OBSERVED
+philips-gc-gc215-20,power_w,1800,W,1800,W,src-0ab0fc980c3d,product spec page,OBSERVED
+philips-gc-gc215-20,heatup_time_s,45,s,45,s,src-0ab0fc980c3d,product spec page,OBSERVED
+philips-gc-gc215-20,optimaltemp,Yes - OptimalTEMP,,,,src-0ab0fc980c3d,product spec page,OBSERVED
+philips-gc-gc9650-80,steam_rate_g_min,150 continuous,g/min,150,g/min,src-36ebda3b8cc1,product spec page,OBSERVED
+philips-gc-gc9650-80,steam_boost_g,up to 500,g,500,g,src-36ebda3b8cc1,product spec page,OBSERVED
+philips-gc-gc9650-80,power_w,max 2400,W,2400,W,src-36ebda3b8cc1,product spec page,OBSERVED
+philips-gc-gc9650-80,optimaltemp,"Yes - OptimalTEMP, guaranteed no burns",,,,src-36ebda3b8cc1,product spec page,OBSERVED
+philips-gc-gc628-86,steam_rate_g_min,90 continuous,g/min,90,g/min,src-d906bbdadc0a,product spec page,OBSERVED
+philips-gc-gc628-86,power_w,2020-2400,W,,,src-d906bbdadc0a,product spec page,OBSERVED
+philips-gc-gc628-86,board_integration,Yes - adjustable multi-angle board w/ wheels,,,,src-d906bbdadc0a,product spec page,OBSERVED

@@ -1,0 +1,6 @@
+app_or_service,platform,product_id,feature,region,relationship,source_id
+HomeID,"iOS, Android",,"500+ recipes, 60+ coffee specialties; replaced NutriU and Coffee+ apps",Global,USES_APP,src-c33b8c95962d
+Air+,"iOS, Android",,Controls/monitors air purifiers and robot vacuums; AI Auto Plus self-adaptive mode,Global,USES_APP,src-b2845d87f6a1
+HomeRun,"iOS, Android",philips-garden-rsl3000-10,Single app integrating robot vacuums (indoor) and robot lawn mowers (outdoor),Global,USES_APP,src-c5abf09e975a
+Philips Home Safety app,"iOS, Android",philips-hs-hsp5300-01,"Live view, motion alerts, two-way talk, smart modes",Global,USES_APP,src-c80642145334
+Philips Pet Series app,"iOS, Android",philips-pet-paw5320-02,"Remote feeding schedules, live camera/2-way audio, activity insights",Global,USES_APP,src-3929556fc8cb

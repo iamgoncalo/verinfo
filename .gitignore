@@ -1,0 +1,5 @@
+.pytest_cache/
+webapp/node_modules/
+webapp/dist/
+data/generated/*.duckdb
+.DS_Store

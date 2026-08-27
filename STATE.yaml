@@ -1,0 +1,272 @@
+# Module-local state for versuni-products (Prompt 1 of the AFI pipeline).
+# Scope: this file tracks ONLY this module's progress. It does not claim to be
+# the root AFI project's STATE.yaml (T00-T13 stage gate) — this module
+# corresponds to early T01 (Versuni Portfolio Universe) work.
+
+module: versuni-products
+prompt: PROMPT_1_PRODUCT_CENSUS
+stage: P0_IN_PROGRESS
+
+scaffold:
+  status: DONE
+  notes: >
+    Directory structure, policy docs (SCOPE/SOURCE_POLICY/DATA_DICTIONARY/
+    COMPLETENESS_MODEL/IMAGE_POLICY/DISTRIBUTION_POLICY/CHECKLIST), empty
+    normalized CSVs with correct headers, priority_markets.yaml,
+    build_duckdb.py, pytest quality gates, Makefile all created.
+
+research_agents_p0:
+  status: DISPATCHED
+  dispatched_at_turn: 1
+  scope: >
+    7 parallel background research agents covering: Air/Climate Care,
+    Coffee (Philips/Saeco/Gaggia/Senseo/L'OR), Food/Airfryer/Kitchen,
+    Floor Care + Garment Care, Home Safety/Pets/Garden/Digital ecosystem
+    + brand/corporate verification, Preethi (India), Philips Walita
+    (Brazil/LatAm). Each asked for brands/categories/families/products/
+    specs/image-URLs/sources as structured markdown tables to transcribe
+    into data/normalized/*.csv.
+  transcription_status: PENDING
+  notes: >
+    Awaiting agent completion notifications. Transcription into CSVs,
+    dedup, sources.csv assembly, and report generation happens after
+    each agent reports back.
+
+known_gaps_before_transcription:
+  - "Prices (P1), distribution-by-market (P1), accessories (P1), digital
+     ecosystems (P1 — partially covered by Job C of the Home/Pet/Garden
+     agent), and lineage relationships (P2) not yet dispatched — planned
+     for the next research wave once P0 identity/family/SKU/image layer
+     is transcribed and reviewed."
+  - "Long-tail brand verification beyond the seed candidate list (are
+     there other Versuni-operated brand identities not in the seed?)
+     depends on JOB A of the Home/Pet/Garden/Digital agent."
+
+census_transcription:
+  status: DONE
+  notes: >
+    All 7 P0 research agents completed and transcribed into
+    data/normalized/*.csv: 7 brands, 30 categories, 80 families,
+    76 products (69 CURRENT), 171 specs, 45 images, 5 digital-ecosystem
+    links, 115 sources. tests/test_quality.py 16/16 passing (one real
+    bug found+fixed: duplicate literal "UNVERIFIED" SKU placeholders).
+    DuckDB rebuild script fixed (CSV line-ending + dialect-sniff bugs)
+    and verified working.
+
+labeling_layer:
+  status: PARTIAL
+  notes: >
+    User asked (mid-session) to associate LABELING_PIPELINE.md /
+    ASSOCIATION_MODEL.md / LABEL_ONTOLOGY.md / BEHAVIOR_FABRIC.md /
+    CATEGORY_BEHAVIOR_TEMPLATE.md with each product. Built:
+    data/normalized/labels.csv, label_aliases.csv (empty), associations.csv.
+    Populated: Stage-2 rule-derived ARCHITECTURE + INTELLIGENCE labels
+    for Air/Climate products only (per LABEL_RULES.md, rules sourced from
+    seeds/products-air-clusters.md Lens A/D), BELONGS_TO graph edges for
+    every product, digital-layer edges. Stage-3 behavior-fabric CANDIDATE
+    labels (jobs/needs/contexts/triggers/behaviors/frictions/outcomes)
+    populated for Air Treatment category ONLY, from BEHAVIOR_FABRIC.md's
+    worked example, explicitly marked status=CANDIDATE / evidence_state=
+    INFERRED (AI_SUGGESTION per root CLAUDE.md) -- NOT evidence-derived,
+    no real consumer text ingested yet. Other 8 categories still need
+    Stage-2 rule-derived labels and Stage-3 behavior fabrics -- deliberately
+    scoped to Air first since it's the validated case.
+
+price_research:
+  status: DONE
+  scope: >
+    7 parallel background agents (Air/Climate, Coffee, Food, Floor+Garment,
+    Home Safety/Pet/Garden -> NL; Preethi -> India; Walita -> Brazil), all
+    complete and transcribed. 89 price rows, 68.1% of CURRENT products
+    priced. Real findings logged as gaps, not silently resolved: several
+    UK/global SKUs not sold in NL under the same code (sibling SKUs priced
+    instead, e.g. PSA3218/01->PSA3218/10); NL storefront mid-clearance-sale
+    so most NL prices are PROMOTIONAL not stable RRP; shop.saeco.com down
+    (bad SSL cert); one Walita SKU (EP5441/55) appears delisted same-day.
+
+image_expansion_pass:
+  status: DONE
+  notes: >
+    User explicitly asked for 3-5+ verified images per product (up from the
+    original 1-3 policy). IMAGE_POLICY.md updated. 7 more parallel agents
+    dispatched re-visiting each product's already-known official page to
+    pull full galleries. Result: images.csv grew from 45 to 348 rows.
+    98.6% of CURRENT products now have >=1 image, 95.7% have an
+    EXACT_VERIFIED image. A handful of DAM assets were confirmed present on
+    the exact SKU's own page but filename-tagged with a sibling SKU
+    (regional/plug variant sharing one studio photoshoot) -- downgraded to
+    FAMILY_VERIFIED rather than silently treated as EXACT_VERIFIED.
+
+next_prompt_queued:
+  status: NOT_STARTED
+  notes: >
+    User supplied Prompt 2 materials (ECONOMICS_FABRIC.md, HOUSE_FABRIC.md,
+    CORRELATION_CAUSALITY.md, DYNAMIC_ONTOLOGY.md,
+    PROMPT_2_FINAL_DYNAMIC_INTELLIGENCE.md, plus updated copies of
+    LABELING_PIPELINE/BEHAVIOR_FABRIC/LABEL_ONTOLOGY) and explicitly said
+    to finish Prompt 1 completely before starting. Files copied to Downloads
+    but not yet read in full or acted on -- do that only after Prompt 1's
+    price pass + final report are done.
+
+website:
+  status: P0_DONE
+  notes: >
+    React + TypeScript + Vite app under webapp/, reading generated JSON
+    (webapp/src/data/site-data.json, built by a script from
+    data/normalized/*.csv -- not hardcoded). Dev server on
+    http://localhost:5174 (port 8000 was occupied by another session's
+    process on this machine, moved off it). World/brand/category/family/
+    product Drive-style navigation, breadcrumbs, global search, product
+    focus drawer with real image gallery + lightbox, cluster-by
+    (category/brand/architecture/intelligence/lifecycle/priced),
+    Capabilities/Behaviors/Economics/Distribution/House/Competitors/Sources
+    side sections. Production build verified clean (npm run build).
+    Full browser test path passed, no console errors. NOT built: SpaceMD
+    per-product profiles (mobility/coverage/placement), full competitor
+    research, correlation/causal analysis (no consumer-evidence corpus
+    exists yet), TCO/energy modeling, SHACL validation, RDF export,
+    ontology health auditors -- all logged honestly, not faked.
+
+prompt2_intelligence_layers:
+  status: PARTIAL
+  notes: >
+    Read all 5 fabric docs + master PROMPT_2_FINAL_DYNAMIC_INTELLIGENCE.md.
+    SpaceMD.md did not exist anywhere in Downloads (referenced by the
+    prompt but never supplied) -- built a lightweight provisional
+    world-to-zone house map instead of real per-product SpaceMD profiles.
+    Extended nothing beyond what Prompt 1's labeling pass already covered
+    (Air-only rule-derived architecture/intelligence + candidate behavior
+    fabric). Did NOT build: correlation/association tables (no consumer
+    review data ingested), causal graphs (same reason), competitor mapping
+    (no competitor research done), full economics fabric (TCO/energy/
+    consumables modeling), SHACL-style validation rules, RDF/Turtle export,
+    ontology health metrics/auditors. This is a genuinely multi-week spec;
+    see final chat report for the itemized PASS/NOT READY breakdown.
+
+smart_tags_system:
+  status: DONE
+  notes: >
+    User asked for a unified, high-quality tag system: every product needs
+    10-20 labels across multiple scored realms (0-10), and the 3 fragmented
+    pages (Capabilities/Behaviors/Associations) needed merging + real
+    overflow fixes. Delivered: (1) extended the category-level behavior
+    fabric from Air-only to all 9 categories (226 new labels, 721 new
+    edges, all CANDIDATE, authored per-category not generic copy-paste);
+    (2) built data/normalized/product_tag_scores.csv -- a 9-realm scoring
+    engine (Space, Medium, Capability, Intelligence, Digital, Maintenance,
+    Economic, Lifecycle, Job/Need) giving every one of 76 products 10-19
+    scored tags (avg 14.3), each row honestly tagged RULE_DERIVED /
+    ESTIMATED_JUDGMENT / CANDIDATE -- see TAG_SCORING_RULES.md for the full
+    rule definitions; (3) merged Capabilities+Behaviors+Associations into
+    one "Smart Tags" sidebar section with Graph and List modes, both
+    genuinely distilled (top-N + expand, not raw dumps); (4) built
+    TagProfile.tsx -- a per-product bar-chart visualization grouped by
+    realm, shown in the product detail drawer; (5) fixed the actual root
+    cause of "overflow/mess": .app had min-width:1100px forcing page-wide
+    horizontal scroll below that width, and the association graph used a
+    fixed-pixel SVG -- both replaced with fully responsive layout, verified
+    zero horizontal overflow at 1280x720 and 1366x768; (6) added 2 new
+    pytest quality gates enforcing >=10 tags/product and valid 0-10/basis
+    on every row. Real official Versuni logo (exact SVG+gradient sourced
+    from versuni.com's own header) added to the top bar.
+
+smart_tags_landing_redesign:
+  status: DONE
+  notes: >
+    User rejected the first Smart Tags cut ("terrible... too many pages
+    without destillation") and asked for research into 20 real products'
+    tag/attribute UX before a redesign. Dispatched a research agent that
+    reviewed ~20 sites (Vivino, Steam, Oura, GitHub Topics, IMDb, Notion,
+    Airtable, LinkedIn, Codility, etc.) and returned concrete patterns.
+    Rebuilt the Smart Tags landing (new default "Overview" mode, Graph and
+    List modes kept as-is and unmodified) around 3 of those patterns,
+    genuinely wired to the real product_tag_scores data (not the older
+    labels/associations graph, which uses a different, only partially
+    overlapping vocabulary and has no Space/Medium/Maintenance/Economic/
+    Lifecycle entries at all): (1) an Oura-style score-ring row -- one ring
+    per realm, avg 0-10 score + catalog coverage % + top tag, computed live
+    from all 76 products' tag arrays; (2) a Steam-style rank-weighted
+    "standout tags" chip cloud across the whole catalog, size/color encoding
+    weighted prominence; (3) clicking a realm ring or a standout chip opens
+    a Vivino-style spectrum-bar breakdown of that realm's tags (real
+    per-tag avg score + product count, computed from product_tag_scores),
+    and clicking a bar drills into an actual ProductGrid of the matching
+    products ranked by score. Verified live in browser: ring/cloud/bar/grid
+    chain works end-to-end (Capability->Food Preparation->32 products;
+    Space->Kitchen->69 products), Graph and List modes unaffected, zero
+    console errors, zero horizontal overflow, npx tsc --noEmit clean,
+    npm run build clean, pytest 18/18 passing.
+
+competitor_intelligence_layer:
+  status: IN_PROGRESS
+  notes: >
+    User asked for the full competitor system named a "COMPETITOR
+    INTELLIGENCE" mission: company/brand graph, HQ + market location,
+    prices, TCO, image registry, capability ontology, claims-vs-evidence
+    separation, certification, an intelligence classification (SENSE/REACT/
+    ADAPT/PREDICT/LEARN/COORDINATE) for Air, and an Arena UI (Battle/Map/
+    Matrix/Timeline) -- Air Purification as the flagship extreme-depth case,
+    other 7 worlds at systematic (lighter) depth. See COMPETITOR_POLICY.md
+    v2 for the full tiered-depth scope decision and the explicit list of
+    what this build will NOT include (no scheduler/refresh jobs, no
+    Playwright, no patent/science/consumer-review linkage, no revenue/
+    employee figures) and why.
+    Base pass (company + product + one official price + positioning) DONE
+    for Food (6 products/5 companies), Coffee (7/6), Air (8/5), Clean
+    (7/7), Clothes (6/3) -- Home+Pets+Garden combined pass still running.
+    34 competitor_products, 24 distinct competitors (Dyson and SharkNinja
+    correctly reused as single canonical entities across the worlds they
+    compete in, per the mandated first_rule reconciliation pass -- not
+    duplicated).
+    Air extreme-depth wave DISPATCHED (4 parallel agents: performance+
+    certification, intelligence-classification+claims-vs-evidence, filter/
+    energy/TCO, official images) -- not yet landed.
+    Arena UI shipped and verified live in-browser: Battle mode (Versuni
+    product vs competitor product, transparent price/positioning verdicts,
+    no fake weighted score), Map mode (price scatter by world, currency
+    kept native and never silently converted), Matrix mode (competitor
+    product x Versuni category, real positioning cells). Timeline
+    deliberately locked with an explicit DATA GAP message -- no launch-date
+    history has been collected, so it is not faked.
+    9 new pytest quality gates added for the competitor tables (28->32
+    passing): FK resolution into sources/competitors/categories, positioning
+    enum, image match_state enum, claim corroboration enum, capability
+    group/evidence-state enum, intelligence dimension/status enum, TCO
+    completeness enum, no duplicate ids, https-only URLs, HQ-or-explicit-gap.
+    UPDATE: base pass now DONE for all 8/8 worlds (45 competitor products,
+    35 distinct competitors -- Dyson and SharkNinja correctly reused as
+    single entities across the multiple worlds they compete in, per the
+    first_rule reconciliation, not duplicated). Air extreme-depth wave now
+    fully DONE and transcribed: competitor_specs_long (real CADR/coverage/
+    filtration/noise/power/dimensions for all 8 Air models, UNKNOWN left
+    UNKNOWN not fabricated), competitor_certifications (24 rows -- AHAM
+    Verifide/ENERGY STAR/CARB checked per-product against the certifying
+    body's own public registry, not the manufacturer's claim -- 4
+    CONFIRMED_IN_REGISTRY, 20 NOT_FOUND, each with an explicit
+    establishes_note distinguishing what the cert actually proves),
+    competitor_intelligence (48 rows, SENSE/REACT/ADAPT/PREDICT/LEARN/
+    COORDINATE -- ADAPT and LEARN EVIDENCED for zero products, confirming
+    no competitor's official page documents real personalization/context-
+    accumulation, only instant sensor-react logic), competitor_claims (18
+    rows, every claim's independent_corroboration honestly NOT_FOUND since
+    no claim was cross-checked against a primary registry this pass),
+    competitor_tco (8 rows, 1y/3y/5y, one PARTIAL flagged -- IKEA STARKVIND
+    has a real second consumable, an optional carbon filter, whose interval
+    isn't stated so its cost isn't invented), competitor_images (8 rows,
+    all VERIFIED_EXACT, official CDN assets only). One real data conflict
+    caught and fixed during verification: Coway Airmega Mighty's POWER_W
+    was recorded twice from two different official Coway domains (82W vs
+    77W) -- kept the primary spec-page figure, dropped the duplicate rather
+    than silently displaying a contradiction. Battle mode in the Arena UI
+    now renders all of this (specs/TCO/certification/intelligence/claims)
+    for Air products, verified live.
+    An independent hostile-audit agent is now re-checking >=30 competitor
+    prices and >=15 company HQ claims against live sources -- results not
+    yet in; nothing is marked "verified" until that lands.
+    STILL NOT done: Timeline (explicit data gap, not faked), Playwright
+    (not installed -- live browser verification used instead, see
+    COMPETITOR_POLICY.md), patent/science/consumer-review linkage (no such
+    corpora exist in this project), revenue/employee/R&D figures (out of
+    scope this pass), automatic refresh jobs (no scheduler infra).
+
+last_updated_context: "Competitor Intelligence layer (Arena) base pass DONE for all 8 worlds; Air extreme-depth wave (specs/certification/intelligence/claims/TCO/images) fully transcribed and rendering live in Battle mode. One real cross-source data conflict (Coway power rating) caught and resolved during verification. Independent hostile-audit agent in flight, checking >=30 prices and >=15 HQ claims against live sources."

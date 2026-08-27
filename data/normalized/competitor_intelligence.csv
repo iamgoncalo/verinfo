@@ -1,0 +1,49 @@
+competitor_product_id,dimension,status,evidence_note,source_id
+dyson-purifier-cool-tp07,SENSE,EVIDENCED,"Three sensors constantly analyze air: PM10, PM5.0, PM2.5, PM0.1, VOC/benzene, NO2, shown as real-time AQI.",src-041ce5457da8
+dyson-purifier-cool-tp07,REACT,EVIDENCED,"Dyson purifiers automatically detect and remove pollutants in Auto mode, without user action.",src-041ce5457da8
+dyson-purifier-cool-tp07,ADAPT,UNKNOWN,No mention of behavior changing based on accumulated room pollution patterns over time.,src-041ce5457da8
+dyson-purifier-cool-tp07,PREDICT,UNKNOWN,"Only reactive real-time detection/reporting; filter replacement is a threshold notification, not a forecast.",src-041ce5457da8
+dyson-purifier-cool-tp07,LEARN,UNKNOWN,No individual-user-preference learning documented.,src-041ce5457da8
+dyson-purifier-cool-tp07,COORDINATE,UNKNOWN,Only single-device control via Dyson Link app / voice assistants; no multi-device coordination described.,src-041ce5457da8
+dyson-purifier-humidify-cool-ph04,SENSE,EVIDENCED,"Four sensors continuously monitor the air, including a solid-state formaldehyde sensor.",src-c1c10763f906
+dyson-purifier-humidify-cool-ph04,REACT,EVIDENCED,Algorithm diagnoses pollutants at a molecular level and reacts by cleaning and humidifying before reporting air quality.,src-c1c10763f906
+dyson-purifier-humidify-cool-ph04,ADAPT,UNKNOWN,No accumulated-pattern behavior described.,src-c1c10763f906
+dyson-purifier-humidify-cool-ph04,PREDICT,UNKNOWN,Reacts to current molecular readings in real time -- not a forecast of a future pollution state.,src-c1c10763f906
+dyson-purifier-humidify-cool-ph04,LEARN,UNKNOWN,No user-preference learning documented.,src-c1c10763f906
+dyson-purifier-humidify-cool-ph04,COORDINATE,UNKNOWN,Only MyDyson app / Alexa / Siri single-device control described.,src-c1c10763f906
+ikea-starkvind,SENSE,EVIDENCED,Automatically detects PM2.5 particles in the air.,src-8d1a8fa1b680
+ikea-starkvind,REACT,EVIDENCED,Detects PM2.5 and adjusts fan speed automatically in response.,src-8d1a8fa1b680
+ikea-starkvind,ADAPT,UNKNOWN,No accumulated room-pattern learning described.,src-8d1a8fa1b680
+ikea-starkvind,PREDICT,UNKNOWN,No forecasting of pollution or filter life described.,src-8d1a8fa1b680
+ikea-starkvind,LEARN,UNKNOWN,No individual-preference learning described.,src-8d1a8fa1b680
+ikea-starkvind,COORDINATE,EVIDENCED,"Caveat: via DIRIGERA hub, can 'set timers and create scenes with other smart home products' -- hub-level scene-linking, not sensor-triggered device-to-device response; weaker form of coordination.",src-8d1a8fa1b680
+winix-t800,SENSE,EVIDENCED,Spec sheet names a Particle Sensor; a separate light sensor triggers automatic Sleep mode at night.,src-9652b0161bd0
+winix-t800,REACT,EVIDENCED,"In automatic mode, sensor measures air quality and fan speed adjusts automatically based on real-time reading.",src-9652b0161bd0
+winix-t800,ADAPT,UNKNOWN,No accumulated-pattern behavior described.,src-9652b0161bd0
+winix-t800,PREDICT,UNKNOWN,No forecast/prediction feature described.,src-9652b0161bd0
+winix-t800,LEARN,UNKNOWN,No individual-preference learning described.,src-9652b0161bd0
+winix-t800,COORDINATE,UNKNOWN,Only WINIX Smart App / Alexa / Google Assistant single-device control described.,src-9652b0161bd0
+coway-airmega-150,SENSE,UNKNOWN,"Spec sheet lists only a 4-colour Air Quality Indicator; no specific sensor type (e.g. PM2.5/dust sensor) named anywhere, confirmed on direct re-check.",src-a80922df1d87
+coway-airmega-150,REACT,EVIDENCED,Smart Auto Mode automatically adjusts performance based on air quality; 4-stage airflow includes Auto.,src-a80922df1d87
+coway-airmega-150,ADAPT,UNKNOWN,No accumulated-pattern behavior described.,src-a80922df1d87
+coway-airmega-150,PREDICT,UNKNOWN,No forecast/prediction feature described.,src-a80922df1d87
+coway-airmega-150,LEARN,UNKNOWN,No individual-preference learning described.,src-a80922df1d87
+coway-airmega-150,COORDINATE,UNKNOWN,No app/voice/other-device integration mentioned for this base model.,src-a80922df1d87
+coway-airmega-mighty,SENSE,UNKNOWN,"Spec sheet lists only a 3-colour Air Quality Indicator; no specific sensor type named, confirmed on direct re-check.",src-4f39a466b679
+coway-airmega-mighty,REACT,EVIDENCED,Fan automatically stops after 30 min of no detected pollution to save energy; 5-stage airflow includes Auto/Eco.,src-4f39a466b679
+coway-airmega-mighty,ADAPT,UNKNOWN,No accumulated-pattern behavior described.,src-4f39a466b679
+coway-airmega-mighty,PREDICT,UNKNOWN,No forecast/prediction feature described.,src-4f39a466b679
+coway-airmega-mighty,LEARN,UNKNOWN,No individual-preference learning described.,src-4f39a466b679
+coway-airmega-mighty,COORDINATE,UNKNOWN,"Coway Iocare App + Alexa/Google Home -- single generic app/voice integration only, no multi-device coordination.",src-4f39a466b679
+levoit-core-300s,SENSE,EVIDENCED,"Laser dust sensor with higher accuracy, faster detection, particle size range >=0.3um.",src-4248e3ef755d
+levoit-core-300s,REACT,EVIDENCED,Automatic mode selects the most-needed fan mode according to real-time air quality.,src-4248e3ef755d
+levoit-core-300s,ADAPT,UNKNOWN,No accumulated room-pattern learning described.,src-4248e3ef755d
+levoit-core-300s,PREDICT,EVIDENCED,"Caveat: VeSync App shows remaining filter life (replace every 6-8 months) -- reads as a usage-based countdown rather than a modeled forecast, but matches the filter-life forecasting example.",src-4248e3ef755d
+levoit-core-300s,LEARN,UNKNOWN,No individual-preference learning described.,src-4248e3ef755d
+levoit-core-300s,COORDINATE,UNKNOWN,Compatible with Alexa/Google Assistant via VeSync app -- single generic app/voice integration only.,src-4248e3ef755d
+levoit-oasismist,SENSE,EVIDENCED,Humidistat provides real-time humidity monitoring.,src-2c7426755806
+levoit-oasismist,REACT,EVIDENCED,Auto Mode automatically balances room humidity by adjusting mist levels.,src-2c7426755806
+levoit-oasismist,ADAPT,UNKNOWN,No accumulated-pattern behavior described.,src-2c7426755806
+levoit-oasismist,PREDICT,UNKNOWN,No forecast/prediction feature described.,src-2c7426755806
+levoit-oasismist,LEARN,UNKNOWN,No individual-preference learning described.,src-2c7426755806
+levoit-oasismist,COORDINATE,UNKNOWN,VeSync app provides remote control/schedules/timer/auto mode -- manual/scheduled single-device control only.,src-2c7426755806

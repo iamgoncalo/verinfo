@@ -1,0 +1,1184 @@
+[
+  {
+    "family_id": "preethi-mg-zodiac",
+    "brand_id": "preethi",
+    "category_id": "preethi-mixer-grinders",
+    "family_name": "Zodiac",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-preethi-004",
+    "notes": "",
+    "member_product_ids": [
+      "preethi-mg-zodiac-mg218",
+      "preethi-mg-zodiac2-mg255"
+    ],
+    "member_count": 2
+  },
+  {
+    "family_id": "preethi-mg-blueleaf",
+    "brand_id": "preethi",
+    "category_id": "preethi-mixer-grinders",
+    "family_name": "Blue Leaf",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-preethi-004",
+    "notes": "",
+    "member_product_ids": [
+      "preethi-mg-blueleaf-mg281"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "preethi-mg-eco",
+    "brand_id": "preethi",
+    "category_id": "preethi-mixer-grinders",
+    "family_name": "Eco / Eco Plus / Eco Fresh / Eco Chef",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-preethi-004",
+    "notes": "",
+    "member_product_ids": [
+      "preethi-mg-ecoplus-mg138"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "preethi-mg-diamond",
+    "brand_id": "preethi",
+    "category_id": "preethi-mixer-grinders",
+    "family_name": "Diamond",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-preethi-004",
+    "notes": "",
+    "member_product_ids": [
+      "preethi-mg-diamond-mg214"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "preethi-mg-unbranded",
+    "brand_id": "preethi",
+    "category_id": "preethi-mixer-grinders",
+    "family_name": "Boltz / Taurus Plus / Tiara",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-preethi-004",
+    "notes": "unbranded/value lines",
+    "member_product_ids": [],
+    "member_count": 0
+  },
+  {
+    "family_id": "preethi-gs-glamsteel",
+    "brand_id": "preethi",
+    "category_id": "preethi-gas-stoves",
+    "family_name": "Glamsteel",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-preethi-005",
+    "notes": "",
+    "member_product_ids": [
+      "preethi-gs-glamsteel-3b"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "preethi-gs-silverin",
+    "brand_id": "preethi",
+    "category_id": "preethi-gas-stoves",
+    "family_name": "Silverin",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-preethi-005",
+    "notes": "",
+    "member_product_ids": [
+      "preethi-gs-silverin-2b"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "preethi-gs-bluflame",
+    "brand_id": "preethi",
+    "category_id": "preethi-gas-stoves",
+    "family_name": "Bluflame (Jumbo/Gleam/Zeal)",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-preethi-005",
+    "notes": "",
+    "member_product_ids": [],
+    "member_count": 0
+  },
+  {
+    "family_id": "preethi-gs-valentino",
+    "brand_id": "preethi",
+    "category_id": "preethi-gas-stoves",
+    "family_name": "Valentino",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-preethi-005",
+    "notes": "",
+    "member_product_ids": [
+      "preethi-gs-valentino-gts121"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "preethi-gs-luxe",
+    "brand_id": "preethi",
+    "category_id": "preethi-gas-stoves",
+    "family_name": "Luxe / Sparkle Power Duo / Topaz / Elda",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-preethi-005",
+    "notes": "",
+    "member_product_ids": [],
+    "member_count": 0
+  },
+  {
+    "family_id": "preethi-ic-indicook",
+    "brand_id": "preethi",
+    "category_id": "preethi-induction-cooktops",
+    "family_name": "Indicook (Trendy Plus, IC125)",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-preethi-007",
+    "notes": "",
+    "member_product_ids": [
+      "preethi-ic-ic125",
+      "preethi-ic-ic116"
+    ],
+    "member_count": 2
+  },
+  {
+    "family_id": "preethi-ch-alcor",
+    "brand_id": "preethi",
+    "category_id": "preethi-chimneys",
+    "family_name": "ALCOR",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-preethi-008",
+    "notes": "",
+    "member_product_ids": [
+      "preethi-ch-kh311",
+      "preethi-ch-kh317"
+    ],
+    "member_count": 2
+  },
+  {
+    "family_id": "preethi-ch-alya",
+    "brand_id": "preethi",
+    "category_id": "preethi-chimneys",
+    "family_name": "ALYA",
+    "series_name": "",
+    "status": "UNKNOWN",
+    "first_seen_evidence": "",
+    "source_ids": "src-preethi-008",
+    "notes": "named in nav copy, no live SKU found",
+    "member_product_ids": [],
+    "member_count": 0
+  },
+  {
+    "family_id": "preethi-pc-aluminium",
+    "brand_id": "preethi",
+    "category_id": "preethi-pressure-cookers",
+    "family_name": "Aluminium Series",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-preethi-009",
+    "notes": "",
+    "member_product_ids": [
+      "preethi-pc-pc024"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "preethi-pc-ss-triply",
+    "brand_id": "preethi",
+    "category_id": "preethi-pressure-cookers",
+    "family_name": "Stainless Steel / Tri-Ply Series",
+    "series_name": "",
+    "status": "UNKNOWN",
+    "first_seen_evidence": "",
+    "source_ids": "src-preethi-009",
+    "notes": "named, individual SKUs not confirmed",
+    "member_product_ids": [],
+    "member_count": 0
+  },
+  {
+    "family_id": "preethi-cw-dura",
+    "brand_id": "preethi",
+    "category_id": "preethi-cookware",
+    "family_name": "Dura Collection",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-preethi-006",
+    "notes": "",
+    "member_product_ids": [
+      "preethi-cw-kadai26"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "preethi-cw-csw",
+    "brand_id": "preethi",
+    "category_id": "preethi-cookware",
+    "family_name": "CSW (Greblon-coated)",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-preethi-006",
+    "notes": "",
+    "member_product_ids": [
+      "preethi-cw-csw037"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "philips-air-600",
+    "brand_id": "philips",
+    "category_id": "philips-air-climate",
+    "family_name": "600/600i series",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-73f7b32c78d2",
+    "notes": "",
+    "member_product_ids": [
+      "philips-air-ac0650-20",
+      "philips-air-ac0651-10"
+    ],
+    "member_count": 2
+  },
+  {
+    "family_id": "philips-air-800",
+    "brand_id": "philips",
+    "category_id": "philips-air-climate",
+    "family_name": "800/800i series",
+    "series_name": "",
+    "status": "LEGACY",
+    "first_seen_evidence": "",
+    "source_ids": "src-73f7b32c78d2",
+    "notes": "",
+    "member_product_ids": [
+      "philips-air-ac0850-41"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "philips-air-pureprotect-mini-900",
+    "brand_id": "philips",
+    "category_id": "philips-air-climate",
+    "family_name": "PureProtect Mini 900",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-73f7b32c78d2",
+    "notes": "",
+    "member_product_ids": [
+      "philips-air-ac0920-10",
+      "philips-air-ac0950-10",
+      "philips-air-ac0951-13"
+    ],
+    "member_count": 3
+  },
+  {
+    "family_id": "philips-air-1000i",
+    "brand_id": "philips",
+    "category_id": "philips-air-climate",
+    "family_name": "1000i series",
+    "series_name": "",
+    "status": "LEGACY",
+    "first_seen_evidence": "",
+    "source_ids": "src-73f7b32c78d2",
+    "notes": "",
+    "member_product_ids": [
+      "philips-air-ac1715-41",
+      "philips-air-ac1715-10-br"
+    ],
+    "member_count": 2
+  },
+  {
+    "family_id": "philips-air-2000",
+    "brand_id": "philips",
+    "category_id": "philips-air-climate",
+    "family_name": "2000/2000i series",
+    "series_name": "",
+    "status": "LEGACY",
+    "first_seen_evidence": "",
+    "source_ids": "src-73f7b32c78d2",
+    "notes": "",
+    "member_product_ids": [
+      "philips-air-ac2889-40"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "philips-air-pureprotect-quiet-2200",
+    "brand_id": "philips",
+    "category_id": "philips-air-climate",
+    "family_name": "PureProtect Quiet 2200",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-73f7b32c78d2",
+    "notes": "",
+    "member_product_ids": [
+      "philips-air-ac2220-10"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "philips-air-3000",
+    "brand_id": "philips",
+    "category_id": "philips-air-climate",
+    "family_name": "3000/3000i series",
+    "series_name": "",
+    "status": "LEGACY",
+    "first_seen_evidence": "",
+    "source_ids": "src-73f7b32c78d2",
+    "notes": "",
+    "member_product_ids": [
+      "philips-air-ac3033-73"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "philips-air-pureprotect-3200",
+    "brand_id": "philips",
+    "category_id": "philips-air-climate",
+    "family_name": "PureProtect 3200",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-73f7b32c78d2",
+    "notes": "",
+    "member_product_ids": [
+      "philips-air-ac3220-10"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "philips-air-pureprotect-water-3400",
+    "brand_id": "philips",
+    "category_id": "philips-air-climate",
+    "family_name": "PureProtect Water 3400",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-73f7b32c78d2",
+    "notes": "",
+    "member_product_ids": [
+      "philips-air-ac3420-10"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "philips-air-pureprotect-pro-4200",
+    "brand_id": "philips",
+    "category_id": "philips-air-climate",
+    "family_name": "PureProtect Pro 4200",
+    "series_name": "",
+    "status": "UNKNOWN",
+    "first_seen_evidence": "",
+    "source_ids": "src-73f7b32c78d2",
+    "notes": "",
+    "member_product_ids": [
+      "philips-air-ac4220-12"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "philips-air-performer-7000",
+    "brand_id": "philips",
+    "category_id": "philips-air-climate",
+    "family_name": "Air Performer 7000",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-73f7b32c78d2",
+    "notes": "",
+    "member_product_ids": [
+      "philips-air-amf765-30"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "philips-air-performer-8000",
+    "brand_id": "philips",
+    "category_id": "philips-air-climate",
+    "family_name": "Air Performer 8000",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-73f7b32c78d2",
+    "notes": "",
+    "member_product_ids": [
+      "philips-air-amf870-35"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "philips-air-2000-3in1",
+    "brand_id": "philips",
+    "category_id": "philips-air-climate",
+    "family_name": "2000 Series 3-in-1 (AMF220)",
+    "series_name": "",
+    "status": "LEGACY",
+    "first_seen_evidence": "",
+    "source_ids": "src-73f7b32c78d2",
+    "notes": "",
+    "member_product_ids": [
+      "philips-air-amf220-15"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "philips-air-5000i",
+    "brand_id": "philips",
+    "category_id": "philips-air-climate",
+    "family_name": "Series 5000i (discovered, not in seed)",
+    "series_name": "",
+    "status": "LEGACY",
+    "first_seen_evidence": "",
+    "source_ids": "src-73f7b32c78d2",
+    "notes": "",
+    "member_product_ids": [
+      "philips-air-ac5659-40"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "philips-cf-baristina",
+    "brand_id": "philips",
+    "category_id": "philips-coffee",
+    "family_name": "Baristina",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-9c34250cbd2f",
+    "notes": "",
+    "member_product_ids": [
+      "philips-cf-bar305-00"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "philips-cf-barista-brew",
+    "brand_id": "philips",
+    "category_id": "philips-coffee",
+    "family_name": "Barista Brew",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-272587afd087",
+    "notes": "",
+    "member_product_ids": [
+      "philips-cf-psa3218-01"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "philips-cf-series-3300",
+    "brand_id": "philips",
+    "category_id": "philips-coffee",
+    "family_name": "Series 3300 (LatteGo)",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-a28d98669ed9",
+    "notes": "",
+    "member_product_ids": [
+      "philips-cf-ep3347-90"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "philips-cf-cafe-aromis-8000",
+    "brand_id": "philips",
+    "category_id": "philips-coffee",
+    "family_name": "Cafe Aromis Series 8000 (LatteGo Pro)",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-cb4997ea6277",
+    "notes": "",
+    "member_product_ids": [
+      "philips-cf-ep8757-20"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "saeco-cf-xelsis-suprema",
+    "brand_id": "saeco",
+    "category_id": "saeco-coffee",
+    "family_name": "Xelsis Suprema",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-6dccc892209d",
+    "notes": "",
+    "member_product_ids": [
+      "saeco-cf-xelsis-suprema-sm8889"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "saeco-cf-xelsis-deluxe",
+    "brand_id": "saeco",
+    "category_id": "saeco-coffee",
+    "family_name": "Xelsis Deluxe",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-25fe3f765665",
+    "notes": "",
+    "member_product_ids": [
+      "saeco-cf-xelsis-deluxe-sm8782"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "saeco-cf-granaroma",
+    "brand_id": "saeco",
+    "category_id": "saeco-coffee",
+    "family_name": "GranAroma / GranAroma Deluxe",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-08e312e7fd77",
+    "notes": "",
+    "member_product_ids": [
+      "saeco-cf-granaroma-sm6480"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "gaggia-cf-classic",
+    "brand_id": "gaggia",
+    "category_id": "gaggia-coffee",
+    "family_name": "Classic (New Classic / Classic UP)",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-e3c4ed0a0732",
+    "notes": "",
+    "member_product_ids": [
+      "gaggia-cf-classicup"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "senseo-cf-original",
+    "brand_id": "senseo",
+    "category_id": "senseo-coffee",
+    "family_name": "Senseo Original/Select/Switch/Maestro (NL)",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-cc15b0eeed35",
+    "notes": "",
+    "member_product_ids": [
+      "senseo-cf-original-nl"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "lor-barista-cf-family",
+    "brand_id": "lor-barista",
+    "category_id": "lor-barista-coffee",
+    "family_name": "L'OR Barista (capsule)",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-f8631c28b2ba",
+    "notes": "",
+    "member_product_ids": [
+      "lor-barista-cf-lm8018"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "philips-hs-5000series",
+    "brand_id": "philips",
+    "category_id": "philips-home-safety",
+    "family_name": "5000 Series (cameras/doorbell)",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-c80642145334",
+    "notes": "",
+    "member_product_ids": [
+      "philips-hs-hsp5500-02",
+      "philips-hs-hsp5300-01"
+    ],
+    "member_count": 2
+  },
+  {
+    "family_id": "philips-pet-series",
+    "brand_id": "philips",
+    "category_id": "philips-pet-care",
+    "family_name": "Pet Series (5000 feeder, 3000 fountain)",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-3929556fc8cb",
+    "notes": "",
+    "member_product_ids": [
+      "philips-pet-paw5320-02",
+      "philips-pet-paw3210-02"
+    ],
+    "member_count": 2
+  },
+  {
+    "family_id": "philips-gardencare-3000",
+    "brand_id": "philips",
+    "category_id": "philips-garden-care",
+    "family_name": "GardenCare 3000 Series (robot mower)",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-a1978fb897fd",
+    "notes": "",
+    "member_product_ids": [
+      "philips-garden-rsl3000-10"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "walita-af-1000",
+    "brand_id": "philips-walita",
+    "category_id": "walita-kitchen",
+    "family_name": "Airfryer Serie 1000 (incl XL, Duplo Cesto)",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-22042634b8cb",
+    "notes": "",
+    "member_product_ids": [
+      "walita-af-na150-00"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "walita-af-3000",
+    "brand_id": "philips-walita",
+    "category_id": "walita-kitchen",
+    "family_name": "Airfryer Serie 3000 (XL, Essential XL)",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-22042634b8cb",
+    "notes": "",
+    "member_product_ids": [
+      "walita-af-ri9270-90"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "walita-af-5000",
+    "brand_id": "philips-walita",
+    "category_id": "walita-kitchen",
+    "family_name": "Airfryer Forno Serie 5000",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-22042634b8cb",
+    "notes": "",
+    "member_product_ids": [
+      "walita-af-ai551-09"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "walita-cf-4400",
+    "brand_id": "philips-walita",
+    "category_id": "walita-kitchen",
+    "family_name": "Cafeteira Superautomatica LatteGo Serie 4400",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-cf9880ee9b41",
+    "notes": "",
+    "member_product_ids": [
+      "walita-cf-ep4441-53"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "walita-cf-5400",
+    "brand_id": "philips-walita",
+    "category_id": "walita-kitchen",
+    "family_name": "Cafeteira Superautomatica LatteGo Elite Serie 5400/5500",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-7c4f62d129eb",
+    "notes": "",
+    "member_product_ids": [
+      "walita-cf-ep5441-55"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "walita-fp-powerchop-1000",
+    "brand_id": "philips-walita",
+    "category_id": "walita-kitchen",
+    "family_name": "Multiprocessador PowerChop 1000",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-bde2003cdb70",
+    "notes": "",
+    "member_product_ids": [
+      "walita-fp-hr7304-90"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "walita-gc-perfectcare-6000",
+    "brand_id": "philips-walita",
+    "category_id": "walita-garment",
+    "family_name": "PerfectCare Serie 6000 (incl 6000 Plus)",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-a39f6166ac91",
+    "notes": "",
+    "member_product_ids": [],
+    "member_count": 0
+  },
+  {
+    "family_id": "walita-gc-serie-5000-iron",
+    "brand_id": "philips-walita",
+    "category_id": "walita-garment",
+    "family_name": "Ferro Serie 5000",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-a39f6166ac91",
+    "notes": "",
+    "member_product_ids": [],
+    "member_count": 0
+  },
+  {
+    "family_id": "walita-vac-2000",
+    "brand_id": "philips-walita",
+    "category_id": "walita-vacuums",
+    "family_name": "Aspirador Vertical Serie 2000",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-801edb0a3941",
+    "notes": "",
+    "member_product_ids": [
+      "walita-vac-xc2011-01"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "walita-vac-3000-acqua",
+    "brand_id": "philips-walita",
+    "category_id": "walita-vacuums",
+    "family_name": "Aspirador Vertical Serie 3000 Acqua (PowerCyclone 8)",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-801edb0a3941",
+    "notes": "",
+    "member_product_ids": [],
+    "member_count": 0
+  },
+  {
+    "family_id": "walita-fan-1000-1500",
+    "brand_id": "philips-walita",
+    "category_id": "walita-climate",
+    "family_name": "Ventilador Serie 1000 / Serie 1500",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-65493fb93d1f",
+    "notes": "",
+    "member_product_ids": [],
+    "member_count": 0
+  },
+  {
+    "family_id": "walita-hum-1000",
+    "brand_id": "philips-walita",
+    "category_id": "walita-climate",
+    "family_name": "Umidificador Serie 1000 Ultrassonico Conectado (Air+ app)",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-65493fb93d1f",
+    "notes": "",
+    "member_product_ids": [
+      "walita-hum-hu1510-04"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "philips-af-1000",
+    "brand_id": "philips",
+    "category_id": "philips-airfryer",
+    "family_name": "1000 Series (incl FlexDrawer Dual Basket)",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-d2f170e3f433",
+    "notes": "",
+    "member_product_ids": [
+      "philips-af-na110-00"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "philips-af-2000",
+    "brand_id": "philips",
+    "category_id": "philips-airfryer",
+    "family_name": "2000 Series",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-f48906b77102",
+    "notes": "",
+    "member_product_ids": [
+      "philips-af-na220-00"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "philips-af-3000",
+    "brand_id": "philips",
+    "category_id": "philips-airfryer",
+    "family_name": "3000 Series (incl Dual Basket)",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-166b6f7e62a7",
+    "notes": "",
+    "member_product_ids": [
+      "philips-af-na352-00"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "philips-af-4000",
+    "brand_id": "philips",
+    "category_id": "philips-airfryer",
+    "family_name": "4000 Series Stacked Dual Basket",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-10271b43b25b",
+    "notes": "",
+    "member_product_ids": [],
+    "member_count": 0
+  },
+  {
+    "family_id": "philips-af-5000",
+    "brand_id": "philips",
+    "category_id": "philips-airfryer",
+    "family_name": "5000 Series Dual Basket (w/ Steam)",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-d803554e7073",
+    "notes": "",
+    "member_product_ids": [
+      "philips-af-na555-00"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "philips-af-7000",
+    "brand_id": "philips",
+    "category_id": "philips-airfryer",
+    "family_name": "7000 Series Airfryer Combi (XXL/XXXL, connected)",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-64457916d529",
+    "notes": "",
+    "member_product_ids": [
+      "philips-af-hd9880-90"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "philips-ck-multicooker-avance",
+    "brand_id": "philips",
+    "category_id": "philips-cooking",
+    "family_name": "Multicooker - Avance Collection",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-7b3bcc413717",
+    "notes": "",
+    "member_product_ids": [
+      "philips-ck-hd3095-87"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "philips-ck-grill-avance",
+    "brand_id": "philips",
+    "category_id": "philips-cooking",
+    "family_name": "Indoor Grill - Avance Collection",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-d78f655cbec4",
+    "notes": "",
+    "member_product_ids": [],
+    "member_count": 0
+  },
+  {
+    "family_id": "philips-bl-series-5000",
+    "brand_id": "philips",
+    "category_id": "philips-blending",
+    "family_name": "Series 5000 Blender",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-9b8a38fd4675",
+    "notes": "",
+    "member_product_ids": [
+      "philips-bl-hr2767-00"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "philips-jc-viva",
+    "brand_id": "philips",
+    "category_id": "philips-juicing",
+    "family_name": "Viva Collection (centrifugal)",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-4433cf2b9a84",
+    "notes": "",
+    "member_product_ids": [
+      "philips-jc-hr1855-70r1"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "philips-jc-avance-masticating",
+    "brand_id": "philips",
+    "category_id": "philips-juicing",
+    "family_name": "Avance Collection Masticating Juicer",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-c8f362fb95b1",
+    "notes": "",
+    "member_product_ids": [
+      "philips-jc-hr1897-34"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "philips-bf-toaster-daily",
+    "brand_id": "philips",
+    "category_id": "philips-breakfast",
+    "family_name": "Toaster - Daily Collection",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-dcb373596449",
+    "notes": "",
+    "member_product_ids": [],
+    "member_count": 0
+  },
+  {
+    "family_id": "philips-bf-kettle-eco5000",
+    "brand_id": "philips",
+    "category_id": "philips-breakfast",
+    "family_name": "Kettle - Eco Conscious Edition 5000 Series",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-3e23dbede5f4",
+    "notes": "",
+    "member_product_ids": [
+      "philips-bf-hd9365-10"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "philips-bf-sandwich-maker",
+    "brand_id": "philips",
+    "category_id": "philips-breakfast",
+    "family_name": "Sandwich Maker",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-8518e34a6689",
+    "notes": "",
+    "member_product_ids": [
+      "philips-bf-hd2383-22"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "philips-fc-homerun",
+    "brand_id": "philips",
+    "category_id": "philips-floor-care",
+    "family_name": "HomeRun (robot vacuum+mop, 3000/6000/7000/9000 Series)",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-155e5f1784c5",
+    "notes": "",
+    "member_product_ids": [
+      "philips-fc-xu7100-01"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "philips-fc-aquatrio",
+    "brand_id": "philips",
+    "category_id": "philips-floor-care",
+    "family_name": "AquaTrio (cordless wet&dry stick, 7000/9000 Series)",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-2a95957d20e0",
+    "notes": "",
+    "member_product_ids": [
+      "philips-fc-xw9383-01"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "philips-fc-speedpro",
+    "brand_id": "philips",
+    "category_id": "philips-floor-care",
+    "family_name": "SpeedPro / SpeedPro Max Aqua (cordless stick)",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-68f8844f0b23",
+    "notes": "",
+    "member_product_ids": [
+      "philips-fc-fc6904-01"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "philips-fc-powerpro",
+    "brand_id": "philips",
+    "category_id": "philips-floor-care",
+    "family_name": "PowerPro (corded bagless canister)",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-216485c3db3b",
+    "notes": "",
+    "member_product_ids": [
+      "philips-fc-fc9729-09"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "philips-fc-performer",
+    "brand_id": "philips",
+    "category_id": "philips-floor-care",
+    "family_name": "Performer (corded bagged canister)",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-c08071518b00",
+    "notes": "",
+    "member_product_ids": [
+      "philips-fc-fc8577-09"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "philips-fc-oneup",
+    "brand_id": "philips",
+    "category_id": "philips-floor-care",
+    "family_name": "OneUp (electric mop, 3000/5000 Series)",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-e5124997f153",
+    "notes": "",
+    "member_product_ids": [],
+    "member_count": 0
+  },
+  {
+    "family_id": "philips-gc-oneturn",
+    "brand_id": "philips",
+    "category_id": "philips-garment-care",
+    "family_name": "OneTurn (hybrid rotating-head iron/steamer)",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-0ab0fc980c3d",
+    "notes": "",
+    "member_product_ids": [
+      "philips-gc-gc215-20"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "philips-gc-perfectcare",
+    "brand_id": "philips",
+    "category_id": "philips-garment-care",
+    "family_name": "PerfectCare (Elite, Elite Plus, Aqua, Pure, Compact)",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-36ebda3b8cc1",
+    "notes": "",
+    "member_product_ids": [
+      "philips-gc-gc9650-80",
+      "philips-gc-gc9682-86"
+    ],
+    "member_count": 2
+  },
+  {
+    "family_id": "philips-gc-all-in-one",
+    "brand_id": "philips",
+    "category_id": "philips-garment-care",
+    "family_name": "All-in-One (6000/8000/8500 Series)",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-d906bbdadc0a",
+    "notes": "",
+    "member_product_ids": [
+      "philips-gc-gc628-86"
+    ],
+    "member_count": 1
+  },
+  {
+    "family_id": "philips-gc-steamgo",
+    "brand_id": "philips",
+    "category_id": "philips-garment-care",
+    "family_name": "Steam&Go (handheld garment steamers)",
+    "series_name": "",
+    "status": "CURRENT",
+    "first_seen_evidence": "",
+    "source_ids": "src-2f42fc6e4054",
+    "notes": "",
+    "member_product_ids": [],
+    "member_count": 0
+  }
+]

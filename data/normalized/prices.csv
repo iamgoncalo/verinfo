@@ -1,0 +1,90 @@
+product_id,country,seller_source,price_type,value,currency,vat_state,promo_or_regular,observed_at,source_id
+preethi-mg-zodiac-mg218,India,Preethi official store (shop.preethi.in),OFFICIAL_PRICE,10699,INR,incl. taxes per page,current selling price (site shows as discounted from MRP),2026-08-26,src-preethi-p-zodiac-mg218
+preethi-mg-zodiac-mg218,India,Preethi official store (shop.preethi.in),OFFICIAL_RRP,13699,INR,incl. taxes per page,MRP (strikethrough reference),2026-08-26,src-preethi-p-zodiac-mg218
+preethi-mg-zodiac2-mg255,India,Preethi official store (shop.preethi.in),OFFICIAL_PRICE,16245,INR,incl. taxes per page,current selling price (site shows as discounted from MRP),2026-08-26,src-preethi-p-zodiac2-mg255
+preethi-mg-zodiac2-mg255,India,Preethi official store (shop.preethi.in),OFFICIAL_RRP,20345,INR,incl. taxes per page,MRP (strikethrough reference),2026-08-26,src-preethi-p-zodiac2-mg255
+preethi-mg-blueleaf-mg281,India,Preethi official store (shop.preethi.in),OFFICIAL_PRICE,10745,INR,incl. taxes per page,current selling price (site shows as discounted from MRP),2026-08-26,src-preethi-p-blueleaf-mg281
+preethi-mg-blueleaf-mg281,India,Preethi official store (shop.preethi.in),OFFICIAL_RRP,14445,INR,incl. taxes per page,MRP (strikethrough reference),2026-08-26,src-preethi-p-blueleaf-mg281
+preethi-mg-diamond-mg214,India,Preethi official store (shop.preethi.in),OFFICIAL_PRICE,3799,INR,incl. taxes per page,current selling price (site shows as discounted from MRP),2026-08-26,src-preethi-p-diamond-mg214
+preethi-mg-diamond-mg214,India,Preethi official store (shop.preethi.in),OFFICIAL_RRP,9699,INR,incl. taxes per page,MRP (strikethrough reference),2026-08-26,src-preethi-p-diamond-mg214
+preethi-mg-ecoplus-mg138,India,Preethi official store (shop.preethi.in),OFFICIAL_PRICE,6799,INR,incl. taxes per page,current selling price (site shows as discounted from MRP),2026-08-26,src-preethi-p-ecoplus-mg138
+preethi-mg-ecoplus-mg138,India,Preethi official store (shop.preethi.in),OFFICIAL_RRP,7499,INR,incl. taxes per page,MRP (strikethrough reference),2026-08-26,src-preethi-p-ecoplus-mg138
+preethi-gs-glamsteel-3b,India,Preethi official store (shop.preethi.in),OFFICIAL_PRICE,10599,INR,incl. taxes per page,current selling price (site shows as discounted from MRP),2026-08-26,src-preethi-p-glamsteel
+preethi-gs-glamsteel-3b,India,Preethi official store (shop.preethi.in),OFFICIAL_RRP,15899,INR,incl. taxes per page,MRP (strikethrough reference),2026-08-26,src-preethi-p-glamsteel
+preethi-gs-silverin-2b,India,Preethi official store (shop.preethi.in),OFFICIAL_PRICE,6399,INR,incl. taxes per page,current selling price (site shows as discounted from MRP),2026-08-26,src-preethi-p-silverin
+preethi-gs-silverin-2b,India,Preethi official store (shop.preethi.in),OFFICIAL_RRP,9299,INR,incl. taxes per page,MRP (strikethrough reference),2026-08-26,src-preethi-p-silverin
+preethi-gs-valentino-gts121,India,Preethi official store (shop.preethi.in),OFFICIAL_PRICE,10445,INR,incl. taxes per page,current selling price (site shows as discounted from MRP),2026-08-26,src-preethi-p-valentino
+preethi-gs-valentino-gts121,India,Preethi official store (shop.preethi.in),OFFICIAL_RRP,14845,INR,incl. taxes per page,MRP (strikethrough reference),2026-08-26,src-preethi-p-valentino
+preethi-ic-ic125,India,Preethi official store (shop.preethi.in),OFFICIAL_PRICE,3928,INR,incl. taxes per page,current selling price (site shows as discounted from MRP),2026-08-26,src-preethi-p-indicook-ic125
+preethi-ic-ic125,India,Preethi official store (shop.preethi.in),OFFICIAL_RRP,5945,INR,incl. taxes per page,MRP (strikethrough reference),2026-08-26,src-preethi-p-indicook-ic125
+preethi-ic-ic116,India,Preethi official store (shop.preethi.in),OFFICIAL_PRICE,3399,INR,incl. taxes per page,current selling price (site shows as discounted from MRP),2026-08-26,src-preethi-p-indicook-ic116
+preethi-ic-ic116,India,Preethi official store (shop.preethi.in),OFFICIAL_RRP,5045,INR,incl. taxes per page,MRP (strikethrough reference),2026-08-26,src-preethi-p-indicook-ic116
+preethi-ch-kh311,India,Preethi official store (shop.preethi.in),OFFICIAL_PRICE,24900,INR,incl. taxes per page,current selling price (site shows as discounted from MRP),2026-08-26,src-preethi-p-alcor-kh311
+preethi-ch-kh311,India,Preethi official store (shop.preethi.in),OFFICIAL_RRP,33179,INR,incl. taxes per page,MRP (strikethrough reference),2026-08-26,src-preethi-p-alcor-kh311
+preethi-ch-kh317,India,Preethi official store (shop.preethi.in),OFFICIAL_PRICE,29999,INR,incl. taxes per page,regular,2026-08-26,src-preethi-p-alcor-kh317
+preethi-pc-pc024,India,Preethi official store (shop.preethi.in),OFFICIAL_PRICE,1958,INR,incl. taxes per page,current selling price (site shows as discounted from MRP),2026-08-26,src-preethi-p-pc024
+preethi-pc-pc024,India,Preethi official store (shop.preethi.in),OFFICIAL_RRP,2620,INR,incl. taxes per page,MRP (strikethrough reference),2026-08-26,src-preethi-p-pc024
+preethi-cw-kadai26,India,Preethi official store (shop.preethi.in),OFFICIAL_PRICE,1405,INR,incl. taxes per page,current selling price (site shows as discounted from MRP),2026-08-26,src-preethi-p-kadai26
+preethi-cw-kadai26,India,Preethi official store (shop.preethi.in),OFFICIAL_RRP,2021,INR,incl. taxes per page,MRP (strikethrough reference),2026-08-26,src-preethi-p-kadai26
+preethi-cw-csw037,India,Preethi official store (shop.preethi.in),OFFICIAL_PRICE,748,INR,incl. taxes per page,current selling price (site shows as discounted from MRP),2026-08-26,src-preethi-p-csw037
+preethi-cw-csw037,India,Preethi official store (shop.preethi.in),OFFICIAL_RRP,1025,INR,incl. taxes per page,MRP (strikethrough reference),2026-08-26,src-preethi-p-csw037
+philips-air-ac0651-10,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),OFFICIAL_PRICE,134.99,EUR,unknown,"regular, no strikethrough shown",2026-08-26,src-420201b42589
+philips-air-ac0920-10,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),PROMOTIONAL,127.0,EUR,unknown,promotional (site-wide warehouse clearance banner active),2026-08-26,src-1dc8504f922a
+philips-air-ac0920-10,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),OFFICIAL_RRP,149.99,EUR,unknown,"Adviesprijs (RRP), struck through",2026-08-26,src-1dc8504f922a
+philips-air-ac0951-13,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),PROMOTIONAL,129.0,EUR,unknown,promotional (site-wide warehouse clearance banner active),2026-08-26,src-772c0e1d3a3d
+philips-air-ac0951-13,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),OFFICIAL_RRP,179.99,EUR,unknown,"Adviesprijs (RRP), struck through",2026-08-26,src-772c0e1d3a3d
+philips-air-ac2220-10,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),PROMOTIONAL,169.99,EUR,unknown,promotional (site-wide warehouse clearance banner active),2026-08-26,src-039186cc8311
+philips-air-ac2220-10,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),OFFICIAL_RRP,229.99,EUR,unknown,"Adviesprijs (RRP), struck through",2026-08-26,src-039186cc8311
+philips-air-ac3220-10,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),PROMOTIONAL,292.0,EUR,unknown,promotional (site-wide warehouse clearance banner active),2026-08-26,src-5c4dc518dae0
+philips-air-ac3220-10,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),OFFICIAL_RRP,319.99,EUR,unknown,"Adviesprijs (RRP), struck through",2026-08-26,src-5c4dc518dae0
+philips-air-ac3420-10,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),PROMOTIONAL,350.0,EUR,unknown,promotional (site-wide warehouse clearance banner active),2026-08-26,src-d595a0cbc8bc
+philips-air-ac3420-10,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),OFFICIAL_RRP,369.99,EUR,unknown,"Adviesprijs (RRP), struck through",2026-08-26,src-d595a0cbc8bc
+walita-af-na150-00,Brazil,Philips Walita official store (walita.com.br),PROMOTIONAL,849.9,BRL,unknown,"current selling price (""por"")",2026-08-26,src-88f82d5bdc10
+walita-af-na150-00,Brazil,Philips Walita official store (walita.com.br),OFFICIAL_RRP,1199.9,BRL,unknown,list price shown struck through,2026-08-26,src-88f82d5bdc10
+walita-af-ri9270-90,Brazil,Philips Walita official store (walita.com.br),PROMOTIONAL,599.9,BRL,unknown,"current selling price (""por"")",2026-08-26,src-0e53081714c4
+walita-af-ri9270-90,Brazil,Philips Walita official store (walita.com.br),OFFICIAL_RRP,869.9,BRL,unknown,list price shown struck through,2026-08-26,src-0e53081714c4
+walita-af-ai551-09,Brazil,Philips Walita official store (walita.com.br),PROMOTIONAL,739.9,BRL,unknown,"current selling price (""por"")",2026-08-26,src-a26f0d5ea2f3
+walita-af-ai551-09,Brazil,Philips Walita official store (walita.com.br),OFFICIAL_RRP,1049.9,BRL,unknown,list price shown struck through,2026-08-26,src-a26f0d5ea2f3
+walita-cf-ep4441-53,Brazil,Philips Walita official store (walita.com.br),PROMOTIONAL,4799.9,BRL,unknown,"current selling price (""por"")",2026-08-26,src-8251eed2d558
+walita-cf-ep4441-53,Brazil,Philips Walita official store (walita.com.br),OFFICIAL_RRP,6299.9,BRL,unknown,list price shown struck through,2026-08-26,src-8251eed2d558
+walita-vac-xc2011-01,Brazil,Philips Walita official store (walita.com.br),PROMOTIONAL,1099.9,BRL,unknown,"current selling price (""por"")",2026-08-26,src-76b7751a8513
+walita-vac-xc2011-01,Brazil,Philips Walita official store (walita.com.br),OFFICIAL_RRP,1499.9,BRL,unknown,list price shown struck through,2026-08-26,src-76b7751a8513
+walita-hum-hu1510-04,Brazil,Philips Walita official store (walita.com.br),PROMOTIONAL,479.9,BRL,unknown,"current selling price (""por"")",2026-08-26,src-90b2f810c403
+walita-hum-hu1510-04,Brazil,Philips Walita official store (walita.com.br),OFFICIAL_RRP,519.9,BRL,unknown,list price shown struck through,2026-08-26,src-90b2f810c403
+philips-fc-xu7100-01,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),PROMOTIONAL,450.0,EUR,unknown,"current selling price, Adviesprijs shown struck through",2026-08-26,src-194a18b10534
+philips-fc-xu7100-01,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),OFFICIAL_RRP,899.99,EUR,unknown,"Adviesprijs (RRP), struck through",2026-08-26,src-194a18b10534
+philips-fc-xw9383-01,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),PROMOTIONAL,577.0,EUR,unknown,"current selling price, Adviesprijs shown struck through",2026-08-26,src-390815f889a4
+philips-fc-xw9383-01,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),OFFICIAL_RRP,799.99,EUR,unknown,"Adviesprijs (RRP), struck through",2026-08-26,src-390815f889a4
+philips-gc-gc215-20,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),PROMOTIONAL,164.0,EUR,unknown,"current selling price, Adviesprijs shown struck through",2026-08-26,src-8ac44d778e94
+philips-gc-gc215-20,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),OFFICIAL_RRP,169.99,EUR,unknown,"Adviesprijs (RRP), struck through",2026-08-26,src-8ac44d778e94
+philips-gc-gc9650-80,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),PROMOTIONAL,249.0,EUR,unknown,"current selling price, Adviesprijs shown struck through",2026-08-26,src-c8d9009ecca1
+philips-gc-gc9650-80,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),OFFICIAL_RRP,379.99,EUR,unknown,"Adviesprijs (RRP), struck through",2026-08-26,src-c8d9009ecca1
+philips-hs-hsp5300-01,Singapore,Philips/Versuni official storefront,PROMOTIONAL,249.0,SGD,unknown,"current price (sale, out of stock)",2026-08-26,src-ed5516a8cc7d
+philips-hs-hsp5300-01,Singapore,Philips/Versuni official storefront,OFFICIAL_RRP,261.0,SGD,unknown,suggested retail price,2026-08-26,src-ed5516a8cc7d
+philips-pet-paw5320-02,United Kingdom,Philips/Versuni official storefront,OFFICIAL_PRICE,149.99,GBP,unknown,"single price, no separate MSRP shown",2026-08-26,src-68f8556e2e5e
+philips-pet-paw3210-02,United Kingdom,Philips/Versuni official storefront,OFFICIAL_PRICE,44.99,GBP,unknown,single price,2026-08-26,src-f5cde5d08b2c
+philips-garden-rsl3000-10,Netherlands,Philips/Versuni official storefront,OFFICIAL_PRICE,999.99,EUR,unknown,"standing list price, no crossed-out RRP -- also confirmed sold in NL, not regionally restricted as earlier suspected",2026-08-26,src-8b5ce16a3832
+philips-af-na352-00,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),PROMOTIONAL,130.0,EUR,unknown,"current selling price, Adviesprijs shown struck through",2026-08-26,src-2d1698ad512c
+philips-af-na352-00,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),OFFICIAL_RRP,199.99,EUR,unknown,"Adviesprijs (RRP), struck through",2026-08-26,src-2d1698ad512c
+philips-af-na555-00,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),PROMOTIONAL,193.8,EUR,unknown,"current selling price, Adviesprijs shown struck through",2026-08-26,src-77cdb34c9bd6
+philips-af-na555-00,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),OFFICIAL_RRP,269.99,EUR,unknown,"Adviesprijs (RRP), struck through",2026-08-26,src-77cdb34c9bd6
+philips-af-hd9880-90,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),PROMOTIONAL,399.0,EUR,unknown,"current selling price, Adviesprijs shown struck through",2026-08-26,src-08ac7d8be6ff
+philips-af-hd9880-90,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),OFFICIAL_RRP,399.99,EUR,unknown,"Adviesprijs (RRP), struck through",2026-08-26,src-08ac7d8be6ff
+philips-bl-hr2767-00,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),PROMOTIONAL,89.0,EUR,unknown,"current selling price, Adviesprijs shown struck through",2026-08-26,src-80a0c360892b
+philips-bl-hr2767-00,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),OFFICIAL_RRP,104.99,EUR,unknown,"Adviesprijs (RRP), struck through",2026-08-26,src-80a0c360892b
+philips-bf-hd9365-10,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),PROMOTIONAL,47.28,EUR,unknown,"current selling price, Adviesprijs shown struck through",2026-08-26,src-262db47c41b5
+philips-bf-hd9365-10,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),OFFICIAL_RRP,57.99,EUR,unknown,"Adviesprijs (RRP), struck through",2026-08-26,src-262db47c41b5
+philips-cf-bar305-00,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),PROMOTIONAL,299.99,EUR,unknown,clearance-sale price (exact SKU match),2026-08-26,src-b1bed7d495df
+philips-cf-bar305-00,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),OFFICIAL_RRP,319.99,EUR,unknown,"Adviesprijs (RRP), struck through",2026-08-26,src-b1bed7d495df
+philips-cf-psa3218-01,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),PROMOTIONAL,489.59,EUR,unknown,"clearance-sale price (PSA3218/01 not sold in NL (404); PSA3218/10 is the NL-market sibling SKU, price is for /10 not /01)",2026-08-26,src-79cacb4a34c1
+philips-cf-psa3218-01,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),OFFICIAL_RRP,669.99,EUR,unknown,"Adviesprijs (RRP), struck through",2026-08-26,src-79cacb4a34c1
+philips-cf-ep3347-90,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),PROMOTIONAL,457.98,EUR,unknown,clearance-sale price (exact SKU match),2026-08-26,src-6b4f2e67912d
+philips-cf-ep3347-90,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),OFFICIAL_RRP,599.99,EUR,unknown,"Adviesprijs (RRP), struck through",2026-08-26,src-6b4f2e67912d
+philips-cf-ep8757-20,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),PROMOTIONAL,890.0,EUR,unknown,clearance-sale price (exact SKU match),2026-08-26,src-fdf9cef2205f
+philips-cf-ep8757-20,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),OFFICIAL_RRP,999.99,EUR,unknown,"Adviesprijs (RRP), struck through",2026-08-26,src-fdf9cef2205f
+saeco-cf-xelsis-suprema-sm8889,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),PROMOTIONAL,1569.0,EUR,unknown,"clearance-sale price (exact SKU match; shop.saeco.com unreachable (SSL cert mismatch), sourced from shared Versuni NL platform instead, correctly Saeco-branded)",2026-08-26,src-08ecc596cb46
+saeco-cf-xelsis-suprema-sm8889,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),OFFICIAL_RRP,1749.99,EUR,unknown,"Adviesprijs (RRP), struck through",2026-08-26,src-08ecc596cb46
+saeco-cf-granaroma-sm6480,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),PROMOTIONAL,763.98,EUR,unknown,"clearance-sale price (SM6480/00 absent on NL platform (soft-404); SM6580/00 is the NL-market GranAroma sibling SKU, price is for /6580 not /6480)",2026-08-26,src-00c55b99bc77
+saeco-cf-granaroma-sm6480,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),OFFICIAL_RRP,819.99,EUR,unknown,"Adviesprijs (RRP), struck through",2026-08-26,src-00c55b99bc77
+saeco-cf-xelsis-deluxe-sm8782,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),PROMOTIONAL,699.99,EUR,unknown,"clearance-sale price; shop.saeco.com unreachable, sourced from shared Versuni NL platform",2026-08-26,src-d4c8cbc52032
+saeco-cf-xelsis-deluxe-sm8782,Netherlands,Philips/Versuni official NL storefront (home-appliances.philips/nl),UNKNOWN,1349.99,EUR,unknown,"EU Omnibus-style 'lowest historical price' label (Prijs was), NOT a standard Adviesprijs/RRP",2026-08-26,src-d4c8cbc52032

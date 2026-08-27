@@ -1,0 +1,55 @@
+# Priority markets for distribution/price/localized-source research.
+# tier: 1 = research first and deepest, 2 = second pass, 3 = long-tail (gaps ok)
+
+markets:
+  - country: Netherlands
+    code: NL
+    tier: 1
+    currency: EUR
+    note: primary case market (Dutch affordability anchors in root CLAUDE.md)
+  - country: United Kingdom
+    code: UK
+    tier: 1
+    currency: GBP
+  - country: Germany
+    code: DE
+    tier: 1
+    currency: EUR
+  - country: France
+    code: FR
+    tier: 1
+    currency: EUR
+  - country: Italy
+    code: IT
+    tier: 1
+    currency: EUR
+  - country: United States
+    code: US
+    tier: 2
+    currency: USD
+  - country: India
+    code: IN
+    tier: 2
+    currency: INR
+    note: primary Preethi market
+  - country: Brazil
+    code: BR
+    tier: 2
+    currency: BRL
+    note: primary Philips Walita market
+  - country: Belgium
+    code: BE
+    tier: 3
+    currency: EUR
+  - country: Spain
+    code: ES
+    tier: 3
+    currency: EUR
+  - country: Poland
+    code: PL
+    tier: 3
+    currency: PLN
+  - country: China
+    code: CN
+    tier: 3
+    currency: CNY

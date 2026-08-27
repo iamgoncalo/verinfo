@@ -1,0 +1,77 @@
+competitor_product_id,field,value,source_id
+dyson-purifier-cool-tp07,FILTRATION_TYPE,HEPA H13 filter; activated carbon layer removes odours and gases incl. VOCs,src-68e8e6b0abd8
+dyson-purifier-cool-tp07,GAS_VOC_CAPABLE,Yes -- via activated carbon layer,src-68e8e6b0abd8
+dyson-purifier-cool-tp07,WEIGHT,4.99 kg,src-68e8e6b0abd8
+dyson-purifier-cool-tp07,DIMENSIONS,"Height 1050mm, Length 220mm, Width 204mm, airflow-amplifier width 205mm, cord 1.8m",src-68e8e6b0abd8
+dyson-purifier-humidify-cool-ph04,FILTRATION_TYPE,Combi 360deg Glass HEPA-13 filter + activated carbon filter; separate catalytic filter for formaldehyde,src-af1d52555c1a
+dyson-purifier-humidify-cool-ph04,GAS_VOC_CAPABLE,Yes -- activated carbon removes odours/gases incl. VOCs; catalytic filter continuously breaks down formaldehyde into water+CO2 (tested to GB/T 18801-2015 cumulative formaldehyde-CADR method per footnote),src-af1d52555c1a
+dyson-purifier-humidify-cool-ph04,AIRFLOW,371 l/s (max),src-af1d52555c1a
+dyson-purifier-humidify-cool-ph04,HUMIDIFIER_OUTPUT,"5 L tank, up to 36 hours continuous humidification (fan-speed dependent)",src-af1d52555c1a
+dyson-purifier-humidify-cool-ph04,DIMENSIONS,"Height 923mm, Length 312mm, Width 280mm, base diameter 312mm, cord 1.8m",src-af1d52555c1a
+dyson-purifier-humidify-cool-ph04,WEIGHT,8.29 kg,src-af1d52555c1a
+ikea-starkvind,CADR,55-270 m3/h (32-158 CFM) particle filter only; 50-240 m3/h (30-141 CFM) with particle+gas filter,src-3545cad656ec
+ikea-starkvind,ROOM_COVERAGE,20 m2 (215 sq ft),src-3545cad656ec
+ikea-starkvind,FILTRATION_TYPE,EPA 12 particle filter (99.5% efficiency); separate gas filter available for formaldehyde/odours,src-3545cad656ec
+ikea-starkvind,GAS_VOC_CAPABLE,"Yes, only with optional add-on gas filter (not the base particle filter)",src-3545cad656ec
+ikea-starkvind,NOISE_DB,"24 (lowest) - 51 (highest, particle filter) / 53 (highest, with gas filter)",src-3545cad656ec
+ikea-starkvind,DIMENSIONS,"H53 x W51 x D19 cm, cord 1.5m",src-3545cad656ec
+ikea-starkvind,WEIGHT,"5.9 kg (net, both filters installed)",src-3545cad656ec
+winix-t800,CADR,500 m3/h,src-9652b0161bd0
+winix-t800,ROOM_COVERAGE,120 m2,src-9652b0161bd0
+winix-t800,FILTRATION_TYPE,4-stage: pre-filter + carbon filter + HEPA filter (99.999%) + PlasmaWave Technology,src-9652b0161bd0
+winix-t800,GAS_VOC_CAPABLE,Yes -- carbon filter removes household odours/VOCs,src-9652b0161bd0
+winix-t800,NOISE_DB,23.2-56.2 dB,src-9652b0161bd0
+winix-t800,DIMENSIONS,286 x 286 x 518 mm (WxDxH),src-9652b0161bd0
+winix-t800,WEIGHT,4.7 kg,src-9652b0161bd0
+coway-airmega-150,CADR,281 m3/h,src-a80922df1d87
+coway-airmega-150,ROOM_COVERAGE,73 m2 (up to 29 m2 quoted for 15-min clean),src-a80922df1d87
+coway-airmega-150,FILTRATION_TYPE,"Pre-Filter + Activated Carbon Filter + HEPA Filter (IEST-RP-CC001, 99.97% @0.3um)",src-a80922df1d87
+coway-airmega-150,GAS_VOC_CAPABLE,Yes -- activated carbon removes up to 99% of odours/smoke/VOCs,src-a80922df1d87
+coway-airmega-150,NOISE_DB,20 (Sleep) - 52 (max) dB,src-a80922df1d87
+coway-airmega-150,DIMENSIONS,16.5 x 34 x 46.9 cm (WxDxH),src-a80922df1d87
+coway-airmega-150,WEIGHT,5.5 kg,src-a80922df1d87
+coway-airmega-mighty,CADR,421 m3/h,src-3f5eebb68a41
+coway-airmega-mighty,ROOM_COVERAGE,109 m2,src-3f5eebb68a41
+coway-airmega-mighty,FILTRATION_TYPE,Pre-Filter + Deodorisation Filter + HEPA Filter,src-3f5eebb68a41
+coway-airmega-mighty,GAS_VOC_CAPABLE,Yes (Deodorisation filter stage),src-3f5eebb68a41
+coway-airmega-mighty,NOISE_DB,24.4 (min) - 53.8 (max) dB,src-3f5eebb68a41
+coway-airmega-mighty,DIMENSIONS,43 x 25 x 46.6 cm (WxDxH),src-3f5eebb68a41
+coway-airmega-mighty,WEIGHT,5.9 kg,src-3f5eebb68a41
+levoit-core-300s,ROOM_COVERAGE,50 m2 at 2 ACH / 100 m2 at 1 ACH (suitable up to 100 m2),src-4248e3ef755d
+levoit-core-300s,FILTRATION_TYPE,3-stage: primary filter (dust/pet fur/lint) + HEPA filter (pollen/pet dander) + activated-carbon stage (smoke/odours),src-4248e3ef755d
+levoit-core-300s,GAS_VOC_CAPABLE,Yes -- activated carbon stage for smoke/odours,src-4248e3ef755d
+levoit-core-300s,NOISE_DB,22 dB (Sleep Mode),src-4248e3ef755d
+levoit-core-300s,DIMENSIONS,22D x 22W x 36H cm,src-4248e3ef755d
+levoit-oasismist,HUMIDIFIER_OUTPUT,550 ml/h mist output; raises room humidity 10% within 15 min; up to 45 hours on low cool mist,src-2c7426755806
+levoit-oasismist,HUMIDIFIER_TANK_COVERAGE,4.5 L tank; covers up to 40 m2,src-2c7426755806
+levoit-oasismist,NOISE_DB,as low as 26 dB,src-2c7426755806
+levoit-oasismist,FILTRATION_TYPE,Carbon filter (per Product Specs tab),src-2c7426755806
+dyson-purifier-cool-tp07,FILTER_SKU,965432-01,src-fa087bbad0bc
+dyson-purifier-cool-tp07,FILTER_PRICE,99.00 EUR,src-fa087bbad0bc
+dyson-purifier-cool-tp07,FILTER_REPLACEMENT_INTERVAL_MONTHS,12,src-fa087bbad0bc
+dyson-purifier-humidify-cool-ph04,FILTER_SKU,965432-01 (same combi HEPA+Carbon filter as TP07),src-fa087bbad0bc
+dyson-purifier-humidify-cool-ph04,FILTER_PRICE,99.00 EUR,src-fa087bbad0bc
+dyson-purifier-humidify-cool-ph04,FILTER_REPLACEMENT_INTERVAL_MONTHS,12,src-fa087bbad0bc
+ikea-starkvind,FILTER_SKU,"304.619.43 (STARKVIND particle filter, EPA12)",src-be883ecbc995
+ikea-starkvind,FILTER_PRICE,11.99 EUR,src-be883ecbc995
+ikea-starkvind,FILTER_REPLACEMENT_INTERVAL_MONTHS,6,src-be883ecbc995
+winix-t800,FILTER_SKU,1712-0118-04 (FILTER GR),src-4322b0be2b5c
+winix-t800,FILTER_PRICE,69.00 GBP,src-4322b0be2b5c
+winix-t800,FILTER_REPLACEMENT_INTERVAL_MONTHS,12,src-4322b0be2b5c
+coway-airmega-150,FILTER_SKU,Airmega 150 Filter Set (GreenHEPA + Active Carbon),src-3e90783b55a7
+coway-airmega-150,FILTER_PRICE,49.99 GBP,src-3e90783b55a7
+coway-airmega-150,FILTER_REPLACEMENT_INTERVAL_MONTHS,12,src-3e90783b55a7
+coway-airmega-mighty,FILTER_SKU,Airmega Mighty Standard Filter Set (Deodorisation + GreenHEPA),src-8809c78597ca
+coway-airmega-mighty,FILTER_PRICE,49.99 GBP,src-8809c78597ca
+coway-airmega-mighty,FILTER_REPLACEMENT_INTERVAL_MONTHS,12,src-8809c78597ca
+levoit-core-300s,FILTER_SKU,Core 300-RF (True HEPA 3-Stage Original Filter),src-cc282f2be39b
+levoit-core-300s,FILTER_PRICE,29.99 GBP,src-cc282f2be39b
+levoit-core-300s,FILTER_REPLACEMENT_INTERVAL_MONTHS,6,src-cc282f2be39b
+ikea-starkvind,POWER_W,1.9-2 (lowest) to 25-33 (highest); max 33W,src-3545cad656ec
+winix-t800,POWER_W,2.5-45 W,src-9652b0161bd0
+coway-airmega-150,POWER_W,2.9 (min) - 35 (max) W,src-a80922df1d87
+coway-airmega-mighty,POWER_W,4.9 (min) - 82 (max) W,src-3f5eebb68a41
+dyson-purifier-cool-tp07,POWER_W,40 (max input power),src-91110683e7d4
+dyson-purifier-humidify-cool-ph04,POWER_W,40 (not independently confirmed via a PH04-specific tech-spec sheet),src-fa087bbad0bc
+levoit-core-300s,POWER_W,23 (rated power per official user manual; secondary sources cite 21.8-26W depending on test method),src-cc282f2be39b
+levoit-oasismist,POWER_W,"280 (rated power, official levoit.com spec page)",src-af85d28bee00

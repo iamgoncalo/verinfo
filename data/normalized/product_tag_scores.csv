@@ -1,0 +1,1088 @@
+product_id,realm,tag,score,basis,rationale,generated_at
+preethi-mg-diamond-mg214,ECONOMIC,Price tier: entry within category,2.0,RULE_DERIVED,Percentile rank 0% among 5 priced siblings in this category (min observed price €3799-equivalent).,2026-08-27
+preethi-mg-ecoplus-mg138,ECONOMIC,Price tier: entry within category,4.0,RULE_DERIVED,Percentile rank 25% among 5 priced siblings in this category (min observed price €6799-equivalent).,2026-08-27
+preethi-mg-zodiac-mg218,ECONOMIC,Price tier: mid within category,6.0,RULE_DERIVED,Percentile rank 50% among 5 priced siblings in this category (min observed price €10699-equivalent).,2026-08-27
+preethi-mg-blueleaf-mg281,ECONOMIC,Price tier: premium within category,8.0,RULE_DERIVED,Percentile rank 75% among 5 priced siblings in this category (min observed price €10745-equivalent).,2026-08-27
+preethi-mg-zodiac2-mg255,ECONOMIC,Price tier: premium within category,10.0,RULE_DERIVED,Percentile rank 100% among 5 priced siblings in this category (min observed price €16245-equivalent).,2026-08-27
+preethi-gs-silverin-2b,ECONOMIC,Price tier: entry within category,2.0,RULE_DERIVED,Percentile rank 0% among 3 priced siblings in this category (min observed price €6399-equivalent).,2026-08-27
+preethi-gs-valentino-gts121,ECONOMIC,Price tier: mid within category,6.0,RULE_DERIVED,Percentile rank 50% among 3 priced siblings in this category (min observed price €10445-equivalent).,2026-08-27
+preethi-gs-glamsteel-3b,ECONOMIC,Price tier: premium within category,10.0,RULE_DERIVED,Percentile rank 100% among 3 priced siblings in this category (min observed price €10599-equivalent).,2026-08-27
+preethi-ic-ic116,ECONOMIC,Price tier: entry within category,2.0,RULE_DERIVED,Percentile rank 0% among 2 priced siblings in this category (min observed price €3399-equivalent).,2026-08-27
+preethi-ic-ic125,ECONOMIC,Price tier: premium within category,10.0,RULE_DERIVED,Percentile rank 100% among 2 priced siblings in this category (min observed price €3928-equivalent).,2026-08-27
+preethi-ch-kh311,ECONOMIC,Price tier: entry within category,2.0,RULE_DERIVED,Percentile rank 0% among 2 priced siblings in this category (min observed price €24900-equivalent).,2026-08-27
+preethi-ch-kh317,ECONOMIC,Price tier: premium within category,10.0,RULE_DERIVED,Percentile rank 100% among 2 priced siblings in this category (min observed price €29999-equivalent).,2026-08-27
+preethi-pc-pc024,ECONOMIC,Price tier: entry within category,2.0,RULE_DERIVED,Percentile rank 0% among 1 priced siblings in this category (min observed price €1958-equivalent).,2026-08-27
+preethi-cw-csw037,ECONOMIC,Price tier: entry within category,2.0,RULE_DERIVED,Percentile rank 0% among 2 priced siblings in this category (min observed price €748-equivalent).,2026-08-27
+preethi-cw-kadai26,ECONOMIC,Price tier: premium within category,10.0,RULE_DERIVED,Percentile rank 100% among 2 priced siblings in this category (min observed price €1405-equivalent).,2026-08-27
+philips-air-ac0920-10,ECONOMIC,Price tier: entry within category,2.0,RULE_DERIVED,Percentile rank 0% among 6 priced siblings in this category (min observed price €127-equivalent).,2026-08-27
+philips-air-ac0951-13,ECONOMIC,Price tier: entry within category,3.6,RULE_DERIVED,Percentile rank 20% among 6 priced siblings in this category (min observed price €129-equivalent).,2026-08-27
+philips-air-ac0651-10,ECONOMIC,Price tier: mid within category,5.2,RULE_DERIVED,Percentile rank 40% among 6 priced siblings in this category (min observed price €134.99-equivalent).,2026-08-27
+philips-air-ac2220-10,ECONOMIC,Price tier: mid within category,6.8,RULE_DERIVED,Percentile rank 60% among 6 priced siblings in this category (min observed price €169.99-equivalent).,2026-08-27
+philips-air-ac3220-10,ECONOMIC,Price tier: premium within category,8.4,RULE_DERIVED,Percentile rank 80% among 6 priced siblings in this category (min observed price €292-equivalent).,2026-08-27
+philips-air-ac3420-10,ECONOMIC,Price tier: premium within category,10.0,RULE_DERIVED,Percentile rank 100% among 6 priced siblings in this category (min observed price €350-equivalent).,2026-08-27
+philips-cf-bar305-00,ECONOMIC,Price tier: entry within category,2.0,RULE_DERIVED,Percentile rank 0% among 4 priced siblings in this category (min observed price €299.99-equivalent).,2026-08-27
+philips-cf-ep3347-90,ECONOMIC,Price tier: entry within category,4.7,RULE_DERIVED,Percentile rank 33% among 4 priced siblings in this category (min observed price €457.98-equivalent).,2026-08-27
+philips-cf-psa3218-01,ECONOMIC,Price tier: mid within category,7.3,RULE_DERIVED,Percentile rank 67% among 4 priced siblings in this category (min observed price €489.59-equivalent).,2026-08-27
+philips-cf-ep8757-20,ECONOMIC,Price tier: premium within category,10.0,RULE_DERIVED,Percentile rank 100% among 4 priced siblings in this category (min observed price €890-equivalent).,2026-08-27
+saeco-cf-xelsis-deluxe-sm8782,ECONOMIC,Price tier: entry within category,2.0,RULE_DERIVED,Percentile rank 0% among 3 priced siblings in this category (min observed price €699.99-equivalent).,2026-08-27
+saeco-cf-granaroma-sm6480,ECONOMIC,Price tier: mid within category,6.0,RULE_DERIVED,Percentile rank 50% among 3 priced siblings in this category (min observed price €763.98-equivalent).,2026-08-27
+saeco-cf-xelsis-suprema-sm8889,ECONOMIC,Price tier: premium within category,10.0,RULE_DERIVED,Percentile rank 100% among 3 priced siblings in this category (min observed price €1569-equivalent).,2026-08-27
+philips-hs-hsp5300-01,ECONOMIC,Price tier: entry within category,2.0,RULE_DERIVED,Percentile rank 0% among 1 priced siblings in this category (min observed price €249-equivalent).,2026-08-27
+philips-pet-paw3210-02,ECONOMIC,Price tier: entry within category,2.0,RULE_DERIVED,Percentile rank 0% among 2 priced siblings in this category (min observed price €44.99-equivalent).,2026-08-27
+philips-pet-paw5320-02,ECONOMIC,Price tier: premium within category,10.0,RULE_DERIVED,Percentile rank 100% among 2 priced siblings in this category (min observed price €149.99-equivalent).,2026-08-27
+philips-garden-rsl3000-10,ECONOMIC,Price tier: entry within category,2.0,RULE_DERIVED,Percentile rank 0% among 1 priced siblings in this category (min observed price €999.99-equivalent).,2026-08-27
+walita-af-ri9270-90,ECONOMIC,Price tier: entry within category,2.0,RULE_DERIVED,Percentile rank 0% among 4 priced siblings in this category (min observed price €599.9-equivalent).,2026-08-27
+walita-af-ai551-09,ECONOMIC,Price tier: entry within category,4.7,RULE_DERIVED,Percentile rank 33% among 4 priced siblings in this category (min observed price €739.9-equivalent).,2026-08-27
+walita-af-na150-00,ECONOMIC,Price tier: mid within category,7.3,RULE_DERIVED,Percentile rank 67% among 4 priced siblings in this category (min observed price €849.9-equivalent).,2026-08-27
+walita-cf-ep4441-53,ECONOMIC,Price tier: premium within category,10.0,RULE_DERIVED,Percentile rank 100% among 4 priced siblings in this category (min observed price €4799.9-equivalent).,2026-08-27
+walita-vac-xc2011-01,ECONOMIC,Price tier: entry within category,2.0,RULE_DERIVED,Percentile rank 0% among 1 priced siblings in this category (min observed price €1099.9-equivalent).,2026-08-27
+walita-hum-hu1510-04,ECONOMIC,Price tier: entry within category,2.0,RULE_DERIVED,Percentile rank 0% among 1 priced siblings in this category (min observed price €479.9-equivalent).,2026-08-27
+philips-af-na352-00,ECONOMIC,Price tier: entry within category,2.0,RULE_DERIVED,Percentile rank 0% among 3 priced siblings in this category (min observed price €130-equivalent).,2026-08-27
+philips-af-na555-00,ECONOMIC,Price tier: mid within category,6.0,RULE_DERIVED,Percentile rank 50% among 3 priced siblings in this category (min observed price €193.8-equivalent).,2026-08-27
+philips-af-hd9880-90,ECONOMIC,Price tier: premium within category,10.0,RULE_DERIVED,Percentile rank 100% among 3 priced siblings in this category (min observed price €399-equivalent).,2026-08-27
+philips-bl-hr2767-00,ECONOMIC,Price tier: entry within category,2.0,RULE_DERIVED,Percentile rank 0% among 1 priced siblings in this category (min observed price €89-equivalent).,2026-08-27
+philips-bf-hd9365-10,ECONOMIC,Price tier: entry within category,2.0,RULE_DERIVED,Percentile rank 0% among 1 priced siblings in this category (min observed price €47.28-equivalent).,2026-08-27
+philips-fc-xu7100-01,ECONOMIC,Price tier: entry within category,2.0,RULE_DERIVED,Percentile rank 0% among 2 priced siblings in this category (min observed price €450-equivalent).,2026-08-27
+philips-fc-xw9383-01,ECONOMIC,Price tier: premium within category,10.0,RULE_DERIVED,Percentile rank 100% among 2 priced siblings in this category (min observed price €577-equivalent).,2026-08-27
+philips-gc-gc215-20,ECONOMIC,Price tier: entry within category,2.0,RULE_DERIVED,Percentile rank 0% among 2 priced siblings in this category (min observed price €164-equivalent).,2026-08-27
+philips-gc-gc9650-80,ECONOMIC,Price tier: premium within category,10.0,RULE_DERIVED,Percentile rank 100% among 2 priced siblings in this category (min observed price €249-equivalent).,2026-08-27
+preethi-mg-zodiac-mg218,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Mixer Grinders' category (rule-based estimate per world, not measured per-household).",2026-08-27
+preethi-mg-zodiac-mg218,SPACE,Living,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Mixer Grinders' category (rule-based estimate per world, not measured per-household).",2026-08-27
+preethi-mg-zodiac-mg218,MEDIUM,Food,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+preethi-mg-zodiac-mg218,MEDIUM,Digital Information,2,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+preethi-mg-zodiac-mg218,CAPABILITY,Food Preparation,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+preethi-mg-zodiac-mg218,INTELLIGENCE,Manual,3,RULE_DERIVED,No sensor/connectivity/adaptive spec observed on this SKU.,2026-08-27
+preethi-mg-zodiac-mg218,MAINTENANCE,Ownership touch/maintenance burden,4,ESTIMATED_JUDGMENT,Category baseline 4/10.,2026-08-27
+preethi-mg-zodiac-mg218,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+preethi-mg-zodiac-mg218,USER_JOB,Cook meals faster,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Mixer Grinders' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-mg-zodiac-mg218,USER_JOB,Reduce oil/fat in cooking,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Mixer Grinders' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-mg-zodiac-mg218,NEED,health-conscious eating,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Mixer Grinders' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-mg-zodiac-mg218,NEED,time saving,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Mixer Grinders' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-mg-zodiac2-mg255,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Mixer Grinders' category (rule-based estimate per world, not measured per-household).",2026-08-27
+preethi-mg-zodiac2-mg255,SPACE,Living,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Mixer Grinders' category (rule-based estimate per world, not measured per-household).",2026-08-27
+preethi-mg-zodiac2-mg255,MEDIUM,Food,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+preethi-mg-zodiac2-mg255,MEDIUM,Digital Information,2,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+preethi-mg-zodiac2-mg255,CAPABILITY,Food Preparation,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+preethi-mg-zodiac2-mg255,INTELLIGENCE,Manual,3,RULE_DERIVED,No sensor/connectivity/adaptive spec observed on this SKU.,2026-08-27
+preethi-mg-zodiac2-mg255,MAINTENANCE,Ownership touch/maintenance burden,4,ESTIMATED_JUDGMENT,Category baseline 4/10.,2026-08-27
+preethi-mg-zodiac2-mg255,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+preethi-mg-zodiac2-mg255,USER_JOB,Cook meals faster,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Mixer Grinders' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-mg-zodiac2-mg255,USER_JOB,Reduce oil/fat in cooking,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Mixer Grinders' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-mg-zodiac2-mg255,NEED,health-conscious eating,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Mixer Grinders' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-mg-zodiac2-mg255,NEED,time saving,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Mixer Grinders' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-mg-blueleaf-mg281,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Mixer Grinders' category (rule-based estimate per world, not measured per-household).",2026-08-27
+preethi-mg-blueleaf-mg281,SPACE,Living,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Mixer Grinders' category (rule-based estimate per world, not measured per-household).",2026-08-27
+preethi-mg-blueleaf-mg281,MEDIUM,Food,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+preethi-mg-blueleaf-mg281,MEDIUM,Digital Information,2,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+preethi-mg-blueleaf-mg281,CAPABILITY,Food Preparation,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+preethi-mg-blueleaf-mg281,INTELLIGENCE,Manual,3,RULE_DERIVED,No sensor/connectivity/adaptive spec observed on this SKU.,2026-08-27
+preethi-mg-blueleaf-mg281,MAINTENANCE,Ownership touch/maintenance burden,4,ESTIMATED_JUDGMENT,Category baseline 4/10.,2026-08-27
+preethi-mg-blueleaf-mg281,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+preethi-mg-blueleaf-mg281,USER_JOB,Cook meals faster,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Mixer Grinders' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-mg-blueleaf-mg281,USER_JOB,Reduce oil/fat in cooking,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Mixer Grinders' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-mg-blueleaf-mg281,NEED,health-conscious eating,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Mixer Grinders' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-mg-blueleaf-mg281,NEED,time saving,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Mixer Grinders' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-mg-diamond-mg214,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Mixer Grinders' category (rule-based estimate per world, not measured per-household).",2026-08-27
+preethi-mg-diamond-mg214,SPACE,Living,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Mixer Grinders' category (rule-based estimate per world, not measured per-household).",2026-08-27
+preethi-mg-diamond-mg214,MEDIUM,Food,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+preethi-mg-diamond-mg214,MEDIUM,Digital Information,2,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+preethi-mg-diamond-mg214,CAPABILITY,Food Preparation,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+preethi-mg-diamond-mg214,INTELLIGENCE,Manual,3,RULE_DERIVED,No sensor/connectivity/adaptive spec observed on this SKU.,2026-08-27
+preethi-mg-diamond-mg214,MAINTENANCE,Ownership touch/maintenance burden,4,ESTIMATED_JUDGMENT,Category baseline 4/10.,2026-08-27
+preethi-mg-diamond-mg214,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+preethi-mg-diamond-mg214,USER_JOB,Cook meals faster,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Mixer Grinders' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-mg-diamond-mg214,USER_JOB,Reduce oil/fat in cooking,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Mixer Grinders' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-mg-diamond-mg214,NEED,health-conscious eating,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Mixer Grinders' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-mg-diamond-mg214,NEED,time saving,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Mixer Grinders' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-mg-ecoplus-mg138,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Mixer Grinders' category (rule-based estimate per world, not measured per-household).",2026-08-27
+preethi-mg-ecoplus-mg138,SPACE,Living,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Mixer Grinders' category (rule-based estimate per world, not measured per-household).",2026-08-27
+preethi-mg-ecoplus-mg138,MEDIUM,Food,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+preethi-mg-ecoplus-mg138,MEDIUM,Digital Information,2,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+preethi-mg-ecoplus-mg138,CAPABILITY,Food Preparation,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+preethi-mg-ecoplus-mg138,INTELLIGENCE,Manual,3,RULE_DERIVED,No sensor/connectivity/adaptive spec observed on this SKU.,2026-08-27
+preethi-mg-ecoplus-mg138,MAINTENANCE,Ownership touch/maintenance burden,4,ESTIMATED_JUDGMENT,Category baseline 4/10.,2026-08-27
+preethi-mg-ecoplus-mg138,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+preethi-mg-ecoplus-mg138,USER_JOB,Cook meals faster,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Mixer Grinders' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-mg-ecoplus-mg138,USER_JOB,Reduce oil/fat in cooking,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Mixer Grinders' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-mg-ecoplus-mg138,NEED,health-conscious eating,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Mixer Grinders' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-mg-ecoplus-mg138,NEED,time saving,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Mixer Grinders' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-gs-glamsteel-3b,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Gas Stoves' category (rule-based estimate per world, not measured per-household).",2026-08-27
+preethi-gs-glamsteel-3b,SPACE,Living,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Gas Stoves' category (rule-based estimate per world, not measured per-household).",2026-08-27
+preethi-gs-glamsteel-3b,MEDIUM,Food,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+preethi-gs-glamsteel-3b,MEDIUM,Digital Information,2,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+preethi-gs-glamsteel-3b,CAPABILITY,Food Preparation,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+preethi-gs-glamsteel-3b,INTELLIGENCE,Manual,3,RULE_DERIVED,No sensor/connectivity/adaptive spec observed on this SKU.,2026-08-27
+preethi-gs-glamsteel-3b,MAINTENANCE,Ownership touch/maintenance burden,5,ESTIMATED_JUDGMENT,"Category baseline 4/10, +1 for observed consumable/coating/certification specs.",2026-08-27
+preethi-gs-glamsteel-3b,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+preethi-gs-glamsteel-3b,USER_JOB,Cook meals faster,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Gas Stoves' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-gs-glamsteel-3b,USER_JOB,Reduce oil/fat in cooking,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Gas Stoves' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-gs-glamsteel-3b,NEED,health-conscious eating,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Gas Stoves' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-gs-glamsteel-3b,NEED,time saving,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Gas Stoves' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-gs-silverin-2b,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Gas Stoves' category (rule-based estimate per world, not measured per-household).",2026-08-27
+preethi-gs-silverin-2b,SPACE,Living,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Gas Stoves' category (rule-based estimate per world, not measured per-household).",2026-08-27
+preethi-gs-silverin-2b,MEDIUM,Food,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+preethi-gs-silverin-2b,MEDIUM,Digital Information,2,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+preethi-gs-silverin-2b,CAPABILITY,Food Preparation,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+preethi-gs-silverin-2b,INTELLIGENCE,Manual,3,RULE_DERIVED,No sensor/connectivity/adaptive spec observed on this SKU.,2026-08-27
+preethi-gs-silverin-2b,MAINTENANCE,Ownership touch/maintenance burden,6,ESTIMATED_JUDGMENT,"Category baseline 4/10, +2 for observed consumable/coating/certification specs.",2026-08-27
+preethi-gs-silverin-2b,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+preethi-gs-silverin-2b,USER_JOB,Cook meals faster,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Gas Stoves' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-gs-silverin-2b,USER_JOB,Reduce oil/fat in cooking,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Gas Stoves' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-gs-silverin-2b,NEED,health-conscious eating,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Gas Stoves' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-gs-silverin-2b,NEED,time saving,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Gas Stoves' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-gs-valentino-gts121,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Gas Stoves' category (rule-based estimate per world, not measured per-household).",2026-08-27
+preethi-gs-valentino-gts121,SPACE,Living,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Gas Stoves' category (rule-based estimate per world, not measured per-household).",2026-08-27
+preethi-gs-valentino-gts121,MEDIUM,Food,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+preethi-gs-valentino-gts121,MEDIUM,Digital Information,2,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+preethi-gs-valentino-gts121,CAPABILITY,Food Preparation,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+preethi-gs-valentino-gts121,INTELLIGENCE,Unclassified,3,ESTIMATED_JUDGMENT,No spec data available for this SKU or its family to classify from.,2026-08-27
+preethi-gs-valentino-gts121,MAINTENANCE,Ownership touch/maintenance burden,4,ESTIMATED_JUDGMENT,Category baseline 4/10.,2026-08-27
+preethi-gs-valentino-gts121,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+preethi-gs-valentino-gts121,USER_JOB,Cook meals faster,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Gas Stoves' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-gs-valentino-gts121,USER_JOB,Reduce oil/fat in cooking,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Gas Stoves' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-gs-valentino-gts121,NEED,health-conscious eating,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Gas Stoves' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-gs-valentino-gts121,NEED,time saving,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Gas Stoves' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-ic-ic125,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Induction Cooktops' category (rule-based estimate per world, not measured per-household).",2026-08-27
+preethi-ic-ic125,SPACE,Living,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Induction Cooktops' category (rule-based estimate per world, not measured per-household).",2026-08-27
+preethi-ic-ic125,MEDIUM,Food,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+preethi-ic-ic125,MEDIUM,Digital Information,2,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+preethi-ic-ic125,CAPABILITY,Food Preparation,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+preethi-ic-ic125,INTELLIGENCE,Manual,3,RULE_DERIVED,No sensor/connectivity/adaptive spec observed on this SKU.,2026-08-27
+preethi-ic-ic125,MAINTENANCE,Ownership touch/maintenance burden,4,ESTIMATED_JUDGMENT,Category baseline 4/10.,2026-08-27
+preethi-ic-ic125,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+preethi-ic-ic125,USER_JOB,Cook meals faster,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Induction Cooktops' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-ic-ic125,USER_JOB,Reduce oil/fat in cooking,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Induction Cooktops' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-ic-ic125,NEED,health-conscious eating,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Induction Cooktops' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-ic-ic125,NEED,time saving,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Induction Cooktops' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-ic-ic116,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Induction Cooktops' category (rule-based estimate per world, not measured per-household).",2026-08-27
+preethi-ic-ic116,SPACE,Living,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Induction Cooktops' category (rule-based estimate per world, not measured per-household).",2026-08-27
+preethi-ic-ic116,MEDIUM,Food,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+preethi-ic-ic116,MEDIUM,Digital Information,2,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+preethi-ic-ic116,CAPABILITY,Food Preparation,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+preethi-ic-ic116,INTELLIGENCE,Manual,3,RULE_DERIVED,No sensor/connectivity/adaptive spec observed on this SKU.,2026-08-27
+preethi-ic-ic116,MAINTENANCE,Ownership touch/maintenance burden,4,ESTIMATED_JUDGMENT,Category baseline 4/10.,2026-08-27
+preethi-ic-ic116,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+preethi-ic-ic116,USER_JOB,Cook meals faster,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Induction Cooktops' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-ic-ic116,USER_JOB,Reduce oil/fat in cooking,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Induction Cooktops' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-ic-ic116,NEED,health-conscious eating,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Induction Cooktops' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-ic-ic116,NEED,time saving,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Induction Cooktops' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-ch-kh311,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Kitchen Chimneys' category (rule-based estimate per world, not measured per-household).",2026-08-27
+preethi-ch-kh311,SPACE,Living,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Kitchen Chimneys' category (rule-based estimate per world, not measured per-household).",2026-08-27
+preethi-ch-kh311,MEDIUM,Food,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+preethi-ch-kh311,MEDIUM,Digital Information,2,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+preethi-ch-kh311,CAPABILITY,Food Preparation,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+preethi-ch-kh311,CAPABILITY,Self-Cleaning,7,RULE_DERIVED,Observed spec field 'auto_clean'='motion-sensor auto-clean' (own SKU).,2026-08-27
+preethi-ch-kh311,INTELLIGENCE,Manual,3,RULE_DERIVED,No sensor/connectivity/adaptive spec observed on this SKU.,2026-08-27
+preethi-ch-kh311,MAINTENANCE,Ownership touch/maintenance burden,4,ESTIMATED_JUDGMENT,Category baseline 4/10.,2026-08-27
+preethi-ch-kh311,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+preethi-ch-kh317,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Kitchen Chimneys' category (rule-based estimate per world, not measured per-household).",2026-08-27
+preethi-ch-kh317,SPACE,Living,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Kitchen Chimneys' category (rule-based estimate per world, not measured per-household).",2026-08-27
+preethi-ch-kh317,MEDIUM,Food,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+preethi-ch-kh317,MEDIUM,Digital Information,2,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+preethi-ch-kh317,CAPABILITY,Food Preparation,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+preethi-ch-kh317,CAPABILITY,Self-Cleaning,7,RULE_DERIVED,Observed spec field 'auto_clean'='motion-sensor auto-clean' (inherited from family sibling (no own spec row)).,2026-08-27
+preethi-ch-kh317,INTELLIGENCE,Unclassified,3,ESTIMATED_JUDGMENT,No spec data available for this SKU or its family to classify from.,2026-08-27
+preethi-ch-kh317,MAINTENANCE,Ownership touch/maintenance burden,4,ESTIMATED_JUDGMENT,Category baseline 4/10.,2026-08-27
+preethi-ch-kh317,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+preethi-pc-pc024,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Pressure Cookers' category (rule-based estimate per world, not measured per-household).",2026-08-27
+preethi-pc-pc024,SPACE,Living,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Pressure Cookers' category (rule-based estimate per world, not measured per-household).",2026-08-27
+preethi-pc-pc024,MEDIUM,Food,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+preethi-pc-pc024,MEDIUM,Digital Information,2,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+preethi-pc-pc024,CAPABILITY,Food Preparation,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+preethi-pc-pc024,INTELLIGENCE,Manual,3,RULE_DERIVED,No sensor/connectivity/adaptive spec observed on this SKU.,2026-08-27
+preethi-pc-pc024,MAINTENANCE,Ownership touch/maintenance burden,5,ESTIMATED_JUDGMENT,"Category baseline 4/10, +1 for observed consumable/coating/certification specs.",2026-08-27
+preethi-pc-pc024,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+preethi-pc-pc024,USER_JOB,Cook meals faster,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Pressure Cookers' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-pc-pc024,USER_JOB,Reduce oil/fat in cooking,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Pressure Cookers' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-pc-pc024,NEED,health-conscious eating,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Pressure Cookers' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-pc-pc024,NEED,time saving,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Pressure Cookers' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-cw-kadai26,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Cookware' category (rule-based estimate per world, not measured per-household).",2026-08-27
+preethi-cw-kadai26,SPACE,Living,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Cookware' category (rule-based estimate per world, not measured per-household).",2026-08-27
+preethi-cw-kadai26,MEDIUM,Food,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+preethi-cw-kadai26,MEDIUM,Digital Information,2,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+preethi-cw-kadai26,CAPABILITY,Food Preparation,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+preethi-cw-kadai26,INTELLIGENCE,Manual,3,RULE_DERIVED,No sensor/connectivity/adaptive spec observed on this SKU.,2026-08-27
+preethi-cw-kadai26,MAINTENANCE,Ownership touch/maintenance burden,6,ESTIMATED_JUDGMENT,"Category baseline 4/10, +2 for observed consumable/coating/certification specs.",2026-08-27
+preethi-cw-kadai26,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+preethi-cw-kadai26,USER_JOB,Cook meals faster,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Cookware' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-cw-kadai26,USER_JOB,Reduce oil/fat in cooking,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Cookware' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-cw-kadai26,NEED,health-conscious eating,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Cookware' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-cw-kadai26,NEED,time saving,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Cookware' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-cw-csw037,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Cookware' category (rule-based estimate per world, not measured per-household).",2026-08-27
+preethi-cw-csw037,SPACE,Living,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Cookware' category (rule-based estimate per world, not measured per-household).",2026-08-27
+preethi-cw-csw037,MEDIUM,Food,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+preethi-cw-csw037,MEDIUM,Digital Information,2,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+preethi-cw-csw037,CAPABILITY,Food Preparation,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+preethi-cw-csw037,INTELLIGENCE,Manual,3,RULE_DERIVED,No sensor/connectivity/adaptive spec observed on this SKU.,2026-08-27
+preethi-cw-csw037,MAINTENANCE,Ownership touch/maintenance burden,5,ESTIMATED_JUDGMENT,"Category baseline 4/10, +1 for observed consumable/coating/certification specs.",2026-08-27
+preethi-cw-csw037,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+preethi-cw-csw037,USER_JOB,Cook meals faster,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Cookware' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-cw-csw037,USER_JOB,Reduce oil/fat in cooking,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Cookware' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-cw-csw037,NEED,health-conscious eating,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Cookware' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-cw-csw037,NEED,time saving,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Cookware' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac0650-20,SPACE,Bedroom,9,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac0650-20,SPACE,Living,8,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac0650-20,SPACE,Bathroom,3,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac0650-20,SPACE,Kitchen,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac0650-20,MEDIUM,Air,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-air-ac0650-20,MEDIUM,Digital Information,4,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-air-ac0650-20,CAPABILITY,Air Filtration,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-air-ac0650-20,INTELLIGENCE,Reactive/Connected,6,RULE_DERIVED,"Sensor, detection, navigation, or connectivity spec observed without routine-adaptation language.",2026-08-27
+philips-air-ac0650-20,DIGITAL,Wi-Fi / App Connected,8,RULE_DERIVED,"connectivity spec: 'Wi-Fi, Air+ app'",2026-08-27
+philips-air-ac0650-20,DIGITAL,Air+,7,RULE_DERIVED,"Named in connectivity spec: 'Wi-Fi, Air+ app'",2026-08-27
+philips-air-ac0650-20,MAINTENANCE,Ownership touch/maintenance burden,6,ESTIMATED_JUDGMENT,"Category baseline 5/10, +1 for observed consumable/coating/certification specs.",2026-08-27
+philips-air-ac0650-20,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-air-ac0650-20,USER_JOB,Keep indoor air cleaner,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac0650-20,USER_JOB,Respond to pollution episodes,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac0650-20,NEED,health-related reassurance,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac0650-20,NEED,comfort,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac0651-10,SPACE,Bedroom,9,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac0651-10,SPACE,Living,8,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac0651-10,SPACE,Bathroom,3,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac0651-10,SPACE,Kitchen,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac0651-10,MEDIUM,Air,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-air-ac0651-10,MEDIUM,Digital Information,4,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-air-ac0651-10,CAPABILITY,Air Filtration,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-air-ac0651-10,INTELLIGENCE,Reactive/Connected,6,RULE_DERIVED,"Sensor, detection, navigation, or connectivity spec observed without routine-adaptation language.",2026-08-27
+philips-air-ac0651-10,DIGITAL,Wi-Fi / App Connected,8,RULE_DERIVED,"connectivity spec: 'Wi-Fi, Air+ app'",2026-08-27
+philips-air-ac0651-10,DIGITAL,Air+,7,RULE_DERIVED,"Named in connectivity spec: 'Wi-Fi, Air+ app'",2026-08-27
+philips-air-ac0651-10,MAINTENANCE,Ownership touch/maintenance burden,6,ESTIMATED_JUDGMENT,"Category baseline 5/10, +1 for observed consumable/coating/certification specs.",2026-08-27
+philips-air-ac0651-10,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-air-ac0651-10,USER_JOB,Keep indoor air cleaner,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac0651-10,USER_JOB,Respond to pollution episodes,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac0651-10,NEED,health-related reassurance,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac0651-10,NEED,comfort,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac0850-41,SPACE,Bedroom,9,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac0850-41,SPACE,Living,8,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac0850-41,SPACE,Bathroom,3,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac0850-41,SPACE,Kitchen,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac0850-41,MEDIUM,Air,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-air-ac0850-41,MEDIUM,Digital Information,4,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-air-ac0850-41,CAPABILITY,Air Filtration,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-air-ac0850-41,INTELLIGENCE,Unclassified,3,ESTIMATED_JUDGMENT,No spec data available for this SKU or its family to classify from.,2026-08-27
+philips-air-ac0850-41,MAINTENANCE,Ownership touch/maintenance burden,5,ESTIMATED_JUDGMENT,Category baseline 5/10.,2026-08-27
+philips-air-ac0850-41,LIFECYCLE,Legacy,3,RULE_DERIVED,Directly observed current_status field: LEGACY.,2026-08-27
+philips-air-ac0850-41,USER_JOB,Keep indoor air cleaner,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac0850-41,USER_JOB,Respond to pollution episodes,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac0850-41,NEED,health-related reassurance,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac0850-41,NEED,comfort,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac0920-10,SPACE,Bedroom,9,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac0920-10,SPACE,Living,8,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac0920-10,SPACE,Bathroom,3,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac0920-10,SPACE,Kitchen,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac0920-10,MEDIUM,Air,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-air-ac0920-10,MEDIUM,Digital Information,4,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-air-ac0920-10,CAPABILITY,Air Filtration,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-air-ac0920-10,CAPABILITY,Environmental Sensing,8,RULE_DERIVED,Observed spec field 'sensors'='PM2.5 (AeraSense)' (inherited from family sibling (no own spec row)).,2026-08-27
+philips-air-ac0920-10,INTELLIGENCE,Adaptive,8,RULE_DERIVED,ai_claim text references routine/history-based adaptation: 'AI technology that adapts to your routine (Auto+ mode)',2026-08-27
+philips-air-ac0920-10,DIGITAL,Wi-Fi / App Connected,8,RULE_DERIVED,"connectivity spec: 'Wi-Fi, Air+ app'",2026-08-27
+philips-air-ac0920-10,DIGITAL,Air+,7,RULE_DERIVED,"Named in connectivity spec: 'Wi-Fi, Air+ app'",2026-08-27
+philips-air-ac0920-10,MAINTENANCE,Ownership touch/maintenance burden,5,ESTIMATED_JUDGMENT,Category baseline 5/10.,2026-08-27
+philips-air-ac0920-10,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-air-ac0920-10,USER_JOB,Keep indoor air cleaner,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac0920-10,USER_JOB,Respond to pollution episodes,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac0920-10,NEED,health-related reassurance,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac0920-10,NEED,comfort,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac0950-10,SPACE,Bedroom,9,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac0950-10,SPACE,Living,8,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac0950-10,SPACE,Bathroom,3,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac0950-10,SPACE,Kitchen,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac0950-10,MEDIUM,Air,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-air-ac0950-10,MEDIUM,Digital Information,4,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-air-ac0950-10,CAPABILITY,Air Filtration,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-air-ac0950-10,CAPABILITY,Environmental Sensing,8,RULE_DERIVED,Observed spec field 'sensors'='PM2.5 (AeraSense)' (inherited from family sibling (no own spec row)).,2026-08-27
+philips-air-ac0950-10,INTELLIGENCE,Adaptive,8,RULE_DERIVED,ai_claim text references routine/history-based adaptation: 'AI technology that adapts to your routine (Auto+ mode)',2026-08-27
+philips-air-ac0950-10,DIGITAL,Wi-Fi / App Connected,8,RULE_DERIVED,"connectivity spec: 'Wi-Fi, Air+ app'",2026-08-27
+philips-air-ac0950-10,DIGITAL,Air+,7,RULE_DERIVED,"Named in connectivity spec: 'Wi-Fi, Air+ app'",2026-08-27
+philips-air-ac0950-10,MAINTENANCE,Ownership touch/maintenance burden,5,ESTIMATED_JUDGMENT,Category baseline 5/10.,2026-08-27
+philips-air-ac0950-10,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-air-ac0950-10,USER_JOB,Keep indoor air cleaner,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac0950-10,USER_JOB,Respond to pollution episodes,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac0950-10,NEED,health-related reassurance,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac0950-10,NEED,comfort,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac0951-13,SPACE,Bedroom,9,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac0951-13,SPACE,Living,8,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac0951-13,SPACE,Bathroom,3,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac0951-13,SPACE,Kitchen,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac0951-13,MEDIUM,Air,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-air-ac0951-13,MEDIUM,Digital Information,4,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-air-ac0951-13,CAPABILITY,Air Filtration,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-air-ac0951-13,CAPABILITY,Environmental Sensing,8,RULE_DERIVED,Observed spec field 'sensors'='PM2.5 (AeraSense)' (own SKU).,2026-08-27
+philips-air-ac0951-13,INTELLIGENCE,Adaptive,8,RULE_DERIVED,ai_claim text references routine/history-based adaptation: 'AI technology that adapts to your routine (Auto+ mode)',2026-08-27
+philips-air-ac0951-13,DIGITAL,Wi-Fi / App Connected,8,RULE_DERIVED,"connectivity spec: 'Wi-Fi, Air+ app'",2026-08-27
+philips-air-ac0951-13,DIGITAL,Air+,7,RULE_DERIVED,"Named in connectivity spec: 'Wi-Fi, Air+ app'",2026-08-27
+philips-air-ac0951-13,MAINTENANCE,Ownership touch/maintenance burden,5,ESTIMATED_JUDGMENT,Category baseline 5/10.,2026-08-27
+philips-air-ac0951-13,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-air-ac0951-13,USER_JOB,Keep indoor air cleaner,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac0951-13,USER_JOB,Respond to pollution episodes,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac0951-13,NEED,health-related reassurance,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac0951-13,NEED,comfort,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac1715-41,SPACE,Bedroom,9,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac1715-41,SPACE,Living,8,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac1715-41,SPACE,Bathroom,3,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac1715-41,SPACE,Kitchen,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac1715-41,MEDIUM,Air,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-air-ac1715-41,MEDIUM,Digital Information,4,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-air-ac1715-41,CAPABILITY,Air Filtration,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-air-ac1715-41,INTELLIGENCE,Unclassified,3,ESTIMATED_JUDGMENT,No spec data available for this SKU or its family to classify from.,2026-08-27
+philips-air-ac1715-41,MAINTENANCE,Ownership touch/maintenance burden,5,ESTIMATED_JUDGMENT,Category baseline 5/10.,2026-08-27
+philips-air-ac1715-41,LIFECYCLE,Legacy,3,RULE_DERIVED,Directly observed current_status field: LEGACY.,2026-08-27
+philips-air-ac1715-41,USER_JOB,Keep indoor air cleaner,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac1715-41,USER_JOB,Respond to pollution episodes,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac1715-41,NEED,health-related reassurance,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac1715-41,NEED,comfort,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac2889-40,SPACE,Bedroom,9,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac2889-40,SPACE,Living,8,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac2889-40,SPACE,Bathroom,3,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac2889-40,SPACE,Kitchen,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac2889-40,MEDIUM,Air,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-air-ac2889-40,MEDIUM,Digital Information,4,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-air-ac2889-40,CAPABILITY,Air Filtration,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-air-ac2889-40,INTELLIGENCE,Unclassified,3,ESTIMATED_JUDGMENT,No spec data available for this SKU or its family to classify from.,2026-08-27
+philips-air-ac2889-40,MAINTENANCE,Ownership touch/maintenance burden,5,ESTIMATED_JUDGMENT,Category baseline 5/10.,2026-08-27
+philips-air-ac2889-40,LIFECYCLE,Legacy,3,RULE_DERIVED,Directly observed current_status field: LEGACY.,2026-08-27
+philips-air-ac2889-40,USER_JOB,Keep indoor air cleaner,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac2889-40,USER_JOB,Respond to pollution episodes,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac2889-40,NEED,health-related reassurance,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac2889-40,NEED,comfort,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac2220-10,SPACE,Bedroom,9,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac2220-10,SPACE,Living,8,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac2220-10,SPACE,Bathroom,3,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac2220-10,SPACE,Kitchen,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac2220-10,MEDIUM,Air,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-air-ac2220-10,MEDIUM,Digital Information,4,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-air-ac2220-10,CAPABILITY,Air Filtration,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-air-ac2220-10,INTELLIGENCE,Adaptive,8,RULE_DERIVED,ai_claim text references routine/history-based adaptation: 'AI technology that adapts to your routine (Auto+ mode)',2026-08-27
+philips-air-ac2220-10,MAINTENANCE,Ownership touch/maintenance burden,6,ESTIMATED_JUDGMENT,"Category baseline 5/10, +1 for observed consumable/coating/certification specs.",2026-08-27
+philips-air-ac2220-10,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-air-ac2220-10,USER_JOB,Keep indoor air cleaner,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac2220-10,USER_JOB,Respond to pollution episodes,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac2220-10,NEED,health-related reassurance,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac2220-10,NEED,comfort,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac3033-73,SPACE,Bedroom,9,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac3033-73,SPACE,Living,8,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac3033-73,SPACE,Bathroom,3,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac3033-73,SPACE,Kitchen,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac3033-73,MEDIUM,Air,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-air-ac3033-73,MEDIUM,Digital Information,4,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-air-ac3033-73,CAPABILITY,Air Filtration,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-air-ac3033-73,INTELLIGENCE,Unclassified,3,ESTIMATED_JUDGMENT,No spec data available for this SKU or its family to classify from.,2026-08-27
+philips-air-ac3033-73,MAINTENANCE,Ownership touch/maintenance burden,5,ESTIMATED_JUDGMENT,Category baseline 5/10.,2026-08-27
+philips-air-ac3033-73,LIFECYCLE,Legacy,3,RULE_DERIVED,Directly observed current_status field: LEGACY.,2026-08-27
+philips-air-ac3033-73,USER_JOB,Keep indoor air cleaner,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac3033-73,USER_JOB,Respond to pollution episodes,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac3033-73,NEED,health-related reassurance,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac3033-73,NEED,comfort,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac3220-10,SPACE,Bedroom,9,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac3220-10,SPACE,Living,8,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac3220-10,SPACE,Bathroom,3,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac3220-10,SPACE,Kitchen,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac3220-10,MEDIUM,Air,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-air-ac3220-10,MEDIUM,Digital Information,4,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-air-ac3220-10,CAPABILITY,Air Filtration,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-air-ac3220-10,INTELLIGENCE,Adaptive,8,RULE_DERIVED,ai_claim text references routine/history-based adaptation: 'AI technology that adapts to your routine while minimising noise and energy use',2026-08-27
+philips-air-ac3220-10,DIGITAL,Wi-Fi / App Connected,8,RULE_DERIVED,"connectivity spec: 'Wi-Fi, Air+ app, Alexa/Google'",2026-08-27
+philips-air-ac3220-10,DIGITAL,Air+,7,RULE_DERIVED,"Named in connectivity spec: 'Wi-Fi, Air+ app, Alexa/Google'",2026-08-27
+philips-air-ac3220-10,DIGITAL,Alexa,7,RULE_DERIVED,"Named in connectivity spec: 'Wi-Fi, Air+ app, Alexa/Google'",2026-08-27
+philips-air-ac3220-10,DIGITAL,Google,7,RULE_DERIVED,"Named in connectivity spec: 'Wi-Fi, Air+ app, Alexa/Google'",2026-08-27
+philips-air-ac3220-10,MAINTENANCE,Ownership touch/maintenance burden,5,ESTIMATED_JUDGMENT,Category baseline 5/10.,2026-08-27
+philips-air-ac3220-10,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-air-ac3220-10,USER_JOB,Keep indoor air cleaner,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac3220-10,USER_JOB,Respond to pollution episodes,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac3220-10,NEED,health-related reassurance,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac3220-10,NEED,comfort,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac3420-10,SPACE,Bedroom,9,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac3420-10,SPACE,Living,8,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac3420-10,SPACE,Bathroom,3,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac3420-10,SPACE,Kitchen,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac3420-10,MEDIUM,Air,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-air-ac3420-10,MEDIUM,Digital Information,4,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-air-ac3420-10,CAPABILITY,Air Filtration,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-air-ac3420-10,CAPABILITY,Humidification,8,RULE_DERIVED,"Observed spec field 'humidification'='Yes, 650 ml/h, 3.2L tank' (own SKU).",2026-08-27
+philips-air-ac3420-10,CAPABILITY,Environmental Sensing,8,RULE_DERIVED,"Observed spec field 'sensors'='PM2.5, temp, humidity' (own SKU).",2026-08-27
+philips-air-ac3420-10,INTELLIGENCE,Reactive/Connected,6,RULE_DERIVED,"Sensor, detection, navigation, or connectivity spec observed without routine-adaptation language.",2026-08-27
+philips-air-ac3420-10,MAINTENANCE,Ownership touch/maintenance burden,5,ESTIMATED_JUDGMENT,Category baseline 5/10.,2026-08-27
+philips-air-ac3420-10,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-air-ac3420-10,USER_JOB,Keep indoor air cleaner,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac3420-10,USER_JOB,Respond to pollution episodes,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac3420-10,NEED,health-related reassurance,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac3420-10,NEED,comfort,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac4220-12,SPACE,Bedroom,9,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac4220-12,SPACE,Living,8,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac4220-12,SPACE,Bathroom,3,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac4220-12,SPACE,Kitchen,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac4220-12,MEDIUM,Air,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-air-ac4220-12,MEDIUM,Digital Information,4,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-air-ac4220-12,CAPABILITY,Air Filtration,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-air-ac4220-12,INTELLIGENCE,Manual,3,RULE_DERIVED,No sensor/connectivity/adaptive spec observed on this SKU.,2026-08-27
+philips-air-ac4220-12,MAINTENANCE,Ownership touch/maintenance burden,5,ESTIMATED_JUDGMENT,Category baseline 5/10.,2026-08-27
+philips-air-ac4220-12,LIFECYCLE,Unknown,5,RULE_DERIVED,Directly observed current_status field: UNKNOWN.,2026-08-27
+philips-air-ac4220-12,USER_JOB,Keep indoor air cleaner,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac4220-12,USER_JOB,Respond to pollution episodes,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac4220-12,NEED,health-related reassurance,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac4220-12,NEED,comfort,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-amf220-15,SPACE,Bedroom,9,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-amf220-15,SPACE,Living,8,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-amf220-15,SPACE,Bathroom,3,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-amf220-15,SPACE,Kitchen,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-amf220-15,MEDIUM,Air,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-air-amf220-15,MEDIUM,Digital Information,4,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-air-amf220-15,CAPABILITY,Air Filtration,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-air-amf220-15,CAPABILITY,Airflow / Fan,7,RULE_DERIVED,Observed spec field 'fan'='Yes' (own SKU).,2026-08-27
+philips-air-amf220-15,CAPABILITY,Heating,7,RULE_DERIVED,Observed spec field 'heating'='Yes' (own SKU).,2026-08-27
+philips-air-amf220-15,INTELLIGENCE,Manual,3,RULE_DERIVED,No sensor/connectivity/adaptive spec observed on this SKU.,2026-08-27
+philips-air-amf220-15,MAINTENANCE,Ownership touch/maintenance burden,5,ESTIMATED_JUDGMENT,Category baseline 5/10.,2026-08-27
+philips-air-amf220-15,LIFECYCLE,Legacy,3,RULE_DERIVED,Directly observed current_status field: LEGACY.,2026-08-27
+philips-air-amf220-15,USER_JOB,Keep indoor air cleaner,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-amf220-15,USER_JOB,Respond to pollution episodes,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-amf220-15,NEED,health-related reassurance,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-amf220-15,NEED,comfort,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-amf765-30,SPACE,Bedroom,9,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-amf765-30,SPACE,Living,8,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-amf765-30,SPACE,Bathroom,3,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-amf765-30,SPACE,Kitchen,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-amf765-30,MEDIUM,Air,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-air-amf765-30,MEDIUM,Digital Information,4,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-air-amf765-30,CAPABILITY,Air Filtration,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-air-amf765-30,CAPABILITY,Airflow / Fan,7,RULE_DERIVED,Observed spec field 'fan'='Yes' (own SKU).,2026-08-27
+philips-air-amf765-30,INTELLIGENCE,Adaptive,8,RULE_DERIVED,ai_claim text references routine/history-based adaptation: 'Powered by AI technology; Select Auto+ mode for AI technology that adapts to your routine',2026-08-27
+philips-air-amf765-30,MAINTENANCE,Ownership touch/maintenance burden,5,ESTIMATED_JUDGMENT,Category baseline 5/10.,2026-08-27
+philips-air-amf765-30,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-air-amf765-30,USER_JOB,Keep indoor air cleaner,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-amf765-30,USER_JOB,Respond to pollution episodes,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-amf765-30,NEED,health-related reassurance,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-amf765-30,NEED,comfort,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-amf870-35,SPACE,Bedroom,9,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-amf870-35,SPACE,Living,8,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-amf870-35,SPACE,Bathroom,3,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-amf870-35,SPACE,Kitchen,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-amf870-35,MEDIUM,Air,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-air-amf870-35,MEDIUM,Digital Information,4,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-air-amf870-35,CAPABILITY,Air Filtration,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-air-amf870-35,CAPABILITY,Airflow / Fan,7,RULE_DERIVED,Observed spec field 'fan'='Yes' (own SKU).,2026-08-27
+philips-air-amf870-35,CAPABILITY,Heating,7,RULE_DERIVED,Observed spec field 'heating'='Yes' (own SKU).,2026-08-27
+philips-air-amf870-35,INTELLIGENCE,Adaptive,8,RULE_DERIVED,ai_claim text references routine/history-based adaptation: 'Powered by the AI (artificial intelligence) technology; self-adapting technology with AI',2026-08-27
+philips-air-amf870-35,MAINTENANCE,Ownership touch/maintenance burden,5,ESTIMATED_JUDGMENT,Category baseline 5/10.,2026-08-27
+philips-air-amf870-35,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-air-amf870-35,USER_JOB,Keep indoor air cleaner,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-amf870-35,USER_JOB,Respond to pollution episodes,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-amf870-35,NEED,health-related reassurance,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-amf870-35,NEED,comfort,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac5659-40,SPACE,Bedroom,9,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac5659-40,SPACE,Living,8,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac5659-40,SPACE,Bathroom,3,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac5659-40,SPACE,Kitchen,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac5659-40,MEDIUM,Air,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-air-ac5659-40,MEDIUM,Digital Information,4,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-air-ac5659-40,CAPABILITY,Air Filtration,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-air-ac5659-40,INTELLIGENCE,Unclassified,3,ESTIMATED_JUDGMENT,No spec data available for this SKU or its family to classify from.,2026-08-27
+philips-air-ac5659-40,MAINTENANCE,Ownership touch/maintenance burden,5,ESTIMATED_JUDGMENT,Category baseline 5/10.,2026-08-27
+philips-air-ac5659-40,LIFECYCLE,Legacy,3,RULE_DERIVED,Directly observed current_status field: LEGACY.,2026-08-27
+philips-air-ac5659-40,USER_JOB,Keep indoor air cleaner,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac5659-40,USER_JOB,Respond to pollution episodes,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac5659-40,NEED,health-related reassurance,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac5659-40,NEED,comfort,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-cf-bar305-00,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Coffee' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-cf-bar305-00,SPACE,Living,4,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Coffee' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-cf-bar305-00,SPACE,Bedroom,1,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Coffee' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-cf-bar305-00,MEDIUM,Food,9,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-cf-bar305-00,MEDIUM,Water,3,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-cf-bar305-00,CAPABILITY,Coffee Brewing,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-cf-bar305-00,CAPABILITY,Integrated Grinding,7,RULE_DERIVED,Observed spec field 'grinder'='Integrated auto burr grinder' (own SKU).,2026-08-27
+philips-cf-bar305-00,CAPABILITY,Espresso Brewing,9,RULE_DERIVED,"Observed spec field 'brew_architecture'='Manual portafilter, auto grind+tamp' (own SKU).",2026-08-27
+philips-cf-bar305-00,INTELLIGENCE,Manual,3,RULE_DERIVED,No sensor/connectivity/adaptive spec observed on this SKU.,2026-08-27
+philips-cf-bar305-00,MAINTENANCE,Ownership touch/maintenance burden,6,ESTIMATED_JUDGMENT,Category baseline 6/10.,2026-08-27
+philips-cf-bar305-00,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-cf-bar305-00,USER_JOB,Make a satisfying coffee quickly,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Coffee' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-cf-bar305-00,USER_JOB,Get consistent results without barista skill,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Coffee' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-cf-bar305-00,NEED,ritual/routine,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Coffee' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-cf-bar305-00,NEED,quality consistency,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Coffee' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-cf-psa3218-01,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Coffee' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-cf-psa3218-01,SPACE,Living,4,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Coffee' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-cf-psa3218-01,SPACE,Bedroom,1,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Coffee' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-cf-psa3218-01,MEDIUM,Food,9,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-cf-psa3218-01,MEDIUM,Water,3,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-cf-psa3218-01,CAPABILITY,Coffee Brewing,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-cf-psa3218-01,CAPABILITY,Integrated Grinding,7,RULE_DERIVED,"Observed spec field 'grinder'='Built-in, 15 grind settings' (own SKU).",2026-08-27
+philips-cf-psa3218-01,CAPABILITY,Milk Frothing,6,RULE_DERIVED,Observed spec field 'milk_system'='Manual steam wand + 450ml jug' (own SKU).,2026-08-27
+philips-cf-psa3218-01,INTELLIGENCE,Manual,3,RULE_DERIVED,No sensor/connectivity/adaptive spec observed on this SKU.,2026-08-27
+philips-cf-psa3218-01,MAINTENANCE,Ownership touch/maintenance burden,6,ESTIMATED_JUDGMENT,Category baseline 6/10.,2026-08-27
+philips-cf-psa3218-01,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-cf-psa3218-01,USER_JOB,Make a satisfying coffee quickly,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Coffee' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-cf-psa3218-01,USER_JOB,Get consistent results without barista skill,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Coffee' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-cf-psa3218-01,NEED,ritual/routine,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Coffee' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-cf-psa3218-01,NEED,quality consistency,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Coffee' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-cf-ep3347-90,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Coffee' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-cf-ep3347-90,SPACE,Living,4,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Coffee' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-cf-ep3347-90,SPACE,Bedroom,1,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Coffee' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-cf-ep3347-90,MEDIUM,Food,9,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-cf-ep3347-90,MEDIUM,Water,3,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-cf-ep3347-90,CAPABILITY,Coffee Brewing,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-cf-ep3347-90,CAPABILITY,Integrated Grinding,7,RULE_DERIVED,"Observed spec field 'grinder'='100% ceramic, 12-step' (own SKU).",2026-08-27
+philips-cf-ep3347-90,CAPABILITY,Milk Frothing,6,RULE_DERIVED,"Observed spec field 'milk_system'='LatteGo (2-part, no tubes)' (own SKU).",2026-08-27
+philips-cf-ep3347-90,INTELLIGENCE,Manual,3,RULE_DERIVED,No sensor/connectivity/adaptive spec observed on this SKU.,2026-08-27
+philips-cf-ep3347-90,MAINTENANCE,Ownership touch/maintenance burden,6,ESTIMATED_JUDGMENT,Category baseline 6/10.,2026-08-27
+philips-cf-ep3347-90,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-cf-ep3347-90,USER_JOB,Make a satisfying coffee quickly,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Coffee' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-cf-ep3347-90,USER_JOB,Get consistent results without barista skill,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Coffee' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-cf-ep3347-90,NEED,ritual/routine,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Coffee' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-cf-ep3347-90,NEED,quality consistency,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Coffee' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-cf-ep8757-20,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Coffee' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-cf-ep8757-20,SPACE,Living,4,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Coffee' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-cf-ep8757-20,SPACE,Bedroom,1,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Coffee' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-cf-ep8757-20,MEDIUM,Food,9,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-cf-ep8757-20,MEDIUM,Water,3,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-cf-ep8757-20,CAPABILITY,Coffee Brewing,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-cf-ep8757-20,INTELLIGENCE,Reactive/Connected,6,RULE_DERIVED,"Sensor, detection, navigation, or connectivity spec observed without routine-adaptation language.",2026-08-27
+philips-cf-ep8757-20,DIGITAL,Wi-Fi / App Connected,8,RULE_DERIVED,"connectivity spec: 'WiFi + app, Barista Assistant'",2026-08-27
+philips-cf-ep8757-20,MAINTENANCE,Ownership touch/maintenance burden,6,ESTIMATED_JUDGMENT,Category baseline 6/10.,2026-08-27
+philips-cf-ep8757-20,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-cf-ep8757-20,USER_JOB,Make a satisfying coffee quickly,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Coffee' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-cf-ep8757-20,USER_JOB,Get consistent results without barista skill,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Coffee' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-cf-ep8757-20,NEED,ritual/routine,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Coffee' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-cf-ep8757-20,NEED,quality consistency,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Coffee' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+lor-barista-cf-lm8018,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Capsule Coffee' category (rule-based estimate per world, not measured per-household).",2026-08-27
+lor-barista-cf-lm8018,SPACE,Living,4,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Capsule Coffee' category (rule-based estimate per world, not measured per-household).",2026-08-27
+lor-barista-cf-lm8018,SPACE,Bedroom,1,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Capsule Coffee' category (rule-based estimate per world, not measured per-household).",2026-08-27
+lor-barista-cf-lm8018,MEDIUM,Food,9,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+lor-barista-cf-lm8018,MEDIUM,Water,3,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+lor-barista-cf-lm8018,CAPABILITY,Coffee Brewing,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+lor-barista-cf-lm8018,CAPABILITY,Espresso Brewing,9,RULE_DERIVED,"Observed spec field 'brew_architecture'=""Capsule (dual: L'OR + Nespresso-compatible)"" (own SKU).",2026-08-27
+lor-barista-cf-lm8018,INTELLIGENCE,Manual,3,RULE_DERIVED,No sensor/connectivity/adaptive spec observed on this SKU.,2026-08-27
+lor-barista-cf-lm8018,MAINTENANCE,Ownership touch/maintenance burden,6,ESTIMATED_JUDGMENT,Category baseline 6/10.,2026-08-27
+lor-barista-cf-lm8018,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+lor-barista-cf-lm8018,USER_JOB,Make a satisfying coffee quickly,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Capsule Coffee' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+lor-barista-cf-lm8018,USER_JOB,Get consistent results without barista skill,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Capsule Coffee' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+lor-barista-cf-lm8018,NEED,ritual/routine,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Capsule Coffee' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+lor-barista-cf-lm8018,NEED,quality consistency,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Capsule Coffee' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+senseo-cf-original-nl,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Pod Coffee' category (rule-based estimate per world, not measured per-household).",2026-08-27
+senseo-cf-original-nl,SPACE,Living,4,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Pod Coffee' category (rule-based estimate per world, not measured per-household).",2026-08-27
+senseo-cf-original-nl,SPACE,Bedroom,1,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Pod Coffee' category (rule-based estimate per world, not measured per-household).",2026-08-27
+senseo-cf-original-nl,MEDIUM,Food,9,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+senseo-cf-original-nl,MEDIUM,Water,3,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+senseo-cf-original-nl,CAPABILITY,Coffee Brewing,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+senseo-cf-original-nl,INTELLIGENCE,Unclassified,3,ESTIMATED_JUDGMENT,No spec data available for this SKU or its family to classify from.,2026-08-27
+senseo-cf-original-nl,MAINTENANCE,Ownership touch/maintenance burden,6,ESTIMATED_JUDGMENT,Category baseline 6/10.,2026-08-27
+senseo-cf-original-nl,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+senseo-cf-original-nl,USER_JOB,Make a satisfying coffee quickly,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Pod Coffee' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+senseo-cf-original-nl,USER_JOB,Get consistent results without barista skill,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Pod Coffee' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+senseo-cf-original-nl,NEED,ritual/routine,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Pod Coffee' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+senseo-cf-original-nl,NEED,quality consistency,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Pod Coffee' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+saeco-cf-xelsis-suprema-sm8889,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Super-automatic Espresso' category (rule-based estimate per world, not measured per-household).",2026-08-27
+saeco-cf-xelsis-suprema-sm8889,SPACE,Living,4,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Super-automatic Espresso' category (rule-based estimate per world, not measured per-household).",2026-08-27
+saeco-cf-xelsis-suprema-sm8889,SPACE,Bedroom,1,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Super-automatic Espresso' category (rule-based estimate per world, not measured per-household).",2026-08-27
+saeco-cf-xelsis-suprema-sm8889,MEDIUM,Food,9,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+saeco-cf-xelsis-suprema-sm8889,MEDIUM,Water,3,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+saeco-cf-xelsis-suprema-sm8889,CAPABILITY,Coffee Brewing,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+saeco-cf-xelsis-suprema-sm8889,CAPABILITY,Milk Frothing,6,RULE_DERIVED,Observed spec field 'milk_system'='LattePerfetto (external carafe)' (own SKU).,2026-08-27
+saeco-cf-xelsis-suprema-sm8889,INTELLIGENCE,Reactive/Connected,6,RULE_DERIVED,"Sensor, detection, navigation, or connectivity spec observed without routine-adaptation language.",2026-08-27
+saeco-cf-xelsis-suprema-sm8889,DIGITAL,Wi-Fi / App Connected,8,RULE_DERIVED,"connectivity spec: 'Built-in WiFi, AI Smart Assistant'",2026-08-27
+saeco-cf-xelsis-suprema-sm8889,MAINTENANCE,Ownership touch/maintenance burden,6,ESTIMATED_JUDGMENT,Category baseline 6/10.,2026-08-27
+saeco-cf-xelsis-suprema-sm8889,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+saeco-cf-xelsis-suprema-sm8889,USER_JOB,Make a satisfying coffee quickly,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Super-automatic Espresso' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+saeco-cf-xelsis-suprema-sm8889,USER_JOB,Get consistent results without barista skill,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Super-automatic Espresso' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+saeco-cf-xelsis-suprema-sm8889,NEED,ritual/routine,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Super-automatic Espresso' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+saeco-cf-xelsis-suprema-sm8889,NEED,quality consistency,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Super-automatic Espresso' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+saeco-cf-xelsis-deluxe-sm8782,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Super-automatic Espresso' category (rule-based estimate per world, not measured per-household).",2026-08-27
+saeco-cf-xelsis-deluxe-sm8782,SPACE,Living,4,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Super-automatic Espresso' category (rule-based estimate per world, not measured per-household).",2026-08-27
+saeco-cf-xelsis-deluxe-sm8782,SPACE,Bedroom,1,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Super-automatic Espresso' category (rule-based estimate per world, not measured per-household).",2026-08-27
+saeco-cf-xelsis-deluxe-sm8782,MEDIUM,Food,9,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+saeco-cf-xelsis-deluxe-sm8782,MEDIUM,Water,3,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+saeco-cf-xelsis-deluxe-sm8782,CAPABILITY,Coffee Brewing,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+saeco-cf-xelsis-deluxe-sm8782,INTELLIGENCE,Unclassified,3,ESTIMATED_JUDGMENT,No spec data available for this SKU or its family to classify from.,2026-08-27
+saeco-cf-xelsis-deluxe-sm8782,MAINTENANCE,Ownership touch/maintenance burden,6,ESTIMATED_JUDGMENT,Category baseline 6/10.,2026-08-27
+saeco-cf-xelsis-deluxe-sm8782,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+saeco-cf-xelsis-deluxe-sm8782,USER_JOB,Make a satisfying coffee quickly,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Super-automatic Espresso' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+saeco-cf-xelsis-deluxe-sm8782,USER_JOB,Get consistent results without barista skill,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Super-automatic Espresso' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+saeco-cf-xelsis-deluxe-sm8782,NEED,ritual/routine,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Super-automatic Espresso' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+saeco-cf-xelsis-deluxe-sm8782,NEED,quality consistency,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Super-automatic Espresso' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+saeco-cf-granaroma-sm6480,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Super-automatic Espresso' category (rule-based estimate per world, not measured per-household).",2026-08-27
+saeco-cf-granaroma-sm6480,SPACE,Living,4,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Super-automatic Espresso' category (rule-based estimate per world, not measured per-household).",2026-08-27
+saeco-cf-granaroma-sm6480,SPACE,Bedroom,1,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Super-automatic Espresso' category (rule-based estimate per world, not measured per-household).",2026-08-27
+saeco-cf-granaroma-sm6480,MEDIUM,Food,9,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+saeco-cf-granaroma-sm6480,MEDIUM,Water,3,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+saeco-cf-granaroma-sm6480,CAPABILITY,Coffee Brewing,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+saeco-cf-granaroma-sm6480,INTELLIGENCE,Reactive/Connected,6,RULE_DERIVED,"Sensor, detection, navigation, or connectivity spec observed without routine-adaptation language.",2026-08-27
+saeco-cf-granaroma-sm6480,DIGITAL,Wi-Fi / App Connected,8,RULE_DERIVED,connectivity spec: 'WiFi (select EU countries)',2026-08-27
+saeco-cf-granaroma-sm6480,MAINTENANCE,Ownership touch/maintenance burden,6,ESTIMATED_JUDGMENT,Category baseline 6/10.,2026-08-27
+saeco-cf-granaroma-sm6480,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+saeco-cf-granaroma-sm6480,USER_JOB,Make a satisfying coffee quickly,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Super-automatic Espresso' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+saeco-cf-granaroma-sm6480,USER_JOB,Get consistent results without barista skill,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Super-automatic Espresso' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+saeco-cf-granaroma-sm6480,NEED,ritual/routine,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Super-automatic Espresso' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+saeco-cf-granaroma-sm6480,NEED,quality consistency,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Super-automatic Espresso' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+gaggia-cf-classicup,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Manual/Automatic Espresso' category (rule-based estimate per world, not measured per-household).",2026-08-27
+gaggia-cf-classicup,SPACE,Living,4,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Manual/Automatic Espresso' category (rule-based estimate per world, not measured per-household).",2026-08-27
+gaggia-cf-classicup,SPACE,Bedroom,1,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Manual/Automatic Espresso' category (rule-based estimate per world, not measured per-household).",2026-08-27
+gaggia-cf-classicup,MEDIUM,Food,9,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+gaggia-cf-classicup,MEDIUM,Water,3,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+gaggia-cf-classicup,CAPABILITY,Coffee Brewing,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+gaggia-cf-classicup,CAPABILITY,Espresso Brewing,9,RULE_DERIVED,Observed spec field 'brew_architecture'='Manual portafilter' (own SKU).,2026-08-27
+gaggia-cf-classicup,INTELLIGENCE,Manual,3,RULE_DERIVED,No sensor/connectivity/adaptive spec observed on this SKU.,2026-08-27
+gaggia-cf-classicup,MAINTENANCE,Ownership touch/maintenance burden,6,ESTIMATED_JUDGMENT,Category baseline 6/10.,2026-08-27
+gaggia-cf-classicup,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+gaggia-cf-classicup,USER_JOB,Make a satisfying coffee quickly,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Manual/Automatic Espresso' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+gaggia-cf-classicup,USER_JOB,Get consistent results without barista skill,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Manual/Automatic Espresso' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+gaggia-cf-classicup,NEED,ritual/routine,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Manual/Automatic Espresso' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+gaggia-cf-classicup,NEED,quality consistency,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Manual/Automatic Espresso' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-hs-hsp5500-02,SPACE,Entry,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Home Safety' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-hs-hsp5500-02,SPACE,Living,4,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Home Safety' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-hs-hsp5500-02,SPACE,Bedroom,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Home Safety' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-hs-hsp5500-02,SPACE,Garden,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Home Safety' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-hs-hsp5500-02,MEDIUM,Security State,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-hs-hsp5500-02,MEDIUM,Digital Information,8,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-hs-hsp5500-02,CAPABILITY,Home Monitoring,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-hs-hsp5500-02,CAPABILITY,Environmental Sensing,8,RULE_DERIVED,"Observed spec field 'sensors'='PIR motion, person detection, anti-tamper siren' (inherited from family sibling (no own spec row)).",2026-08-27
+philips-hs-hsp5500-02,CAPABILITY,Motion/Person Detection,8,RULE_DERIVED,"Observed spec field 'detection_features'='AI people/pet/cry detection, motion tracking, privacy shutter, pan-tilt' (own SKU).",2026-08-27
+philips-hs-hsp5500-02,INTELLIGENCE,Reactive/Connected,6,RULE_DERIVED,"Sensor, detection, navigation, or connectivity spec observed without routine-adaptation language.",2026-08-27
+philips-hs-hsp5500-02,DIGITAL,Wi-Fi / App Connected,8,RULE_DERIVED,connectivity spec: 'Wi-Fi 2.4GHz (min 2Mbps)',2026-08-27
+philips-hs-hsp5500-02,MAINTENANCE,Ownership touch/maintenance burden,2,ESTIMATED_JUDGMENT,Category baseline 2/10.,2026-08-27
+philips-hs-hsp5500-02,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-hs-hsp5500-02,USER_JOB,Know who's at the door or on the property,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Home Safety' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-hs-hsp5500-02,USER_JOB,Monitor home while away,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Home Safety' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-hs-hsp5500-02,NEED,safety reassurance,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Home Safety' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-hs-hsp5500-02,NEED,trust in accuracy / low false alarms,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Home Safety' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-hs-hsp5300-01,SPACE,Entry,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Home Safety' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-hs-hsp5300-01,SPACE,Living,4,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Home Safety' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-hs-hsp5300-01,SPACE,Bedroom,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Home Safety' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-hs-hsp5300-01,SPACE,Garden,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Home Safety' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-hs-hsp5300-01,MEDIUM,Security State,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-hs-hsp5300-01,MEDIUM,Digital Information,8,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-hs-hsp5300-01,CAPABILITY,Home Monitoring,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-hs-hsp5300-01,CAPABILITY,Environmental Sensing,8,RULE_DERIVED,"Observed spec field 'sensors'='PIR motion, person detection, anti-tamper siren' (own SKU).",2026-08-27
+philips-hs-hsp5300-01,CAPABILITY,Motion/Person Detection,8,RULE_DERIVED,"Observed spec field 'detection_features'='AI people/pet/cry detection, motion tracking, privacy shutter, pan-tilt' (inherited from family sibling (no own spec row)).",2026-08-27
+philips-hs-hsp5300-01,INTELLIGENCE,Reactive/Connected,6,RULE_DERIVED,"Sensor, detection, navigation, or connectivity spec observed without routine-adaptation language.",2026-08-27
+philips-hs-hsp5300-01,DIGITAL,Wi-Fi / App Connected,8,RULE_DERIVED,connectivity spec: 'Wi-Fi 2.4GHz (min 2Mbps)',2026-08-27
+philips-hs-hsp5300-01,MAINTENANCE,Ownership touch/maintenance burden,2,ESTIMATED_JUDGMENT,Category baseline 2/10.,2026-08-27
+philips-hs-hsp5300-01,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-hs-hsp5300-01,USER_JOB,Know who's at the door or on the property,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Home Safety' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-hs-hsp5300-01,USER_JOB,Monitor home while away,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Home Safety' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-hs-hsp5300-01,NEED,safety reassurance,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Home Safety' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-hs-hsp5300-01,NEED,trust in accuracy / low false alarms,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Home Safety' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-pet-paw5320-02,SPACE,Living,8,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Pet Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-pet-paw5320-02,SPACE,Kitchen,4,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Pet Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-pet-paw5320-02,SPACE,Bedroom,3,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Pet Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-pet-paw5320-02,SPACE,Floor (whole home),2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Pet Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-pet-paw5320-02,MEDIUM,Pet Environment,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-pet-paw5320-02,MEDIUM,Digital Information,5,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-pet-paw5320-02,CAPABILITY,Pet Feeding/Watering,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-pet-paw5320-02,CAPABILITY,Camera Monitoring,8,RULE_DERIVED,"Observed spec field 'camera'='HD/1080p camera, 2-way audio' (own SKU).",2026-08-27
+philips-pet-paw5320-02,INTELLIGENCE,Reactive/Connected,6,RULE_DERIVED,"Sensor, detection, navigation, or connectivity spec observed without routine-adaptation language.",2026-08-27
+philips-pet-paw5320-02,MAINTENANCE,Ownership touch/maintenance burden,5,ESTIMATED_JUDGMENT,Category baseline 5/10.,2026-08-27
+philips-pet-paw5320-02,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-pet-paw5320-02,USER_JOB,Feed pets on schedule when away,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Pet Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-pet-paw5320-02,USER_JOB,Ensure pets have fresh water,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Pet Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-pet-paw5320-02,NEED,reassurance pet is cared for,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Pet Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-pet-paw5320-02,NEED,trust in reliability,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Pet Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-pet-paw3210-02,SPACE,Living,8,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Pet Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-pet-paw3210-02,SPACE,Kitchen,4,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Pet Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-pet-paw3210-02,SPACE,Bedroom,3,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Pet Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-pet-paw3210-02,SPACE,Floor (whole home),2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Pet Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-pet-paw3210-02,MEDIUM,Pet Environment,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-pet-paw3210-02,MEDIUM,Digital Information,5,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-pet-paw3210-02,CAPABILITY,Pet Feeding/Watering,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-pet-paw3210-02,CAPABILITY,Camera Monitoring,8,RULE_DERIVED,"Observed spec field 'camera'='HD/1080p camera, 2-way audio' (inherited from family sibling (no own spec row)).",2026-08-27
+philips-pet-paw3210-02,INTELLIGENCE,Reactive/Connected,6,RULE_DERIVED,"Sensor, detection, navigation, or connectivity spec observed without routine-adaptation language.",2026-08-27
+philips-pet-paw3210-02,MAINTENANCE,Ownership touch/maintenance burden,5,ESTIMATED_JUDGMENT,Category baseline 5/10.,2026-08-27
+philips-pet-paw3210-02,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-pet-paw3210-02,USER_JOB,Feed pets on schedule when away,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Pet Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-pet-paw3210-02,USER_JOB,Ensure pets have fresh water,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Pet Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-pet-paw3210-02,NEED,reassurance pet is cared for,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Pet Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-pet-paw3210-02,NEED,trust in reliability,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Pet Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-garden-rsl3000-10,SPACE,Garden,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Garden Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-garden-rsl3000-10,SPACE,Entry,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Garden Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-garden-rsl3000-10,MEDIUM,Garden,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-garden-rsl3000-10,MEDIUM,Digital Information,4,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-garden-rsl3000-10,CAPABILITY,Autonomous Mowing,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-garden-rsl3000-10,CAPABILITY,Room/Area Mapping,7,RULE_DERIVED,"Observed spec field 'mapping'='GPS-based mapping, parallel-line cutting pattern' (own SKU).",2026-08-27
+philips-garden-rsl3000-10,CAPABILITY,Autonomous Mowing,9,RULE_DERIVED,Observed spec field 'cutting_width_cm'='18' (own SKU).,2026-08-27
+philips-garden-rsl3000-10,INTELLIGENCE,Reactive/Connected,6,RULE_DERIVED,"Sensor, detection, navigation, or connectivity spec observed without routine-adaptation language.",2026-08-27
+philips-garden-rsl3000-10,DIGITAL,Wi-Fi / App Connected,8,RULE_DERIVED,"connectivity spec: 'Wi-Fi, range <200m, HomeRun app'",2026-08-27
+philips-garden-rsl3000-10,DIGITAL,HomeRun,7,RULE_DERIVED,"Named in connectivity spec: 'Wi-Fi, range <200m, HomeRun app'",2026-08-27
+philips-garden-rsl3000-10,MAINTENANCE,Ownership touch/maintenance burden,6,ESTIMATED_JUDGMENT,Category baseline 6/10.,2026-08-27
+philips-garden-rsl3000-10,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-garden-rsl3000-10,USER_JOB,Keep lawn maintained without manual mowing,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Garden Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-garden-rsl3000-10,USER_JOB,Save weekend time,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Garden Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-garden-rsl3000-10,NEED,low effort,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Garden Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-garden-rsl3000-10,NEED,trust the mower navigates safely,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Garden Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+walita-af-na150-00,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Cozinha (Kitchen)' category (rule-based estimate per world, not measured per-household).",2026-08-27
+walita-af-na150-00,SPACE,Living,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Cozinha (Kitchen)' category (rule-based estimate per world, not measured per-household).",2026-08-27
+walita-af-na150-00,MEDIUM,Food,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+walita-af-na150-00,MEDIUM,Digital Information,2,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+walita-af-na150-00,CAPABILITY,Food Preparation,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+walita-af-na150-00,INTELLIGENCE,Unclassified,3,ESTIMATED_JUDGMENT,No spec data available for this SKU or its family to classify from.,2026-08-27
+walita-af-na150-00,MAINTENANCE,Ownership touch/maintenance burden,4,ESTIMATED_JUDGMENT,Category baseline 4/10.,2026-08-27
+walita-af-na150-00,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+walita-af-na150-00,USER_JOB,Cook meals faster,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Cozinha (Kitchen)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+walita-af-na150-00,USER_JOB,Reduce oil/fat in cooking,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Cozinha (Kitchen)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+walita-af-na150-00,NEED,health-conscious eating,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Cozinha (Kitchen)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+walita-af-na150-00,NEED,time saving,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Cozinha (Kitchen)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+walita-af-ri9270-90,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Cozinha (Kitchen)' category (rule-based estimate per world, not measured per-household).",2026-08-27
+walita-af-ri9270-90,SPACE,Living,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Cozinha (Kitchen)' category (rule-based estimate per world, not measured per-household).",2026-08-27
+walita-af-ri9270-90,MEDIUM,Food,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+walita-af-ri9270-90,MEDIUM,Digital Information,2,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+walita-af-ri9270-90,CAPABILITY,Food Preparation,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+walita-af-ri9270-90,INTELLIGENCE,Manual,3,RULE_DERIVED,No sensor/connectivity/adaptive spec observed on this SKU.,2026-08-27
+walita-af-ri9270-90,MAINTENANCE,Ownership touch/maintenance burden,4,ESTIMATED_JUDGMENT,Category baseline 4/10.,2026-08-27
+walita-af-ri9270-90,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+walita-af-ri9270-90,USER_JOB,Cook meals faster,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Cozinha (Kitchen)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+walita-af-ri9270-90,USER_JOB,Reduce oil/fat in cooking,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Cozinha (Kitchen)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+walita-af-ri9270-90,NEED,health-conscious eating,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Cozinha (Kitchen)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+walita-af-ri9270-90,NEED,time saving,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Cozinha (Kitchen)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+walita-af-ai551-09,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Cozinha (Kitchen)' category (rule-based estimate per world, not measured per-household).",2026-08-27
+walita-af-ai551-09,SPACE,Living,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Cozinha (Kitchen)' category (rule-based estimate per world, not measured per-household).",2026-08-27
+walita-af-ai551-09,MEDIUM,Food,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+walita-af-ai551-09,MEDIUM,Digital Information,2,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+walita-af-ai551-09,CAPABILITY,Food Preparation,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+walita-af-ai551-09,INTELLIGENCE,Unclassified,3,ESTIMATED_JUDGMENT,No spec data available for this SKU or its family to classify from.,2026-08-27
+walita-af-ai551-09,MAINTENANCE,Ownership touch/maintenance burden,4,ESTIMATED_JUDGMENT,Category baseline 4/10.,2026-08-27
+walita-af-ai551-09,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+walita-af-ai551-09,USER_JOB,Cook meals faster,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Cozinha (Kitchen)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+walita-af-ai551-09,USER_JOB,Reduce oil/fat in cooking,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Cozinha (Kitchen)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+walita-af-ai551-09,NEED,health-conscious eating,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Cozinha (Kitchen)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+walita-af-ai551-09,NEED,time saving,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Cozinha (Kitchen)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+walita-cf-ep4441-53,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Cozinha (Kitchen)' category (rule-based estimate per world, not measured per-household).",2026-08-27
+walita-cf-ep4441-53,SPACE,Living,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Cozinha (Kitchen)' category (rule-based estimate per world, not measured per-household).",2026-08-27
+walita-cf-ep4441-53,MEDIUM,Food,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+walita-cf-ep4441-53,MEDIUM,Digital Information,2,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+walita-cf-ep4441-53,CAPABILITY,Food Preparation,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+walita-cf-ep4441-53,CAPABILITY,Espresso Brewing,9,RULE_DERIVED,"Observed spec field 'brew_architecture'='LatteGo, 12 grind levels, 15 bar, 12 drink types' (own SKU).",2026-08-27
+walita-cf-ep4441-53,INTELLIGENCE,Manual,3,RULE_DERIVED,No sensor/connectivity/adaptive spec observed on this SKU.,2026-08-27
+walita-cf-ep4441-53,MAINTENANCE,Ownership touch/maintenance burden,4,ESTIMATED_JUDGMENT,Category baseline 4/10.,2026-08-27
+walita-cf-ep4441-53,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+walita-cf-ep4441-53,USER_JOB,Cook meals faster,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Cozinha (Kitchen)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+walita-cf-ep4441-53,USER_JOB,Reduce oil/fat in cooking,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Cozinha (Kitchen)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+walita-cf-ep4441-53,NEED,health-conscious eating,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Cozinha (Kitchen)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+walita-cf-ep4441-53,NEED,time saving,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Cozinha (Kitchen)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+walita-cf-ep5441-55,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Cozinha (Kitchen)' category (rule-based estimate per world, not measured per-household).",2026-08-27
+walita-cf-ep5441-55,SPACE,Living,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Cozinha (Kitchen)' category (rule-based estimate per world, not measured per-household).",2026-08-27
+walita-cf-ep5441-55,MEDIUM,Food,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+walita-cf-ep5441-55,MEDIUM,Digital Information,2,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+walita-cf-ep5441-55,CAPABILITY,Food Preparation,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+walita-cf-ep5441-55,INTELLIGENCE,Unclassified,3,ESTIMATED_JUDGMENT,No spec data available for this SKU or its family to classify from.,2026-08-27
+walita-cf-ep5441-55,MAINTENANCE,Ownership touch/maintenance burden,4,ESTIMATED_JUDGMENT,Category baseline 4/10.,2026-08-27
+walita-cf-ep5441-55,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+walita-cf-ep5441-55,USER_JOB,Cook meals faster,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Cozinha (Kitchen)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+walita-cf-ep5441-55,USER_JOB,Reduce oil/fat in cooking,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Cozinha (Kitchen)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+walita-cf-ep5441-55,NEED,health-conscious eating,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Cozinha (Kitchen)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+walita-cf-ep5441-55,NEED,time saving,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Cozinha (Kitchen)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+walita-fp-hr7304-90,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Cozinha (Kitchen)' category (rule-based estimate per world, not measured per-household).",2026-08-27
+walita-fp-hr7304-90,SPACE,Living,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Cozinha (Kitchen)' category (rule-based estimate per world, not measured per-household).",2026-08-27
+walita-fp-hr7304-90,MEDIUM,Food,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+walita-fp-hr7304-90,MEDIUM,Digital Information,2,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+walita-fp-hr7304-90,CAPABILITY,Food Preparation,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+walita-fp-hr7304-90,INTELLIGENCE,Manual,3,RULE_DERIVED,No sensor/connectivity/adaptive spec observed on this SKU.,2026-08-27
+walita-fp-hr7304-90,MAINTENANCE,Ownership touch/maintenance burden,4,ESTIMATED_JUDGMENT,Category baseline 4/10.,2026-08-27
+walita-fp-hr7304-90,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+walita-fp-hr7304-90,USER_JOB,Cook meals faster,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Cozinha (Kitchen)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+walita-fp-hr7304-90,USER_JOB,Reduce oil/fat in cooking,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Cozinha (Kitchen)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+walita-fp-hr7304-90,NEED,health-conscious eating,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Cozinha (Kitchen)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+walita-fp-hr7304-90,NEED,time saving,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Cozinha (Kitchen)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+walita-vac-xc2011-01,SPACE,Floor (whole home),10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Aspiradores (Vacuums)' category (rule-based estimate per world, not measured per-household).",2026-08-27
+walita-vac-xc2011-01,SPACE,Living,8,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Aspiradores (Vacuums)' category (rule-based estimate per world, not measured per-household).",2026-08-27
+walita-vac-xc2011-01,SPACE,Kitchen,6,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Aspiradores (Vacuums)' category (rule-based estimate per world, not measured per-household).",2026-08-27
+walita-vac-xc2011-01,SPACE,Bedroom,6,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Aspiradores (Vacuums)' category (rule-based estimate per world, not measured per-household).",2026-08-27
+walita-vac-xc2011-01,MEDIUM,Surface,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+walita-vac-xc2011-01,MEDIUM,Water,4,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+walita-vac-xc2011-01,CAPABILITY,Floor Cleaning,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+walita-vac-xc2011-01,INTELLIGENCE,Manual,3,RULE_DERIVED,No sensor/connectivity/adaptive spec observed on this SKU.,2026-08-27
+walita-vac-xc2011-01,MAINTENANCE,Ownership touch/maintenance burden,6,ESTIMATED_JUDGMENT,Category baseline 6/10.,2026-08-27
+walita-vac-xc2011-01,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+walita-vac-xc2011-01,USER_JOB,Keep floors clean with less effort,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Aspiradores (Vacuums)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+walita-vac-xc2011-01,USER_JOB,Avoid manual vacuuming/mopping,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Aspiradores (Vacuums)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+walita-vac-xc2011-01,NEED,low effort,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Aspiradores (Vacuums)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+walita-vac-xc2011-01,NEED,trust the device works unattended,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Aspiradores (Vacuums)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+walita-hum-hu1510-04,SPACE,Bedroom,9,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Climatizacao (Climate)' category (rule-based estimate per world, not measured per-household).",2026-08-27
+walita-hum-hu1510-04,SPACE,Living,8,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Climatizacao (Climate)' category (rule-based estimate per world, not measured per-household).",2026-08-27
+walita-hum-hu1510-04,SPACE,Bathroom,3,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Climatizacao (Climate)' category (rule-based estimate per world, not measured per-household).",2026-08-27
+walita-hum-hu1510-04,SPACE,Kitchen,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Climatizacao (Climate)' category (rule-based estimate per world, not measured per-household).",2026-08-27
+walita-hum-hu1510-04,MEDIUM,Air,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+walita-hum-hu1510-04,MEDIUM,Digital Information,4,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+walita-hum-hu1510-04,CAPABILITY,Air Filtration,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+walita-hum-hu1510-04,INTELLIGENCE,Reactive/Connected,6,RULE_DERIVED,"Sensor, detection, navigation, or connectivity spec observed without routine-adaptation language.",2026-08-27
+walita-hum-hu1510-04,DIGITAL,Wi-Fi / App Connected,8,RULE_DERIVED,connectivity spec: 'Air+ app',2026-08-27
+walita-hum-hu1510-04,DIGITAL,Air+,7,RULE_DERIVED,Named in connectivity spec: 'Air+ app',2026-08-27
+walita-hum-hu1510-04,MAINTENANCE,Ownership touch/maintenance burden,5,ESTIMATED_JUDGMENT,Category baseline 5/10.,2026-08-27
+walita-hum-hu1510-04,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-air-ac1715-10-br,SPACE,Bedroom,9,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac1715-10-br,SPACE,Living,8,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac1715-10-br,SPACE,Bathroom,3,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac1715-10-br,SPACE,Kitchen,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Air / Climate Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-air-ac1715-10-br,MEDIUM,Air,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-air-ac1715-10-br,MEDIUM,Digital Information,4,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-air-ac1715-10-br,CAPABILITY,Air Filtration,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-air-ac1715-10-br,INTELLIGENCE,Manual,3,RULE_DERIVED,No sensor/connectivity/adaptive spec observed on this SKU.,2026-08-27
+philips-air-ac1715-10-br,MAINTENANCE,Ownership touch/maintenance burden,5,ESTIMATED_JUDGMENT,Category baseline 5/10.,2026-08-27
+philips-air-ac1715-10-br,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-air-ac1715-10-br,USER_JOB,Keep indoor air cleaner,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac1715-10-br,USER_JOB,Respond to pollution episodes,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac1715-10-br,NEED,health-related reassurance,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-air-ac1715-10-br,NEED,comfort,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Air / Climate Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-af-na110-00,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Airfryer' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-af-na110-00,SPACE,Living,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Airfryer' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-af-na110-00,MEDIUM,Food,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-af-na110-00,MEDIUM,Digital Information,2,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-af-na110-00,CAPABILITY,Food Preparation,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-af-na110-00,INTELLIGENCE,Unclassified,3,ESTIMATED_JUDGMENT,No spec data available for this SKU or its family to classify from.,2026-08-27
+philips-af-na110-00,MAINTENANCE,Ownership touch/maintenance burden,4,ESTIMATED_JUDGMENT,Category baseline 4/10.,2026-08-27
+philips-af-na110-00,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-af-na110-00,USER_JOB,Cook meals faster,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Airfryer' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-af-na110-00,USER_JOB,Reduce oil/fat in cooking,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Airfryer' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-af-na110-00,NEED,health-conscious eating,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Airfryer' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-af-na110-00,NEED,time saving,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Airfryer' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-af-na220-00,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Airfryer' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-af-na220-00,SPACE,Living,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Airfryer' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-af-na220-00,MEDIUM,Food,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-af-na220-00,MEDIUM,Digital Information,2,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-af-na220-00,CAPABILITY,Food Preparation,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-af-na220-00,INTELLIGENCE,Unclassified,3,ESTIMATED_JUDGMENT,No spec data available for this SKU or its family to classify from.,2026-08-27
+philips-af-na220-00,MAINTENANCE,Ownership touch/maintenance burden,4,ESTIMATED_JUDGMENT,Category baseline 4/10.,2026-08-27
+philips-af-na220-00,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-af-na220-00,USER_JOB,Cook meals faster,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Airfryer' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-af-na220-00,USER_JOB,Reduce oil/fat in cooking,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Airfryer' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-af-na220-00,NEED,health-conscious eating,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Airfryer' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-af-na220-00,NEED,time saving,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Airfryer' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-af-na352-00,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Airfryer' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-af-na352-00,SPACE,Living,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Airfryer' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-af-na352-00,MEDIUM,Food,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-af-na352-00,MEDIUM,Digital Information,2,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-af-na352-00,CAPABILITY,Food Preparation,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-af-na352-00,INTELLIGENCE,Unclassified,3,ESTIMATED_JUDGMENT,No spec data available for this SKU or its family to classify from.,2026-08-27
+philips-af-na352-00,MAINTENANCE,Ownership touch/maintenance burden,4,ESTIMATED_JUDGMENT,Category baseline 4/10.,2026-08-27
+philips-af-na352-00,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-af-na352-00,USER_JOB,Cook meals faster,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Airfryer' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-af-na352-00,USER_JOB,Reduce oil/fat in cooking,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Airfryer' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-af-na352-00,NEED,health-conscious eating,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Airfryer' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-af-na352-00,NEED,time saving,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Airfryer' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-af-na555-00,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Airfryer' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-af-na555-00,SPACE,Living,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Airfryer' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-af-na555-00,MEDIUM,Food,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-af-na555-00,MEDIUM,Digital Information,2,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-af-na555-00,CAPABILITY,Food Preparation,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-af-na555-00,INTELLIGENCE,Manual,3,RULE_DERIVED,No sensor/connectivity/adaptive spec observed on this SKU.,2026-08-27
+philips-af-na555-00,MAINTENANCE,Ownership touch/maintenance burden,4,ESTIMATED_JUDGMENT,Category baseline 4/10.,2026-08-27
+philips-af-na555-00,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-af-na555-00,USER_JOB,Cook meals faster,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Airfryer' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-af-na555-00,USER_JOB,Reduce oil/fat in cooking,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Airfryer' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-af-na555-00,NEED,health-conscious eating,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Airfryer' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-af-na555-00,NEED,time saving,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Airfryer' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-af-hd9880-90,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Airfryer' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-af-hd9880-90,SPACE,Living,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Airfryer' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-af-hd9880-90,MEDIUM,Food,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-af-hd9880-90,MEDIUM,Digital Information,2,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-af-hd9880-90,CAPABILITY,Food Preparation,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-af-hd9880-90,CAPABILITY,Multi-Mode Cooking,6,RULE_DERIVED,"Observed spec field 'cooking_modes'='22 functions, 80+ auto-cook' (own SKU).",2026-08-27
+philips-af-hd9880-90,INTELLIGENCE,Reactive/Connected,6,RULE_DERIVED,"Sensor, detection, navigation, or connectivity spec observed without routine-adaptation language.",2026-08-27
+philips-af-hd9880-90,DIGITAL,Wi-Fi / App Connected,8,RULE_DERIVED,connectivity spec: 'WiFi + HomeID app',2026-08-27
+philips-af-hd9880-90,DIGITAL,HomeID,7,RULE_DERIVED,Named in connectivity spec: 'WiFi + HomeID app',2026-08-27
+philips-af-hd9880-90,MAINTENANCE,Ownership touch/maintenance burden,4,ESTIMATED_JUDGMENT,Category baseline 4/10.,2026-08-27
+philips-af-hd9880-90,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-af-hd9880-90,USER_JOB,Cook meals faster,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Airfryer' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-af-hd9880-90,USER_JOB,Reduce oil/fat in cooking,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Airfryer' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-af-hd9880-90,NEED,health-conscious eating,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Airfryer' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-af-hd9880-90,NEED,time saving,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Airfryer' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-ck-hd3095-87,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Cooking (Multicooker, Steamer, Grill)' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-ck-hd3095-87,SPACE,Living,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Cooking (Multicooker, Steamer, Grill)' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-ck-hd3095-87,MEDIUM,Food,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-ck-hd3095-87,MEDIUM,Digital Information,2,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-ck-hd3095-87,CAPABILITY,Food Preparation,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-ck-hd3095-87,CAPABILITY,Multi-Mode Cooking,6,RULE_DERIVED,Observed spec field 'cooking_modes'='10 preset programs' (own SKU).,2026-08-27
+philips-ck-hd3095-87,INTELLIGENCE,Manual,3,RULE_DERIVED,No sensor/connectivity/adaptive spec observed on this SKU.,2026-08-27
+philips-ck-hd3095-87,MAINTENANCE,Ownership touch/maintenance burden,4,ESTIMATED_JUDGMENT,Category baseline 4/10.,2026-08-27
+philips-ck-hd3095-87,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-ck-hd3095-87,USER_JOB,Cook meals faster,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Cooking (Multicooker, Steamer, Grill)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-ck-hd3095-87,USER_JOB,Reduce oil/fat in cooking,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Cooking (Multicooker, Steamer, Grill)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-ck-hd3095-87,NEED,health-conscious eating,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Cooking (Multicooker, Steamer, Grill)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-ck-hd3095-87,NEED,time saving,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Cooking (Multicooker, Steamer, Grill)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-bl-hr2767-00,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Blending' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-bl-hr2767-00,SPACE,Living,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Blending' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-bl-hr2767-00,MEDIUM,Food,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-bl-hr2767-00,MEDIUM,Digital Information,2,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-bl-hr2767-00,CAPABILITY,Food Preparation,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-bl-hr2767-00,INTELLIGENCE,Manual,3,RULE_DERIVED,No sensor/connectivity/adaptive spec observed on this SKU.,2026-08-27
+philips-bl-hr2767-00,MAINTENANCE,Ownership touch/maintenance burden,4,ESTIMATED_JUDGMENT,Category baseline 4/10.,2026-08-27
+philips-bl-hr2767-00,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-bl-hr2767-00,USER_JOB,Cook meals faster,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Blending' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-bl-hr2767-00,USER_JOB,Reduce oil/fat in cooking,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Blending' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-bl-hr2767-00,NEED,health-conscious eating,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Blending' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-bl-hr2767-00,NEED,time saving,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Blending' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-jc-hr1855-70r1,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Juicing' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-jc-hr1855-70r1,SPACE,Living,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Juicing' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-jc-hr1855-70r1,MEDIUM,Food,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-jc-hr1855-70r1,MEDIUM,Digital Information,2,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-jc-hr1855-70r1,CAPABILITY,Food Preparation,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-jc-hr1855-70r1,INTELLIGENCE,Manual,3,RULE_DERIVED,No sensor/connectivity/adaptive spec observed on this SKU.,2026-08-27
+philips-jc-hr1855-70r1,MAINTENANCE,Ownership touch/maintenance burden,4,ESTIMATED_JUDGMENT,Category baseline 4/10.,2026-08-27
+philips-jc-hr1855-70r1,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-jc-hr1855-70r1,USER_JOB,Cook meals faster,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Juicing' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-jc-hr1855-70r1,USER_JOB,Reduce oil/fat in cooking,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Juicing' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-jc-hr1855-70r1,NEED,health-conscious eating,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Juicing' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-jc-hr1855-70r1,NEED,time saving,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Juicing' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-jc-hr1897-34,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Juicing' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-jc-hr1897-34,SPACE,Living,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Juicing' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-jc-hr1897-34,MEDIUM,Food,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-jc-hr1897-34,MEDIUM,Digital Information,2,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-jc-hr1897-34,CAPABILITY,Food Preparation,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-jc-hr1897-34,INTELLIGENCE,Unclassified,3,ESTIMATED_JUDGMENT,No spec data available for this SKU or its family to classify from.,2026-08-27
+philips-jc-hr1897-34,MAINTENANCE,Ownership touch/maintenance burden,4,ESTIMATED_JUDGMENT,Category baseline 4/10.,2026-08-27
+philips-jc-hr1897-34,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-jc-hr1897-34,USER_JOB,Cook meals faster,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Juicing' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-jc-hr1897-34,USER_JOB,Reduce oil/fat in cooking,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Juicing' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-jc-hr1897-34,NEED,health-conscious eating,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Juicing' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-jc-hr1897-34,NEED,time saving,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Juicing' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-bf-hd2383-22,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Breakfast (Toaster, Kettle, Sandwich Maker)' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-bf-hd2383-22,SPACE,Living,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Breakfast (Toaster, Kettle, Sandwich Maker)' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-bf-hd2383-22,MEDIUM,Food,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-bf-hd2383-22,MEDIUM,Digital Information,2,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-bf-hd2383-22,CAPABILITY,Food Preparation,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-bf-hd2383-22,INTELLIGENCE,Manual,3,RULE_DERIVED,No sensor/connectivity/adaptive spec observed on this SKU.,2026-08-27
+philips-bf-hd2383-22,MAINTENANCE,Ownership touch/maintenance burden,4,ESTIMATED_JUDGMENT,Category baseline 4/10.,2026-08-27
+philips-bf-hd2383-22,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-bf-hd2383-22,USER_JOB,Cook meals faster,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Breakfast (Toaster, Kettle, Sandwich Maker)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-bf-hd2383-22,USER_JOB,Reduce oil/fat in cooking,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Breakfast (Toaster, Kettle, Sandwich Maker)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-bf-hd2383-22,NEED,health-conscious eating,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Breakfast (Toaster, Kettle, Sandwich Maker)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-bf-hd2383-22,NEED,time saving,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Breakfast (Toaster, Kettle, Sandwich Maker)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-bf-hd9365-10,SPACE,Kitchen,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Breakfast (Toaster, Kettle, Sandwich Maker)' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-bf-hd9365-10,SPACE,Living,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Breakfast (Toaster, Kettle, Sandwich Maker)' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-bf-hd9365-10,MEDIUM,Food,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-bf-hd9365-10,MEDIUM,Digital Information,2,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-bf-hd9365-10,CAPABILITY,Food Preparation,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-bf-hd9365-10,INTELLIGENCE,Manual,3,RULE_DERIVED,No sensor/connectivity/adaptive spec observed on this SKU.,2026-08-27
+philips-bf-hd9365-10,MAINTENANCE,Ownership touch/maintenance burden,4,ESTIMATED_JUDGMENT,Category baseline 4/10.,2026-08-27
+philips-bf-hd9365-10,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-bf-hd9365-10,USER_JOB,Cook meals faster,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Breakfast (Toaster, Kettle, Sandwich Maker)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-bf-hd9365-10,USER_JOB,Reduce oil/fat in cooking,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Breakfast (Toaster, Kettle, Sandwich Maker)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-bf-hd9365-10,NEED,health-conscious eating,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Breakfast (Toaster, Kettle, Sandwich Maker)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-bf-hd9365-10,NEED,time saving,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Breakfast (Toaster, Kettle, Sandwich Maker)' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-fc-xu7100-01,SPACE,Floor (whole home),10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Floor Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-fc-xu7100-01,SPACE,Living,8,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Floor Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-fc-xu7100-01,SPACE,Kitchen,6,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Floor Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-fc-xu7100-01,SPACE,Bedroom,6,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Floor Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-fc-xu7100-01,MEDIUM,Surface,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-fc-xu7100-01,MEDIUM,Water,4,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-fc-xu7100-01,CAPABILITY,Floor Cleaning,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-fc-xu7100-01,CAPABILITY,Wet & Dry Cleaning,8,RULE_DERIVED,Observed spec field 'wet_dry'='Yes (vacuum+mop simultaneous)' (own SKU).,2026-08-27
+philips-fc-xu7100-01,CAPABILITY,Autonomous Navigation,8,RULE_DERIVED,"Observed spec field 'navigation'='360 deg laser navigation (LiDAR), saves up to 5 maps' (own SKU).",2026-08-27
+philips-fc-xu7100-01,INTELLIGENCE,Reactive/Connected,6,RULE_DERIVED,"Sensor, detection, navigation, or connectivity spec observed without routine-adaptation language.",2026-08-27
+philips-fc-xu7100-01,MAINTENANCE,Ownership touch/maintenance burden,6,ESTIMATED_JUDGMENT,Category baseline 6/10.,2026-08-27
+philips-fc-xu7100-01,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-fc-xu7100-01,USER_JOB,Keep floors clean with less effort,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Floor Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-fc-xu7100-01,USER_JOB,Avoid manual vacuuming/mopping,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Floor Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-fc-xu7100-01,NEED,low effort,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Floor Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-fc-xu7100-01,NEED,trust the device works unattended,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Floor Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-fc-xw9383-01,SPACE,Floor (whole home),10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Floor Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-fc-xw9383-01,SPACE,Living,8,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Floor Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-fc-xw9383-01,SPACE,Kitchen,6,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Floor Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-fc-xw9383-01,SPACE,Bedroom,6,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Floor Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-fc-xw9383-01,MEDIUM,Surface,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-fc-xw9383-01,MEDIUM,Water,4,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-fc-xw9383-01,CAPABILITY,Floor Cleaning,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-fc-xw9383-01,CAPABILITY,Wet & Dry Cleaning,8,RULE_DERIVED,Observed spec field 'wet_dry'='Yes' (own SKU).,2026-08-27
+philips-fc-xw9383-01,INTELLIGENCE,Manual,3,RULE_DERIVED,No sensor/connectivity/adaptive spec observed on this SKU.,2026-08-27
+philips-fc-xw9383-01,MAINTENANCE,Ownership touch/maintenance burden,6,ESTIMATED_JUDGMENT,Category baseline 6/10.,2026-08-27
+philips-fc-xw9383-01,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-fc-xw9383-01,USER_JOB,Keep floors clean with less effort,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Floor Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-fc-xw9383-01,USER_JOB,Avoid manual vacuuming/mopping,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Floor Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-fc-xw9383-01,NEED,low effort,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Floor Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-fc-xw9383-01,NEED,trust the device works unattended,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Floor Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-fc-fc6904-01,SPACE,Floor (whole home),10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Floor Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-fc-fc6904-01,SPACE,Living,8,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Floor Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-fc-fc6904-01,SPACE,Kitchen,6,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Floor Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-fc-fc6904-01,SPACE,Bedroom,6,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Floor Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-fc-fc6904-01,MEDIUM,Surface,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-fc-fc6904-01,MEDIUM,Water,4,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-fc-fc6904-01,CAPABILITY,Floor Cleaning,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-fc-fc6904-01,INTELLIGENCE,Unclassified,3,ESTIMATED_JUDGMENT,No spec data available for this SKU or its family to classify from.,2026-08-27
+philips-fc-fc6904-01,MAINTENANCE,Ownership touch/maintenance burden,6,ESTIMATED_JUDGMENT,Category baseline 6/10.,2026-08-27
+philips-fc-fc6904-01,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-fc-fc6904-01,USER_JOB,Keep floors clean with less effort,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Floor Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-fc-fc6904-01,USER_JOB,Avoid manual vacuuming/mopping,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Floor Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-fc-fc6904-01,NEED,low effort,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Floor Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-fc-fc6904-01,NEED,trust the device works unattended,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Floor Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-fc-fc9729-09,SPACE,Floor (whole home),10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Floor Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-fc-fc9729-09,SPACE,Living,8,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Floor Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-fc-fc9729-09,SPACE,Kitchen,6,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Floor Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-fc-fc9729-09,SPACE,Bedroom,6,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Floor Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-fc-fc9729-09,MEDIUM,Surface,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-fc-fc9729-09,MEDIUM,Water,4,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-fc-fc9729-09,CAPABILITY,Floor Cleaning,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-fc-fc9729-09,INTELLIGENCE,Manual,3,RULE_DERIVED,No sensor/connectivity/adaptive spec observed on this SKU.,2026-08-27
+philips-fc-fc9729-09,MAINTENANCE,Ownership touch/maintenance burden,6,ESTIMATED_JUDGMENT,Category baseline 6/10.,2026-08-27
+philips-fc-fc9729-09,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-fc-fc9729-09,USER_JOB,Keep floors clean with less effort,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Floor Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-fc-fc9729-09,USER_JOB,Avoid manual vacuuming/mopping,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Floor Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-fc-fc9729-09,NEED,low effort,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Floor Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-fc-fc9729-09,NEED,trust the device works unattended,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Floor Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-fc-fc8577-09,SPACE,Floor (whole home),10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Floor Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-fc-fc8577-09,SPACE,Living,8,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Floor Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-fc-fc8577-09,SPACE,Kitchen,6,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Floor Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-fc-fc8577-09,SPACE,Bedroom,6,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Floor Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-fc-fc8577-09,MEDIUM,Surface,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-fc-fc8577-09,MEDIUM,Water,4,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-fc-fc8577-09,CAPABILITY,Floor Cleaning,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-fc-fc8577-09,INTELLIGENCE,Unclassified,3,ESTIMATED_JUDGMENT,No spec data available for this SKU or its family to classify from.,2026-08-27
+philips-fc-fc8577-09,MAINTENANCE,Ownership touch/maintenance burden,6,ESTIMATED_JUDGMENT,Category baseline 6/10.,2026-08-27
+philips-fc-fc8577-09,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-fc-fc8577-09,USER_JOB,Keep floors clean with less effort,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Floor Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-fc-fc8577-09,USER_JOB,Avoid manual vacuuming/mopping,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Floor Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-fc-fc8577-09,NEED,low effort,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Floor Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-fc-fc8577-09,NEED,trust the device works unattended,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Floor Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-gc-gc215-20,SPACE,Laundry,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Garment Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-gc-gc215-20,SPACE,Bedroom,3,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Garment Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-gc-gc215-20,SPACE,Living,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Garment Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-gc-gc215-20,SPACE,Bathroom,1,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Garment Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-gc-gc215-20,MEDIUM,Textile,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-gc-gc215-20,MEDIUM,Water,3,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-gc-gc215-20,CAPABILITY,Garment Steaming/Ironing,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-gc-gc215-20,CAPABILITY,Continuous Steaming,8,RULE_DERIVED,Observed spec field 'steam_rate_g_min'='45' (own SKU).,2026-08-27
+philips-gc-gc215-20,INTELLIGENCE,Manual,3,RULE_DERIVED,No sensor/connectivity/adaptive spec observed on this SKU.,2026-08-27
+philips-gc-gc215-20,MAINTENANCE,Ownership touch/maintenance burden,4,ESTIMATED_JUDGMENT,Category baseline 4/10.,2026-08-27
+philips-gc-gc215-20,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-gc-gc215-20,USER_JOB,De-wrinkle clothes quickly,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Garment Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-gc-gc215-20,USER_JOB,Avoid ironing board hassle,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Garment Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-gc-gc215-20,NEED,time saving,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Garment Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-gc-gc215-20,NEED,low effort,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Garment Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-gc-gc9650-80,SPACE,Laundry,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Garment Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-gc-gc9650-80,SPACE,Bedroom,3,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Garment Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-gc-gc9650-80,SPACE,Living,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Garment Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-gc-gc9650-80,SPACE,Bathroom,1,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Garment Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-gc-gc9650-80,MEDIUM,Textile,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-gc-gc9650-80,MEDIUM,Water,3,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-gc-gc9650-80,CAPABILITY,Garment Steaming/Ironing,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-gc-gc9650-80,CAPABILITY,Continuous Steaming,8,RULE_DERIVED,Observed spec field 'steam_rate_g_min'='150 continuous' (own SKU).,2026-08-27
+philips-gc-gc9650-80,INTELLIGENCE,Manual,3,RULE_DERIVED,No sensor/connectivity/adaptive spec observed on this SKU.,2026-08-27
+philips-gc-gc9650-80,MAINTENANCE,Ownership touch/maintenance burden,4,ESTIMATED_JUDGMENT,Category baseline 4/10.,2026-08-27
+philips-gc-gc9650-80,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-gc-gc9650-80,USER_JOB,De-wrinkle clothes quickly,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Garment Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-gc-gc9650-80,USER_JOB,Avoid ironing board hassle,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Garment Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-gc-gc9650-80,NEED,time saving,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Garment Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-gc-gc9650-80,NEED,low effort,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Garment Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-gc-gc9682-86,SPACE,Laundry,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Garment Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-gc-gc9682-86,SPACE,Bedroom,3,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Garment Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-gc-gc9682-86,SPACE,Living,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Garment Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-gc-gc9682-86,SPACE,Bathroom,1,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Garment Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-gc-gc9682-86,MEDIUM,Textile,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-gc-gc9682-86,MEDIUM,Water,3,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-gc-gc9682-86,CAPABILITY,Garment Steaming/Ironing,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-gc-gc9682-86,CAPABILITY,Continuous Steaming,8,RULE_DERIVED,Observed spec field 'steam_rate_g_min'='150 continuous' (inherited from family sibling (no own spec row)).,2026-08-27
+philips-gc-gc9682-86,INTELLIGENCE,Unclassified,3,ESTIMATED_JUDGMENT,No spec data available for this SKU or its family to classify from.,2026-08-27
+philips-gc-gc9682-86,MAINTENANCE,Ownership touch/maintenance burden,4,ESTIMATED_JUDGMENT,Category baseline 4/10.,2026-08-27
+philips-gc-gc9682-86,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-gc-gc9682-86,USER_JOB,De-wrinkle clothes quickly,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Garment Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-gc-gc9682-86,USER_JOB,Avoid ironing board hassle,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Garment Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-gc-gc9682-86,NEED,time saving,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Garment Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-gc-gc9682-86,NEED,low effort,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Garment Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-gc-gc628-86,SPACE,Laundry,10,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Garment Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-gc-gc628-86,SPACE,Bedroom,3,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Garment Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-gc-gc628-86,SPACE,Living,2,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Garment Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-gc-gc628-86,SPACE,Bathroom,1,ESTIMATED_JUDGMENT,"Typical primary-use zone for the 'Garment Care' category (rule-based estimate per world, not measured per-household).",2026-08-27
+philips-gc-gc628-86,MEDIUM,Textile,10,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-gc-gc628-86,MEDIUM,Water,3,ESTIMATED_JUDGMENT,Typical phenomenon/substrate this category acts on (rule-based estimate per world).,2026-08-27
+philips-gc-gc628-86,CAPABILITY,Garment Steaming/Ironing,10,ESTIMATED_JUDGMENT,Category-definitional primary function.,2026-08-27
+philips-gc-gc628-86,CAPABILITY,Continuous Steaming,8,RULE_DERIVED,Observed spec field 'steam_rate_g_min'='90 continuous' (own SKU).,2026-08-27
+philips-gc-gc628-86,INTELLIGENCE,Manual,3,RULE_DERIVED,No sensor/connectivity/adaptive spec observed on this SKU.,2026-08-27
+philips-gc-gc628-86,MAINTENANCE,Ownership touch/maintenance burden,4,ESTIMATED_JUDGMENT,Category baseline 4/10.,2026-08-27
+philips-gc-gc628-86,LIFECYCLE,Current,10,RULE_DERIVED,Directly observed current_status field: CURRENT.,2026-08-27
+philips-gc-gc628-86,USER_JOB,De-wrinkle clothes quickly,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Garment Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-gc-gc628-86,USER_JOB,Avoid ironing board hassle,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Garment Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-gc-gc628-86,NEED,time saving,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Garment Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+philips-gc-gc628-86,NEED,low effort,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Garment Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27

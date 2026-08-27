@@ -1,0 +1,45 @@
+competitor_product_id,country,price_type,value,currency,observed_at,source_id
+sharkninja-ninja-foodi-dz401,United States,OFFICIAL_PRICE,179.99,USD,2026-08-27,src-9ba03f99dcf9
+cosori-pro-le-caf-l501,United States,OFFICIAL_PRICE,89.99,USD,2026-08-27,src-089ce0adba1b
+bajaj-gx15-mixer,India,OFFICIAL_PRICE,4125,INR,2026-08-27,src-720009f00dec
+bajaj-glamore-1000w,India,OFFICIAL_PRICE,10790,INR,2026-08-27,src-bfe5ef7f091d
+instantpot-duo-6qt,United States,OFFICIAL_PRICE,109.99,USD,2026-08-27,src-2a3e7ee4aa25
+vitamix-5200,United States,OFFICIAL_PRICE,679.95,USD,2026-08-27,src-4a6b99eb4579
+tefal-sv9202,Netherlands,OFFICIAL_PRICE,156.09,EUR,2026-08-27,src-158e7c841b67
+tefal-gv9567,Netherlands,OFFICIAL_PRICE,230.99,EUR,2026-08-27,src-158e7c841b67
+tefal-gv9810,Netherlands,OFFICIAL_PRICE,289.09,EUR,2026-08-27,src-158e7c841b67
+braun-carestyle5,Germany,OFFICIAL_PRICE,239.90,EUR,2026-08-27,src-fbbd8c1352f5
+braun-carestyle7pro,Germany,PROMOTIONAL,349.65,EUR,2026-08-27,src-25f112436434
+steamone-george2,France,OFFICIAL_PRICE,249.00,EUR,2026-08-27,src-ac27ca188853
+dyson-purifier-cool-tp07,Netherlands,OFFICIAL_PRICE,649.00,EUR,2026-08-27,src-68e8e6b0abd8
+dyson-purifier-humidify-cool-ph04,Netherlands,OFFICIAL_PRICE,799.00,EUR,2026-08-27,src-af1d52555c1a
+ikea-starkvind,Netherlands,OFFICIAL_PRICE,119.00,EUR,2026-08-27,src-8d1a8fa1b680
+winix-t800,United Kingdom,PROMOTIONAL,129.00,GBP,2026-08-27,src-9652b0161bd0
+coway-airmega-150,United Kingdom,PROMOTIONAL,159.99,GBP,2026-08-27,src-a80922df1d87
+coway-airmega-mighty,United Kingdom,OFFICIAL_PRICE,219.99,GBP,2026-08-27,src-3f5eebb68a41
+levoit-core-300s,United Kingdom,OFFICIAL_PRICE,149.99,GBP,2026-08-27,src-4248e3ef755d
+levoit-oasismist,United Kingdom,OFFICIAL_PRICE,99.99,GBP,2026-08-27,src-2c7426755806
+delonghi-magnifica-evo,Netherlands,OFFICIAL_PRICE,374,EUR,2026-08-27,src-c426ade87532
+delonghi-primadonna-soul,Netherlands,OFFICIAL_PRICE,999,EUR,2026-08-27,src-376315dbcccd
+jura-e8,Netherlands,OFFICIAL_PRICE,1079,EUR,2026-08-27,src-2803765b861a
+melitta-barista-t-smart,Netherlands,OFFICIAL_PRICE,743,EUR,2026-08-27,src-2302286267a9
+nespresso-vertuo-next,Netherlands,OFFICIAL_PRICE,149,EUR,2026-08-27,src-13bf8991ff89
+sage-barista-express,Netherlands,OFFICIAL_PRICE,493,EUR,2026-08-27,src-aced02fcbd4d
+krups-dolce-gusto-piccolo-xs,Netherlands,OFFICIAL_PRICE,59,EUR,2026-08-27,src-1ace9a2c2e28
+dyson-v15-detect-absolute,Netherlands,OFFICIAL_PRICE,799.00,EUR,2026-08-27,src-d54e88f5960e
+shark-powerdetect-speed-ia3241eut,Netherlands,OFFICIAL_PRICE,429.99,EUR,2026-08-27,src-e1d0c2858132
+roborock-dyad-pro-combo,United States,PROMOTIONAL,249.99,USD,2026-08-27,src-cf0e0969e303
+tineco-floor-one-s9-artist,Germany,PROMOTIONAL,429.00,EUR,2026-08-27,src-c6d094d46de5
+miele-triflex-hx2-catdog,Netherlands,OFFICIAL_PRICE,699.00,EUR,2026-08-27,src-c6173f67599e
+bosch-unlimited7-prohygienic,Netherlands,OFFICIAL_PRICE,499.00,EUR,2026-08-27,src-53bfdbca981c
+electrolux-ergorapido-erg25n,Brazil,PROMOTIONAL,799.90,BRL,2026-08-27,src-4a3bd5e9b40e
+ring-doorbell-plus-2ndgen,EU,OFFICIAL_PRICE,119.99,EUR,2026-08-27,src-c1db2b75cb74
+eufy-doorbell-e340,United States,OFFICIAL_PRICE,149.99,USD,2026-08-27,src-bb50e9b26f16
+eufy-indoor-cam-c220,EU,OFFICIAL_PRICE,39.00,EUR,2026-08-27,src-ea7137f4476d
+ezviz-db1c,United States,OFFICIAL_PRICE,49.99,USD,2026-08-27,src-601acb2b537e
+surefeed-microchip-connect,United Kingdom,OFFICIAL_PRICE,155.00,GBP,2026-08-27,src-7b142201fdb4
+petlibro-granary-smart-camera,United Kingdom,OFFICIAL_PRICE,149.99,GBP,2026-08-27,src-bc0adbc54262
+surepetcare-felaqua-connect,United Kingdom,OFFICIAL_PRICE,73.50,GBP,2026-08-27,src-cf374721b4d5
+catit-pixi-fountain,United Kingdom,OFFICIAL_PRICE,40.00,GBP,2026-08-27,src-32c26136ecbd
+ecovacs-goat-a3000,Netherlands,OFFICIAL_PRICE,2299.00,EUR,2026-08-27,src-aea595e29612
+worx-landroid-m,United States,OFFICIAL_PRICE,599.99,USD,2026-08-27,src-8c71bcc6226b

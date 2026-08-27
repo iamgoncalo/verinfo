@@ -1,0 +1,25 @@
+cert_id,competitor_product_id,certification_body,certification_ref,status,source_id,establishes_note
+ccert-dyson-purifier-cool-tp07-0,dyson-purifier-cool-tp07,AHAM Verifide,,NOT_FOUND,src-f4b51ffe4353,AHAM Verifide = independently measured CADR under an AHAM standard test; does not establish health benefit. Brand search 'Dyson' returned 0 results.
+ccert-dyson-purifier-cool-tp07-1,dyson-purifier-cool-tp07,ENERGY STAR,,NOT_FOUND,src-c29273de96d7,ENERGY STAR = energy efficiency only; does not establish purification effectiveness. 0 rows for brand DYSON.
+ccert-dyson-purifier-cool-tp07-2,dyson-purifier-cool-tp07,CARB,,CONFIRMED_IN_REGISTRY,src-0d276360b911,CARB = electrical-safety/ozone-emission compliance (Mechanical category = no ozone generation); does not establish purification effectiveness. Row found: dyson | Air Purifier Fan Heater | TP07 | Mechanical | 2020-12-16 | G-20-295.
+ccert-dyson-purifier-humidify-cool-ph04-3,dyson-purifier-humidify-cool-ph04,AHAM Verifide,,NOT_FOUND,src-f4b51ffe4353,0 results for Dyson.
+ccert-dyson-purifier-humidify-cool-ph04-4,dyson-purifier-humidify-cool-ph04,ENERGY STAR,,NOT_FOUND,src-c29273de96d7,0 rows for DYSON.
+ccert-dyson-purifier-humidify-cool-ph04-5,dyson-purifier-humidify-cool-ph04,CARB,,NOT_FOUND,src-0d276360b911,"17 dyson rows checked; only PH01/PH02 Humidify+Cool models present, not PH04 Formaldehyde."
+ccert-ikea-starkvind-6,ikea-starkvind,AHAM Verifide,,NOT_FOUND,src-f4b51ffe4353,"4 IKEA entries exist (E2007, E2006, E1916, E2111) but none conclusively matched to retail article 605.020.13/STARKVIND -- ambiguous match, not counted as confirmed."
+ccert-ikea-starkvind-7,ikea-starkvind,ENERGY STAR,,NOT_FOUND,src-c29273de96d7,"Only E1916, E2111 rows for IKEA; no STARKVIND name/CADR match."
+ccert-ikea-starkvind-8,ikea-starkvind,CARB,,NOT_FOUND,src-0d276360b911,Searched IKEA and STARKVIND -- 0 results.
+ccert-winix-t800-9,winix-t800,AHAM Verifide,,NOT_FOUND,src-f4b51ffe4353,25 Winix entries checked; searched T800 directly -- 0 results.
+ccert-winix-t800-10,winix-t800,ENERGY STAR,,NOT_FOUND,src-c29273de96d7,"WINIX rows: AT40, C610, C710, T810, Tower XQ -- no T800."
+ccert-winix-t800-11,winix-t800,CARB,,NOT_FOUND,src-0d276360b911,"39 Winix rows checked, no T800/AT8U457-NWE."
+ccert-coway-airmega-150-12,coway-airmega-150,AHAM Verifide,,NOT_FOUND,src-f4b51ffe4353,"Searched Coway, Airmega -- 0 results. Third-party reviews claim AHAM status but could not be verified in AHAM's own current online directory."
+ccert-coway-airmega-150-13,coway-airmega-150,ENERGY STAR,,NOT_FOUND,src-c29273de96d7,"Coway/Airmega rows present (100, 300, 350, 400, 450, 450S, ProX, etc) but no Airmega 150."
+ccert-coway-airmega-150-14,coway-airmega-150,CARB,,CONFIRMED_IN_REGISTRY,src-0d276360b911,Row: Coway airmega | Air Purifier | Airmega 150[W] | Mechanical | 2020-11-23 | G-20-268. Ozone/electrical-safety compliance only; not effectiveness.
+ccert-coway-airmega-mighty-15,coway-airmega-mighty,AHAM Verifide,,NOT_FOUND,src-f4b51ffe4353,"Searched Coway, Airmega, Mighty, 1512 -- 0 results each. Third-party claims exist but not verified in AHAM's own directory."
+ccert-coway-airmega-mighty-16,coway-airmega-mighty,ENERGY STAR,,NOT_FOUND,src-c29273de96d7,No AP-1512HH row in Coway/Airmega list.
+ccert-coway-airmega-mighty-17,coway-airmega-mighty,CARB,,CONFIRMED_IN_REGISTRY,src-0d276360b911,Rows: AP-1512HH | Electronic | 2016-01-04 | G-16-011 and AP-1512HH[W] same EO. Listed as Electronic category (tested to 50 ppb ozone limit). Ozone/electrical-safety compliance only.
+ccert-levoit-core-300s-18,levoit-core-300s,AHAM Verifide,,CONFIRMED_IN_REGISTRY,src-f4b51ffe4353,"Row: LEVOIT - Core 300S, Room Size 219 sq ft, Smoke CADR 141, Dust CADR 156, PM2.5 CADR 148, Pollen CADR 175, mfr Arovast Corporation (Levoit/VeSync's corporate entity). Listed by product name not full SKU LAP-C301S -- reasonably the same product but SKU-level match not literal. Measured CADR under AHAM standard test; not a health claim."
+ccert-levoit-core-300s-19,levoit-core-300s,ENERGY STAR,,NOT_FOUND,src-c29273de96d7,"LEVOIT rows present (Core 400S, LAP-B851S, etc) but no Core 300S/LAP-C301S."
+ccert-levoit-core-300s-20,levoit-core-300s,CARB,,NOT_FOUND,src-0d276360b911,"28 Levoit rows checked -- Core 300, Core 300-PA, Core200S, Core P350 present, but not Core 300S."
+ccert-levoit-oasismist-21,levoit-oasismist,AHAM Verifide,,NOT_FOUND,src-f4b51ffe4353,AHAM Verifide's Room Air Cleaner program does not cover humidifiers as a category.
+ccert-levoit-oasismist-22,levoit-oasismist,ENERGY STAR,,NOT_FOUND,src-c29273de96d7,Humidifiers are a different/uncovered category for this ENERGY STAR program.
+ccert-levoit-oasismist-23,levoit-oasismist,CARB,,NOT_FOUND,src-0d276360b911,Searched OasisMist -- 0 results. CARB's air-cleaner-device program targets ozone emission from air cleaning devices; humidifiers are not the same regulated category.

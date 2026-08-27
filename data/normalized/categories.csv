@@ -1,0 +1,31 @@
+category_id,brand_id,category_name,local_market_names,parent_category_id,status,source_ids,notes
+preethi-mixer-grinders,preethi,Mixer Grinders,,,VERIFIED,src-preethi-004,"Flagship/core category, largest SKU count"
+preethi-gas-stoves,preethi,Gas Stoves,,,VERIFIED,src-preethi-005,"Manual and auto-ignition, glass-top and steel-top"
+preethi-induction-cooktops,preethi,Induction Cooktops,,,VERIFIED,src-preethi-007,Indicook sub-brand naming
+preethi-chimneys,preethi,Kitchen Chimneys,,,VERIFIED,src-preethi-008,"Auto-clean, wall-mounted"
+preethi-pressure-cookers,preethi,Pressure Cookers,,,VERIFIED,src-preethi-009,"Aluminium, Stainless Steel, Tri-Ply series"
+preethi-cookware,preethi,Cookware,,,VERIFIED,src-preethi-006,"Kadai, fry pans (non-stick)"
+preethi-coffee-makers,preethi,Coffee Makers,,,CANDIDATE,src-preethi-003,Present in nav; not deep-dived this pass
+preethi-electric-cookers,preethi,Electric Cookers,,,CANDIDATE,src-preethi-003,Present in nav; not deep-dived this pass
+preethi-electric-kettles,preethi,Electric Kettles,,,CANDIDATE,src-preethi-003,Present in nav; not deep-dived this pass
+preethi-hand-blenders-juicers,preethi,Hand Blenders / Juicers,,,CANDIDATE,src-preethi-003,Sold mainly as combo SKUs with mixer grinders; not deep-dived
+philips-air-climate,philips,Air / Climate Care,,,VERIFIED,src-73f7b32c78d2,"Air purifiers, humidifiers, fans, heaters"
+philips-coffee,philips,Coffee,,,VERIFIED,src-c7773721288c,
+saeco-coffee,saeco,Super-automatic Espresso,,,VERIFIED,src-f5f26fe9195c,
+gaggia-coffee,gaggia,Manual/Automatic Espresso,,,VERIFIED,src-e61ea6ec7c22,
+senseo-coffee,senseo,Pod Coffee,,,VERIFIED,src-cc15b0eeed35,
+lor-barista-coffee,lor-barista,Capsule Coffee,,,VERIFIED,src-f8631c28b2ba,
+philips-home-safety,philips,Home Safety,,,VERIFIED,src-c80642145334,
+philips-pet-care,philips,Pet Care,,,VERIFIED,src-0603904fe75e,
+philips-garden-care,philips,Garden Care,,,VERIFIED,src-54bf843d38d7,
+walita-kitchen,philips-walita,Cozinha (Kitchen),,,VERIFIED,src-126ff0bd7deb,"Air fryers, espresso machines, blenders, food processors, mixers, kettles, juicers"
+walita-garment,philips-walita,Cuidados com a Roupa (Garment Care),,,VERIFIED,src-126ff0bd7deb,"Irons (PerfectCare), steamers, fabric shavers"
+walita-vacuums,philips-walita,Aspiradores (Vacuums),,,VERIFIED,src-126ff0bd7deb,Cordless/vertical stick vacuums
+walita-climate,philips-walita,Climatizacao (Climate),,,VERIFIED,src-126ff0bd7deb,"Fans, humidifiers -- no air purifiers under Walita brand"
+philips-airfryer,philips,Airfryer,,,VERIFIED,src-9929a410b9c4,
+philips-cooking,philips,"Cooking (Multicooker, Steamer, Grill)",,,VERIFIED,src-43e5c3004cfa,
+philips-blending,philips,Blending,,,VERIFIED,src-c16918d241b9,
+philips-juicing,philips,Juicing,,,VERIFIED,src-cd2597ed8a84,
+philips-breakfast,philips,"Breakfast (Toaster, Kettle, Sandwich Maker)",,,VERIFIED,src-8518e34a6689,
+philips-floor-care,philips,Floor Care,,,VERIFIED,src-155e5f1784c5,
+philips-garment-care,philips,Garment Care,,,VERIFIED,src-36ebda3b8cc1,

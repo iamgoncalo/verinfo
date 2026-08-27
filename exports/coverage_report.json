@@ -1,0 +1,355 @@
+{
+  "generated_at": "2026-08-26",
+  "by_brand": {
+    "preethi": {
+      "brand_name": "Preethi",
+      "families": 17,
+      "accepted_skus": 15,
+      "current_skus": 15,
+      "current_sku_image_coverage_pct": 100.0,
+      "current_sku_price_coverage_pct": 100.0
+    },
+    "philips": {
+      "brand_name": "Philips",
+      "families": 45,
+      "accepted_skus": 47,
+      "current_skus": 40,
+      "current_sku_image_coverage_pct": 100.0,
+      "current_sku_price_coverage_pct": 57.5
+    },
+    "saeco": {
+      "brand_name": "Saeco",
+      "families": 3,
+      "accepted_skus": 3,
+      "current_skus": 3,
+      "current_sku_image_coverage_pct": 100.0,
+      "current_sku_price_coverage_pct": 100.0
+    },
+    "gaggia": {
+      "brand_name": "Gaggia",
+      "families": 1,
+      "accepted_skus": 1,
+      "current_skus": 1,
+      "current_sku_image_coverage_pct": 100.0,
+      "current_sku_price_coverage_pct": 0.0
+    },
+    "senseo": {
+      "brand_name": "Senseo",
+      "families": 1,
+      "accepted_skus": 1,
+      "current_skus": 1,
+      "current_sku_image_coverage_pct": 100.0,
+      "current_sku_price_coverage_pct": 0.0
+    },
+    "lor-barista": {
+      "brand_name": "L'OR Barista",
+      "families": 1,
+      "accepted_skus": 1,
+      "current_skus": 1,
+      "current_sku_image_coverage_pct": 100.0,
+      "current_sku_price_coverage_pct": 0.0
+    },
+    "philips-walita": {
+      "brand_name": "Philips Walita",
+      "families": 12,
+      "accepted_skus": 8,
+      "current_skus": 8,
+      "current_sku_image_coverage_pct": 100.0,
+      "current_sku_price_coverage_pct": 75.0
+    }
+  },
+  "by_category": {
+    "preethi-mixer-grinders": {
+      "category_name": "Mixer Grinders",
+      "brand_id": "preethi",
+      "families": 5,
+      "accepted_skus": 5,
+      "current_skus": 5,
+      "current_sku_image_coverage_pct": 100.0,
+      "current_sku_price_coverage_pct": 100.0
+    },
+    "preethi-gas-stoves": {
+      "category_name": "Gas Stoves",
+      "brand_id": "preethi",
+      "families": 5,
+      "accepted_skus": 3,
+      "current_skus": 3,
+      "current_sku_image_coverage_pct": 100.0,
+      "current_sku_price_coverage_pct": 100.0
+    },
+    "preethi-induction-cooktops": {
+      "category_name": "Induction Cooktops",
+      "brand_id": "preethi",
+      "families": 1,
+      "accepted_skus": 2,
+      "current_skus": 2,
+      "current_sku_image_coverage_pct": 100.0,
+      "current_sku_price_coverage_pct": 100.0
+    },
+    "preethi-chimneys": {
+      "category_name": "Kitchen Chimneys",
+      "brand_id": "preethi",
+      "families": 2,
+      "accepted_skus": 2,
+      "current_skus": 2,
+      "current_sku_image_coverage_pct": 100.0,
+      "current_sku_price_coverage_pct": 100.0
+    },
+    "preethi-pressure-cookers": {
+      "category_name": "Pressure Cookers",
+      "brand_id": "preethi",
+      "families": 2,
+      "accepted_skus": 1,
+      "current_skus": 1,
+      "current_sku_image_coverage_pct": 100.0,
+      "current_sku_price_coverage_pct": 100.0
+    },
+    "preethi-cookware": {
+      "category_name": "Cookware",
+      "brand_id": "preethi",
+      "families": 2,
+      "accepted_skus": 2,
+      "current_skus": 2,
+      "current_sku_image_coverage_pct": 100.0,
+      "current_sku_price_coverage_pct": 100.0
+    },
+    "preethi-coffee-makers": {
+      "category_name": "Coffee Makers",
+      "brand_id": "preethi",
+      "families": 0,
+      "accepted_skus": 0,
+      "current_skus": 0,
+      "current_sku_image_coverage_pct": null,
+      "current_sku_price_coverage_pct": null
+    },
+    "preethi-electric-cookers": {
+      "category_name": "Electric Cookers",
+      "brand_id": "preethi",
+      "families": 0,
+      "accepted_skus": 0,
+      "current_skus": 0,
+      "current_sku_image_coverage_pct": null,
+      "current_sku_price_coverage_pct": null
+    },
+    "preethi-electric-kettles": {
+      "category_name": "Electric Kettles",
+      "brand_id": "preethi",
+      "families": 0,
+      "accepted_skus": 0,
+      "current_skus": 0,
+      "current_sku_image_coverage_pct": null,
+      "current_sku_price_coverage_pct": null
+    },
+    "preethi-hand-blenders-juicers": {
+      "category_name": "Hand Blenders / Juicers",
+      "brand_id": "preethi",
+      "families": 0,
+      "accepted_skus": 0,
+      "current_skus": 0,
+      "current_sku_image_coverage_pct": null,
+      "current_sku_price_coverage_pct": null
+    },
+    "philips-air-climate": {
+      "category_name": "Air / Climate Care",
+      "brand_id": "philips",
+      "families": 14,
+      "accepted_skus": 18,
+      "current_skus": 11,
+      "current_sku_image_coverage_pct": 100.0,
+      "current_sku_price_coverage_pct": 54.5
+    },
+    "philips-coffee": {
+      "category_name": "Coffee",
+      "brand_id": "philips",
+      "families": 4,
+      "accepted_skus": 4,
+      "current_skus": 4,
+      "current_sku_image_coverage_pct": 100.0,
+      "current_sku_price_coverage_pct": 100.0
+    },
+    "saeco-coffee": {
+      "category_name": "Super-automatic Espresso",
+      "brand_id": "saeco",
+      "families": 3,
+      "accepted_skus": 3,
+      "current_skus": 3,
+      "current_sku_image_coverage_pct": 100.0,
+      "current_sku_price_coverage_pct": 100.0
+    },
+    "gaggia-coffee": {
+      "category_name": "Manual/Automatic Espresso",
+      "brand_id": "gaggia",
+      "families": 1,
+      "accepted_skus": 1,
+      "current_skus": 1,
+      "current_sku_image_coverage_pct": 100.0,
+      "current_sku_price_coverage_pct": 0.0
+    },
+    "senseo-coffee": {
+      "category_name": "Pod Coffee",
+      "brand_id": "senseo",
+      "families": 1,
+      "accepted_skus": 1,
+      "current_skus": 1,
+      "current_sku_image_coverage_pct": 100.0,
+      "current_sku_price_coverage_pct": 0.0
+    },
+    "lor-barista-coffee": {
+      "category_name": "Capsule Coffee",
+      "brand_id": "lor-barista",
+      "families": 1,
+      "accepted_skus": 1,
+      "current_skus": 1,
+      "current_sku_image_coverage_pct": 100.0,
+      "current_sku_price_coverage_pct": 0.0
+    },
+    "philips-home-safety": {
+      "category_name": "Home Safety",
+      "brand_id": "philips",
+      "families": 1,
+      "accepted_skus": 2,
+      "current_skus": 2,
+      "current_sku_image_coverage_pct": 100.0,
+      "current_sku_price_coverage_pct": 50.0
+    },
+    "philips-pet-care": {
+      "category_name": "Pet Care",
+      "brand_id": "philips",
+      "families": 1,
+      "accepted_skus": 2,
+      "current_skus": 2,
+      "current_sku_image_coverage_pct": 100.0,
+      "current_sku_price_coverage_pct": 100.0
+    },
+    "philips-garden-care": {
+      "category_name": "Garden Care",
+      "brand_id": "philips",
+      "families": 1,
+      "accepted_skus": 1,
+      "current_skus": 1,
+      "current_sku_image_coverage_pct": 100.0,
+      "current_sku_price_coverage_pct": 100.0
+    },
+    "walita-kitchen": {
+      "category_name": "Cozinha (Kitchen)",
+      "brand_id": "philips-walita",
+      "families": 6,
+      "accepted_skus": 6,
+      "current_skus": 6,
+      "current_sku_image_coverage_pct": 100.0,
+      "current_sku_price_coverage_pct": 66.7
+    },
+    "walita-garment": {
+      "category_name": "Cuidados com a Roupa (Garment Care)",
+      "brand_id": "philips-walita",
+      "families": 2,
+      "accepted_skus": 0,
+      "current_skus": 0,
+      "current_sku_image_coverage_pct": null,
+      "current_sku_price_coverage_pct": null
+    },
+    "walita-vacuums": {
+      "category_name": "Aspiradores (Vacuums)",
+      "brand_id": "philips-walita",
+      "families": 2,
+      "accepted_skus": 1,
+      "current_skus": 1,
+      "current_sku_image_coverage_pct": 100.0,
+      "current_sku_price_coverage_pct": 100.0
+    },
+    "walita-climate": {
+      "category_name": "Climatizacao (Climate)",
+      "brand_id": "philips-walita",
+      "families": 2,
+      "accepted_skus": 1,
+      "current_skus": 1,
+      "current_sku_image_coverage_pct": 100.0,
+      "current_sku_price_coverage_pct": 100.0
+    },
+    "philips-airfryer": {
+      "category_name": "Airfryer",
+      "brand_id": "philips",
+      "families": 6,
+      "accepted_skus": 5,
+      "current_skus": 5,
+      "current_sku_image_coverage_pct": 100.0,
+      "current_sku_price_coverage_pct": 60.0
+    },
+    "philips-cooking": {
+      "category_name": "Cooking (Multicooker, Steamer, Grill)",
+      "brand_id": "philips",
+      "families": 2,
+      "accepted_skus": 1,
+      "current_skus": 1,
+      "current_sku_image_coverage_pct": 100.0,
+      "current_sku_price_coverage_pct": 0.0
+    },
+    "philips-blending": {
+      "category_name": "Blending",
+      "brand_id": "philips",
+      "families": 1,
+      "accepted_skus": 1,
+      "current_skus": 1,
+      "current_sku_image_coverage_pct": 100.0,
+      "current_sku_price_coverage_pct": 100.0
+    },
+    "philips-juicing": {
+      "category_name": "Juicing",
+      "brand_id": "philips",
+      "families": 2,
+      "accepted_skus": 2,
+      "current_skus": 2,
+      "current_sku_image_coverage_pct": 100.0,
+      "current_sku_price_coverage_pct": 0.0
+    },
+    "philips-breakfast": {
+      "category_name": "Breakfast (Toaster, Kettle, Sandwich Maker)",
+      "brand_id": "philips",
+      "families": 3,
+      "accepted_skus": 2,
+      "current_skus": 2,
+      "current_sku_image_coverage_pct": 100.0,
+      "current_sku_price_coverage_pct": 50.0
+    },
+    "philips-floor-care": {
+      "category_name": "Floor Care",
+      "brand_id": "philips",
+      "families": 6,
+      "accepted_skus": 5,
+      "current_skus": 5,
+      "current_sku_image_coverage_pct": 100.0,
+      "current_sku_price_coverage_pct": 40.0
+    },
+    "philips-garment-care": {
+      "category_name": "Garment Care",
+      "brand_id": "philips",
+      "families": 4,
+      "accepted_skus": 4,
+      "current_skus": 4,
+      "current_sku_image_coverage_pct": 100.0,
+      "current_sku_price_coverage_pct": 50.0
+    }
+  },
+  "totals": {
+    "brands_verified": 7,
+    "categories_verified": 26,
+    "categories_candidate": 4,
+    "families_total": 80,
+    "families_current": 71,
+    "families_legacy_or_unknown": 9,
+    "products_total": 76,
+    "products_current": 69,
+    "products_legacy_or_support_only": 6,
+    "products_unknown_status": 1,
+    "current_products_with_exact_image_pct": 97.1,
+    "current_products_with_any_image_pct": 100.0,
+    "current_products_with_price_pct": 68.1,
+    "sources_tier_a": 138,
+    "sources_tier_b": 1,
+    "sources_tier_c": 0,
+    "labels_total": 77,
+    "labels_rule_derived": 18,
+    "labels_candidate": 59,
+    "association_edges_total": 347
+  }
+}

@@ -1,0 +1,3769 @@
+[
+  {
+    "product_id": "preethi-mg-zodiac-mg218",
+    "brand_id": "preethi",
+    "category_id": "preethi-mixer-grinders",
+    "family_id": "preethi-mg-zodiac",
+    "sku": "MG218",
+    "model_name": "Preethi Zodiac",
+    "region": "India",
+    "current_status": "CURRENT",
+    "official_url": "https://www.shop.preethi.in/products/preethi-zodiac-mg218",
+    "confidence": "MEDIUM",
+    "specs": {
+      "power_w": "750W",
+      "voltage": "230V/50Hz",
+      "jar_count": "4 jars (incl 2.1L Master Chef Plus)",
+      "speed_settings": "3 speeds + incher"
+    },
+    "images": [
+      {
+        "asset_url": "https://www.shop.preethi.in/cdn/shop/files/1_58dbf82d-3382-4f78-b552-bd94bdd9ba8a.jpg?v=1753438995",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/2_0c10b0e4-c818-41e0-a8ce-ef4555bacf08.jpg?v=1753438995",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/3_8bdbe53b-c394-4ee8-8d8d-26b98f41f67e.jpg?v=1753438995",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/4_f19127a1-d187-414d-b6a8-f39e3a8d8ca0.jpg?v=1753438995",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/5_4aa2cf11-b716-44dc-acbb-9d5e36f49b6d.jpg?v=1753438995",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/6_9defeb63-dd9a-4ce7-8c1b-a9b2a70f9fe0.jpg?v=1753438995",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      }
+    ],
+    "prices": [
+      {
+        "country": "India",
+        "value": "10699",
+        "currency": "INR",
+        "price_type": "OFFICIAL_PRICE"
+      },
+      {
+        "country": "India",
+        "value": "13699",
+        "currency": "INR",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "preethi-mg-zodiac2-mg255",
+    "brand_id": "preethi",
+    "category_id": "preethi-mixer-grinders",
+    "family_id": "preethi-mg-zodiac",
+    "sku": "MG255",
+    "model_name": "Preethi Zodiac 2.0",
+    "region": "India",
+    "current_status": "CURRENT",
+    "official_url": "https://www.shop.preethi.in/products/preethi-zodiac-2-0-1000w-mg255",
+    "confidence": "MEDIUM",
+    "specs": {
+      "power_w": "1000W",
+      "jar_count": "3 jars"
+    },
+    "images": [
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/Preethi_Zodiac_2.0_Mixer_Grinder_-_1000W_-_01.jpg?v=1777888629",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/Preethi_Zodiac_2.0_Mixer_Grinder_-_1000W_-_05.jpg?v=1777888629",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/Preethi_Zodiac_2.0_Mixer_Grinder_-_1000W_-_03.jpg?v=1777888629",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/Preethi_Zodiac_2.0_Mixer_Grinder_-_1000W_-_04.jpg?v=1777888629",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/Preethi_Zodiac_2.0_Mixer_Grinder_-_1000W_-_02.jpg?v=1777888629",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "SIDE_BACK"
+      }
+    ],
+    "prices": [
+      {
+        "country": "India",
+        "value": "16245",
+        "currency": "INR",
+        "price_type": "OFFICIAL_PRICE"
+      },
+      {
+        "country": "India",
+        "value": "20345",
+        "currency": "INR",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "preethi-mg-blueleaf-mg281",
+    "brand_id": "preethi",
+    "category_id": "preethi-mixer-grinders",
+    "family_id": "preethi-mg-blueleaf",
+    "sku": "MG281",
+    "model_name": "Preethi Blue Leaf Titanium 15.0",
+    "region": "India",
+    "current_status": "CURRENT",
+    "official_url": "https://www.shop.preethi.in/products/preethi-blue-leaf-titanium-15-0-mg-281-8901225782813",
+    "confidence": "MEDIUM",
+    "specs": {
+      "power_w": "1000W",
+      "jar_count": "7 jars"
+    },
+    "images": [
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/8901225782813-1_ef052565-e0b7-4909-bcd5-bc9577adec50.jpg?v=1755594376",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/8901225782813-2_25b3c9b6-c03b-4854-9229-cf1d83176804.jpg?v=1755594376",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/8901225782813-3_84d55eed-7c49-4f22-9dbc-7a548f7ceae5.jpg?v=1755594377",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/8901225782813-4_4a74a0ae-8098-413b-8cba-3c5fee19c453.jpg?v=1755594377",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/8901225782813-6_e1e377e7-9f31-4d87-9274-2bacb1ed16bc.jpg?v=1755594377",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "SIDE_BACK"
+      }
+    ],
+    "prices": [
+      {
+        "country": "India",
+        "value": "10745",
+        "currency": "INR",
+        "price_type": "OFFICIAL_PRICE"
+      },
+      {
+        "country": "India",
+        "value": "14445",
+        "currency": "INR",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "preethi-mg-diamond-mg214",
+    "brand_id": "preethi",
+    "category_id": "preethi-mixer-grinders",
+    "family_id": "preethi-mg-diamond",
+    "sku": "MG214",
+    "model_name": "Preethi Diamond 750W",
+    "region": "India",
+    "current_status": "CURRENT",
+    "official_url": "https://www.shop.preethi.in/products/preethi-platinum-diamond-mg214-002",
+    "confidence": "MEDIUM",
+    "specs": {
+      "power_w": "750W"
+    },
+    "images": [
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/Blue_Leaf_Diamond_-_White.jpg?v=1787639271",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/Preethi_Blue_Leaf_Diamond_Mixer_Grinder_-_8.jpg?v=1784271217",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/Preethi_Blue_Leaf_Diamond_Mixer_Grinder_-_6.jpg?v=1784271216",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/Preethi_Blue_Leaf_Diamond_Mixer_Grinder_-_7.jpg?v=1784271216",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "SIDE_BACK"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/Preethi_Blue_Leaf_Diamond_Mixer_Grinder_-_4.jpg?v=1784271216",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      }
+    ],
+    "prices": [
+      {
+        "country": "India",
+        "value": "3799",
+        "currency": "INR",
+        "price_type": "OFFICIAL_PRICE"
+      },
+      {
+        "country": "India",
+        "value": "9699",
+        "currency": "INR",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "preethi-mg-ecoplus-mg138",
+    "brand_id": "preethi",
+    "category_id": "preethi-mixer-grinders",
+    "family_id": "preethi-mg-eco",
+    "sku": "MG138",
+    "model_name": "Preethi Eco Plus 110V",
+    "region": "USA/Canada",
+    "current_status": "CURRENT",
+    "official_url": "https://www.shop.preethi.in/products/preethi-eco-plus-110-v-local-mg-138",
+    "confidence": "HIGH",
+    "specs": {
+      "voltage": "110V"
+    },
+    "images": [
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/Preethi_Eco_Plus_110V_mixer_Grinder_-_550W_-_3_Jar_-_02.jpg?v=1777890423",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/Preethi_Eco_Plus_110V_mixer_Grinder_-_550W_-_3_Jar_-_03.jpg?v=1777890423",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/Preethi_Eco_Plus_110V_mixer_Grinder_-_550W_-_3_Jar_-_04.jpg?v=1777890424",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/Preethi_Eco_Plus_110V_mixer_Grinder_-_550W_-_3_Jar_-_05.jpg?v=1777890423",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "SIDE_BACK"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/Preethi_Eco_Plus_110V_mixer_Grinder_-_550W_-_3_Jar_-_01.jpg?v=1777890423",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      }
+    ],
+    "prices": [
+      {
+        "country": "India",
+        "value": "6799",
+        "currency": "INR",
+        "price_type": "OFFICIAL_PRICE"
+      },
+      {
+        "country": "India",
+        "value": "7499",
+        "currency": "INR",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "preethi-gs-glamsteel-3b",
+    "brand_id": "preethi",
+    "category_id": "preethi-gas-stoves",
+    "family_id": "preethi-gs-glamsteel",
+    "sku": "UNVERIFIED-preethi-gs-glamsteel-3b",
+    "model_name": "Preethi Glamsteel 3 Burner SS Gas Stove",
+    "region": "India",
+    "current_status": "CURRENT",
+    "official_url": "https://www.shop.preethi.in/products/preethi-glamsteel-3-burner-stainless-steel-gas-stove-manual-ignition-isi-certified-lifelong-free-service",
+    "confidence": "MEDIUM",
+    "specs": {
+      "burner_count": "3 burners",
+      "body_material": "stainless steel",
+      "ignition_type": "manual ignition",
+      "certification": "ISI certified"
+    },
+    "images": [
+      {
+        "asset_url": "https://www.shop.preethi.in/cdn/shop/files/00_4f2bfe54-86c5-4634-881b-e7f3f3f89050.png?v=1785841083",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/01_00a9bcf7-7841-4fa4-bce5-9520773df410.png?v=1785841083",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/02_2f9b5033-c7bd-4de3-a730-2e0644261709.png?v=1785841083",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/03_d8d47666-789b-4017-b8c1-35af0c5b1e08.png?v=1785841083",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/05_2021b0fe-b286-4608-927c-d33bd57e54d3.png?v=1785841083",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "SIDE_BACK"
+      }
+    ],
+    "prices": [
+      {
+        "country": "India",
+        "value": "10599",
+        "currency": "INR",
+        "price_type": "OFFICIAL_PRICE"
+      },
+      {
+        "country": "India",
+        "value": "15899",
+        "currency": "INR",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "preethi-gs-silverin-2b",
+    "brand_id": "preethi",
+    "category_id": "preethi-gas-stoves",
+    "family_id": "preethi-gs-silverin",
+    "sku": "UNVERIFIED-preethi-gs-silverin-2b",
+    "model_name": "Preethi Silverin 2 Burner Glass Top",
+    "region": "India",
+    "current_status": "CURRENT",
+    "official_url": "https://www.shop.preethi.in/products/preethi-silverin-2-burner-glass-top-gas-stove-easy-to-clean-with-xl-spill-tray-sparkling-clean-in-2-minutes-5-year-glass-burner-warranty-lifetime-valve-warranty-isi-certified",
+    "confidence": "MEDIUM",
+    "specs": {
+      "burner_count": "2 burners",
+      "top_material": "glass top",
+      "certification": "ISI certified",
+      "warranty": "5-yr glass/burner warranty"
+    },
+    "images": [
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/2Burner-Silverin-01.jpg?v=1758707210",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/2Burner-Silverin-02.jpg?v=1758707210",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/2Burner-Silverin-03.jpg?v=1758707210",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/2Burner-Silverin-04.jpg?v=1758707210",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/2Burner-Silverin-06.jpg?v=1758707210",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "SIDE_BACK"
+      }
+    ],
+    "prices": [
+      {
+        "country": "India",
+        "value": "6399",
+        "currency": "INR",
+        "price_type": "OFFICIAL_PRICE"
+      },
+      {
+        "country": "India",
+        "value": "9299",
+        "currency": "INR",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "preethi-gs-valentino-gts121",
+    "brand_id": "preethi",
+    "category_id": "preethi-gas-stoves",
+    "family_id": "preethi-gs-valentino",
+    "sku": "GTS121",
+    "model_name": "Preethi Valentino Carbon Black",
+    "region": "India",
+    "current_status": "CURRENT",
+    "official_url": "https://www.shop.preethi.in/products/preethi-valentino-carbon-black-gts121",
+    "confidence": "HIGH",
+    "specs": {},
+    "images": [
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/9.png?v=1770615508",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/6_d456adca-5b82-4f2f-956e-2473593595d6.png?v=1770615508",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/4_d83bde59-904e-44ee-91dc-dbf7b14f2d81.png?v=1770615509",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/2_872ec8d3-9dfd-473d-8f15-0bf1e10f7bb9.png?v=1770615508",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "SIDE_BACK"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/3_463255f2-ee33-4264-8ae8-d045308966cc.png?v=1770615508",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      }
+    ],
+    "prices": [
+      {
+        "country": "India",
+        "value": "10445",
+        "currency": "INR",
+        "price_type": "OFFICIAL_PRICE"
+      },
+      {
+        "country": "India",
+        "value": "14845",
+        "currency": "INR",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "preethi-ic-ic125",
+    "brand_id": "preethi",
+    "category_id": "preethi-induction-cooktops",
+    "family_id": "preethi-ic-indicook",
+    "sku": "IC125",
+    "model_name": "Preethi Indicook IC125",
+    "region": "India",
+    "current_status": "CURRENT",
+    "official_url": "https://www.shop.preethi.in/products/preethi-indicook-ic125-2100-watt-induction-cooktop-feather-touch-operation-with-crystal-glass-black-8901225061253",
+    "confidence": "HIGH",
+    "specs": {
+      "power_w": "2100W",
+      "controls": "feather-touch controls",
+      "top_material": "crystal glass top"
+    },
+    "images": [
+      {
+        "asset_url": "https://www.shop.preethi.in/cdn/shop/files/8901225061253_1.jpg?v=1746783365",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/8901225061253_2.jpg?v=1746783365",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/8901225061253_3.jpg?v=1746783365",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/8901225061253_4.jpg?v=1746783365",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "SIDE_BACK"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/8901225061253_5.jpg?v=1746783365",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      }
+    ],
+    "prices": [
+      {
+        "country": "India",
+        "value": "3928",
+        "currency": "INR",
+        "price_type": "OFFICIAL_PRICE"
+      },
+      {
+        "country": "India",
+        "value": "5945",
+        "currency": "INR",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "preethi-ic-ic116",
+    "brand_id": "preethi",
+    "category_id": "preethi-induction-cooktops",
+    "family_id": "preethi-ic-indicook",
+    "sku": "IC116",
+    "model_name": "Preethi Indicook Trendy Plus",
+    "region": "India",
+    "current_status": "CURRENT",
+    "official_url": "https://www.shop.preethi.in/products/preethi-indicook-trendy-plus-ic-116",
+    "confidence": "HIGH",
+    "specs": {
+      "power_w": "1600W"
+    },
+    "images": [
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/ICTE3QF545VNUVTG_01.jpg?v=1782723906",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/ICTE3QF545VNUVTG_05.jpg?v=1782723909",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/ICTE3QF545VNUVTG_02.jpg?v=1782723906",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/ICTE3QF545VNUVTG_07.jpg?v=1782723905",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/ICTE3QF545VNUVTG_06.jpg?v=1782723906",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "SIDE_BACK"
+      }
+    ],
+    "prices": [
+      {
+        "country": "India",
+        "value": "3399",
+        "currency": "INR",
+        "price_type": "OFFICIAL_PRICE"
+      },
+      {
+        "country": "India",
+        "value": "5045",
+        "currency": "INR",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "preethi-ch-kh311",
+    "brand_id": "preethi",
+    "category_id": "preethi-chimneys",
+    "family_id": "preethi-ch-alcor",
+    "sku": "KH311",
+    "model_name": "Preethi ALCOR Chimney 90cm",
+    "region": "India",
+    "current_status": "CURRENT",
+    "official_url": "https://www.shop.preethi.in/products/preethi-chimney-auto-clean-wall-mounted-alcor-with-aluminium-duct-black-1350-90-cm-motion-sensor-operation-lifelong-free-service-kh311",
+    "confidence": "HIGH",
+    "specs": {
+      "width_cm": "90cm",
+      "mount_type": "wall-mounted",
+      "auto_clean": "motion-sensor auto-clean",
+      "motor_warranty_years": "10-yr motor warranty",
+      "suction_m3h": "UNKNOWN"
+    },
+    "images": [
+      {
+        "asset_url": "https://www.shop.preethi.in/cdn/shop/files/kh311copy_0356d9c2-7e66-4d69-b0de-d93a1a523c8c.jpg?v=1787042877",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/Preethi-chimney-alcor-with-aluminium-duct-kh-311-black-Specs_1.avif?v=1786616115",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/Preethi-chimney-alcor-with-aluminium-duct-kh-311-black-Front-Left-View_1.avif?v=1786616114",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      }
+    ],
+    "prices": [
+      {
+        "country": "India",
+        "value": "24900",
+        "currency": "INR",
+        "price_type": "OFFICIAL_PRICE"
+      },
+      {
+        "country": "India",
+        "value": "33179",
+        "currency": "INR",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "preethi-ch-kh317",
+    "brand_id": "preethi",
+    "category_id": "preethi-chimneys",
+    "family_id": "preethi-ch-alcor",
+    "sku": "KH317",
+    "model_name": "Preethi ALCOR Chimney 60cm (voice control)",
+    "region": "India",
+    "current_status": "CURRENT",
+    "official_url": "https://www.shop.preethi.in/products/preethi-chimney-auto-clean-wall-mounted-alcor-with-aluminium-duct-black-1200-60-cm-voice-control-lifelong-free-service-kh317",
+    "confidence": "HIGH",
+    "specs": {},
+    "images": [
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/317-03.jpg?v=1786094110",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/317-04.jpg?v=1786094110",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/317-05.jpg?v=1786094110",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/317-02.jpg?v=1786094110",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "SIDE_BACK"
+      }
+    ],
+    "prices": [
+      {
+        "country": "India",
+        "value": "29999",
+        "currency": "INR",
+        "price_type": "OFFICIAL_PRICE"
+      }
+    ]
+  },
+  {
+    "product_id": "preethi-pc-pc024",
+    "brand_id": "preethi",
+    "category_id": "preethi-pressure-cookers",
+    "family_id": "preethi-pc-aluminium",
+    "sku": "PC024",
+    "model_name": "Preethi Aluminium Pressure Cooker 5L",
+    "region": "India",
+    "current_status": "CURRENT",
+    "official_url": "https://www.shop.preethi.in/products/preethi-induction-base-outer-lid-aluminium-pressure-cooker-5-litres-spill-splash-shield-pc-024-8901225220247",
+    "confidence": "HIGH",
+    "specs": {
+      "material": "99% pure virgin aluminium (Hindalco-sourced)",
+      "capacity_l": "5L",
+      "compatibility": "induction+gas compatible"
+    },
+    "images": [
+      {
+        "asset_url": "https://www.shop.preethi.in/cdn/shop/files/PC005_1.png?v=1746783403",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/PC005_1a.jpg?v=1746783403",
+        "verification_status": "FAMILY_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/PC005_2.jpg?v=1746783403",
+        "verification_status": "FAMILY_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/PC005_3.jpg?v=1746783403",
+        "verification_status": "FAMILY_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/PC005_4.jpg?v=1746783403",
+        "verification_status": "FAMILY_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/PC005_5.jpg?v=1746783403",
+        "verification_status": "FAMILY_VERIFIED",
+        "image_type": "SIDE_BACK"
+      }
+    ],
+    "prices": [
+      {
+        "country": "India",
+        "value": "1958",
+        "currency": "INR",
+        "price_type": "OFFICIAL_PRICE"
+      },
+      {
+        "country": "India",
+        "value": "2620",
+        "currency": "INR",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "preethi-cw-kadai26",
+    "brand_id": "preethi",
+    "category_id": "preethi-cookware",
+    "family_id": "preethi-cw-dura",
+    "sku": "UNVERIFIED-preethi-cw-kadai26",
+    "model_name": "Preethi Dura Collection Non-Stick Kadai 26cm",
+    "region": "India",
+    "current_status": "CURRENT",
+    "official_url": "https://www.shop.preethi.in/products/preethi-dura-collection-non-stick-kadai-26-cm-with-glass-lid-gas-induction-compatible-5-star-non-stick-effect-chilly-red-8901225360332",
+    "confidence": "MEDIUM",
+    "specs": {
+      "coating": "non-stick (5-star effect)",
+      "diameter_cm": "26cm",
+      "compatibility": "gas+induction compatible"
+    },
+    "images": [
+      {
+        "asset_url": "https://www.shop.preethi.in/cdn/shop/files/8901225360332.png?v=1746783385",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/8901225360332_2.jpg?v=1746783385",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/8901225360332_3.jpg?v=1746783385",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/8901225360332_4.jpg?v=1746783385",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "SIDE_BACK"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/8901225360332_6.jpg?v=1746783385",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      }
+    ],
+    "prices": [
+      {
+        "country": "India",
+        "value": "1405",
+        "currency": "INR",
+        "price_type": "OFFICIAL_PRICE"
+      },
+      {
+        "country": "India",
+        "value": "2021",
+        "currency": "INR",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "preethi-cw-csw037",
+    "brand_id": "preethi",
+    "category_id": "preethi-cookware",
+    "family_id": "preethi-cw-csw",
+    "sku": "CSW037",
+    "model_name": "Preethi CSW Daily Fry Pan 24cm",
+    "region": "India",
+    "current_status": "CURRENT",
+    "official_url": "https://www.shop.preethi.in/products/preethi-csw-daily-ai-fryfan-nim-24-csw037",
+    "confidence": "HIGH",
+    "specs": {
+      "coating": "C3+ Greblon 3-layer non-stick",
+      "diameter_cm": "24cm"
+    },
+    "images": [
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/1st8901225360370_1_48535dc8-7c47-42ff-b0ae-f69c16332ada.png?v=1746783627",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/8901225360387_2.jpg?v=1746783627",
+        "verification_status": "FAMILY_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/8901225360370_3.jpg?v=1746783627",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://cdn.shopify.com/s/files/1/0643/8253/3718/files/8901225360370_4.jpg?v=1746783628",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "SIDE_BACK"
+      }
+    ],
+    "prices": [
+      {
+        "country": "India",
+        "value": "748",
+        "currency": "INR",
+        "price_type": "OFFICIAL_PRICE"
+      },
+      {
+        "country": "India",
+        "value": "1025",
+        "currency": "INR",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "philips-air-ac0650-20",
+    "brand_id": "philips",
+    "category_id": "philips-air-climate",
+    "family_id": "philips-air-600",
+    "sku": "AC0650/20",
+    "model_name": "600i series Air Purifier",
+    "region": "UK",
+    "current_status": "CURRENT",
+    "official_url": "https://www.home-appliances.philips/gb/en/p/AC0650_20",
+    "confidence": "HIGH",
+    "specs": {
+      "cadr_m3h": "170",
+      "room_coverage_m2": "44",
+      "noise_range_dba": "19-49",
+      "power_max_w": "12",
+      "filter_architecture": "HEPA NanoProtect + pre-filter (2-in-1)",
+      "filter_life_months": "12",
+      "connectivity": "Wi-Fi, Air+ app"
+    },
+    "images": [
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp1024x1024/3a18d878-bfa6-4fd8-8fdf-7ac70ba0802a/AC0650_30_RFT_Retail_RGB-jpg.webp",
+        "verification_status": "FAMILY_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/eb3ca3e2-1dd3-4e7e-aaac-fd66525e3114/AC0650_30_F_Online_RGB-tif.webp",
+        "verification_status": "FAMILY_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/b9781eda-a7db-4808-9064-12952de7d9a3/AC0650_30_APS_Online_RGB-tif.webp",
+        "verification_status": "FAMILY_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/e3ccf367-7e60-4741-9e0a-f17bb408f4df/AC0650_30_A2_Online_RGB-tif.webp",
+        "verification_status": "FAMILY_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/3afa0f25-359b-4061-b9ac-78f415dcfe69/AC0650_30_U1_Online_RGB-tif.webp",
+        "verification_status": "FAMILY_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      }
+    ],
+    "prices": []
+  },
+  {
+    "product_id": "philips-air-ac0651-10",
+    "brand_id": "philips",
+    "category_id": "philips-air-climate",
+    "family_id": "philips-air-600",
+    "sku": "AC0651/10",
+    "model_name": "600 series Air Purifier",
+    "region": "UK",
+    "current_status": "CURRENT",
+    "official_url": "https://www.home-appliances.philips/gb/en/p/AC0651_10",
+    "confidence": "HIGH",
+    "specs": {},
+    "images": [
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp1024x1024/30ee83e7-debd-48bc-927f-1d8de0f22bb3/AC0651_RFT_Retail_RGB-jpg.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp1024x1024/65ab8955-69d8-4f6e-a320-21b937f428e2/AC0651_3-manual-speeds_3500x1969-px-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp1024x1024/69805413-1d38-4029-9bed-651814bd43eb/AC0651_Energy-efficient-design_3500x1969-px-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      }
+    ],
+    "prices": [
+      {
+        "country": "Netherlands",
+        "value": "134.99",
+        "currency": "EUR",
+        "price_type": "OFFICIAL_PRICE"
+      }
+    ]
+  },
+  {
+    "product_id": "philips-air-ac0850-41",
+    "brand_id": "philips",
+    "category_id": "philips-air-climate",
+    "family_id": "philips-air-800",
+    "sku": "AC0850/41",
+    "model_name": "800i Series Compact Air Purifier",
+    "region": "US",
+    "current_status": "LEGACY",
+    "official_url": "https://www.usa.philips.com/c-p/AC0850_41/800i-series-compact-air-purifier",
+    "confidence": "HIGH",
+    "specs": {},
+    "images": [
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_6e5e423a_2ba1_4497_b899025b05d4c171?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_0639df17_cca5_4cb2_8be9d9833bb489e1?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_8be5da24_75be_4bde_91fa21a8ee10f43c-1?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "SIDE_BACK"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_706c2f57_0391_4845_91502631db34f9fa?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      }
+    ],
+    "prices": []
+  },
+  {
+    "product_id": "philips-air-ac0920-10",
+    "brand_id": "philips",
+    "category_id": "philips-air-climate",
+    "family_id": "philips-air-pureprotect-mini-900",
+    "sku": "AC0920/10",
+    "model_name": "PureProtect Mini 900 Series Air Purifier (base)",
+    "region": "UK",
+    "current_status": "CURRENT",
+    "official_url": "https://www.home-appliances.philips/gb/en/p/AC0920_10",
+    "confidence": "HIGH",
+    "specs": {},
+    "images": [
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp1024x1024/c16a7ca8-6b1e-4a44-a097-f78b0c5ca712/CC_2024_AC0920_10_RFT_Fullframe-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/b849fc74-003b-4329-8158-4e5bb504932c/CC_2024_AC0920_10_A1_Fullframe-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/5883a9d7-2a19-458a-b87f-d4fab6fb4232/CC_2024_AC0920_10_A4_Fullframe-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/33887653-6783-4ba4-b198-b77599e08749/CC_2024_AC0920_10_TEC_1x1-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/cda08dc8-3096-4f43-b653-e48b26089b0f/CC_2024_AC0920_10_FIM_1x1-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      }
+    ],
+    "prices": [
+      {
+        "country": "Netherlands",
+        "value": "127.0",
+        "currency": "EUR",
+        "price_type": "PROMOTIONAL"
+      },
+      {
+        "country": "Netherlands",
+        "value": "149.99",
+        "currency": "EUR",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "philips-air-ac0950-10",
+    "brand_id": "philips",
+    "category_id": "philips-air-climate",
+    "family_id": "philips-air-pureprotect-mini-900",
+    "sku": "AC0950/10",
+    "model_name": "PureProtect Mini 900 Series Smart Air Purifier",
+    "region": "UK",
+    "current_status": "CURRENT",
+    "official_url": "https://www.home-appliances.philips/gb/en/p/AC0950_10",
+    "confidence": "HIGH",
+    "specs": {},
+    "images": [
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp1024x1024/ca36dae9-2797-4864-b5d4-a395cb8d93e5/CC_2024_AC0950_10_RFT_Fullframe-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/798c9713-36dc-4b89-a023-8acfe7620fe1/CC_2024_AC0950_10_A1_Fullframe-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/62463a2f-546f-45aa-a79e-e1199a74fcd4/CC_2024_AC0950_10_A4_Fullframe-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/5e6a77b4-4100-47c5-a2cf-cb041b7ba9ec/CC_2024_AC0950_10_TEC_02_1x1-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/2d4c3ff8-5527-4b19-ad49-875c97bb75a1/CC_2024_AC0950_10_FIM_1x1-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      }
+    ],
+    "prices": []
+  },
+  {
+    "product_id": "philips-air-ac0951-13",
+    "brand_id": "philips",
+    "category_id": "philips-air-climate",
+    "family_id": "philips-air-pureprotect-mini-900",
+    "sku": "AC0951/13",
+    "model_name": "PureProtect Mini 900 Series Smart Air Purifier",
+    "region": "UK",
+    "current_status": "CURRENT",
+    "official_url": "https://www.home-appliances.philips/gb/en/p/AC0951_13",
+    "confidence": "HIGH",
+    "specs": {
+      "cadr_m3h": "250",
+      "room_coverage_m2": "65",
+      "noise_range_dba": "20.5-49.0",
+      "power_max_w": "23",
+      "sensors": "PM2.5 (AeraSense)",
+      "connectivity": "Wi-Fi, Air+ app",
+      "ai_claim": "AI technology that adapts to your routine (Auto+ mode)"
+    },
+    "images": [
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp1024x1024/ec436267-1c44-4c3e-b61b-01f52a030d20/CC_2024_AC0951_13_RFT_Fullframe-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/a54b0c48-5c16-49d0-a2c7-90a3318f8002/CC_2024_AC0951_13_A1_Fullframe-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/b6fa7a35-fc5d-4a5f-aac3-d7dbb40a1f8a/CC_2024_AC0951_13_A4_Fullframe-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/a2706927-0671-4268-b29e-86d47ba72b05/CC_2024_AC0951_13_TEC_1x1-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/53684606-32b9-4602-803a-3e983418d21a/CC_2024_AC0951_13_FIM_1x1-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      }
+    ],
+    "prices": [
+      {
+        "country": "Netherlands",
+        "value": "129.0",
+        "currency": "EUR",
+        "price_type": "PROMOTIONAL"
+      },
+      {
+        "country": "Netherlands",
+        "value": "179.99",
+        "currency": "EUR",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "philips-air-ac1715-41",
+    "brand_id": "philips",
+    "category_id": "philips-air-climate",
+    "family_id": "philips-air-1000i",
+    "sku": "AC1715/41",
+    "model_name": "1000i Series Air Purifier for Medium Rooms",
+    "region": "US",
+    "current_status": "LEGACY",
+    "official_url": "https://www.usa.philips.com/c-p/AC1715_41/1000i-series-air-purifier-for-medium-rooms",
+    "confidence": "HIGH",
+    "specs": {},
+    "images": [
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_bbc9e859_8763_489a_9ff9670543709a17?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_6784d2e6_d4f8_448b_b49158d9c18970d1?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_831dedd1_57ca_487c_ad6eb1fc114645bd?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_8fd92685_7112_40db_a9f8df567657e747?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      }
+    ],
+    "prices": []
+  },
+  {
+    "product_id": "philips-air-ac2889-40",
+    "brand_id": "philips",
+    "category_id": "philips-air-climate",
+    "family_id": "philips-air-2000",
+    "sku": "AC2889/40",
+    "model_name": "2000i Series Air Purifier",
+    "region": "US",
+    "current_status": "LEGACY",
+    "official_url": "https://www.usa.philips.com/c-p/AC2889_40/2000i-series",
+    "confidence": "HIGH",
+    "specs": {},
+    "images": [
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_b2b531b2_7bc4_4a67_8c49ade198f5b72e?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_1c8fd9d8_4ba7_4d44_a4317a0171172834?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_ccac6e60_d04f_4e8e_9df5519859e70cea?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_3f8c9894_c50e_416b_82a381ae7c9cf10f?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      }
+    ],
+    "prices": []
+  },
+  {
+    "product_id": "philips-air-ac2220-10",
+    "brand_id": "philips",
+    "category_id": "philips-air-climate",
+    "family_id": "philips-air-pureprotect-quiet-2200",
+    "sku": "AC2220/10",
+    "model_name": "PureProtect Quiet 2200 Series Smart Air Purifier",
+    "region": "UK",
+    "current_status": "CURRENT",
+    "official_url": "https://www.home-appliances.philips/gb/en/p/AC2220_10",
+    "confidence": "HIGH",
+    "specs": {
+      "cadr_m3h": "420",
+      "room_coverage_m2": "109",
+      "noise_range_dba": "13-45",
+      "power_max_w": "28",
+      "filter_life_months": "36",
+      "ai_claim": "AI technology that adapts to your routine (Auto+ mode)"
+    },
+    "images": [
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp1024x1024/af8ba124-649f-460d-93bd-16e1c4e59333/CC_2025_AC2220_10_Product-with-phone_1x1-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/dd6bbae0-a105-4719-b973-68a9cfe7e777/CC_2025_AC2220_10_RFT.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/6e9e5551-6331-4e90-bd25-df4a569f6a2e/CC_2025_AC2220_10_A1.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/52893c74-5b26-48d4-9ceb-9354e86e6845/CC_2025_AC2220_10_A2.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      }
+    ],
+    "prices": [
+      {
+        "country": "Netherlands",
+        "value": "169.99",
+        "currency": "EUR",
+        "price_type": "PROMOTIONAL"
+      },
+      {
+        "country": "Netherlands",
+        "value": "229.99",
+        "currency": "EUR",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "philips-air-ac3033-73",
+    "brand_id": "philips",
+    "category_id": "philips-air-climate",
+    "family_id": "philips-air-3000",
+    "sku": "AC3033/73",
+    "model_name": "3000i Series Air Purifier for XL Rooms",
+    "region": "AU",
+    "current_status": "LEGACY",
+    "official_url": "https://www.philips.com.au/c-p/AC3033_73/3000i-series",
+    "confidence": "HIGH",
+    "specs": {},
+    "images": [
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_f177af86_e25b_40d2_83a0ce276081d29f?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_f7a56c59_9768_4167_b1ad914f22421b51?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_e17fcf7a_9b2c_4ba6_8e6c876632c3ff06?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      }
+    ],
+    "prices": []
+  },
+  {
+    "product_id": "philips-air-ac3220-10",
+    "brand_id": "philips",
+    "category_id": "philips-air-climate",
+    "family_id": "philips-air-pureprotect-3200",
+    "sku": "AC3220/10",
+    "model_name": "PureProtect 3200 Series Smart Air Purifier",
+    "region": "UK",
+    "current_status": "CURRENT",
+    "official_url": "https://www.home-appliances.philips/gb/en/p/AC3220_10",
+    "confidence": "HIGH",
+    "specs": {
+      "cadr_m3h": "520",
+      "room_coverage_m2": "135",
+      "noise_range_dba": "15-47.5",
+      "power_max_w": "36",
+      "connectivity": "Wi-Fi, Air+ app, Alexa/Google",
+      "ai_claim": "AI technology that adapts to your routine while minimising noise and energy use"
+    },
+    "images": [
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp1024x1024/40c85bc1-49cb-4ef3-8b1b-dd4b4e93bc76/CC_2024_AC3220_10_F_02_1x1-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/7465742d-6734-4354-ba83-fa0a0e3ab0cb/CC_2024_AC3220_10_A1_Fullframe-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/eb446e57-4230-4704-91a3-53da211a1884/CC_2024_AC3220_10_A5_Fullframe-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/28101acc5-f831-4266-919a-86aea768f540/CC_2024_AC3220_10_TEC_1x1-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/d9d65770-4e3b-4bf2-a908-cf4b250aa0eb/CC_2024_AC3220_10_FIM_1x1-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      }
+    ],
+    "prices": [
+      {
+        "country": "Netherlands",
+        "value": "292.0",
+        "currency": "EUR",
+        "price_type": "PROMOTIONAL"
+      },
+      {
+        "country": "Netherlands",
+        "value": "319.99",
+        "currency": "EUR",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "philips-air-ac3420-10",
+    "brand_id": "philips",
+    "category_id": "philips-air-climate",
+    "family_id": "philips-air-pureprotect-water-3400",
+    "sku": "AC3420/10",
+    "model_name": "PureProtect Water 3400 Series Smart 2-in-1 Air Purifier and Humidifier",
+    "region": "UK",
+    "current_status": "CURRENT",
+    "official_url": "https://www.home-appliances.philips/gb/en/p/AC3420_10",
+    "confidence": "HIGH",
+    "specs": {
+      "cadr_m3h": "300",
+      "room_coverage_m2": "78",
+      "noise_range_dba": "16.5-51",
+      "power_max_w": "43",
+      "humidification": "Yes, 650 ml/h, 3.2L tank",
+      "sensors": "PM2.5, temp, humidity"
+    },
+    "images": [
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp1024x1024/3a83f7c9-4507-48c6-b848-4886f2f2eedf/CC_2024_AC3420_10_F_02_1x1-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/bc57b2df-e098-4911-a8d9-017759e387bd/CC_2024_AC3420_10_A1_Fullframe-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/53e4507d-3834-4b93-8c89-ff6c0b2760be/CC_2024_AC3420_10_A4_Fullframe-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/acaf1c34-3c04-4a53-9b4a-a76b8d0b2a30/CC_2024_AC3420_10_TEC_1x1-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/ac1e55eb-075c-4c15-a490-c77c40b2dd87/CC_2024_AC3420_10_FIM_Fullframe-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      }
+    ],
+    "prices": [
+      {
+        "country": "Netherlands",
+        "value": "350.0",
+        "currency": "EUR",
+        "price_type": "PROMOTIONAL"
+      },
+      {
+        "country": "Netherlands",
+        "value": "369.99",
+        "currency": "EUR",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "philips-air-ac4220-12",
+    "brand_id": "philips",
+    "category_id": "philips-air-climate",
+    "family_id": "philips-air-pureprotect-pro-4200",
+    "sku": "AC4220/12",
+    "model_name": "PureProtect Pro 4200 Series Smart Air Purifier",
+    "region": "AU",
+    "current_status": "UNKNOWN",
+    "official_url": "https://www.philips.com.au/c-p/AC4220_12/smart-air-purifier",
+    "confidence": "HIGH",
+    "specs": {
+      "cadr_m3h": "600",
+      "room_coverage_m2": "156"
+    },
+    "images": [
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_0e7232a6_9972_4cfd_9c1ad8f8306800a5?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_25b7bbd7_e9e6_4d38_a2df49a521ebf380?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_b6248925_9571_4d3f_8a19e19f7f72edf4?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      }
+    ],
+    "prices": []
+  },
+  {
+    "product_id": "philips-air-amf220-15",
+    "brand_id": "philips",
+    "category_id": "philips-air-climate",
+    "family_id": "philips-air-2000-3in1",
+    "sku": "AMF220/15",
+    "model_name": "2000 Series 3-in-1 Purifier, Fan and Heater",
+    "region": "ZA",
+    "current_status": "LEGACY",
+    "official_url": "https://www.philips.co.za/c-p/AMF220_15/2000-series-3-in-1-purifier-fan-and-heater",
+    "confidence": "HIGH",
+    "specs": {
+      "cadr_m3h": "165",
+      "room_coverage_m2": "42",
+      "fan": "Yes",
+      "heating": "Yes"
+    },
+    "images": [
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_52432e6d_2442_49b7_83b031c4d3f23a47?wid=305&hei=173&$jpglarge$",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_37437d6b_abce_4cf5_a27e5e316dbf6c5f?wid=305&hei=173&$jpglarge$",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      }
+    ],
+    "prices": []
+  },
+  {
+    "product_id": "philips-air-amf765-30",
+    "brand_id": "philips",
+    "category_id": "philips-air-climate",
+    "family_id": "philips-air-performer-7000",
+    "sku": "AMF765/30",
+    "model_name": "Air Performer 7000 series 2-in-1 Air Purifier and Fan",
+    "region": "UK",
+    "current_status": "CURRENT",
+    "official_url": "https://www.home-appliances.philips/gb/en/p/AMF765_30",
+    "confidence": "HIGH",
+    "specs": {
+      "cadr_m3h": "270",
+      "room_coverage_m2": "70",
+      "noise_range_dba": "20-47",
+      "power_max_w": "40",
+      "fan": "Yes",
+      "ai_claim": "Powered by AI technology; Select Auto+ mode for AI technology that adapts to your routine"
+    },
+    "images": [
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/460252d1-af89-45cd-ab6b-f92d29425cc2/CC_2026_AMF765_10_2-in-1-device_1x1.webp",
+        "verification_status": "FAMILY_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/84a7011c-2a5a-4f69-b710-f524420c03f3/CC_2026_AMF765_10_Control_1x1.webp",
+        "verification_status": "FAMILY_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/1d9e5581-2be4-4d34-bcc9-be41c051ed27/CC_2026_AMF765_10_Dimensions_1x1.webp",
+        "verification_status": "FAMILY_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      }
+    ],
+    "prices": []
+  },
+  {
+    "product_id": "philips-air-amf870-35",
+    "brand_id": "philips",
+    "category_id": "philips-air-climate",
+    "family_id": "philips-air-performer-8000",
+    "sku": "AMF870/35",
+    "model_name": "Air Performer 8000 series 3-in-1 Air Purifier, Fan and Heater",
+    "region": "UK",
+    "current_status": "CURRENT",
+    "official_url": "https://www.home-appliances.philips/gb/en/p/AMF870_35",
+    "confidence": "HIGH",
+    "specs": {
+      "cadr_m3h": "270",
+      "room_coverage_m2": "70",
+      "power_max_w": "40 (fan) / 2200 (heat)",
+      "fan": "Yes",
+      "heating": "Yes",
+      "ai_claim": "Powered by the AI (artificial intelligence) technology; self-adapting technology with AI"
+    },
+    "images": [
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp1024x1024/2cbe3b2c-d80d-48c5-b37e-cd4d19818a7d/AMF870_15_RFT_Retail_RGB-jpg.webp",
+        "verification_status": "FAMILY_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/3fb551aa-ec8b-438a-9d41-d42e0e5f3b85/AMF870_35_APS_Online_RGB-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/446eea68-7f29-400e-996c-ada78f1e4522/AMF870_35_A1_Print_CMYK-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/e9d96605-3a4c-404f-9847-6c04de79500c/AMF870_15_TEC_Retail_RGB-jpg.webp",
+        "verification_status": "FAMILY_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/8929f161-2f69-4b4e-b87a-097d73240e7e/AMF870_Product_in_situation_fullframe-jpg.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      }
+    ],
+    "prices": []
+  },
+  {
+    "product_id": "philips-air-ac5659-40",
+    "brand_id": "philips",
+    "category_id": "philips-air-climate",
+    "family_id": "philips-air-5000i",
+    "sku": "AC5659/40",
+    "model_name": "Series 5000i Air Purifier",
+    "region": "US",
+    "current_status": "LEGACY",
+    "official_url": "https://www.usa.philips.com/c-p/AC5659_40/series-5000i-air-purifier",
+    "confidence": "HIGH",
+    "specs": {},
+    "images": [
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_5ae63a74_dd8f_4854_9ab609d92a5b79e7?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_535eb196_e9d4_4436_8eea641486ba3134?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_939064a9_ef2a_4408_a6090e839ca23504?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      }
+    ],
+    "prices": []
+  },
+  {
+    "product_id": "philips-cf-bar305-00",
+    "brand_id": "philips",
+    "category_id": "philips-coffee",
+    "family_id": "philips-cf-baristina",
+    "sku": "BAR305/00",
+    "model_name": "Philips Baristina",
+    "region": "US",
+    "current_status": "CURRENT",
+    "official_url": "https://www.usa.philips.com/c-p/BAR305_00/baristina-espresso-machine",
+    "confidence": "HIGH",
+    "specs": {
+      "brew_architecture": "Manual portafilter, auto grind+tamp",
+      "grinder": "Integrated auto burr grinder",
+      "pressure_bar": "16 bar"
+    },
+    "images": [
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_2aa31d94_4c87_477f_9aecc26cf9e72dfe?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_ed5c1d94_b3bf_4420_84469786fa65f38f?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_1ee3db8e_5fed_4675_ad61bfb42ef2b440?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "SIDE_BACK"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_b74e6cd1_5bf6_49f1_a0b4d1fbe001e673?$png$&wid=400",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_b996bdc5_4133_40fc_996610ada02e2d59?$png$&wid=400",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      }
+    ],
+    "prices": [
+      {
+        "country": "Netherlands",
+        "value": "299.99",
+        "currency": "EUR",
+        "price_type": "PROMOTIONAL"
+      },
+      {
+        "country": "Netherlands",
+        "value": "319.99",
+        "currency": "EUR",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "philips-cf-psa3218-01",
+    "brand_id": "philips",
+    "category_id": "philips-coffee",
+    "family_id": "philips-cf-barista-brew",
+    "sku": "PSA3218/01",
+    "model_name": "Philips Barista Brew (single bean)",
+    "region": "US",
+    "current_status": "CURRENT",
+    "official_url": "https://www.usa.philips.com/c-p/PSA3218_01/philips-barista-brew-semi-automatic-espresso-machine",
+    "confidence": "HIGH",
+    "specs": {
+      "grinder": "Built-in, 15 grind settings",
+      "milk_system": "Manual steam wand + 450ml jug"
+    },
+    "images": [
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_65d3e4d8_a0a7_42b9_87ca4db9c6fca9be?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_2eaf3b2c_5d01_4051_af6b18edb4d5655f?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_856a6996_a83a_4b09_9a34efa9910a8e00?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "SIDE_BACK"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_77d6ba62_4e47_48e1_82bba41a602c0ec9?$png$&wid=400",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_7b78f5a2_3826_4c52_85247724145780de?$png$&wid=400",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      }
+    ],
+    "prices": [
+      {
+        "country": "Netherlands",
+        "value": "489.59",
+        "currency": "EUR",
+        "price_type": "PROMOTIONAL"
+      },
+      {
+        "country": "Netherlands",
+        "value": "669.99",
+        "currency": "EUR",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "philips-cf-ep3347-90",
+    "brand_id": "philips",
+    "category_id": "philips-coffee",
+    "family_id": "philips-cf-series-3300",
+    "sku": "EP3347/90",
+    "model_name": "Philips Series 3300",
+    "region": "US",
+    "current_status": "CURRENT",
+    "official_url": "https://www.usa.philips.com/c-p/EP3347_90/series-3300-fully-automatic-espresso-machine/overview",
+    "confidence": "HIGH",
+    "specs": {
+      "recipe_count": "6 beverages",
+      "grinder": "100% ceramic, 12-step",
+      "milk_system": "LatteGo (2-part, no tubes)"
+    },
+    "images": [
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_1313e87c_d6cb_4813_8d1913c3dd771a9e?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_85a3eb3c_d3ce_4bc5_8f3f64556e45ad67?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_f50ab541_4bf0_4e4e_a0eeed59ff321731?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "SIDE_BACK"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_b2c46d00_de09_400d_a5ac991ca31bb19f?$png$&wid=400",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_77d81fcc_1a84_4c77_954f806b0566072b?$png$&wid=400",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      }
+    ],
+    "prices": [
+      {
+        "country": "Netherlands",
+        "value": "457.98",
+        "currency": "EUR",
+        "price_type": "PROMOTIONAL"
+      },
+      {
+        "country": "Netherlands",
+        "value": "599.99",
+        "currency": "EUR",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "philips-cf-ep8757-20",
+    "brand_id": "philips",
+    "category_id": "philips-coffee",
+    "family_id": "philips-cf-cafe-aromis-8000",
+    "sku": "EP8757/20",
+    "model_name": "Philips Cafe Aromis 8000",
+    "region": "US",
+    "current_status": "CURRENT",
+    "official_url": "https://www.usa.philips.com/c-p/EP8757_20/philips-cafe-aromis-8000-series",
+    "confidence": "HIGH",
+    "specs": {
+      "recipe_count": "50+ hot and cold",
+      "connectivity": "WiFi + app, Barista Assistant"
+    },
+    "images": [
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_2fe08e97_c13c_4016_afb50c12e7a9bd39?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_4cd40dc8_8334_4581_831bd794824164e8?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_82eb8457_7c02_4889_a7ef69a00345bfe2?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "SIDE_BACK"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_70df7ba8_d5ba_4435_aeabadd84d20f2e9?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_b66e1d89_e5be_474f_b906acda54ff39bc?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      }
+    ],
+    "prices": [
+      {
+        "country": "Netherlands",
+        "value": "890.0",
+        "currency": "EUR",
+        "price_type": "PROMOTIONAL"
+      },
+      {
+        "country": "Netherlands",
+        "value": "999.99",
+        "currency": "EUR",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "lor-barista-cf-lm8018",
+    "brand_id": "lor-barista",
+    "category_id": "lor-barista-coffee",
+    "family_id": "lor-barista-cf-family",
+    "sku": "LM8018/90R1",
+    "model_name": "Philips L'OR Barista",
+    "region": "Global",
+    "current_status": "CURRENT",
+    "official_url": "https://www.philips.com/c-p/LM8018_90R1/lor-barista-capsule-coffee-machine",
+    "confidence": "HIGH",
+    "specs": {
+      "brew_architecture": "Capsule (dual: L'OR + Nespresso-compatible)",
+      "pressure_bar": "19 bar"
+    },
+    "images": [
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/e3b49a21695d43d8b0acad1e013c8787?wid=700&hei=700&$pnglarge$",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/6d7641e1d5eb4ace89dfad250106b174?wid=305&hei=173&$jpglarge$",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/c1fcfdff5c22490e980cad1600c8121c?wid=305&hei=173&$jpglarge$",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/c11d7cbfeaac4761a06dad1600f01dc1?wid=305&hei=173&$jpglarge$",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/47c2662eb85342c6bf4ead2501032a3b?wid=305&hei=173&$jpglarge$",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      }
+    ],
+    "prices": []
+  },
+  {
+    "product_id": "senseo-cf-original-nl",
+    "brand_id": "senseo",
+    "category_id": "senseo-coffee",
+    "family_id": "senseo-cf-original",
+    "sku": "SENSEO-ORIGINAL-NL",
+    "model_name": "Senseo Original",
+    "region": "NL",
+    "current_status": "CURRENT",
+    "official_url": "https://www.senseo.nl/koffiemachines/senseo-original/",
+    "confidence": "HIGH",
+    "specs": {},
+    "images": [
+      {
+        "asset_url": "https://www.senseo.nl/siteassets/coffee-machines/original/senseo-original-hd6553-20-cashmere-grey.png",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "FAMILY_GROUP"
+      },
+      {
+        "asset_url": "https://www.senseo.nl/siteassets/coffee-machines/original/senseo-original-rio-red.png",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "FAMILY_GROUP"
+      },
+      {
+        "asset_url": "https://www.senseo.nl/siteassets/coffee-machines/original/senseo-original-hd6553-70-silver-grey.png",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "FAMILY_GROUP"
+      },
+      {
+        "asset_url": "https://www.senseo.nl/siteassets/coffee-machines/original/senseo-original-hd6554-60-black-front.png",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      }
+    ],
+    "prices": []
+  },
+  {
+    "product_id": "saeco-cf-xelsis-suprema-sm8889",
+    "brand_id": "saeco",
+    "category_id": "saeco-coffee",
+    "family_id": "saeco-cf-xelsis-suprema",
+    "sku": "SM8889/00",
+    "model_name": "Saeco Xelsis Suprema",
+    "region": "EU",
+    "current_status": "CURRENT",
+    "official_url": "https://saeco.com/xelsis/xelsis-suprema/",
+    "confidence": "HIGH",
+    "specs": {
+      "recipe_count": "50+",
+      "milk_system": "LattePerfetto (external carafe)",
+      "connectivity": "Built-in WiFi, AI Smart Assistant"
+    },
+    "images": [
+      {
+        "asset_url": "https://media.graphassets.com/resize=w:1920/quality=value:50/auto_image/FNdWh4DSd63WSkIUIQSw",
+        "verification_status": "FAMILY_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://media.graphassets.com/resize=width:3840/quality=value:100/auto_image/p9iNkRdhRJKh7ZhT2Vtx",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://media.graphassets.com/MI8Gs5KTbimbCGG4GCxA",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://media.graphassets.com/s3gPRnQtToKw4zbYjeY8",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "SIDE_BACK"
+      },
+      {
+        "asset_url": "https://media.graphassets.com/EsB0jrXBRrOUmQMLLa93",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://media.graphassets.com/CyPd3VRCROmeNlWrsDXm",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      }
+    ],
+    "prices": [
+      {
+        "country": "Netherlands",
+        "value": "1569.0",
+        "currency": "EUR",
+        "price_type": "PROMOTIONAL"
+      },
+      {
+        "country": "Netherlands",
+        "value": "1749.99",
+        "currency": "EUR",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "saeco-cf-xelsis-deluxe-sm8782",
+    "brand_id": "saeco",
+    "category_id": "saeco-coffee",
+    "family_id": "saeco-cf-xelsis-deluxe",
+    "sku": "SM8782/30",
+    "model_name": "Saeco Xelsis Deluxe",
+    "region": "EU",
+    "current_status": "CURRENT",
+    "official_url": "https://saeco.com/xelsis/xelsis-deluxe/",
+    "confidence": "HIGH",
+    "specs": {},
+    "images": [
+      {
+        "asset_url": "https://media.graphassets.com/resize=width:3840/quality=value:100/auto_image/u1JmAEDcThA5qcorhcnb",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://media.graphassets.com/fCbisxAlRsCazhUjveDA",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://media.graphassets.com/21OaJtEVSu2ZL56AkTTx",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "SIDE_BACK"
+      },
+      {
+        "asset_url": "https://media.graphassets.com/UyrbZ1VT8CvM3Y6Fumvk",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://media.graphassets.com/ytJ6w4jqRjmwdABOGCPI",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      }
+    ],
+    "prices": [
+      {
+        "country": "Netherlands",
+        "value": "699.99",
+        "currency": "EUR",
+        "price_type": "PROMOTIONAL"
+      },
+      {
+        "country": "Netherlands",
+        "value": "1349.99",
+        "currency": "EUR",
+        "price_type": "UNKNOWN"
+      }
+    ]
+  },
+  {
+    "product_id": "saeco-cf-granaroma-sm6480",
+    "brand_id": "saeco",
+    "category_id": "saeco-coffee",
+    "family_id": "saeco-cf-granaroma",
+    "sku": "SM6480/00",
+    "model_name": "Saeco GranAroma",
+    "region": "EU",
+    "current_status": "CURRENT",
+    "official_url": "https://saeco.com/granaroma/granaroma/",
+    "confidence": "HIGH",
+    "specs": {
+      "recipe_count": "up to 16",
+      "connectivity": "WiFi (select EU countries)"
+    },
+    "images": [
+      {
+        "asset_url": "https://media.graphassets.com/resize=width:3840/quality=value:100/auto_image/2qmQKyllTPHTRk1Zx3mg",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://media.graphassets.com/resize=w:700/quality=value:100/auto_image/nwES1lyuQ2eJrayigrH6",
+        "verification_status": "FAMILY_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://media.graphassets.com/cQkwL8rESoa1oQfWi0PA",
+        "verification_status": "FAMILY_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://media.graphassets.com/mEfICWoQly8GovNHF7Hy",
+        "verification_status": "FAMILY_VERIFIED",
+        "image_type": "SIDE_BACK"
+      },
+      {
+        "asset_url": "https://media.graphassets.com/8SN6imQCTUmNJ3jLGdhv",
+        "verification_status": "FAMILY_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      }
+    ],
+    "prices": [
+      {
+        "country": "Netherlands",
+        "value": "763.98",
+        "currency": "EUR",
+        "price_type": "PROMOTIONAL"
+      },
+      {
+        "country": "Netherlands",
+        "value": "819.99",
+        "currency": "EUR",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "gaggia-cf-classicup",
+    "brand_id": "gaggia",
+    "category_id": "gaggia-coffee",
+    "family_id": "gaggia-cf-classic",
+    "sku": "UNVERIFIED-gaggia-cf-classicup",
+    "model_name": "Gaggia Classic UP",
+    "region": "IT/EU",
+    "current_status": "CURRENT",
+    "official_url": "https://www.gaggia.com/manual-machines/classic-up/",
+    "confidence": "HIGH",
+    "specs": {
+      "brew_architecture": "Manual portafilter",
+      "pressure_bar": "9 bar brewing / 15 bar pump"
+    },
+    "images": [
+      {
+        "asset_url": "https://www.gaggia.com/app/uploads/2026/02/Classic_Up_Immagine_Menu_Gaggia.png",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://www.gaggia.com/app/uploads/2026/02/Classic_Up-Trequarti.png",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://www.gaggia.com/app/uploads/2026/02/classic-up_overview-05-lancia_po_1560x790-1140x578-1.jpg",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://www.gaggia.com/app/uploads/2026/02/classic-up_overview-06-manometro_po_1560x790-1140x578-1.jpg",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://www.gaggia.com/app/uploads/2026/02/classic-up_overview-07-toggles_po_1560x790-1140x578-1.jpg",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      }
+    ],
+    "prices": []
+  },
+  {
+    "product_id": "philips-hs-hsp5500-02",
+    "brand_id": "philips",
+    "category_id": "philips-home-safety",
+    "family_id": "philips-hs-5000series",
+    "sku": "HSP5500/02",
+    "model_name": "Home Safety Indoor 360deg Camera with Privacy Shutter",
+    "region": "India",
+    "current_status": "CURRENT",
+    "official_url": "https://www.philips.co.in/c-p/HSP5500_02/home-safety-indoor-360degree-camera-with-privacy-shutter",
+    "confidence": "HIGH",
+    "specs": {
+      "resolution": "2K clarity",
+      "detection_features": "AI people/pet/cry detection, motion tracking, privacy shutter, pan-tilt"
+    },
+    "images": [
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_c7347195_bcfe_442d_b7cc2c4f960a8e3d?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_f0202d8f_914f_4012_9b16e8c259242133?$png$&wid=632&hei=632&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_9b2a5603_507b_46e1_8116cdfedcc50704?$png$&wid=632&hei=632&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_7c945c93_fbfa_46b8_a00ce55414856142?$png$&wid=632&hei=632&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_bf9ea63a_ac32_4201_a9522daac3d638b7?$png$&wid=632&hei=632&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      }
+    ],
+    "prices": []
+  },
+  {
+    "product_id": "philips-hs-hsp5300-01",
+    "brand_id": "philips",
+    "category_id": "philips-home-safety",
+    "family_id": "philips-hs-5000series",
+    "sku": "HSP5300/01",
+    "model_name": "Wireless Video Doorbell",
+    "region": "Singapore",
+    "current_status": "CURRENT",
+    "official_url": "https://www.home-appliances.philips/sg/en/p/HSP5300_01",
+    "confidence": "HIGH",
+    "specs": {
+      "resolution": "2048x1536 (~2K), 3MP sensor, 160deg FoV",
+      "sensors": "PIR motion, person detection, anti-tamper siren",
+      "connectivity": "Wi-Fi 2.4GHz (min 2Mbps)",
+      "power_source": "Built-in 5900mAh battery (~3mo life) OR wired 8-24VAC"
+    },
+    "images": [
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp1024x1024/2b8f1361-088e-4bae-a2e2-6893eb808728/HSP5300_doorbell-on-white-F_award_light_1x1.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp1024x1024/7c2f2252-f4af-4428-a09d-eb87f49c82ee/HS_2023_HSP5300_01_F_fullframe.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp1024x1024/f3200bed-abd0-4186-a2de-8872abc519f3/HS_2023_HSP5300_01_A2_fullframe.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "SIDE_BACK"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp1024x1024/1efc15c6-2169-4073-9704-309b078d1f6a/HS_2023_HSP5300_PIU_1_16x9.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp1024x1024/02397e53-2d47-4498-8d92-377685df41b7/MVP-Family-light-HR-B-EBP-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "FAMILY_GROUP"
+      }
+    ],
+    "prices": [
+      {
+        "country": "Singapore",
+        "value": "249.0",
+        "currency": "SGD",
+        "price_type": "PROMOTIONAL"
+      },
+      {
+        "country": "Singapore",
+        "value": "261.0",
+        "currency": "SGD",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "philips-pet-paw5320-02",
+    "brand_id": "philips",
+    "category_id": "philips-pet-care",
+    "family_id": "philips-pet-series",
+    "sku": "PAW5320/02",
+    "model_name": "Pet Series Smart Feeder with Camera (5000 series)",
+    "region": "UK",
+    "current_status": "CURRENT",
+    "official_url": "https://www.home-appliances.philips/gb/en/p/PAW5320_02",
+    "confidence": "HIGH",
+    "specs": {
+      "capacity": "4.5 L dry food, 2-12mm kibble",
+      "camera": "HD/1080p camera, 2-way audio"
+    },
+    "images": [
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp1024x1024/4754c4f9-9b34-40ab-83a8-6743bb215746/Pet-Series_2024_PAW5320_D1-PIM_1x1.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp1024x1024/da003bd9-701a-4839-9c2e-e128209badd2/Pet-Series-Smart-Feeder-with-Camera-PAW5320_02-Dark-Grey-Front-product-photo-PPL-1X1.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp1024x1024/d21d5d6d-d001-471f-88cc-530577b30b12/Pet-Series-Smart-Feeder-with-Camera-PAW5320_02-Dark-Grey-Product-In-Use-Photo-PPL-notification_motion-1X1.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp1024x1024/2b19b2de-f4f3-4be3-8a7e-79087d950e6b/Pet-Series-Smart-Feeder-with-Camera-PAW5320_02-Dark-Grey-Product-In-Use-Photo-PPL-meal_dispensing-16X9.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp1024x1024/4c7f3abc-ac97-47c6-bf7c-1ac06eeab134/Pet-Series-Smart-Feeder-with-Camera-PAW5320_02-Dark-Grey-Main-in-use-photograph-PPL-1X1.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      }
+    ],
+    "prices": [
+      {
+        "country": "United Kingdom",
+        "value": "149.99",
+        "currency": "GBP",
+        "price_type": "OFFICIAL_PRICE"
+      }
+    ]
+  },
+  {
+    "product_id": "philips-pet-paw3210-02",
+    "brand_id": "philips",
+    "category_id": "philips-pet-care",
+    "family_id": "philips-pet-series",
+    "sku": "PAW3210/02",
+    "model_name": "Pet Series Water Fountain (3000 series)",
+    "region": "UK",
+    "current_status": "CURRENT",
+    "official_url": "https://www.home-appliances.philips/gb/en/p/PAW3210_02",
+    "confidence": "HIGH",
+    "specs": {
+      "capacity_l": "2.2",
+      "connectivity": "None (non-connected, corded only)"
+    },
+    "images": [
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp1024x1024/bc788af0-c5eb-4bd9-98ca-6fc72bea6a68/Pet-Series_2024_PAW3210_D4_RedDot_PIM_16-9.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp1024x1024/ab28d51d-cf60-4605-a04f-7877ec2c34b7/Pet-Series-Water-Fountain-PAW3210_02-Dark-Grey-Front-Product-photo-PPL-1X1.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp1024x1024/e36d0bf2-53a7-44d3-a5be-d721c8d989a2/Pet-Series-Water-Fountain-PAW3210_02-Dark-Grey-Product-In-Use-Photo-PPL-know_when_to_refill-1X1.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp1024x1024/e61704e0-b747-4591-9073-a436ba3cbb78/Pet-Series-Water-Fountain-PAW3210_02-Dark-Grey-Product-In-Use-Photo-PPL-run_dry_protection-1X1.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp1024x1024/c5596d9d-8422-4b26-9a2a-125cd5a54e6f/Pet-Series-Water-Fountain-PAW3210_02-Dark-Grey-Main-in-use-photograph-PPL-1X1.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      }
+    ],
+    "prices": [
+      {
+        "country": "United Kingdom",
+        "value": "44.99",
+        "currency": "GBP",
+        "price_type": "OFFICIAL_PRICE"
+      }
+    ]
+  },
+  {
+    "product_id": "philips-garden-rsl3000-10",
+    "brand_id": "philips",
+    "category_id": "philips-garden-care",
+    "family_id": "philips-gardencare-3000",
+    "sku": "RSL3000/10",
+    "model_name": "GardenCare 3000 Series robot lawn mower",
+    "region": "France",
+    "current_status": "CURRENT",
+    "official_url": "https://www.home-appliances.philips/fr/fr/p/RSL3000_10",
+    "confidence": "HIGH",
+    "specs": {
+      "cutting_width_cm": "18",
+      "mapping": "GPS-based mapping, parallel-line cutting pattern",
+      "battery": "Li-ion 46W, 130 min runtime / 120 min recharge",
+      "coverage_m2": "1000",
+      "connectivity": "Wi-Fi, range <200m, HomeRun app"
+    },
+    "images": [
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp1024x1024/9609b7e7-efb3-470a-8937-93b80a58fcb0/GS_2024_RSL3000_10_product-RFT-app_1x1_English-United-States-global.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp1024x1024/b43547e4-5938-45dd-a1c0-ecf592418d9d/RSL3000_10.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp1024x1024/81fece6a-4e00-4062-8198-5741bccd917f/RSL3000_10.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "SIDE_BACK"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp1024x1024/19b5340d-18ee-42ba-8569-06806d535d24/GS_2024_RSL3000_20_rain-sensor_1x1_English-United-States-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp1024x1024/f51c2e97-d2d3-45e1-bfc7-c2714805b772/GS_2024_RSL3000_10_3x-faster-mowing_1x1_English-United-States.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      }
+    ],
+    "prices": [
+      {
+        "country": "Netherlands",
+        "value": "999.99",
+        "currency": "EUR",
+        "price_type": "OFFICIAL_PRICE"
+      }
+    ]
+  },
+  {
+    "product_id": "walita-af-na150-00",
+    "brand_id": "philips-walita",
+    "category_id": "walita-kitchen",
+    "family_id": "walita-af-1000",
+    "sku": "NA150/00",
+    "model_name": "Airfryer Serie 1000 Duplo Cesto 7.1L",
+    "region": "Brazil",
+    "current_status": "CURRENT",
+    "official_url": "https://www.walita.com.br/fritadeira-airfryer-serie-1000-duplo-cesto-7-1l-philips-walita-na150-na150-00/p",
+    "confidence": "HIGH",
+    "specs": {},
+    "images": [
+      {
+        "asset_url": "https://walitastore.vtexassets.com/arquivos/ids/162146/NA150_2.png.png?v=638793654270700000",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://walitastore.vtexassets.com/arquivos/ids/162147/NA150_1.png.png?v=638793654271000000",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://walitastore.vtexassets.com/arquivos/ids/162148/NA150_3.png.png?v=638793654271000000",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://walitastore.vtexassets.com/arquivos/ids/162149/NA150_4.png.png?v=638793654271170000",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "SIDE_BACK"
+      },
+      {
+        "asset_url": "https://walitastore.vtexassets.com/arquivos/ids/162150/NA150_5.png.png?v=638793654271170000",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://walitastore.vtexassets.com/arquivos/ids/162153/NA150_8.jpg.jpg?v=638793654271430000",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      }
+    ],
+    "prices": [
+      {
+        "country": "Brazil",
+        "value": "849.9",
+        "currency": "BRL",
+        "price_type": "PROMOTIONAL"
+      },
+      {
+        "country": "Brazil",
+        "value": "1199.9",
+        "currency": "BRL",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "walita-af-ri9270-90",
+    "brand_id": "philips-walita",
+    "category_id": "walita-kitchen",
+    "family_id": "walita-af-3000",
+    "sku": "RI9270/90",
+    "model_name": "Airfryer Essential XL Digital Serie 3000",
+    "region": "Brazil",
+    "current_status": "CURRENT",
+    "official_url": "https://www.walita.com.br/fritadeira-airfryer-essential-xl-digital-philips-walita-preta-2000w---ri9270-ri9270-90-preto/p",
+    "confidence": "HIGH",
+    "specs": {
+      "capacity_l": "6.2 L total / 4.5 L usable",
+      "power_w": "2000",
+      "temp_range_c": "80-200"
+    },
+    "images": [
+      {
+        "asset_url": "https://walitastore.vtexassets.com/arquivos/ids/160654/RI9270_1.png?v=638754803027430000",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://walitastore.vtexassets.com/arquivos/ids/160655/RI9270_2.png?v=638754803029130000",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://walitastore.vtexassets.com/arquivos/ids/160657/RI9270_4.jpg?v=638754803029130000",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "SIDE_BACK"
+      },
+      {
+        "asset_url": "https://walitastore.vtexassets.com/arquivos/ids/160658/RI9270_5.jpg?v=638754803029130000",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://walitastore.vtexassets.com/arquivos/ids/160661/RI9270_8.jpg?v=638754803029300000",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      }
+    ],
+    "prices": [
+      {
+        "country": "Brazil",
+        "value": "599.9",
+        "currency": "BRL",
+        "price_type": "PROMOTIONAL"
+      },
+      {
+        "country": "Brazil",
+        "value": "869.9",
+        "currency": "BRL",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "walita-af-ai551-09",
+    "brand_id": "philips-walita",
+    "category_id": "walita-kitchen",
+    "family_id": "walita-af-5000",
+    "sku": "AI551/09",
+    "model_name": "Airfryer Forno Serie 5000 12L",
+    "region": "Brazil",
+    "current_status": "CURRENT",
+    "official_url": "https://www.walita.com.br/airfryer-forno-serie-5000-philips-walita-ai551-09/p",
+    "confidence": "HIGH",
+    "specs": {},
+    "images": [
+      {
+        "asset_url": "https://walitastore.vtexassets.com/arquivos/ids/161166/AI551_Painel_2.png?v=638759977957830000",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://walitastore.vtexassets.com/arquivos/ids/161169/AI551_Lateral_4.png?v=638759977958000000",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "SIDE_BACK"
+      },
+      {
+        "asset_url": "https://walitastore.vtexassets.com/arquivos/ids/161171/AI551_Acessorios_6.png?v=638759977958130000",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://walitastore.vtexassets.com/arquivos/ids/161172/AI551_Ambientada_7.png?v=638759977958130000",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      }
+    ],
+    "prices": [
+      {
+        "country": "Brazil",
+        "value": "739.9",
+        "currency": "BRL",
+        "price_type": "PROMOTIONAL"
+      },
+      {
+        "country": "Brazil",
+        "value": "1049.9",
+        "currency": "BRL",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "walita-cf-ep4441-53",
+    "brand_id": "philips-walita",
+    "category_id": "walita-kitchen",
+    "family_id": "walita-cf-4400",
+    "sku": "EP4441/53",
+    "model_name": "Cafeteira Espresso Superautomatica LatteGo Serie 4400",
+    "region": "Brazil",
+    "current_status": "CURRENT",
+    "official_url": "https://www.walita.com.br/compre-cafeteira-superautomatica-lattego-serie-4400-ganhe-fritadeira-airfryer-serie-3000--/p",
+    "confidence": "HIGH",
+    "specs": {
+      "brew_architecture": "LatteGo, 12 grind levels, 15 bar, 12 drink types",
+      "power_w": "1400"
+    },
+    "images": [
+      {
+        "asset_url": "https://walitastore.vtexassets.com/arquivos/ids/161619/EP4441_20__1.png.png?v=638748768305870000",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://walitastore.vtexassets.com/arquivos/ids/161620/EP4441_20__2.png.png?v=638748768306000000",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://walitastore.vtexassets.com/arquivos/ids/161622/EP4441_20__4.png.png?v=638748768306170000",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "SIDE_BACK"
+      },
+      {
+        "asset_url": "https://walitastore.vtexassets.com/arquivos/ids/161623/EP4441_20__5.png.png?v=638748768306170000",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://walitastore.vtexassets.com/arquivos/ids/161627/EP4441_20__9.png.png?v=638748768306330000",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      }
+    ],
+    "prices": [
+      {
+        "country": "Brazil",
+        "value": "4799.9",
+        "currency": "BRL",
+        "price_type": "PROMOTIONAL"
+      },
+      {
+        "country": "Brazil",
+        "value": "6299.9",
+        "currency": "BRL",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "walita-cf-ep5441-55",
+    "brand_id": "philips-walita",
+    "category_id": "walita-kitchen",
+    "family_id": "walita-cf-5400",
+    "sku": "EP5441/55",
+    "model_name": "Cafeteira Espresso Superautomatica LatteGo Elite Serie 5400",
+    "region": "Brazil",
+    "current_status": "CURRENT",
+    "official_url": "https://www.walita.com.br/cafeteira-espresso-automatica-serie-5400-philips-walita-preta-1400w---ep5441-ep5441-55-preto/p",
+    "confidence": "HIGH",
+    "specs": {},
+    "images": [
+      {
+        "asset_url": "https://web.archive.org/web/20230621001225im_/https://walitastore.vtexassets.com/arquivos/ids/159628-1200-auto",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      }
+    ],
+    "prices": []
+  },
+  {
+    "product_id": "walita-fp-hr7304-90",
+    "brand_id": "philips-walita",
+    "category_id": "walita-kitchen",
+    "family_id": "walita-fp-powerchop-1000",
+    "sku": "HR7304/90",
+    "model_name": "Multiprocessador PowerChop 1000",
+    "region": "Brazil",
+    "current_status": "CURRENT",
+    "official_url": "https://www.walita.com.br/multiprocessador-powerchop-1000-philips-walita-preto-1000w---6-acessorios-inclusos---hr7304/p",
+    "confidence": "HIGH",
+    "specs": {
+      "power_w": "1000"
+    },
+    "images": [
+      {
+        "asset_url": "https://walitastore.vtexassets.com/arquivos/ids/160362/HR7304_Frente_1.png?v=638962420587570000",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://walitastore.vtexassets.com/arquivos/ids/160363/HR7304_Frente_2.png?v=638962420587570000",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://walitastore.vtexassets.com/arquivos/ids/161295/HR7304_Acessorio_3.png?v=638962420587700000",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://walitastore.vtexassets.com/arquivos/ids/161296/HR7304_Acessorio_4.png?v=638962420587870000",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://walitastore.vtexassets.com/arquivos/ids/161302/HR7304_Caixa_10.png?v=638962420588170000",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      }
+    ],
+    "prices": []
+  },
+  {
+    "product_id": "walita-vac-xc2011-01",
+    "brand_id": "philips-walita",
+    "category_id": "walita-vacuums",
+    "family_id": "walita-vac-2000",
+    "sku": "XC2011/01",
+    "model_name": "Aspirador Vertical Serie 2000",
+    "region": "Brazil",
+    "current_status": "CURRENT",
+    "official_url": "https://www.walita.com.br/aspirador-de-po-vertical-serie-2000-philips-21-6v-xc2011-xc2011-01/p",
+    "confidence": "HIGH",
+    "specs": {
+      "power_w": "167 (motor)",
+      "runtime_min": "up to 40 min (Eco) / 10 min (Turbo)"
+    },
+    "images": [
+      {
+        "asset_url": "https://walitastore.vtexassets.com/arquivos/ids/161825/XC2011_1.png.png?v=638774072164930000",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://walitastore.vtexassets.com/arquivos/ids/161827/XC2011_2.png.png?v=638774072165230000",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://walitastore.vtexassets.com/arquivos/ids/161828/XC2011_3.png.png?v=638774072165400000",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "SIDE_BACK"
+      },
+      {
+        "asset_url": "https://walitastore.vtexassets.com/arquivos/ids/161829/XC2011_4.png.png?v=638774072165400000",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://walitastore.vtexassets.com/arquivos/ids/161833/XC2011_9.png.png?v=638774072165700000",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      }
+    ],
+    "prices": [
+      {
+        "country": "Brazil",
+        "value": "1099.9",
+        "currency": "BRL",
+        "price_type": "PROMOTIONAL"
+      },
+      {
+        "country": "Brazil",
+        "value": "1499.9",
+        "currency": "BRL",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "walita-hum-hu1510-04",
+    "brand_id": "philips-walita",
+    "category_id": "walita-climate",
+    "family_id": "walita-hum-1000",
+    "sku": "HU1510/04",
+    "model_name": "Umidificador Ultrassonico Serie 1000",
+    "region": "Brazil",
+    "current_status": "CURRENT",
+    "official_url": "https://www.walita.com.br/umidificador-de-ar-serie-1000-philips-bivolt-hu1510-04/p",
+    "confidence": "HIGH",
+    "specs": {
+      "capacity_l": "3",
+      "connectivity": "Air+ app"
+    },
+    "images": [
+      {
+        "asset_url": "https://walitastore.vtexassets.com/arquivos/ids/162648/HU1510_1.png?v=638926827382270000",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://walitastore.vtexassets.com/arquivos/ids/162649/HU1510_2.png?v=638926827382600000",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://walitastore.vtexassets.com/arquivos/ids/162651/HU1510_4.png?v=638926827382730000",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "SIDE_BACK"
+      },
+      {
+        "asset_url": "https://walitastore.vtexassets.com/arquivos/ids/162652/HU1510_5.png?v=638926827382730000",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://walitastore.vtexassets.com/arquivos/ids/162656/HU1510_9.png?v=638926827383070000",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      }
+    ],
+    "prices": [
+      {
+        "country": "Brazil",
+        "value": "479.9",
+        "currency": "BRL",
+        "price_type": "PROMOTIONAL"
+      },
+      {
+        "country": "Brazil",
+        "value": "519.9",
+        "currency": "BRL",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "philips-air-ac1715-10-br",
+    "brand_id": "philips",
+    "category_id": "philips-air-climate",
+    "family_id": "philips-air-1000i",
+    "sku": "AC1715/10",
+    "model_name": "Purificador de ar Serie 1000i (BR)",
+    "region": "Brazil",
+    "current_status": "CURRENT",
+    "official_url": "https://www.philips.com.br/c-p/AC1715_10/purificador-de-ar-serie-1000i",
+    "confidence": "HIGH",
+    "specs": {
+      "cadr_m3h": "300",
+      "room_coverage_m2": "78"
+    },
+    "images": [
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_a9c41ca1_7694_4947_b4d0cfe0b7cfc3a9?$png$&wid=1200&hei=630",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_a6ee3aeb_a39b_44fd_8ce9512dfe2ec181?$png$&wid=700&hei=700",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_d1ecfab9_0146_40a7_ae9d4f601a4af805?$png$&wid=700&hei=700",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_27f68f0e_892c_4378_8061169db7394ba6?$png$&wid=700&hei=700",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_2dcb7eb3_2a92_424e_84eb7a2b7ceb9b66?$png$&wid=700&hei=700",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      }
+    ],
+    "prices": []
+  },
+  {
+    "product_id": "philips-af-na110-00",
+    "brand_id": "philips",
+    "category_id": "philips-airfryer",
+    "family_id": "philips-af-1000",
+    "sku": "NA110/00",
+    "model_name": "1000 Series Airfryer 3.4Qt",
+    "region": "US",
+    "current_status": "CURRENT",
+    "official_url": "https://www.usa.philips.com/c-p/NA110_00/1000-series-airfryer-1000-series-32l",
+    "confidence": "HIGH",
+    "specs": {},
+    "images": [
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_07ad22d3_a356_496f_bfa3d8fdea766eba?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_8130925d_e00c_406d_b650215b17897960?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_4366bdb3_bd12_4ee5_9bb00ef9e2f38b4f?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_d4b1311a_fe36_4dbb_a9f4655592fe46e9?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "SIDE_BACK"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_86093767_6dfc_4b77_98e8e33c65e17967?$png$&wid=400",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      }
+    ],
+    "prices": []
+  },
+  {
+    "product_id": "philips-af-na220-00",
+    "brand_id": "philips",
+    "category_id": "philips-airfryer",
+    "family_id": "philips-af-2000",
+    "sku": "NA220/00",
+    "model_name": "2000 Series Airfryer 4.2L",
+    "region": "US",
+    "current_status": "CURRENT",
+    "official_url": "https://www.usa.philips.com/c-p/NA220_00/2000-series-airfryer-2000-series-44qt",
+    "confidence": "HIGH",
+    "specs": {},
+    "images": [
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_fd91ce38_a30d_4a89_8194363b1500381b?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_0f1b8c7a_bde6_44a1_846a60b19c85f1f6?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_4e743660_02a8_49c8_85963ae01db81a0d?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_ab35b705_911c_4bdc_820de3dfb1a5fc13?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "SIDE_BACK"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_704f2758_f4e5_49db_b9e30f40ea746add?$png$&wid=400",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      }
+    ],
+    "prices": []
+  },
+  {
+    "product_id": "philips-af-na352-00",
+    "brand_id": "philips",
+    "category_id": "philips-airfryer",
+    "family_id": "philips-af-3000",
+    "sku": "NA352/00",
+    "model_name": "3000 Series Dual Basket 6L+3L",
+    "region": "UK",
+    "current_status": "CURRENT",
+    "official_url": "https://www.home-appliances.philips/gb/en/p/NA352_00",
+    "confidence": "HIGH",
+    "specs": {},
+    "images": [
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/2a0f59d2-67ee-46c5-8357-718b04212e75/FIM_NA352_10_NAM_16x9.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/9bc2c19d-aed7-4840-9324-ad26c7fabe83/F-NA352_00_16x9.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/52aa01c9-ca5f-45db-8c4d-a6b7dea0edbc/A1_NA352_10_NAM_16x9.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/63b1296e-7a39-4ad1-b996-d63f67ad64d7/APS_NA352_10_NAM_16x9.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "SIDE_BACK"
+      }
+    ],
+    "prices": [
+      {
+        "country": "Netherlands",
+        "value": "130.0",
+        "currency": "EUR",
+        "price_type": "PROMOTIONAL"
+      },
+      {
+        "country": "Netherlands",
+        "value": "199.99",
+        "currency": "EUR",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "philips-af-na555-00",
+    "brand_id": "philips",
+    "category_id": "philips-airfryer",
+    "family_id": "philips-af-5000",
+    "sku": "NA555/00",
+    "model_name": "5000 Series Dual Basket w/ Steam 9.6qt",
+    "region": "US",
+    "current_status": "CURRENT",
+    "official_url": "https://www.usa.philips.com/c-p/NA555_00/5000-series",
+    "confidence": "HIGH",
+    "specs": {
+      "capacity_l": "9L (6L+3L)",
+      "power_w": "2750",
+      "temp_range_c": "40-200",
+      "basket_architecture": "Dual basket, one steam-capable"
+    },
+    "images": [
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp1024x1024/3cd937ed-07de-4769-8471-88ae2cf00a86/KA_2024_NA555_00_F_1x1-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_42eee94e_458c_4901_8a2951a4df78add6?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_e1654818_90d0_4f4f_843cde94792af236?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "SIDE_BACK"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_8deb7270_3083_444e_af6adabf031faaf3?$png$&wid=400",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      }
+    ],
+    "prices": [
+      {
+        "country": "Netherlands",
+        "value": "193.8",
+        "currency": "EUR",
+        "price_type": "PROMOTIONAL"
+      },
+      {
+        "country": "Netherlands",
+        "value": "269.99",
+        "currency": "EUR",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "philips-af-hd9880-90",
+    "brand_id": "philips",
+    "category_id": "philips-airfryer",
+    "family_id": "philips-af-7000",
+    "sku": "HD9880/90",
+    "model_name": "7000 Series Airfryer Combi XXL",
+    "region": "Singapore",
+    "current_status": "CURRENT",
+    "official_url": "https://www.home-appliances.philips/sg/en/p/HD9880_90",
+    "confidence": "HIGH",
+    "specs": {
+      "capacity_l": "8.3L / 2kg",
+      "power_w": "2200",
+      "cooking_modes": "22 functions, 80+ auto-cook",
+      "connectivity": "WiFi + HomeID app"
+    },
+    "images": [
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp1024x1024/333e0b53-29d7-427a-b810-619aef3bcb56/Primary-HD9880_90.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/7fe92ed2-f2e1-4d36-b652-c043a1ecdee6/A1-HD9880_90.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/c2194dc4-528b-4f49-97e8-c1fa45ff6492/T1-HD9880_90.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/0a07bd98-3d3d-4fbd-95d1-202001650c0c/HD9880_Cooking_InUse_1x1-jpg.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/50779ac1-1811-4015-b843-26873080450d/D1-HD9880_90.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      }
+    ],
+    "prices": [
+      {
+        "country": "Netherlands",
+        "value": "399.0",
+        "currency": "EUR",
+        "price_type": "PROMOTIONAL"
+      },
+      {
+        "country": "Netherlands",
+        "value": "399.99",
+        "currency": "EUR",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "philips-ck-hd3095-87",
+    "brand_id": "philips",
+    "category_id": "philips-cooking",
+    "family_id": "philips-ck-multicooker-avance",
+    "sku": "HD3095/87",
+    "model_name": "Avance Collection Multicooker 4L",
+    "region": "US",
+    "current_status": "CURRENT",
+    "official_url": "https://www.usa.philips.com/c-p/HD3095_87/avance-collection-multicooker",
+    "confidence": "HIGH",
+    "specs": {
+      "capacity": "4L / 16 cups",
+      "cooking_modes": "10 preset programs"
+    },
+    "images": [
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_8dbac2d4_71fa_484c_81f4f329b55aacd4?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_958e5412_0809_4761_8c9103d48673c333?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_865d3f61_f01a_4907_b54a5d7e2e61038e?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_0c5c1733_f60f_4313_858f66a874f5518a?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "SIDE_BACK"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_7d521464_1343_4e22_921516fc97992ec3?$png$&wid=400",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      }
+    ],
+    "prices": []
+  },
+  {
+    "product_id": "philips-bl-hr2767-00",
+    "brand_id": "philips",
+    "category_id": "philips-blending",
+    "family_id": "philips-bl-series-5000",
+    "sku": "HR2767/00",
+    "model_name": "5000 Series Blender",
+    "region": "Bahrain",
+    "current_status": "CURRENT",
+    "official_url": "https://www.philips.com.bh/c-p/HR2767_00/5000-series-blender",
+    "confidence": "HIGH",
+    "specs": {
+      "capacity": "700/500/300 ml tumblers",
+      "power_w": "1000"
+    },
+    "images": [
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_d4c250ae_cb4f_40cb_aa247e024e62191d?wid=700&hei=700&$pnglarge$",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_4760b289_686f_4aba_8ff517d012b40944?wid=610&hei=346&$jpglarge$",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_048d6000_f78f_449e_9367fd6ecbfd1bec?wid=610&hei=346&$jpglarge$",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_2c1ed622_b2f6_4103_9428b64d51012a7b?wid=610&hei=346&$jpglarge$",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_9aac4bba_fae0_45d9_a3f6f84309e28e0f?wid=610&hei=346&$jpglarge$",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      }
+    ],
+    "prices": [
+      {
+        "country": "Netherlands",
+        "value": "89.0",
+        "currency": "EUR",
+        "price_type": "PROMOTIONAL"
+      },
+      {
+        "country": "Netherlands",
+        "value": "104.99",
+        "currency": "EUR",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "philips-jc-hr1855-70r1",
+    "brand_id": "philips",
+    "category_id": "philips-juicing",
+    "family_id": "philips-jc-viva",
+    "sku": "HR1855/70R1",
+    "model_name": "Viva Collection Juicer 800W (refurb channel)",
+    "region": "UK",
+    "current_status": "CURRENT",
+    "official_url": "https://www.home-appliances.philips/gb/en/p/HR1855_70R1",
+    "confidence": "HIGH",
+    "specs": {
+      "capacity": "800 ml jug / 1.2L pulp",
+      "power_w": "800"
+    },
+    "images": [
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp1024x1024/0d1ba2d7-1c4f-4ac2-82d1-59b76ad1cb0f/Standard-Product-Photo-Philips-Viva-Collection-Juicer-HR1855_70.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/713f86e7-0535-49a3-89b8-b1587bed6b56/Front-Product-Photo-Philips-Viva-Collection-Juicer-HR1855_70.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/38abc736-51b8-4b65-b3b2-1c67e5ec028d/Alternative-Product-Photograph-Philips-Viva-Collection-Juicer-HR1855_70.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/3880a1ea-0ade-4f35-a519-ed5fb20e0454/Product-Detail-Photograph-Philips-Viva-Collection-Juicer.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp654x369/5d0f6646-3a3c-49d7-82d0-33beb4d0a7f3/Feature-Image-Powerful-800-W-motor-juicers.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      }
+    ],
+    "prices": []
+  },
+  {
+    "product_id": "philips-jc-hr1897-34",
+    "brand_id": "philips",
+    "category_id": "philips-juicing",
+    "family_id": "philips-jc-avance-masticating",
+    "sku": "HR1897/34",
+    "model_name": "Avance Collection Masticating Juicer",
+    "region": "US",
+    "current_status": "CURRENT",
+    "official_url": "https://www.usa.philips.com/c-p/HR1897_34/avance-collection-masticating-juicer",
+    "confidence": "HIGH",
+    "specs": {},
+    "images": [
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_2b0c2a0f_992b_4f1c_a51de11bd8e1c3c1?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_9b6757e2_d041_4fa3_9998a668d273f214?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_de516192_aaf9_448e_bbdcec72d8213def?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_4d5409fc_c68b_42ca_9aa52f3881b022f8?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "SIDE_BACK"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_ab796600_fbeb_4dc2_8dd6254efd657be7?$png$&wid=400",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      }
+    ],
+    "prices": []
+  },
+  {
+    "product_id": "philips-bf-hd2383-22",
+    "brand_id": "philips",
+    "category_id": "philips-breakfast",
+    "family_id": "philips-bf-sandwich-maker",
+    "sku": "HD2383/22",
+    "model_name": "Sandwich Maker 700W",
+    "region": "Global",
+    "current_status": "CURRENT",
+    "official_url": "https://www.philips.com/c-p/HD2383_22/sandwich-maker",
+    "confidence": "HIGH",
+    "specs": {
+      "power_w": "700"
+    },
+    "images": [
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/1ba22abfc0fa4cd3a2d1ad28017035dd?wid=700&hei=700&$pnglarge$",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/09e48476a637494da2f5ad16015b515e?wid=610&hei=346&$jpglarge$",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/5dc1bb2f0d674a5cb9a5ad1600e9bf75?wid=610&hei=346&$jpglarge$",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/0a947d35eb29425e87e6ad160154dacb?wid=610&hei=346&$jpglarge$",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/851796941f32420a892ead1e0088431a?wid=610&hei=346&$jpglarge$",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      }
+    ],
+    "prices": []
+  },
+  {
+    "product_id": "philips-bf-hd9365-10",
+    "brand_id": "philips",
+    "category_id": "philips-breakfast",
+    "family_id": "philips-bf-kettle-eco5000",
+    "sku": "HD9365/10",
+    "model_name": "Eco Conscious Edition 5000 Series Kettle 1.7L",
+    "region": "Global",
+    "current_status": "CURRENT",
+    "official_url": "https://www.philips.com/c-p/HD9365_10/eco-conscious-edition-5000-series-kettle",
+    "confidence": "HIGH",
+    "specs": {
+      "capacity_l": "1.7",
+      "power_w": "1850-2200"
+    },
+    "images": [
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/921b4402a8e447718d61ad80008ce2ef?wid=700&hei=700&$pnglarge$",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/1c2fbfc0dbe34f1f9a30ad2500ae0ab5?wid=610&hei=346&$jpglarge$",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/cb2e4c7627924455a30bad3a009c0348?wid=610&hei=346&$jpglarge$",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/a465ad8c89b646d990fead4900681621?wid=610&hei=346&$jpglarge$",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/e1752484b73248e3aea5ad2500ae0900?wid=610&hei=346&$jpglarge$",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      }
+    ],
+    "prices": [
+      {
+        "country": "Netherlands",
+        "value": "47.28",
+        "currency": "EUR",
+        "price_type": "PROMOTIONAL"
+      },
+      {
+        "country": "Netherlands",
+        "value": "57.99",
+        "currency": "EUR",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "philips-fc-xu7100-01",
+    "brand_id": "philips",
+    "category_id": "philips-floor-care",
+    "family_id": "philips-fc-homerun",
+    "sku": "XU7100/01",
+    "model_name": "HomeRun 7000 Series Aqua",
+    "region": "UK",
+    "current_status": "CURRENT",
+    "official_url": "https://www.home-appliances.philips/gb/en/p/XU7100_01",
+    "confidence": "HIGH",
+    "specs": {
+      "runtime_min": "up to 180 min",
+      "navigation": "360 deg laser navigation (LiDAR), saves up to 5 maps",
+      "wet_dry": "Yes (vacuum+mop simultaneous)",
+      "station": "Auto-Empty station, 3.0L disposable anti-allergy bag",
+      "suction_metric": "5000 Pa"
+    },
+    "images": [
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp1024x1024/d20aa63e-8565-4143-aff3-91ce7fc17d86/RFT2_XU7100_01_1x1-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/fcfb86e1-e57a-4a68-87a5-fb3b2dbd51c0/A1_XU7100_01_Clean_Station_1x1-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/224e552d-9a51-4201-8520-265014564296/PUP_XU7100_01_Set_1x1-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/55ad07a3-f171-44b7-89e2-3aef224e3444/FC_2023_XU7100_01_wet_and_dry_1x1-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/c7f23de7-d14c-4947-92fe-e70252be14dd/FC_2023_XU7100_01_anti_allergy_1x1-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      }
+    ],
+    "prices": [
+      {
+        "country": "Netherlands",
+        "value": "450.0",
+        "currency": "EUR",
+        "price_type": "PROMOTIONAL"
+      },
+      {
+        "country": "Netherlands",
+        "value": "899.99",
+        "currency": "EUR",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "philips-fc-xw9383-01",
+    "brand_id": "philips",
+    "category_id": "philips-floor-care",
+    "family_id": "philips-fc-aquatrio",
+    "sku": "XW9383/01",
+    "model_name": "AquaTrio Cordless Wet & Dry Vacuum 9000 Series",
+    "region": "UK",
+    "current_status": "CURRENT",
+    "official_url": "https://www.home-appliances.philips/gb/en/p/XW9383_01",
+    "confidence": "HIGH",
+    "specs": {
+      "wet_dry": "Yes",
+      "runtime_min": "25-55 min depending on mode",
+      "station": "After-clean & Storage station, auto self-cleaning",
+      "suction_metric": "840 L/min airflow max"
+    },
+    "images": [
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp1024x1024/cc6a564b-50b0-4b32-915f-215c0ccae5eb/F-XW9383_01_02_03_82.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/7810496f-a38c-428b-b7c1-1838abb1ee27/XW9383_XW9385_AquaSpinTechnology-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/f0151d1d-1f76-486e-bd38-8ccefada88b4/XW9383_XW9385_DetachableHandheld-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/7fca41a0-3625-4cf5-b8de-30d4e68e0fcd/XW9383_XW9385_MiniTurboBrush-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/223e1970-26fe-457f-829e-980bd0e1429f/XW9383_XW9385_DifferentTypesOfFloors-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      }
+    ],
+    "prices": [
+      {
+        "country": "Netherlands",
+        "value": "577.0",
+        "currency": "EUR",
+        "price_type": "PROMOTIONAL"
+      },
+      {
+        "country": "Netherlands",
+        "value": "799.99",
+        "currency": "EUR",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "philips-fc-fc6904-01",
+    "brand_id": "philips",
+    "category_id": "philips-floor-care",
+    "family_id": "philips-fc-speedpro",
+    "sku": "FC6904/01",
+    "model_name": "SpeedPro Max Aqua",
+    "region": "UK",
+    "current_status": "CURRENT",
+    "official_url": "https://www.home-appliances.philips/gb/en/p/FC6904_01",
+    "confidence": "HIGH",
+    "specs": {},
+    "images": [
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/38733723-6d08-4c4a-8b09-99e54dd7dbf2/Standard-Product-Photo-Philips-SpeedPro-Max-Aqua-Cordless-Stick-vacuum-cleaner.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/786af9fe-4acc-4254-9442-9b4429a263da/Product-in-Use-Photo-Philips-SpeedPro-Max-Aqua-Cordless-Stick-vacuum-cleaner.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/12d676dc-1f93-4779-b5c7-b05bf8e7cca5/Alternative-Product-Photograph-Philips-SpeedPro-Max-Aqua-Cordless-Stick-vacuum-cleaner.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/ae2929f5-419d-4245-9ece-adece208df19/Product-Detail-Photograph-Philips-SpeedPro-Max-Aqua-Cordless-Stick-vacuum-cleaner.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/c169403a-7a00-48ef-876f-24703ec8ddde/Emotional-Benefit-Photo-Philips-SpeedPro-Max-Aqua-Cordless-Stick-vacuum-cleaner.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      }
+    ],
+    "prices": []
+  },
+  {
+    "product_id": "philips-fc-fc9729-09",
+    "brand_id": "philips",
+    "category_id": "philips-floor-care",
+    "family_id": "philips-fc-powerpro",
+    "sku": "FC9729/09",
+    "model_name": "PowerPro Expert Bagless (7000 Series)",
+    "region": "UK",
+    "current_status": "CURRENT",
+    "official_url": "https://www.home-appliances.philips/gb/en/p/FC9729_09",
+    "confidence": "HIGH",
+    "specs": {
+      "power_w": "900",
+      "wet_dry": "Dry only",
+      "suction_metric": "PowerCyclone 8, 99.9% dust pick-up"
+    },
+    "images": [
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp1024x1024/f6da2ed0-e975-449e-8a3f-313d633aa25c/FC_2024_FC9729_09_PAP_1x1-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/32208ec6-4442-46a3-ae0a-8729d2515bea/Alternative-Product-Photograph-Philips-PowerPro-Expert-Bagless-vacuum-cleaner-FC9729_09.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/6dc0fc4d-aa9c-440b-be59-936cdd711d03/FC_2024_FC9729_09_A2_1x1-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/3a584289-731b-4dee-bd2f-49570961740a/FC_2024_FC9729_09_F_1x1-tif.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "SIDE_BACK"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/1efe201e-6fdf-4bd3-91e4-96dec9febb9b/Product-in-Use-Photo-Philips-PowerPro-Expert-Bagless-vacuum-cleaner-FC9729_09.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      }
+    ],
+    "prices": []
+  },
+  {
+    "product_id": "philips-fc-fc8577-09",
+    "brand_id": "philips",
+    "category_id": "philips-floor-care",
+    "family_id": "philips-fc-performer",
+    "sku": "FC8577/09",
+    "model_name": "Performer Active Bagged",
+    "region": "UK",
+    "current_status": "CURRENT",
+    "official_url": "https://www.home-appliances.philips/gb/en/p/FC8577_09",
+    "confidence": "HIGH",
+    "specs": {},
+    "images": [
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/660ca9d6-f31c-441d-9393-9369774064b4/Standard-Product-Photo-Philips-Performer-Active-Bagged-vacuum-cleaner-FC8577_09.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/3303cdfd-21f7-4c88-be64-7a6cf170ec46/Front-Product-Photo-Philips-Performer-Active-Bagged-vacuum-cleaner.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/75c9205e-4768-4da5-a908-6283cd2ca20d/Alternative-Product-Photograph-Philips-Performer-Active-Bagged-vacuum-cleaner-FC8577_09.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "SIDE_BACK"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/50e5b6f1-2612-498d-a513-1ae032f490a9/Product-in-Use-Photo-Philips-Performer-Active-Bagged-vacuum-cleaner-FC8577_09.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      }
+    ],
+    "prices": []
+  },
+  {
+    "product_id": "philips-gc-gc215-20",
+    "brand_id": "philips",
+    "category_id": "philips-garment-care",
+    "family_id": "philips-gc-oneturn",
+    "sku": "GC215/20",
+    "model_name": "OneTurn Hybrid Iron and Steamer",
+    "region": "UK",
+    "current_status": "CURRENT",
+    "official_url": "https://www.philips.co.uk/c-p/GC215_20/philips-oneturn-handheld-steamers",
+    "confidence": "HIGH",
+    "specs": {
+      "steam_rate_g_min": "45",
+      "power_w": "1800",
+      "heatup_time_s": "45",
+      "optimaltemp": "Yes - OptimalTEMP"
+    },
+    "images": [
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_307e1d0b_f28d_4862_a151516460307c56?$png$&wid=410&hei=410&fit=constrain",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_58a38684_4dbf_4a0a_9f29a937681f2f7c?wid=700&hei=700",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_c11ef352_ce22_4eef_99696899f2eda9ed?wid=700&hei=700",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "SIDE_BACK"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_08ee44df_514f_47e0_8d2beac69b0df1dd?wid=700&hei=700",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/vrs_5296cb9c_a7ba_4ade_8e52072253093dc1?wid=700&hei=700",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      }
+    ],
+    "prices": [
+      {
+        "country": "Netherlands",
+        "value": "164.0",
+        "currency": "EUR",
+        "price_type": "PROMOTIONAL"
+      },
+      {
+        "country": "Netherlands",
+        "value": "169.99",
+        "currency": "EUR",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "philips-gc-gc9650-80",
+    "brand_id": "philips",
+    "category_id": "philips-garment-care",
+    "family_id": "philips-gc-perfectcare",
+    "sku": "GC9650/80",
+    "model_name": "PerfectCare Elite",
+    "region": "UK",
+    "current_status": "CURRENT",
+    "official_url": "https://www.home-appliances.philips/gb/en/p/GC9650_80",
+    "confidence": "HIGH",
+    "specs": {
+      "steam_rate_g_min": "150 continuous",
+      "steam_boost_g": "up to 500",
+      "power_w": "max 2400",
+      "optimaltemp": "Yes - OptimalTEMP, guaranteed no burns"
+    },
+    "images": [
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp1024x1024/e1f75230-2773-438f-be5b-7c1e093b2f31/Standard-Product-Photo-Philips-PerfectCare-Elite-Steam-generator-iron.webp",
+        "verification_status": "FAMILY_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/49d488d3-14b6-4872-9b70-d7e73dacbf85/Alternative-Product-Photograph-Philips-PerfectCare-Elite-Steam-generator-iron.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/846afba8-6af1-46bf-9153-a85ca195daac/Product-in-Use-Photo-Philips-PerfectCare-Elite-Steam-generator-iron.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/eb9bf0d1-6621-4e3d-a18f-45973f699b68/Main-in-use-photograph-Philips-PerfectCare-Elite-Steam-generator-iron.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      }
+    ],
+    "prices": [
+      {
+        "country": "Netherlands",
+        "value": "249.0",
+        "currency": "EUR",
+        "price_type": "PROMOTIONAL"
+      },
+      {
+        "country": "Netherlands",
+        "value": "379.99",
+        "currency": "EUR",
+        "price_type": "OFFICIAL_RRP"
+      }
+    ]
+  },
+  {
+    "product_id": "philips-gc-gc9682-86",
+    "brand_id": "philips",
+    "category_id": "philips-garment-care",
+    "family_id": "philips-gc-perfectcare",
+    "sku": "GC9682/86",
+    "model_name": "PerfectCare Elite Plus",
+    "region": "UK",
+    "current_status": "CURRENT",
+    "official_url": "https://www.home-appliances.philips/gb/en/p/GC9682_86",
+    "confidence": "HIGH",
+    "specs": {},
+    "images": [
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/e0b624d5-bb63-4ab8-97d3-70122f62a069/Front-Product-Photo-Philips-PerfectCare-Elite-Plus-Steam-generator-iron.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/0a3e7e57-44f5-4afc-bd19-f43523f4a394/Product-Detail-Photograph-Philips-PerfectCare-Elite-Plus-Steam-generator-iron.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/a10a42d4-2a25-4184-a737-bd94aff6cb38/Product-Detail-Photograph-Philips-PerfectCare-Elite-Plus-Steam-generator-iron-GC9682_86.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "DETAIL_CONTROL"
+      },
+      {
+        "asset_url": "https://dam.versuni.com/transform/webp150x150/270622c8-2bf1-49b3-b4ce-6922eeb3f688/Product-in-Use-Photo-Philips-PerfectCare-Elite-Plus-Steam-generator-iron-GC9682_86.webp",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "PRODUCT_IN_CONTEXT"
+      }
+    ],
+    "prices": []
+  },
+  {
+    "product_id": "philips-gc-gc628-86",
+    "brand_id": "philips",
+    "category_id": "philips-garment-care",
+    "family_id": "philips-gc-all-in-one",
+    "sku": "GC628/86",
+    "model_name": "All-in-One 8000 Series Garment Steamer",
+    "region": "Global",
+    "current_status": "CURRENT",
+    "official_url": "https://www.philips.com/c-p/GC628_86/8000-series-garment-steamer",
+    "confidence": "HIGH",
+    "specs": {
+      "steam_rate_g_min": "90 continuous",
+      "power_w": "2020-2400",
+      "board_integration": "Yes - adjustable multi-angle board w/ wheels"
+    },
+    "images": [
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/79563a295f014adb956ead91007de4fd?wid=700&hei=700&$pnglarge$",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "HERO_FRONT"
+      },
+      {
+        "asset_url": "https://images.philips.com/is/image/philipsconsumer/ff2265cc6dc1401e8176ad8b008cddee?wid=900&hei=900&$pnglarge$",
+        "verification_status": "EXACT_VERIFIED",
+        "image_type": "ANGLE"
+      }
+    ],
+    "prices": []
+  }
+]

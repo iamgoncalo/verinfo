@@ -1,0 +1,12 @@
+[project]
+name = "versuni-products"
+version = "0.1.0"
+description = "Source-traceable product-truth census for the Versuni house of brands"
+requires-python = ">=3.12"
+dependencies = [
+    "duckdb>=1.0.0",
+    "pytest>=8.0.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

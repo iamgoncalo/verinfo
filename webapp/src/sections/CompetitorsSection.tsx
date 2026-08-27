@@ -1,0 +1,606 @@
+import { useMemo, useState } from "react";
+import type { SiteData, Competitor, CompetitorProduct, Positioning, Product } from "../types";
+import { IconTarget, IconClose } from "../icons";
+import { displaySku } from "../util";
+
+export const POSITION_META: Record<Positioning, { color: string; bg: string; label: string }> = {
+  DIRECT: { color: "#b3261e", bg: "#fdf1ef", label: "Direct" },
+  ADJACENT: { color: "#9a6a12", bg: "#faf1de", label: "Adjacent" },
+  SUBSTITUTE: { color: "#3538cd", bg: "#eef2ff", label: "Substitute" },
+};
+
+export const FLAG: Record<string, string> = {
+  "United States": "🇺🇸", Germany: "🇩🇪", China: "🇨🇳", France: "🇫🇷",
+  "South Korea": "🇰🇷", Switzerland: "🇨🇭", Sweden: "🇸🇪", India: "🇮🇳",
+  Singapore: "🇸🇬", Netherlands: "🇳🇱", Italy: "🇮🇹", Australia: "🇦🇺",
+  "United Kingdom": "🇬🇧", Canada: "🇨🇦", Brazil: "🇧🇷", Belgium: "🇧🇪", Japan: "🇯🇵",
+};
+
+export function CompanyLogo({ c, size = 36 }: { c: Competitor; size?: number }) {
+  const [failed, setFailed] = useState(false);
+  const initials = c.name.replace(/\(.+?\)/g, "").trim().split(/\s+/).filter(Boolean).slice(0, 2).map((w) => w[0]).join("").toUpperCase();
+  if (!c.logoUrl || failed) {
+    return (
+      <div className="company-logo-fallback" style={{ width: size, height: size, fontSize: size * 0.36 }} title={c.name}>
+        {initials}
+      </div>
+    );
+  }
+  return (
+    <img
+      src={c.logoUrl}
+      alt={c.name}
+      className={"company-logo-img" + (c.logoBg === "dark" ? " logo-bg-dark" : "")}
+      style={{ width: size, height: size }}
+      onError={() => setFailed(true)}
+    />
+  );
+}
+
+function firstPrice(p: CompetitorProduct) {
+  return p.prices.find((x) => x.type === "OFFICIAL_PRICE") || p.prices[0];
+}
+
+type ModeT = "overview" | "battle" | "map" | "matrix" | "rankings" | "timeline";
+
+export default function CompetitorsSection({ data, onOpenProduct, preset }: {
+  data: SiteData; onOpenProduct: (id: string) => void; preset?: { world?: string } | null;
+}) {
+  const [world, setWorld] = useState<string>(preset?.world ?? "all");
+  const [mode, setMode] = useState<ModeT>("overview");
+
+  const competitorsById = useMemo(() => Object.fromEntries(data.competitors.map((c) => [c.id, c])), [data]);
+
+  const worldsWithCoverage = useMemo(() => {
+    const set = new Set(data.competitorProducts.map((p) => p.world));
+    return data.worlds.filter((w) => set.has(w.id));
+  }, [data]);
+
+  const scoped = useMemo(
+    () => data.competitorProducts.filter((p) => world === "all" || p.world === world),
+    [data, world]
+  );
+
+  const stats = useMemo(() => {
+    const companies = new Set(scoped.map((p) => p.competitor));
+    return {
+      companies: companies.size,
+      products: scoped.length,
+      priceObs: scoped.reduce((n, p) => n + p.prices.length, 0),
+      direct: scoped.filter((p) => p.positioning === "DIRECT").length,
+      adjacent: scoped.filter((p) => p.positioning === "ADJACENT").length,
+      substitute: scoped.filter((p) => p.positioning === "SUBSTITUTE").length,
+    };
+  }, [scoped]);
+
+  if (!data.competitorProducts.length) {
+    return (
+      <>
+        <div className="crumbs"><span className="crumb current">Arena</span></div>
+        <div className="empty-state" style={{ maxWidth: 520, margin: "60px auto" }}>
+          <IconTarget size={40} />
+          <div style={{ fontWeight: 700, color: "var(--text)", marginBottom: 6 }}>Research in progress</div>
+          <div>Competitor research agents are running now. This section will populate as each world's sourced results land.</div>
+        </div>
+      </>
+    );
+  }
+
+  return (
+    <>
+      <div className="crumbs"><span className="crumb current">Arena</span></div>
+
+      <div className="tags-header">
+        <div className="section-sub" style={{ marginTop: 0, marginBottom: 0, maxWidth: 620 }}>
+          Who competes with Versuni, at what price, positioned how. Every price and company location traces to an
+          official source — see <b>COMPETITOR_POLICY.md</b>. Coverage so far:{" "}
+          {worldsWithCoverage.map((w) => w.name).join(", ") || "none yet"}.
+        </div>
+        <div className="tags-stat-row">
+          <div className="tags-stat"><b>{stats.companies}</b>companies</div>
+          <div className="tags-stat"><b>{stats.products}</b>products</div>
+          <div className="tags-stat"><b>{stats.priceObs}</b>prices</div>
+        </div>
+      </div>
+
+      <div className="cluster-bar" style={{ marginTop: 18 }}>
+        <label>World</label>
+        <button className={"chip" + (world === "all" ? " active" : "")} onClick={() => setWorld("all")}>All</button>
+        {worldsWithCoverage.map((w) => (
+          <button key={w.id} className={"chip" + (world === w.id ? " active" : "")} onClick={() => setWorld(w.id)}>
+            {w.name}
+          </button>
+        ))}
+      </div>
+
+      <div className="cluster-bar">
+        <div className="distilled-toggle">
+          <button className={mode === "overview" ? "active" : ""} onClick={() => setMode("overview")}>Overview</button>
+          <button className={mode === "battle" ? "active" : ""} onClick={() => setMode("battle")}>Battle</button>
+          <button className={mode === "map" ? "active" : ""} onClick={() => setMode("map")}>Map</button>
+          <button className={mode === "matrix" ? "active" : ""} onClick={() => setMode("matrix")}>Matrix</button>
+          <button className={mode === "rankings" ? "active" : ""} onClick={() => setMode("rankings")}>Rankings</button>
+          <button className={mode === "timeline" ? "active" : ""} onClick={() => setMode("timeline")}>Timeline</button>
+        </div>
+        <span className="realm-ring-sub" style={{ marginLeft: 4 }}>
+          {POSITION_META.DIRECT.label} {stats.direct} · {POSITION_META.ADJACENT.label} {stats.adjacent} · {POSITION_META.SUBSTITUTE.label} {stats.substitute}
+        </span>
+      </div>
+
+      {mode === "overview" && <OverviewMode data={data} scoped={scoped} competitorsById={competitorsById} world={world} onJumpTo={setMode} />}
+      {mode === "battle" && <BattleMode data={data} scoped={scoped} competitorsById={competitorsById} onOpenProduct={onOpenProduct} />}
+      {mode === "map" && <MapMode scoped={scoped} competitorsById={competitorsById} />}
+      {mode === "matrix" && <MatrixMode data={data} scoped={scoped} competitorsById={competitorsById} />}
+      {mode === "rankings" && <RankingsMode scoped={scoped} competitorsById={competitorsById} world={world} />}
+      {mode === "timeline" && <TimelineGap />}
+
+      {mode !== "overview" && (
+        <>
+          <div className="section-title">Companies</div>
+          <div className="company-card-grid">
+            {data.competitors
+              .filter((c) => world === "all" || scoped.some((p) => p.competitor === c.id))
+              .map((c) => (
+                <CompanyCard key={c.id} c={c} productCount={scoped.filter((p) => p.competitor === c.id).length} />
+              ))}
+          </div>
+        </>
+      )}
+    </>
+  );
+}
+
+function CompanyCard({ c, productCount }: { c: Competitor; productCount: number }) {
+  return (
+    <a className="company-card" href={`https://${c.domain}`} target="_blank" rel="noopener noreferrer">
+      <div className="company-card-top">
+        <CompanyLogo c={c} />
+        <div>
+          <div className="company-card-name">{c.name}</div>
+          <div className="company-card-hq">
+            {FLAG[c.hqCountry] || ""} {c.hqCity ? `${c.hqCity}, ` : ""}{c.hqCountry || "HQ not verified"}
+          </div>
+        </div>
+      </div>
+      {c.parentCompany && <div className="company-card-parent">Owned by {c.parentCompany}</div>}
+      <div className="company-card-foot">
+        <span>{c.domain}</span>
+        <span>{productCount} product{productCount === 1 ? "" : "s"}</span>
+      </div>
+    </a>
+  );
+}
+
+function OverviewMode({ data, scoped, competitorsById, world, onJumpTo }: {
+  data: SiteData; scoped: CompetitorProduct[]; competitorsById: Record<string, Competitor>; world: string; onJumpTo: (m: ModeT) => void;
+}) {
+  const activeCompanies = useMemo(() => {
+    const inScope = new Set(scoped.map((p) => p.competitor));
+    return data.competitors.filter((c) => world === "all" || inScope.has(c.id));
+  }, [data, scoped, world]);
+
+  const byCountry = useMemo(() => {
+    const m = new Map<string, Competitor[]>();
+    activeCompanies.forEach((c) => {
+      const key = c.hqCountry || "Unverified";
+      const list = m.get(key) || [];
+      list.push(c);
+      m.set(key, list);
+    });
+    return Array.from(m.entries()).sort((a, b) => b[1].length - a[1].length);
+  }, [activeCompanies]);
+
+  const topByCoverage = useMemo(() => {
+    const counts = new Map<string, number>();
+    scoped.forEach((p) => counts.set(p.competitor, (counts.get(p.competitor) || 0) + 1));
+    return Array.from(counts.entries())
+      .map(([id, n]) => ({ c: competitorsById[id], n }))
+      .filter((x) => x.c)
+      .sort((a, b) => b.n - a.n)
+      .slice(0, 12);
+  }, [scoped, competitorsById]);
+
+  const logoCoverage = activeCompanies.length
+    ? Math.round((activeCompanies.filter((c) => c.logoState === "VERIFIED_OFFICIAL").length / activeCompanies.length) * 100)
+    : 0;
+
+  return (
+    <>
+      <div className="section-title" style={{ marginTop: 8 }}>Where they're located</div>
+      <div className="section-sub" style={{ marginTop: -6 }}>
+        {activeCompanies.length} real companies, grouped by headquarters country — every HQ traces to that
+        company's own official page (see COMPETITOR_POLICY.md), independently re-checked in a hostile audit pass.
+      </div>
+      <div className="geo-grid">
+        {byCountry.map(([country, comps]) => (
+          <div key={country} className="geo-card">
+            <div className="geo-flag">{FLAG[country] || "🏳"}</div>
+            <div className="geo-country">{country}</div>
+            <div className="geo-count">{comps.length} compan{comps.length === 1 ? "y" : "ies"}</div>
+            <div className="geo-logos">
+              {comps.slice(0, 6).map((c) => <CompanyLogo key={c.id} c={c} size={22} />)}
+              {comps.length > 6 && <span className="geo-more">+{comps.length - 6}</span>}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div className="section-title">Who shows up most</div>
+      <div className="section-sub" style={{ marginTop: -6 }}>
+        Companies ranked by how many competing products they have in this scope. Click any card to jump into
+        Battle mode for that company's products.
+      </div>
+      <div className="standout-company-grid">
+        {topByCoverage.map(({ c, n }) => (
+          <div key={c.id} className="standout-company-card" onClick={() => onJumpTo("battle")}>
+            <CompanyLogo c={c} size={44} />
+            <div className="standout-company-name">{c.name}</div>
+            <div className="standout-company-meta">{FLAG[c.hqCountry] || ""} {c.hqCountry}</div>
+            <div className="standout-company-n">{n} product{n === 1 ? "" : "s"}</div>
+          </div>
+        ))}
+      </div>
+
+      {logoCoverage < 100 && (
+        <div className="section-sub" style={{ marginTop: 4 }}>
+          Logo coverage: {logoCoverage}% verified-official so far — companies without a confirmed logo show their
+          initials instead of a placeholder image, never an invented mark.
+        </div>
+      )}
+    </>
+  );
+}
+
+function BattleMode({ data, scoped, competitorsById, onOpenProduct }: {
+  data: SiteData; scoped: CompetitorProduct[]; competitorsById: Record<string, Competitor>; onOpenProduct: (id: string) => void;
+}) {
+  const [rightId, setRightId] = useState<string>(scoped[0]?.id || "");
+  const right = scoped.find((p) => p.id === rightId) || scoped[0];
+
+  const versuniOptions = useMemo(() => {
+    if (!right) return [];
+    return data.products.filter((p) => p.category === right.category);
+  }, [data, right]);
+  const [leftId, setLeftId] = useState<string>("");
+  const left = versuniOptions.find((p) => p.id === leftId) || versuniOptions[0];
+
+  if (!right) return <div className="empty-state">No products in this world yet.</div>;
+
+  const rightPrice = firstPrice(right);
+  const leftPrice = left?.prices?.[0];
+  const rightCompany = competitorsById[right.competitor];
+
+  let priceVerdict = "INSUFFICIENT EVIDENCE";
+  if (leftPrice && rightPrice && leftPrice.currency === rightPrice.currency) {
+    const lv = parseFloat(leftPrice.value), rv = parseFloat(rightPrice.value);
+    if (!isNaN(lv) && !isNaN(rv)) {
+      priceVerdict = lv < rv ? "VERSUNI LOWER" : lv > rv ? "COMPETITOR LOWER" : "TIE";
+    }
+  } else if (leftPrice && rightPrice) {
+    priceVerdict = "INCOMPARABLE (different currency)";
+  }
+
+  return (
+    <div className="battle-wrap">
+      <div className="battle-pickers">
+        <select className="battle-select" value={left?.id || ""} onChange={(e) => setLeftId(e.target.value)}>
+          {versuniOptions.map((p) => <option key={p.id} value={p.id}>{p.name} ({displaySku(p.sku)})</option>)}
+        </select>
+        <span className="battle-vs">VS</span>
+        <select className="battle-select" value={right.id} onChange={(e) => setRightId(e.target.value)}>
+          {scoped.map((p) => <option key={p.id} value={p.id}>{competitorsById[p.competitor]?.name} — {p.name}</option>)}
+        </select>
+      </div>
+
+      <div className="battle-grid">
+        <BattleCard
+          title={left?.name || "Select a Versuni product"}
+          sub={left ? `Versuni · ${displaySku(left.sku)}` : ""}
+          img={left?.thumb || null}
+          price={leftPrice ? `${leftPrice.value} ${leftPrice.currency}` : "No price on file"}
+          priceNote={leftPrice?.country}
+          onClick={left ? () => onOpenProduct(left.id) : undefined}
+        />
+        <BattleCard
+          title={right.name}
+          sub={`${rightCompany?.name || right.competitor} · ${right.model}`}
+          img={right.thumb}
+          price={rightPrice ? `${rightPrice.value} ${rightPrice.currency}` : "No price on file"}
+          priceNote={rightPrice?.country}
+          badge={POSITION_META[right.positioning]}
+          logo={rightCompany}
+          onClick={() => window.open(right.url, "_blank")}
+        />
+      </div>
+
+      <div className="battle-verdict-row">
+        <span className="battle-dim">Price</span>
+        <span className="verdict-badge">{priceVerdict}</span>
+        <span className="battle-evidence">
+          {leftPrice ? `Versuni: ${leftPrice.value} ${leftPrice.currency} (${leftPrice.country})` : "Versuni: no price on file"}
+          {" · "}
+          {rightPrice ? `${rightCompany?.name}: ${rightPrice.value} ${rightPrice.currency} (${rightPrice.country})` : "no price on file"}
+        </span>
+      </div>
+      <div className="battle-verdict-row">
+        <span className="battle-dim">Positioning</span>
+        <span className="verdict-badge" style={{ color: POSITION_META[right.positioning].color, background: POSITION_META[right.positioning].bg }}>
+          {POSITION_META[right.positioning].label}
+        </span>
+        <span className="battle-evidence">{right.notes || "No additional positioning note recorded."}</span>
+      </div>
+
+      {(right.specs.length > 0 || left?.specs?.length) && (
+        <>
+          <div className="section-title">Specifications on file</div>
+          <div className="kv-grid">
+            {right.specs.map((s, i) => (
+              <div className="kv-cell" key={i}>
+                <div className="k">{s.field.replace(/_/g, " ")} <span style={{ color: "var(--text-faint)" }}>(competitor)</span></div>
+                <div className="v">{s.value}</div>
+              </div>
+            ))}
+          </div>
+        </>
+      )}
+
+      {right.tco.length > 0 && (
+        <>
+          <div className="section-title">Total cost of ownership</div>
+          {right.tco.map((t, i) => (
+            <div key={i}>
+              <div className="section-sub" style={{ marginTop: -6 }}>
+                {t.market} · {t.completeness === "PARTIAL" ? "Partial — a real recurring cost exists that isn't captured, see note" : "Purchase price + filter replacements over time"}
+              </div>
+              <div className="tco-row">
+                <div className="tco-cell"><span className="tco-label">1 year</span><span className="tco-value">{t.tco1y} {t.currency}</span></div>
+                <div className="tco-cell"><span className="tco-label">3 years</span><span className="tco-value">{t.tco3y} {t.currency}</span></div>
+                <div className="tco-cell"><span className="tco-label">5 years</span><span className="tco-value">{t.tco5y} {t.currency}</span></div>
+              </div>
+              <div className="claim-limitation" style={{ marginTop: 8 }}>{t.assumptions}</div>
+            </div>
+          ))}
+        </>
+      )}
+
+      {right.certifications.length > 0 && (
+        <>
+          <div className="section-title">Certification</div>
+          <div className="cert-list">
+            {right.certifications.map((c, i) => (
+              <div className="cert-row" key={i}>
+                <span className={"cert-badge " + (c.status === "CONFIRMED_IN_REGISTRY" ? "confirmed" : "notfound")}>
+                  {c.status === "CONFIRMED_IN_REGISTRY" ? "Confirmed" : "Not found"}
+                </span>
+                <span className="cert-body">{c.body}</span>
+                <span className="claim-limitation" style={{ flex: 1 }}>{c.establishes}</span>
+              </div>
+            ))}
+          </div>
+        </>
+      )}
+
+      {right.intelligence.length > 0 && (
+        <>
+          <div className="section-title">Intelligence classification</div>
+          <div className="section-sub" style={{ marginTop: -6 }}>
+            "Data available" (a sensor exists) is not "intelligence implemented" (behavior demonstrably changes).
+            Each dimension is EVIDENCED only when the official page describes an actual behavior, not a marketing word.
+          </div>
+          <div className="intel-pill-row">
+            {right.intelligence.map((d, i) => (
+              <span key={i} className={"intel-pill" + (d.status === "EVIDENCED" ? " evidenced" : "")} title={d.note}>
+                {d.dimension}
+              </span>
+            ))}
+          </div>
+        </>
+      )}
+
+      {right.claims.length > 0 && (
+        <>
+          <div className="section-title">Claims vs independent evidence</div>
+          <div className="claims-list">
+            {right.claims.map((c, i) => (
+              <div className="claim-card" key={i}>
+                <div className="claim-text">"{c.claim}"</div>
+                <div className="claim-meta">
+                  <span className="claim-type">{c.claimType}</span>
+                  <span className={"corrob-badge " + c.corroboration.toLowerCase()}>{c.corroboration.replace(/_/g, " ")}</span>
+                </div>
+                {c.testContext && <div className="claim-limitation"><b>Test context:</b> {c.testContext}</div>}
+                {c.limitation && <div className="claim-limitation"><b>Does not establish:</b> {c.limitation}</div>}
+              </div>
+            ))}
+          </div>
+        </>
+      )}
+
+      {right.claims.length === 0 && right.certifications.length === 0 && right.tco.length === 0 && right.intelligence.length === 0 && (
+        <div className="section-sub" style={{ marginTop: 18 }}>
+          No claims, certifications, intelligence classification, or TCO data collected for this product yet — that depth pass hasn't run for this world.
+        </div>
+      )}
+    </div>
+  );
+}
+
+function BattleCard({ title, sub, img, price, priceNote, badge, logo, onClick }: {
+  title: string; sub: string; img: string | null; price: string; priceNote?: string;
+  badge?: { color: string; bg: string; label: string }; logo?: Competitor; onClick?: () => void;
+}) {
+  return (
+    <div className="battle-card" onClick={onClick} style={{ cursor: onClick ? "pointer" : "default" }}>
+      {badge && <span className="battle-badge" style={{ color: badge.color, background: badge.bg }}>{badge.label}</span>}
+      {logo && <div className="battle-card-logo"><CompanyLogo c={logo} size={28} /></div>}
+      <div className="battle-card-img">
+        {img ? <img src={img} alt={title} /> : <div className="thumb-fallback"><span className="no-img-icon">⚠</span><span>No image</span></div>}
+      </div>
+      <div className="battle-card-title">{title}</div>
+      <div className="battle-card-sub">{sub}</div>
+      <div className="battle-card-price">{price}</div>
+      {priceNote && <div className="battle-card-pricenote">{priceNote}</div>}
+    </div>
+  );
+}
+
+function MapMode({ scoped, competitorsById }: { scoped: CompetitorProduct[]; competitorsById: Record<string, Competitor> }) {
+  const points = scoped
+    .map((p) => {
+      const price = firstPrice(p);
+      if (!price) return null;
+      const v = parseFloat(price.value);
+      if (isNaN(v)) return null;
+      return { p, value: v, currency: price.currency };
+    })
+    .filter((x): x is { p: CompetitorProduct; value: number; currency: string } => x !== null);
+
+  if (!points.length) return <div className="empty-state">No priced products in this scope yet.</div>;
+
+  const currencies = Array.from(new Set(points.map((pt) => pt.currency)));
+  const CUR_COLOR: Record<string, string> = { EUR: "#3538cd", USD: "#2f7d4f", INR: "#9a6a12", GBP: "#b5461f", BRL: "#0d9488", SGD: "#7c3aed" };
+  const maxV = Math.max(...points.map((pt) => pt.value));
+  const worlds = Array.from(new Set(points.map((pt) => pt.p.world)));
+  const width = 720, height = 60 + worlds.length * 70;
+  const leftPad = 90;
+
+  return (
+    <div className="map-wrap">
+      <div className="section-sub" style={{ marginTop: 0 }}>
+        Price by world. Bubble color = currency — <b>only compare bubbles of the same color</b>; this project does
+        not fabricate an FX conversion, so cross-currency position is not directly comparable.
+      </div>
+      <svg viewBox={`0 0 ${width} ${height}`} className="assoc-svg" style={{ maxWidth: 720 }}>
+        {worlds.map((w, wi) => (
+          <g key={w}>
+            <text x={8} y={50 + wi * 70 + 5} fontSize={11} fontWeight={700} fill="var(--text-muted)">{w}</text>
+            <line x1={leftPad} y1={50 + wi * 70} x2={width - 20} y2={50 + wi * 70} stroke="var(--border)" />
+          </g>
+        ))}
+        {points.map((pt, i) => {
+          const wi = worlds.indexOf(pt.p.world);
+          const x = leftPad + (pt.value / maxV) * (width - leftPad - 40);
+          const y = 50 + wi * 70;
+          return (
+            <g key={i}>
+              <circle cx={x} cy={y} r={7} fill={CUR_COLOR[pt.currency] || "#726d63"} opacity={0.85}>
+                <title>{`${competitorsById[pt.p.competitor]?.name} ${pt.p.name} — ${pt.value} ${pt.currency}`}</title>
+              </circle>
+            </g>
+          );
+        })}
+      </svg>
+      <div className="pill-list" style={{ marginTop: 8 }}>
+        {currencies.map((c) => (
+          <span key={c} className="pill" style={{ background: (CUR_COLOR[c] || "#726d63") + "1a", color: CUR_COLOR[c] || "#726d63" }}>{c}</span>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function MatrixMode({ data, scoped, competitorsById }: { data: SiteData; scoped: CompetitorProduct[]; competitorsById: Record<string, Competitor> }) {
+  const categoryIds = Array.from(new Set(scoped.map((p) => p.category)));
+  const categoriesById = useMemo(() => Object.fromEntries(data.categories.map((c) => [c.id, c])), [data]);
+
+  if (!categoryIds.length) return <div className="empty-state">No products in this scope yet.</div>;
+
+  return (
+    <div className="matrix-wrap">
+      <table className="matrix-table">
+        <thead>
+          <tr>
+            <th>Competitor product</th>
+            {categoryIds.map((cid) => <th key={cid}>{categoriesById[cid]?.name || cid}</th>)}
+          </tr>
+        </thead>
+        <tbody>
+          {scoped.map((p) => (
+            <tr key={p.id}>
+              <td className="matrix-rowhead">
+                <span style={{ fontWeight: 700 }}>{p.name}</span>
+                <span style={{ color: "var(--text-faint)", fontSize: 11 }}> · {competitorsById[p.competitor]?.name}</span>
+              </td>
+              {categoryIds.map((cid) => (
+                <td key={cid}>
+                  {p.category === cid ? (
+                    <span className="matrix-cell" style={{ color: POSITION_META[p.positioning].color, background: POSITION_META[p.positioning].bg }}>
+                      {POSITION_META[p.positioning].label}
+                    </span>
+                  ) : <span className="matrix-dash">—</span>}
+                </td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
+function RankingsMode({ scoped, competitorsById, world }: { scoped: CompetitorProduct[]; competitorsById: Record<string, Competitor>; world: string }) {
+  const rows = scoped
+    .map((p) => {
+      const price = firstPrice(p);
+      if (!price) return null;
+      const v = parseFloat(price.value);
+      if (isNaN(v)) return null;
+      return { p, price, v };
+    })
+    .filter((x): x is { p: CompetitorProduct; price: CompetitorProduct["prices"][number]; v: number } => x !== null);
+
+  const byCurrency = new Map<string, typeof rows>();
+  rows.forEach((r) => {
+    const list = byCurrency.get(r.price.currency) || [];
+    list.push(r);
+    byCurrency.set(r.price.currency, list);
+  });
+
+  const groups = Array.from(byCurrency.entries()).sort((a, b) => b[1].length - a[1].length);
+  const excluded = scoped.length - rows.length;
+
+  return (
+    <div className="rankings-wrap">
+      <div className="section-title" style={{ marginTop: 0 }}>Lowest current price</div>
+      <div className="section-sub" style={{ marginTop: -6 }}>
+        Scope: {world === "all" ? "all worlds with competitor coverage" : world}. Metric: first official price on
+        file per product, ranked lowest to highest, grouped by currency (no fabricated FX conversion — see
+        COMPETITOR_POLICY.md). Products included: {rows.length}.{" "}
+        {excluded > 0 && `Excluded (no price on file): ${excluded}.`} Source coverage: every row traces to an
+        official store or major authorized retailer, see COMPETITOR_POLICY.md. As-of: prices recorded 2026-08-27.
+      </div>
+      {groups.map(([currency, list]) => (
+        <div key={currency} className="ranking-group">
+          <div className="ranking-group-title">{currency}</div>
+          <ol className="ranking-list">
+            {list
+              .slice()
+              .sort((a, b) => a.v - b.v)
+              .map((r) => (
+                <li key={r.p.id} className="ranking-row">
+                  <span className="ranking-name">{r.p.name}</span>
+                  <span className="ranking-company">{competitorsById[r.p.competitor]?.name}</span>
+                  <span className="ranking-price">{r.price.value} {currency}</span>
+                  <span className="ranking-country">{r.price.country}</span>
+                </li>
+              ))}
+          </ol>
+        </div>
+      ))}
+      {!rows.length && <div className="empty-state">No priced products in this scope yet.</div>}
+    </div>
+  );
+}
+
+function TimelineGap() {
+  return (
+    <div className="empty-state" style={{ maxWidth: 560, margin: "40px auto" }}>
+      <div style={{ fontWeight: 700, color: "var(--text)", marginBottom: 6 }}>DATA GAP — not built with placeholder data</div>
+      <div>
+        A real Timeline needs launch-date history per competitor product (when each model/series shipped, what
+        changed release over release). That data hasn't been collected in this pass — Battle, Map, and Matrix all
+        run on real sourced data; Timeline stays locked rather than showing an invented chronology.
+      </div>
+    </div>
+  );
+}
