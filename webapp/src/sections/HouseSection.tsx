@@ -59,6 +59,7 @@ export default function HouseSection({ data, onOpenProduct }: { data: SiteData; 
   return (
     <>
       <div className="crumbs"><span className="crumb current">Space Intelligence</span></div>
+      <div className="page-tagline">Products mapped to home zones.</div>
       <div className="section-sub" style={{ marginTop: -10, maxWidth: 680 }}>
         A provisional, world-level space map — each world is placed in the zone it primarily operates in.
         Pick a space archetype to see which zones apply there; product mapping stays the same underneath,

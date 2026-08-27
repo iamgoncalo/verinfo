@@ -76,6 +76,7 @@ export default function ProductsSection({
     return (
       <>
         <div className="crumbs"><span className="crumb current">Versuni</span></div>
+        <div className="page-tagline">Every product, browsable three ways.</div>
         <div className="cluster-bar" style={{ marginBottom: 4 }}>
           <label>Explore by</label>
           <button className={"chip" + (rootView === "world" ? " active" : "")} onClick={() => setRootView("world")}>World</button>

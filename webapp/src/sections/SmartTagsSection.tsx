@@ -191,6 +191,7 @@ export default function SmartTagsSection({ data, onOpenProduct }: { data: SiteDa
   return (
     <>
       <div className="crumbs"><span className="crumb current">Smart Tags</span></div>
+      <div className="page-tagline">How every product is described.</div>
 
       <div className="tags-header">
         <div className="section-sub" style={{ marginTop: 0, marginBottom: 0, maxWidth: 620 }}>

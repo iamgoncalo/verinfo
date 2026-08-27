@@ -90,6 +90,7 @@ export default function CompetitorsSection({ data, onOpenProduct, preset }: {
   return (
     <>
       <div className="crumbs"><span className="crumb current">Arena</span></div>
+      <div className="page-tagline">Versuni compared against real competitors.</div>
 
       <div className="tags-header">
         <div className="section-sub" style={{ marginTop: 0, marginBottom: 0, maxWidth: 620 }}>

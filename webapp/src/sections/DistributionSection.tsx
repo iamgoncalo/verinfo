@@ -16,6 +16,7 @@ export default function DistributionSection({ data, onOpenProduct }: { data: Sit
   return (
     <>
       <div className="crumbs"><span className="crumb current">Distribution</span></div>
+      <div className="page-tagline">Where each product is sold.</div>
       <div className="section-sub" style={{ marginTop: -10, maxWidth: 640 }}>
         Derived from the market where each product's official page was found — a weaker signal than a full
         per-market distribution sweep (OFFICIAL_CURRENT / OFFICIAL_SUPPORT_ONLY / RETAIL_OBSERVED / HISTORICAL).
