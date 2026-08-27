@@ -44,3 +44,9 @@ faber-india,Franke Faber India Pvt Ltd (Faber),"Franke (Faber, global parent)",I
 sunflame,Sunflame Enterprises Pvt Ltd,,India,New Delhi (Mundka),India,sunflame.com,"Own About page lists New Delhi registered office; third-party listings also cite Faridabad, Haryana as an operating address -- unresolved discrepancy, not independently reconciled.",src-6e3ea97f2d12,,,MISSING,light
 meyer-potsandpans,Meyer Housewares India Pvt Ltd (Meyer),,India,New Delhi,India,potsandpans.in,Retailed via potsandpans.in; in.meyer.com redirects to this domain.,src-62a36d457ac6,,,MISSING,light
 vinod-cookware,Vinod Cookware India Private Limited,,India,"Mumbai, Maharashtra",India,vinodcookware.com,,src-26a31cb4cb49,,,MISSING,light
+rancilio-group,Rancilio Group S.p.A.,,Italy,Villastanza di Parabiago (MI),Italy,ranciliogroup.com,"No direct EU e-commerce storefront; price sourced from an authorized EU specialist retailer (Coffee Friend / Kaffee Kumpel GmbH), Tier B.",src-be36f735be7d,,,MISSING,light
+nescafe-dolce-gusto,Nescafe Dolce Gusto (Nestle),Nestle S.A.,Switzerland,Vevey,Switzerland,dolce-gusto.nl,"Distinct consumer brand from Nespresso, both under parent Nestle S.A. -- separate competitor_id per this project's brand-as-row convention.",src-24dc4815be4c,,,MISSING,light
+illycaffe,illycaffe S.p.A.,,Italy,Trieste,Italy,illy.com,,src-86c96258c88d,,,MISSING,light
+russell-hobbs,Russell Hobbs (Spectrum Brands),"Spectrum Brands, Inc.",Germany,Sulzbach,United States,russellhobbs.com,European HQ entity is Russell Hobbs Deutschland GmbH (Sulzbach); ultimate parent Spectrum Brands is US-based.,src-4295b984f108,,,MISSING,light
+smeg,Smeg S.p.A.,,Italy,Guastalla (RE),Italy,smeg.com,,src-ab84da6b2237,,,MISSING,light
+hurom,"Hurom Co., Ltd.",,South Korea,"Gimhae, Gyeongsangnam-do",South Korea,hurom.com,"EU pricing via hurom-europe.com (official EU distribution site, not NL-geofenced).",src-bb5b924c16e2,,,MISSING,light

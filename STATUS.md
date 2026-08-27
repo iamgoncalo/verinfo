@@ -39,6 +39,29 @@ Live-tested the full chain — country filter, a 0-product company, a
 2-product company with real price comparisons, nested navigation — zero
 console errors throughout. 36/36 pytest gates, clean tsc/build.
 
+## 2026-08-27 (later) — 76/76 Versuni products now have real competitor coverage
+
+Dispatched 3 parallel research agents for the last 11 uncovered categories
+(Walita kitchen/climate, all 5 Preethi India categories, Gaggia/L'OR
+Barista/breakfast/juicing). All landed and transcribed. Result: every one
+of the 76 Versuni products now resolves to a real "Competitors" list in
+its own detail drawer, not the old "not researched yet" placeholder —
+verified live on the very last previously-uncovered product (Gaggia
+Classic UP, now showing Sage, De'Longhi, and Rancilio with real prices).
+51 competitors, 74 competitor products total. Several companies correctly
+reused across worlds instead of duplicated (Bajaj Electricals: Food +
+Preethi-India; Electrolux: Clean + Walita; BSH/Bosch: Clean + breakfast/
+juicing). Two real gaps reported by the research honestly, not papered
+over: Preethi chimneys only got one verified competitor company (Elica
+India has no working online price/cart); a few candidates (Braun citrus
+press, Lavazza, Tassimo) were investigated and explicitly excluded for
+lacking a compliant Tier A/B price. 36/36 pytest, clean tsc/build, zero
+console errors.
+
+Remaining real work: capability-ontology scoring still Air-only (Section 2
+of CHECKLIST_COMPETITORS.md), Timeline still a locked data gap, PROCESS
+(source trace) view not built.
+
 ## 2026-08-27 — Logos fixed, checklist created, git initialized
 
 Just fixed: all 35 competitor logos now self-hosted locally (was hotlinking

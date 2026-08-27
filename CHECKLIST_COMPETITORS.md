@@ -22,8 +22,8 @@ Git HEAD at last update: see bottom of file.
 | Item | State | Proof |
 |---|---|---|
 | Every Versuni product resolves to a real competitor list OR an honest empty state (never silent/blank) | VERIFIED | `ProductFocus.tsx` Competitors section, live-tested on an Air product (8 real matches) |
-| Products in a category with >=1 real competitor match | WORKING | Walita (2 categories) + Preethi (5 categories: chimneys, cookware, gas-stoves, induction-cooktops, pressure-cookers) now covered, 16 more competitor products from 6 new India-market companies (TTK Prestige, Hawkins, Faber India, Sunflame, Meyer/PotsandPans, Vinod Cookware) + Bajaj reused correctly. 1 more research agent in flight for the final 4 categories (Gaggia, L'OR Barista, breakfast, juicing). |
-| Products in a category with zero competitor matches yet (shows honest "not researched yet" state) | WORKING | Down to 4 categories: gaggia-coffee, lor-barista-coffee, philips-breakfast, philips-juicing — research dispatched, not yet landed |
+| Products in a category with >=1 real competitor match | **VERIFIED — 76/76 (100%)** | All 11 originally-uncovered categories closed (Walita x2, Preethi x5, Gaggia/L'OR Barista/breakfast/juicing x4). Computed 2026-08-27: `set(competitor_products.versuni_category_id)` covers every category present in `products.csv`, zero uncovered. Live-verified on the last previously-zero-coverage product (Gaggia Classic UP, which had literally never had a "Competitors" section with real data) — now shows 3 real competitors (Sage, De'Longhi, Rancilio) with real prices/HQs. |
+| Products in a category with zero competitor matches yet | **N/A — none remain** | See above |
 | Arena: SELECT VERSUNI PRODUCT -> COMPETITORS entry point (product-first, not world-first) | TODO | Currently Arena is world-scoped with Battle mode letting you pick a Versuni product from a dropdown; not yet a dedicated product-first selector |
 
 ## 2. Air world — flagship extreme depth (8 competitor models: Dyson x2, IKEA, WINIX, Coway x2, Levoit x2)
@@ -42,13 +42,15 @@ Git HEAD at last update: see bottom of file.
 
 | World | Competitor products | Specs | Certification | Claims | TCO | Images | Capabilities |
 |---|---|---|---|---|---|---|---|
-| Food | 6 | TODO | TODO | TODO | TODO | TODO | TODO |
-| Coffee | 7 | TODO | TODO | TODO | TODO | TODO | TODO |
+| Food | 27 | TODO | TODO | TODO | TODO | TODO | TODO |
+| Coffee | 13 | TODO | TODO | TODO | TODO | TODO | TODO |
 | Clean | 7 | TODO | TODO | TODO | TODO | TODO | TODO |
 | Clothes | 6 | TODO | TODO | TODO | TODO | TODO | TODO |
 | Home | 4 | TODO | TODO | TODO | TODO | TODO | TODO |
 | Pets | 5 | TODO | TODO | TODO | TODO | TODO | TODO |
 | Garden | 2 | TODO | TODO | TODO | TODO | TODO | TODO |
+
+(Air's competitor-product count grew from 8 to 10 in this pass too — Walita's 2 climate-world products, i.e. `walita-climate` maps to the `air` world per this project's own world-mapping, not a new Air deep-dive.)
 
 These 7 worlds have identity + price + positioning (VERIFIED, see section 0
 and the price-audit note below) but none of the deep layers Air has. This
