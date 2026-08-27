@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 import type { SiteData, Competitor, CompetitorProduct, Positioning, Product } from "../types";
-import { IconTarget, IconClose } from "../icons";
+import { IconTarget } from "../icons";
 import { displaySku } from "../util";
 
 export const POSITION_META: Record<Positioning, { color: string; bg: string; label: string }> = {
@@ -256,6 +256,7 @@ function BattleMode({ data, scoped, competitorsById, onOpenProduct }: {
 }) {
   const [rightId, setRightId] = useState<string>(scoped[0]?.id || "");
   const right = scoped.find((p) => p.id === rightId) || scoped[0];
+  const [viewMode, setViewMode] = useState<"distilled" | "raw">("distilled");
 
   const versuniOptions = useMemo(() => {
     if (!right) return [];
@@ -263,6 +264,29 @@ function BattleMode({ data, scoped, competitorsById, onOpenProduct }: {
   }, [data, right]);
   const [leftId, setLeftId] = useState<string>("");
   const left = versuniOptions.find((p) => p.id === leftId) || versuniOptions[0];
+
+  // Closest real competitor to `left`, computed independently of whatever is
+  // currently selected as `right` -- so Distilled can say whether the user's
+  // pick actually is the closest one, or a different one is.
+  const closestCompetitor = useMemo(() => {
+    if (!left) return null;
+    const lp = left.prices?.[0];
+    const candidates = scoped.filter((p) => p.category === left.category && p.positioning === "DIRECT");
+    if (!candidates.length) return null;
+    if (!lp) return candidates[0];
+    const lv = parseFloat(lp.value);
+    const withDelta = candidates
+      .map((c) => {
+        const cp = firstPrice(c);
+        if (!cp || cp.currency !== lp.currency) return null;
+        const cv = parseFloat(cp.value);
+        if (isNaN(cv)) return null;
+        return { c, delta: Math.abs(cv - lv) };
+      })
+      .filter((x): x is { c: CompetitorProduct; delta: number } => x !== null);
+    if (!withDelta.length) return candidates[0];
+    return withDelta.sort((a, b) => a.delta - b.delta)[0].c;
+  }, [scoped, left]);
 
   if (!right) return <div className="empty-state">No products in this world yet.</div>;
 
@@ -280,8 +304,29 @@ function BattleMode({ data, scoped, competitorsById, onOpenProduct }: {
     priceVerdict = "INCOMPARABLE (different currency)";
   }
 
+  // Capability gap: only real where both sides have a scored row on the same (realm, tag) --
+  // never inferred, never padded to look complete.
+  const leftTagMap = new Map((left?.tags || []).map((t) => [`${t.realm}::${t.tag}`, t]));
+  const rightCapMap = new Map((right.capabilities || []).map((t) => [`${t.realm}::${t.tag}`, t]));
+  const sharedKeys = Array.from(new Set([...leftTagMap.keys(), ...rightCapMap.keys()]));
+  const competitorBetter: { realm: string; tag: string; l: number; r: number }[] = [];
+  const versuniBetter: { realm: string; tag: string; l: number; r: number }[] = [];
+  sharedKeys.forEach((k) => {
+    const l = leftTagMap.get(k), r = rightCapMap.get(k);
+    if (l && r) {
+      if (r.score > l.score + 0.5) competitorBetter.push({ realm: r.realm, tag: r.tag, l: l.score, r: r.score });
+      else if (l.score > r.score + 0.5) versuniBetter.push({ realm: l.realm, tag: l.tag, l: l.score, r: r.score });
+    }
+  });
+  const hasCapabilityData = leftTagMap.size > 0 || rightCapMap.size > 0;
+  const hasSharedCapabilityData = sharedKeys.some((k) => leftTagMap.has(k) && rightCapMap.has(k));
+
   return (
     <div className="battle-wrap">
+      <div className="distilled-toggle" style={{ marginBottom: 14 }}>
+        <button className={viewMode === "distilled" ? "active" : ""} onClick={() => setViewMode("distilled")}>Distilled</button>
+        <button className={viewMode === "raw" ? "active" : ""} onClick={() => setViewMode("raw")}>Raw</button>
+      </div>
       <div className="battle-pickers">
         <select className="battle-select" value={left?.id || ""} onChange={(e) => setLeftId(e.target.value)}>
           {versuniOptions.map((p) => <option key={p.id} value={p.id}>{p.name} ({displaySku(p.sku)})</option>)}
@@ -330,7 +375,17 @@ function BattleMode({ data, scoped, competitorsById, onOpenProduct }: {
         <span className="battle-evidence">{right.notes || "No additional positioning note recorded."}</span>
       </div>
 
-      {(right.specs.length > 0 || left?.specs?.length) && (
+      {viewMode === "distilled" && (
+        <DistilledPanel
+          left={left} right={right} rightCompany={rightCompany} priceVerdict={priceVerdict}
+          competitorBetter={competitorBetter} versuniBetter={versuniBetter}
+          hasCapabilityData={hasCapabilityData} hasSharedCapabilityData={hasSharedCapabilityData}
+          closestCompetitor={closestCompetitor} competitorsById={competitorsById}
+          onPickClosest={() => setRightId(closestCompetitor!.id)}
+        />
+      )}
+
+      {viewMode === "raw" && (right.specs.length > 0 || left?.specs?.length) && (
         <>
           <div className="section-title">Specifications on file</div>
           <div className="kv-grid">
@@ -344,7 +399,7 @@ function BattleMode({ data, scoped, competitorsById, onOpenProduct }: {
         </>
       )}
 
-      {right.tco.length > 0 && (
+      {viewMode === "raw" && right.tco.length > 0 && (
         <>
           <div className="section-title">Total cost of ownership</div>
           {right.tco.map((t, i) => (
@@ -363,7 +418,7 @@ function BattleMode({ data, scoped, competitorsById, onOpenProduct }: {
         </>
       )}
 
-      {right.certifications.length > 0 && (
+      {viewMode === "raw" && right.certifications.length > 0 && (
         <>
           <div className="section-title">Certification</div>
           <div className="cert-list">
@@ -380,7 +435,7 @@ function BattleMode({ data, scoped, competitorsById, onOpenProduct }: {
         </>
       )}
 
-      {right.intelligence.length > 0 && (
+      {viewMode === "raw" && right.intelligence.length > 0 && (
         <>
           <div className="section-title">Intelligence classification</div>
           <div className="section-sub" style={{ marginTop: -6 }}>
@@ -397,7 +452,7 @@ function BattleMode({ data, scoped, competitorsById, onOpenProduct }: {
         </>
       )}
 
-      {right.claims.length > 0 && (
+      {viewMode === "raw" && right.claims.length > 0 && (
         <>
           <div className="section-title">Claims vs independent evidence</div>
           <div className="claims-list">
@@ -416,11 +471,120 @@ function BattleMode({ data, scoped, competitorsById, onOpenProduct }: {
         </>
       )}
 
-      {right.claims.length === 0 && right.certifications.length === 0 && right.tco.length === 0 && right.intelligence.length === 0 && (
+      {viewMode === "raw" && right.capabilities.length > 0 && (
+        <>
+          <div className="section-title">Capabilities (shared ontology)</div>
+          <div className="section-sub" style={{ marginTop: -6 }}>
+            Same realm/tag/score scale used for Versuni's own products — see TAG_SCORING_RULES.md.
+          </div>
+          <div className="kv-grid">
+            {right.capabilities.map((cap, i) => (
+              <div className="kv-cell" key={i}>
+                <div className="k">{cap.realm} · {cap.tag}</div>
+                <div className="v">{cap.score.toFixed(1)} / 10 <span style={{ color: "var(--text-faint)", fontWeight: 500 }}>({cap.basis})</span></div>
+              </div>
+            ))}
+          </div>
+        </>
+      )}
+
+      {viewMode === "raw" && right.claims.length === 0 && right.certifications.length === 0 && right.tco.length === 0 && right.intelligence.length === 0 && right.capabilities.length === 0 && (
         <div className="section-sub" style={{ marginTop: 18 }}>
-          No claims, certifications, intelligence classification, or TCO data collected for this product yet — that depth pass hasn't run for this world.
+          No claims, certifications, capability scores, intelligence classification, or TCO data collected for this product yet — that depth pass hasn't run for this world.
         </div>
       )}
+    </div>
+  );
+}
+
+function DistilledPanel({
+  left, right, rightCompany, priceVerdict, competitorBetter, versuniBetter,
+  hasCapabilityData, hasSharedCapabilityData, closestCompetitor, competitorsById, onPickClosest,
+}: {
+  left: Product | undefined; right: CompetitorProduct; rightCompany?: Competitor;
+  priceVerdict: string; competitorBetter: { realm: string; tag: string; l: number; r: number }[];
+  versuniBetter: { realm: string; tag: string; l: number; r: number }[];
+  hasCapabilityData: boolean; hasSharedCapabilityData: boolean;
+  closestCompetitor: CompetitorProduct | null; competitorsById: Record<string, Competitor>;
+  onPickClosest: () => void;
+}) {
+  const isClosest = closestCompetitor?.id === right.id;
+  const implicationParts: string[] = [];
+  if (competitorBetter.length && versuniBetter.length) {
+    implicationParts.push(`${rightCompany?.name || "This competitor"} leads on ${competitorBetter.length} scored capabilit${competitorBetter.length === 1 ? "y" : "ies"}, Versuni leads on ${versuniBetter.length} — a mixed picture, not a clean win either way.`);
+  } else if (competitorBetter.length) {
+    implicationParts.push(`${rightCompany?.name || "This competitor"} leads on every scored capability that's directly comparable (${competitorBetter.length}) — no scored area where Versuni currently leads in this pairing.`);
+  } else if (versuniBetter.length) {
+    implicationParts.push(`Versuni leads on every scored capability that's directly comparable (${versuniBetter.length}) against ${rightCompany?.name || "this competitor"} — no scored area where the competitor currently leads.`);
+  }
+  if (priceVerdict === "VERSUNI LOWER") implicationParts.push("Versuni is also the lower-priced option in this pairing.");
+  else if (priceVerdict === "COMPETITOR LOWER") implicationParts.push(`${rightCompany?.name || "The competitor"} is the lower-priced option in this pairing.`);
+
+  return (
+    <div className="distilled-panel">
+      <div className="distilled-qa">
+        <div className="distilled-q">1. Closest real competitor</div>
+        <div className="distilled-a">
+          {closestCompetitor ? (
+            <>
+              {isClosest ? (
+                <>This is it — {rightCompany?.name} {right.name} is the nearest DIRECT match by price to {left?.name || "the selected Versuni product"}.</>
+              ) : (
+                <>
+                  The nearest DIRECT match by price is actually a different product:{" "}
+                  <b>{competitorsById[closestCompetitor.competitor]?.name} {closestCompetitor.name}</b>.
+                  <button className="chip" style={{ marginLeft: 8 }} onClick={onPickClosest}>Compare that one instead</button>
+                </>
+              )}
+            </>
+          ) : "No DIRECT-positioned competitor with a comparable price was found for this Versuni product."}
+        </div>
+      </div>
+
+      <div className="distilled-qa">
+        <div className="distilled-q">2. What {rightCompany?.name || "the competitor"} does better</div>
+        <div className="distilled-a">
+          {competitorBetter.length ? (
+            <ul className="distilled-list">
+              {competitorBetter.map((g, i) => <li key={i}>{g.tag} <span className="distilled-delta">({g.r.toFixed(1)} vs Versuni {g.l.toFixed(1)})</span></li>)}
+            </ul>
+          ) : hasSharedCapabilityData ? "No scored capability where this competitor beats Versuni by a meaningful margin." : "No shared scored capability data for this pairing yet — see Raw / CHECKLIST_COMPETITORS.md."}
+        </div>
+      </div>
+
+      <div className="distilled-qa">
+        <div className="distilled-q">3. What Versuni does better</div>
+        <div className="distilled-a">
+          {versuniBetter.length ? (
+            <ul className="distilled-list">
+              {versuniBetter.map((g, i) => <li key={i}>{g.tag} <span className="distilled-delta">(Versuni {g.l.toFixed(1)} vs {g.r.toFixed(1)})</span></li>)}
+            </ul>
+          ) : hasSharedCapabilityData ? "No scored capability where Versuni beats this competitor by a meaningful margin." : "No shared scored capability data for this pairing yet — see Raw / CHECKLIST_COMPETITORS.md."}
+        </div>
+      </div>
+
+      <div className="distilled-qa">
+        <div className="distilled-q">4. Price position</div>
+        <div className="distilled-a">
+          <span className="verdict-badge">{priceVerdict}</span>
+        </div>
+      </div>
+
+      <div className="distilled-qa">
+        <div className="distilled-q">5. Capability gap</div>
+        <div className="distilled-a">
+          {hasCapabilityData
+            ? `${competitorBetter.length + versuniBetter.length} shared, scored capability comparison${competitorBetter.length + versuniBetter.length === 1 ? "" : "s"} available for this pairing.`
+            : "No capability scoring exists yet for this pairing (that depth pass hasn't run for this world) — see CHECKLIST_COMPETITORS.md."}
+        </div>
+      </div>
+
+      <div className="distilled-qa">
+        <div className="distilled-q">6. Strategic read <span className="hyp-badge">DERIVED, not verified fact</span></div>
+        <div className="distilled-a">
+          {implicationParts.length ? implicationParts.join(" ") : "Not enough comparable evidence (price and/or capability data) to state a strategic read for this pairing without guessing."}
+        </div>
+      </div>
     </div>
   );
 }

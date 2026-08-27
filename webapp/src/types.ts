@@ -175,10 +175,11 @@ export interface CompCertRec {
 }
 
 export interface CompCapabilityRec {
-  group: CapabilityGroup;
-  capability: string;
-  original: string;
-  evidenceState: CapEvidenceState;
+  realm: string;
+  tag: string;
+  score: number;
+  basis: "RULE_DERIVED" | "ESTIMATED_JUDGMENT" | "CANDIDATE";
+  rationale: string;
 }
 
 export interface CompIntelRec {

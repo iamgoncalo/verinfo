@@ -340,18 +340,34 @@ def test_competitor_claims_have_valid_corroboration_state(tables):
     assert not bad, f"competitor_claims with an invalid independent_corroboration state: {bad}"
 
 
-def test_competitor_capabilities_have_valid_group_and_evidence_state(tables):
-    allowed_group = {"PERFORMANCE", "PERCEPTION", "INTELLIGENCE", "EXPERIENCE",
-                      "ECONOMICS", "SUSTAINABILITY", "SAFETY_CERTIFICATION"}
-    allowed_evidence = {"OBSERVED_SPEC", "MANUFACTURER_CLAIM", "INDEPENDENTLY_VERIFIED"}
-    bad_group, bad_evidence = [], []
+def test_competitor_capabilities_use_the_same_ontology_as_versuni_tag_scores(tables):
+    # competitor_capabilities.csv deliberately mirrors product_tag_scores.csv's shape
+    # (realm, tag, score, basis) so a competitor row and a Versuni row on the same
+    # (realm, tag) pair are directly comparable -- see TAG_SCORING_RULES.md.
+    allowed_realm = {"SPACE", "MEDIUM", "CAPABILITY", "INTELLIGENCE", "DIGITAL",
+                      "MAINTENANCE", "ECONOMIC", "LIFECYCLE", "USER_JOB", "NEED"}
+    allowed_basis = {"RULE_DERIVED", "ESTIMATED_JUDGMENT", "CANDIDATE"}
+    bad_realm, bad_basis, bad_score = [], [], []
     for r in tables["competitor_capabilities"]:
-        if r.get("capability_group") not in allowed_group:
-            bad_group.append((r["competitor_product_id"], r.get("capability_group")))
-        if r.get("evidence_state") not in allowed_evidence:
-            bad_evidence.append((r["competitor_product_id"], r.get("evidence_state")))
-    assert not bad_group, f"competitor_capabilities with an invalid capability_group: {bad_group}"
-    assert not bad_evidence, f"competitor_capabilities with an invalid evidence_state: {bad_evidence}"
+        if r.get("realm") not in allowed_realm:
+            bad_realm.append((r["competitor_product_id"], r.get("realm")))
+        if r.get("basis") not in allowed_basis:
+            bad_basis.append((r["competitor_product_id"], r.get("basis")))
+        try:
+            score = float(r["score"])
+            if not (0 <= score <= 10):
+                bad_score.append((r["competitor_product_id"], r["tag"], r["score"]))
+        except ValueError:
+            bad_score.append((r["competitor_product_id"], r["tag"], r["score"]))
+    assert not bad_realm, f"competitor_capabilities with a realm outside the shared Versuni ontology: {bad_realm}"
+    assert not bad_basis, f"competitor_capabilities with an invalid basis: {bad_basis}"
+    assert not bad_score, f"competitor_capabilities scores outside 0-10: {bad_score}"
+
+
+def test_competitor_capabilities_reference_known_products(tables):
+    known = ids(tables["competitor_products"], "competitor_product_id")
+    bad = [r["competitor_product_id"] for r in tables["competitor_capabilities"] if r["competitor_product_id"] not in known]
+    assert not bad, f"competitor_capabilities referencing an unknown competitor_product_id: {bad}"
 
 
 def test_competitor_intelligence_has_valid_dimension_and_status(tables):

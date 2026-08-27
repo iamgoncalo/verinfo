@@ -93,6 +93,40 @@ score means "this category's products are almost always used in a kitchen,
 per general/typical-use reasoning" — not "10 out of 10 surveyed households
 placed this exact SKU in their kitchen."
 
+## Competitor extension (data/normalized/competitor_capabilities.csv)
+
+Same table shape, same 0-10 scale, same `basis` vocabulary, same realm/tag
+names as `product_tag_scores.csv` — deliberately, so a competitor row and a
+Versuni row on the same `(realm, tag)` pair are directly comparable, not a
+parallel scheme. Only scored where the underlying deep-research pass exists
+(Air's 8 competitor models, from `competitor_specs_long.csv` /
+`competitor_intelligence.csv` / `competitor_claims.csv` — all sourced,
+independently collected data, never inferred from the Versuni side).
+
+- **CAPABILITY / "Air Filtration"** — from the official filtration-grade
+  spec + CADR: HEPA H13 + gas/VOC capable = 9; HEPA (99.97%+) + gas capable
+  with high CADR (≥400 m³/h) = 8.5; HEPA + gas capable with moderate CADR
+  = 7-7.5; EPA 12 with gas only as an optional add-on (not in the base
+  unit) = 6.5. **RULE_DERIVED** from observed spec facts. Not scored at all
+  (no row, not a 0) for a pure humidifier — same "HEPA does not remove
+  CO2"-style discipline as the Air World-Model Contract: a humidifier has
+  no particle-filtration capability to rate.
+- **INTELLIGENCE** — reuses Versuni's own tier names as the tag value
+  (`Reactive/Connected` / `Adaptive` / `Manual`), mapped from
+  `competitor_intelligence.csv`: SENSE+REACT EVIDENCED with no ADAPT/
+  PREDICT/LEARN evidence = Reactive/Connected (6); a confirmed but weaker
+  signal (e.g. REACT evidenced but SENSE unconfirmed) = Reactive/Connected
+  (5); a borderline/caveated higher-tier signal (e.g. a filter-life
+  countdown flagged as "not a modeled forecast") adds partial credit (+0.5)
+  rather than promoting the tier; explicit COORDINATE evidence (e.g. hub
+  scene-linking) adds +1, capped at 10. **RULE_DERIVED.**
+- **DIGITAL / "Wi-Fi / App Connected"** — 7 baseline for a confirmed named
+  app; +1 if a voice assistant integration is explicitly named (Alexa/
+  Google/Siri); +1 if hub/multi-device scene integration is explicitly
+  named; 3 if the official spec explicitly states no app/voice/hub
+  integration for that specific model (a real, sourced fact — e.g. Coway
+  Airmega 150's base model). **RULE_DERIVED.**
+
 ## Regeneration
 
 Rebuilt by re-running the tag-scoring script against current

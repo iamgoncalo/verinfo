@@ -157,8 +157,8 @@ for r in competitor_certifications:
 comp_caps_by_pid = defaultdict(list)
 for r in competitor_capabilities:
     comp_caps_by_pid[r["competitor_product_id"]].append({
-        "group": r["capability_group"], "capability": r["canonical_capability"],
-        "original": r["original_language"], "evidenceState": r["evidence_state"],
+        "realm": r["realm"], "tag": r["tag"], "score": float(r["score"]),
+        "basis": r["basis"], "rationale": r["rationale"],
     })
 
 comp_intel_by_pid = defaultdict(list)
