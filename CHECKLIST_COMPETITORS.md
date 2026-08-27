@@ -22,8 +22,8 @@ Git HEAD at last update: see bottom of file.
 | Item | State | Proof |
 |---|---|---|
 | Every Versuni product resolves to a real competitor list OR an honest empty state (never silent/blank) | VERIFIED | `ProductFocus.tsx` Competitors section, live-tested on an Air product (8 real matches) |
-| Products in a category with >=1 real competitor match | WORKING | 59 / 76 products (78%) after the Walita batch (walita-kitchen, walita-climate now covered, 6 competitor products, verified live: Walita Airfryer Serie 1000 now shows 4 real competitors with real BRL prices). 3 more research agents in flight for the remaining 9 categories (Gaggia, L'OR Barista, breakfast, juicing, 5 Preethi India categories). |
-| Products in a category with zero competitor matches yet (shows honest "not researched yet" state) | WORKING | 17 / 76 products, 9 categories remaining: gaggia-coffee, lor-barista-coffee, philips-breakfast, philips-juicing, preethi-chimneys, preethi-cookware, preethi-gas-stoves, preethi-induction-cooktops, preethi-pressure-cookers — research dispatched, not yet landed |
+| Products in a category with >=1 real competitor match | WORKING | Walita (2 categories) + Preethi (5 categories: chimneys, cookware, gas-stoves, induction-cooktops, pressure-cookers) now covered, 16 more competitor products from 6 new India-market companies (TTK Prestige, Hawkins, Faber India, Sunflame, Meyer/PotsandPans, Vinod Cookware) + Bajaj reused correctly. 1 more research agent in flight for the final 4 categories (Gaggia, L'OR Barista, breakfast, juicing). |
+| Products in a category with zero competitor matches yet (shows honest "not researched yet" state) | WORKING | Down to 4 categories: gaggia-coffee, lor-barista-coffee, philips-breakfast, philips-juicing — research dispatched, not yet landed |
 | Arena: SELECT VERSUNI PRODUCT -> COMPETITORS entry point (product-first, not world-first) | TODO | Currently Arena is world-scoped with Battle mode letting you pick a Versuni product from a dropdown; not yet a dedicated product-first selector |
 
 ## 2. Air world — flagship extreme depth (8 competitor models: Dyson x2, IKEA, WINIX, Coway x2, Levoit x2)
