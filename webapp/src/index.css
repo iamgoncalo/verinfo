@@ -210,7 +210,7 @@ button { font-family: inherit; }
 
 .drawer-body { padding: 20px 26px 40px; display: flex; flex-direction: column; gap: 26px; }
 
-.gallery-main { width: 100%; aspect-ratio: 4/3; border-radius: var(--radius); border: 1px solid var(--border); background: var(--panel-2); display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; cursor: zoom-in; }
+.gallery-main { width: 100%; height: clamp(160px, 30vh, 260px); border-radius: var(--radius); border: 1px solid var(--border); background: var(--panel-2); display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; cursor: zoom-in; }
 .gallery-main img { max-width: 100%; max-height: 100%; object-fit: contain; }
 .gallery-main .provenance { position: absolute; bottom: 10px; left: 10px; font-size: 10px; font-weight: 700; background: rgba(23,20,14,.7); color: #fff; padding: 3px 9px; border-radius: 100px; text-transform: uppercase; letter-spacing: .04em; }
 .gallery-main .navbtn { position: absolute; top: 50%; transform: translateY(-50%); width: 34px; height: 34px; border-radius: 50%; background: rgba(255,255,255,.9); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; cursor: pointer; box-shadow: var(--shadow-sm); }
