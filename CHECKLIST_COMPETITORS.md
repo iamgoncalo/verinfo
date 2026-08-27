@@ -12,10 +12,10 @@ Git HEAD at last update: see bottom of file.
 
 | Item | State | Proof |
 |---|---|---|
-| Company identity (35 competitors, HQ, parent, domain) | VERIFIED | `data/normalized/competitors.csv`, 35 rows; pytest `test_competitors_have_hq_country_or_explicit_gap` |
-| HQ city/country accuracy | VERIFIED | Independent hostile-audit agent checked 21/35 HQs against live official sources; found + fixed 2 wrong (WINIX, Ring); 19/21 were already correct |
-| Verified official company logos | VERIFIED | 34/35 self-hosted locally under `webapp/public/logos/` (fixes CORS/hotlink blocking seen live in the browser); 1 (Ring) honestly MISSING — its only official asset is a ZIP, not a renderable image. `test_local_logo_files_exist_on_disk` passes for all referenced files. 3 logos (Dyson/De'Longhi/Nespresso) are real official white wordmarks rendered on a dark chip (`logo_bg=dark`), not faked. |
-| Market (where each competitor product is sold) | VERIFIED | `competitor_products.markets` + `competitor_prices.country`, present for all 44 priced rows |
+| Company identity (51 competitors, HQ, parent, domain) | VERIFIED | `data/normalized/competitors.csv`, 51 rows; pytest `test_competitors_have_hq_country_or_explicit_gap` |
+| HQ city/country accuracy | VERIFIED | Two independent hostile-audit passes: round 1 checked 21/35 HQs, found+fixed 2 wrong (WINIX, Ring); round 2 checked the newest 29-product batch, found+fixed 1 stale HQ (Nespresso: Lausanne -> Vevey, relocated 2021, confirmed via nestle.com's own global-addresses page) |
+| Verified official company logos | VERIFIED | 46/51 self-hosted locally under `webapp/public/logos/` (90% — fixes CORS/hotlink blocking seen live in the browser); 4 FAVICON_FALLBACK, 1 (Ring) honestly MISSING — its only official asset is a ZIP, not a renderable image. `test_local_logo_files_exist_on_disk` passes for all referenced files. 4 logos (Dyson/De'Longhi/Nespresso/Cadence) are real official white-only marks rendered on a dark chip (`logo_bg=dark`), not faked. Live-verified 2026-08-27: 58/58 rendered `<img class="company-logo-img">` elements have `naturalWidth > 0`, zero broken images, zero console errors. |
+| Market (where each competitor product is sold) | VERIFIED | `competitor_products.markets` + `competitor_prices.country`, present for all priced rows |
 
 ## 1. Product-by-product coverage (all 76 Versuni products)
 
@@ -61,7 +61,7 @@ table exists so that gap is visible, not implied-complete by omission.
 | Item | State | Proof |
 |---|---|---|
 | Every competitor price sourced to an official store or major authorized retailer | VERIFIED | `COMPETITOR_POLICY.md` rule, enforced by transcription discipline |
-| Independent price audit | VERIFIED | Hostile-audit agent checked 38/45 prices against live sources; 36 confirmed exactly, 1 fixed (Braun CareStyle 7 Pro, stale), 1 dropped (PetSafe Smart Feed, product discontinued — wrong model code also fixed) |
+| Independent price audit | VERIFIED | Two rounds: round 1 checked 38/45 prices, 1 fixed (Braun CareStyle 7 Pro, stale), 1 dropped (PetSafe Smart Feed, discontinued); round 2 (newest 29-product batch) found 1 wrong product URL (Smeg citrus juicer pointed to the toaster page, name/price already correct) — fixed, price itself untouched |
 | Native currency preserved, never silently converted | VERIFIED | pytest `test_competitor_prices_reference_known_products_and_have_currency`; Map/Rankings modes group by currency explicitly |
 
 ## 5. Arena UI

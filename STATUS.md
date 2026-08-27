@@ -2,6 +2,22 @@
 
 Short rolling status. Full detail lives in `CHECKLIST_COMPETITORS.md`.
 
+## 2026-08-27 (latest) — Logo coverage to 90%, 2 more hostile-audit fixes, repo connected to GitHub
+
+Landed the second logo-research batch (8 companies: Meyer/PotsandPans,
+Vinod Cookware, Rancilio Group, Nescafé Dolce Gusto, illycaffè, Russell
+Hobbs, Smeg, Hurom) — all self-hosted locally, bringing verified-official
+logo coverage to 46/51 (90%). Applied 2 more real hostile-audit findings
+from the newest 29-product batch: Smeg's citrus-juicer URL pointed to its
+2-slice-toaster page instead of its own (name/price were already correct);
+Nespresso's HQ was stale ("Lausanne") — corrected to Vevey, Switzerland
+(relocated 2021, confirmed via nestle.com). Live-verified in the browser:
+58/58 rendered logo `<img>` elements have `naturalWidth > 0` (zero broken
+images), the Nespresso company drawer now shows "Vevey, Switzerland" with
+the correction note preserved, zero console errors. 36/36 pytest, clean
+`tsc`/`vite build`. Connected the local repo to `github.com/iamgoncalo/verinfo`
+and pushed all history per explicit user request.
+
 ## 2026-08-27 — Vertical slice complete: capability ontology + DISTILLED, verified live
 
 Built and verified end-to-end for the Air world (flagship, per instructions):
