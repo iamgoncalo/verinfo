@@ -2,6 +2,43 @@
 
 Short rolling status. Full detail lives in `CHECKLIST_COMPETITORS.md`.
 
+## 2026-08-27 (latest) — Competitor product images 100%, Versuni price coverage 62%->78%
+
+Dispatched 7 parallel research agents: 3 to source the 29 Versuni products
+that had zero price on file, 4 to source real official product images for
+the 66 competitor products that had none (competitor_images.csv was
+Air-only before this). Results, merged with dedup-safe scripts (no manual
+edits):
+- **Competitor product images: 74/74 (100%)**, all VERIFIED_EXACT or
+  VERIFIED_FAMILY, each traced to a real official or major-retailer page.
+  Wired into the UI for the first time (CompanyProfileDrawer and the
+  per-product Competitors list both now show the real product photo, not
+  just the company logo) -- this surfaced and fixed a real bug: `loading=
+  "lazy"` on `<img>` inside the fixed-position drawer overlay silently
+  never fired the network request (confirmed via isolated `new Image()`
+  test that the same URL loads fine outside that DOM context). Removed
+  lazy-loading from both drawer usages; live-verified 9/9 images across 3
+  companies (Airfryer's 2 direct competitors, Dyson's 3, Bosch's 4 incl.
+  fallback third-party CDNs) now load with real `naturalWidth`.
+- **Versuni's own price coverage: 47/76 -> 59/76 (62%->78%)**. 12 of the 17
+  remaining gaps are honestly explained (JS-rendered official pages the
+  agents' text-fetcher couldn't see, several `usa.philips.com` shop
+  subpaths returning HTTP 500 on every attempt, and confirmed
+  discontinuations e.g. Sandwich Maker HD2383/22) -- not silently left
+  blank, not guessed.
+- Added 2 zero-new-research tag realms (DIGITAL honest-gap rows, new
+  AVAILABILITY realm from the `region` field) and consolidated the sidebar
+  nav from 9 items to 7 (Explore now holds World/Brand/Category as tabs
+  instead of 3 separate entries) plus rebuilt House as "Space Intelligence"
+  with 5 space archetypes. 36/36 pytest, clean tsc/build, zero console
+  errors on a fresh tab.
+
+Remaining real work: Versuni price gap (17 products, mostly JS-rendering-
+blocked), tag depth still short of a genuine 20/product for every product
+(now avg 15.8, min 11, max 20 after the two new realms -- closing the rest
+needs real new spec sourcing per product, not padding), PROCESS view still
+not built.
+
 ## 2026-08-27 (latest) — Logo coverage to 90%, 2 more hostile-audit fixes, repo connected to GitHub
 
 Landed the second logo-research batch (8 companies: Meyer/PotsandPans,

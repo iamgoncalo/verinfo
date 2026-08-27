@@ -3,7 +3,7 @@ import type { SiteData, Product } from "../types";
 import { IconClose, IconChevLeft, IconChevRight } from "../icons";
 import { displaySku } from "../util";
 import TagProfile from "./TagProfile";
-import { CompanyLogo, POSITION_META, FLAG } from "./CompetitorsSection";
+import { POSITION_META, FLAG } from "./CompetitorsSection";
 
 export default function ProductFocus({
   product, data, onClose, onNavigate, onOpenArena,
@@ -155,7 +155,11 @@ export default function ProductFocus({
                   const pos = POSITION_META[cp.positioning];
                   return (
                     <a key={cp.id} className="pf-competitor-row" href={cp.url} target="_blank" rel="noopener noreferrer">
-                      {c && <CompanyLogo c={c} size={32} />}
+                      <div className={"row-thumb" + (cp.thumb ? "" : " row-thumb-missing")}>
+                        {cp.thumb
+                          ? <img src={cp.thumb} alt={cp.name} onError={(e) => { (e.target as HTMLElement).parentElement!.classList.add("row-thumb-missing"); (e.target as HTMLElement).style.display = "none"; }} />
+                          : <span className="no-img-icon">⚠</span>}
+                      </div>
                       <div className="pf-competitor-mid">
                         <div className="pf-competitor-name">{cp.name}</div>
                         <div className="pf-competitor-company">

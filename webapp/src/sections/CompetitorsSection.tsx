@@ -850,6 +850,11 @@ function CompanyProfileDrawer({ data, competitor, onClose, onOpenProduct }: {
               })();
               return (
                 <div key={cp.id} className="pf-competitor-row">
+                  <div className={"row-thumb" + (cp.thumb ? "" : " row-thumb-missing")}>
+                    {cp.thumb
+                      ? <img src={cp.thumb} alt={cp.name} onError={(e) => { (e.target as HTMLElement).parentElement!.classList.add("row-thumb-missing"); (e.target as HTMLElement).style.display = "none"; }} />
+                      : <span className="no-img-icon">⚠</span>}
+                  </div>
                   <div className="pf-competitor-mid">
                     <a href={cp.url} target="_blank" rel="noopener noreferrer" className="pf-competitor-name" style={{ textDecoration: "none" }}>{cp.name}</a>
                     <div className="pf-competitor-company">
