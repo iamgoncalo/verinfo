@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type { SiteData, Competitor, CompetitorProduct, Positioning, Product } from "../types";
 import { IconTarget, IconClose } from "../icons";
 import { displaySku, scrollContentToTop } from "../util";
@@ -184,6 +184,12 @@ function OverviewMode({ data, scoped, competitorsById, world, onOpenCompany }: {
   onOpenCompany: (id: string) => void;
 }) {
   const [countryFilter, setCountryFilter] = useState<string | null>(null);
+  const companyListRef = useRef<HTMLDivElement>(null);
+  // The company list this filters sits ABOVE the geo-grid the user clicks -- without this, the
+  // result of the click scrolls out of view upward and the click reads as doing nothing.
+  useEffect(() => {
+    if (countryFilter) companyListRef.current?.scrollIntoView({ behavior: "auto", block: "start" });
+  }, [countryFilter]);
 
   const activeCompanies = useMemo(() => {
     const inScope = new Set(scoped.map((p) => p.competitor));
@@ -226,7 +232,7 @@ function OverviewMode({ data, scoped, competitorsById, world, onOpenCompany }: {
 
   return (
     <>
-      <div className="section-title" style={{ marginTop: 8, display: "flex", alignItems: "center", gap: 10 }}>
+      <div ref={companyListRef} className="section-title" style={{ marginTop: 8, display: "flex", alignItems: "center", gap: 10 }}>
         <span>{countryFilter ? `Companies in ${countryFilter}` : "Who shows up most"}</span>
         {countryFilter && <button className="chip active" onClick={() => setCountryFilter(null)}>Clear ✕</button>}
       </div>

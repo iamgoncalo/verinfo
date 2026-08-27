@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import type { SiteData, AssocRec, LabelRec } from "../types";
 import { ProductGrid } from "./ProductsSection";
+import { scrollContentToTop } from "../util";
 
 type NodeRef = { id: string; type: string; name: string };
 
@@ -71,6 +72,10 @@ export default function SmartTagsSection({ data, onOpenProduct }: { data: SiteDa
   useEffect(() => {
     if (realmFilter && !selectedTag) drilldownRef.current?.scrollIntoView({ behavior: "auto", block: "start" });
   }, [realmFilter]);
+  // Switching mode (Overview/Graph/List) swaps the whole content area -- if the user was
+  // scrolled down in one mode, the new mode's content should still open at the top, not stay
+  // scrolled to wherever they were.
+  useEffect(() => { scrollContentToTop(); }, [mode]);
 
   const nodesById = useMemo(() => {
     const m: Record<string, NodeRef> = {};

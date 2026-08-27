@@ -1,9 +1,13 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import type { SiteData } from "../types";
 import { ProductGrid } from "./ProductsSection";
 
 export default function DistributionSection({ data, onOpenProduct }: { data: SiteData; onOpenProduct: (id: string) => void }) {
   const [region, setRegion] = useState<string | null>(null);
+  const resultRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    if (region) resultRef.current?.scrollIntoView({ behavior: "auto", block: "start" });
+  }, [region]);
 
   const byRegion = useMemo(() => {
     const g: Record<string, number> = {};
@@ -28,10 +32,10 @@ export default function DistributionSection({ data, onOpenProduct }: { data: Sit
       </div>
 
       {region && (
-        <>
+        <div ref={resultRef}>
           <div className="section-title">{region} — products</div>
           <ProductGrid products={regionProducts} onOpenProduct={onOpenProduct} />
-        </>
+        </div>
       )}
     </>
   );
