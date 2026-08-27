@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import type { SiteData } from "../types";
 import { displaySku } from "../util";
+import { IconChevRight } from "../icons";
 
 const NL_HOURLY_WAGE = 26.90;
 const NL_DISPOSABLE_INCOME = 60200;
@@ -51,15 +52,22 @@ export default function EconomicsSection({ data, onOpenProduct }: { data: SiteDa
         ))}
       </div>
 
-      <table className="simple-table">
+      <table className="simple-table row-table">
         <thead>
-          <tr><th>Product</th><th>Country</th><th>Type</th><th>Value</th><th>NL affordability context</th></tr>
+          <tr><th></th><th>Product</th><th>Country</th><th>Type</th><th>Value</th><th>NL affordability context</th><th></th></tr>
         </thead>
         <tbody>
           {rows.map((r, i) => {
             const aff = affordability(r.price);
             return (
-              <tr key={i} style={{ cursor: "pointer" }} onClick={() => onOpenProduct(r.product.id)}>
+              <tr key={i} className="clickable-row" onClick={() => onOpenProduct(r.product.id)}>
+                <td>
+                  <div className={"row-thumb" + (r.product.thumb ? "" : " row-thumb-missing")}>
+                    {r.product.thumb
+                      ? <img src={r.product.thumb} loading="lazy" alt={r.product.name} onError={(e) => { (e.target as HTMLElement).parentElement!.classList.add("row-thumb-missing"); (e.target as HTMLElement).style.display = "none"; }} />
+                      : <span className="no-img-icon">⚠</span>}
+                  </div>
+                </td>
                 <td>{r.product.name} <span style={{ color: "var(--text-faint)" }}>({displaySku(r.product.sku)})</span></td>
                 <td>{r.price.country}</td>
                 <td>{r.price.type}</td>
@@ -67,6 +75,7 @@ export default function EconomicsSection({ data, onOpenProduct }: { data: SiteDa
                 <td style={{ color: "var(--text-muted)" }}>
                   {aff ? `${aff.hours}h gross wages · ${aff.incomeShare}% of disposable income` : "—"}
                 </td>
+                <td className="row-chevron"><IconChevRight size={14} /></td>
               </tr>
             );
           })}

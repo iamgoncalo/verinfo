@@ -2,7 +2,12 @@ import { useMemo, useState, type ReactElement } from "react";
 import siteData from "./data/site-data.json";
 import VersuniLogo from "./VersuniLogo";
 import type { SiteData, Product } from "./types";
-import { IconSearch, IconGrid, IconList, IconHome, IconTag, IconLeaf, IconCoin, IconTarget, IconBook, IconLayers, IconGlobe } from "./icons";
+import { IconSearch, IconGrid, IconList, IconHome, IconTag, IconLeaf, IconCoin, IconTarget, IconBook, IconLayers, IconGlobe, IconFlame, IconCup, IconWind, IconDroplet, IconShirt, IconCamera, IconPaw, IconSprout } from "./icons";
+
+const WORLD_ICON: Record<string, ReactElement> = {
+  food: <IconFlame />, coffee: <IconCup />, air: <IconWind />, clean: <IconDroplet />,
+  clothes: <IconShirt />, home: <IconCamera />, pets: <IconPaw />, garden: <IconSprout />,
+};
 import ProductsSection from "./sections/ProductsSection";
 import SmartTagsSection from "./sections/SmartTagsSection";
 import EconomicsSection from "./sections/EconomicsSection";
@@ -92,8 +97,8 @@ export default function App() {
             {DATA.worlds.map((w) => {
               const n = DATA.products.filter((p) => p.world === w.id).length;
               return (
-                <div key={w.id} className="side-item" onClick={() => go("products", { world: w.id })}>
-                  <span className="ic"><IconLeaf /></span>
+                <div key={w.id} className="side-item" onClick={() => go("products", { world: w.id })} title={w.tagline}>
+                  <span className="ic">{WORLD_ICON[w.id] || <IconLeaf />}</span>
                   {w.name}
                   <span className="side-count">{n}</span>
                 </div>

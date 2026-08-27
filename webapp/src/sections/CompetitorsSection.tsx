@@ -228,31 +228,7 @@ function OverviewMode({ data, scoped, competitorsById, world, onOpenCompany }: {
 
   return (
     <>
-      <div className="section-title" style={{ marginTop: 8 }}>Where they're located</div>
-      <div className="section-sub" style={{ marginTop: -6 }}>
-        {activeCompanies.length} real companies, grouped by headquarters country — every HQ traces to that
-        company's own official page (see COMPETITOR_POLICY.md), independently re-checked in a hostile audit pass.
-        Click a country to filter the list below to just its companies.
-      </div>
-      <div className="geo-grid">
-        {byCountry.map(([country, comps]) => (
-          <div
-            key={country}
-            className={"geo-card" + (countryFilter === country ? " active" : "")}
-            onClick={() => setCountryFilter((cur) => (cur === country ? null : country))}
-          >
-            <div className="geo-flag">{FLAG[country] || "🏳"}</div>
-            <div className="geo-country">{country}</div>
-            <div className="geo-count">{comps.length} compan{comps.length === 1 ? "y" : "ies"}</div>
-            <div className="geo-logos">
-              {comps.slice(0, 6).map((c) => <CompanyLogo key={c.id} c={c} size={22} />)}
-              {comps.length > 6 && <span className="geo-more">+{comps.length - 6}</span>}
-            </div>
-          </div>
-        ))}
-      </div>
-
-      <div className="section-title" style={{ display: "flex", alignItems: "center", gap: 10 }}>
+      <div className="section-title" style={{ marginTop: 8, display: "flex", alignItems: "center", gap: 10 }}>
         <span>{countryFilter ? `Companies in ${countryFilter}` : "Who shows up most"}</span>
         {countryFilter && <button className="chip active" onClick={() => setCountryFilter(null)}>Clear ✕</button>}
       </div>
@@ -278,6 +254,30 @@ function OverviewMode({ data, scoped, competitorsById, world, onOpenCompany }: {
           initials instead of a placeholder image, never an invented mark.
         </div>
       )}
+
+      <div className="section-title" style={{ marginTop: 20 }}>Where they're located</div>
+      <div className="section-sub" style={{ marginTop: -6 }}>
+        {activeCompanies.length} real companies, grouped by headquarters country — every HQ traces to that
+        company's own official page (see COMPETITOR_POLICY.md), independently re-checked in a hostile audit pass.
+        Click a country to filter the company list above to just its companies.
+      </div>
+      <div className="geo-grid">
+        {byCountry.map(([country, comps]) => (
+          <div
+            key={country}
+            className={"geo-card" + (countryFilter === country ? " active" : "")}
+            onClick={() => setCountryFilter((cur) => (cur === country ? null : country))}
+          >
+            <div className="geo-flag">{FLAG[country] || "🏳"}</div>
+            <div className="geo-country">{country}</div>
+            <div className="geo-count">{comps.length} compan{comps.length === 1 ? "y" : "ies"}</div>
+            <div className="geo-logos">
+              {comps.slice(0, 6).map((c) => <CompanyLogo key={c.id} c={c} size={22} />)}
+              {comps.length > 6 && <span className="geo-more">+{comps.length - 6}</span>}
+            </div>
+          </div>
+        ))}
+      </div>
     </>
   );
 }
