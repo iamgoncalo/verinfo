@@ -2,7 +2,7 @@ import { useMemo, useState, type ReactElement } from "react";
 import siteData from "./data/site-data.json";
 import VersuniLogo from "./VersuniLogo";
 import type { SiteData, Product } from "./types";
-import { IconSearch, IconGrid, IconList, IconCoin, IconTarget, IconDashboard } from "./icons";
+import { IconSearch, IconGrid, IconList, IconCoin, IconTarget, IconDashboard, IconHome, IconLayers, IconGlobe, IconBook } from "./icons";
 import DashboardSection from "./sections/DashboardSection";
 import ProductsSection from "./sections/ProductsSection";
 import SmartTagsSection from "./sections/SmartTagsSection";
@@ -45,17 +45,30 @@ export default function App() {
   };
   const activeGroup = GROUP_OF[section];
 
-  const sideItems: { id: Section; label: string; icon: ReactElement; group: "explore" | "competitors" | "insights" }[] = [
-    { id: "products", label: "Explore", icon: <IconGrid />, group: "explore" },
-    { id: "competitors", label: "Arena", icon: <IconTarget />, group: "competitors" },
-    { id: "economics", label: "Insights", icon: <IconCoin />, group: "insights" },
-  ];
-
-  const EXPLORE_TABS: { id: Section; label: string }[] = [
-    { id: "products", label: "Products" }, { id: "house", label: "Space" }, { id: "tags", label: "Smart Tags" },
-  ];
-  const INSIGHTS_TABS: { id: Section; label: string }[] = [
-    { id: "economics", label: "Economics" }, { id: "distribution", label: "Distribution" }, { id: "sources", label: "Sources" },
+  const sideItems: {
+    id: Section; label: string; icon: ReactElement; group: "explore" | "competitors" | "insights"; count: number;
+    children: { id: Section; label: string; icon: ReactElement }[];
+  }[] = [
+    {
+      id: "products", label: "Explore", icon: <IconGrid />, group: "explore", count: DATA.products.length,
+      children: [
+        { id: "products", label: "Products", icon: <IconGrid size={13} /> },
+        { id: "house", label: "Space", icon: <IconHome size={13} /> },
+        { id: "tags", label: "Smart Tags", icon: <IconLayers size={13} /> },
+      ],
+    },
+    {
+      id: "competitors", label: "Arena", icon: <IconTarget />, group: "competitors", count: DATA.competitors.length,
+      children: [],
+    },
+    {
+      id: "economics", label: "Insights", icon: <IconCoin />, group: "insights", count: DATA.sources.length,
+      children: [
+        { id: "economics", label: "Economics", icon: <IconCoin size={13} /> },
+        { id: "distribution", label: "Distribution", icon: <IconGlobe size={13} /> },
+        { id: "sources", label: "Sources", icon: <IconBook size={13} /> },
+      ],
+    },
   ];
 
   return (
@@ -95,13 +108,29 @@ export default function App() {
           </div>
           <div className="side-group">
             {sideItems.map((it) => (
-              <div
-                key={it.id}
-                className={"side-item" + (activeGroup === it.group && !search ? " active" : "")}
-                onClick={() => go(it.id)}
-              >
-                <span className="ic">{it.icon}</span>
-                {it.label}
+              <div key={it.id}>
+                <div
+                  className={"side-item" + (activeGroup === it.group && !search ? " active" : "")}
+                  onClick={() => go(it.id)}
+                >
+                  <span className="ic">{it.icon}</span>
+                  {it.label}
+                  <span className="side-count">{it.count}</span>
+                </div>
+                {it.children.length > 0 && (
+                  <div className="side-children">
+                    {it.children.map((c) => (
+                      <div
+                        key={c.id}
+                        className={"side-item side-child" + (section === c.id && !search ? " active" : "")}
+                        onClick={() => go(c.id)}
+                      >
+                        <span className="ic">{c.icon}</span>
+                        {c.label}
+                      </div>
+                    ))}
+                  </div>
+                )}
               </div>
             ))}
           </div>
@@ -112,21 +141,6 @@ export default function App() {
             <SearchResults data={DATA} query={search} onOpenProduct={setOpenProductId} onGo={go} />
           ) : (
             <>
-              {activeGroup === "explore" && (
-                <div className="hub-tabs">
-                  {EXPLORE_TABS.map((t) => (
-                    <button key={t.id} className={section === t.id ? "active" : ""} onClick={() => go(t.id)}>{t.label}</button>
-                  ))}
-                </div>
-              )}
-              {activeGroup === "insights" && (
-                <div className="hub-tabs">
-                  {INSIGHTS_TABS.map((t) => (
-                    <button key={t.id} className={section === t.id ? "active" : ""} onClick={() => go(t.id)}>{t.label}</button>
-                  ))}
-                </div>
-              )}
-
               {section === "home" && <DashboardSection data={DATA} onGo={go} />}
               {section === "products" && (
                 <ProductsSection data={DATA} gridMode={gridMode} preset={presetScope} onOpenProduct={setOpenProductId} />

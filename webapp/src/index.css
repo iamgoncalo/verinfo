@@ -86,14 +86,11 @@ button { font-family: inherit; }
 .side-count { margin-left: auto; font-size: 10.5px; color: var(--text-faint); font-weight: 600; }
 .side-item.active .side-count { color: rgba(255,255,255,.85); }
 
-.hub-tabs { display: flex; gap: 6px; margin-bottom: 20px; border-bottom: 1px solid var(--border); padding-bottom: 0; }
-.hub-tabs button {
-  border: none; background: none; padding: 9px 4px; margin-right: 14px; font-size: 13.5px; font-weight: 700;
-  color: var(--text-faint); cursor: pointer; border-bottom: 2.5px solid transparent; margin-bottom: -1px;
-  transition: color .12s, border-color .12s;
-}
-.hub-tabs button:hover { color: var(--text); }
-.hub-tabs button.active { color: var(--text); border-bottom-color: var(--accent); }
+.side-children { margin: 0 0 10px 14px; padding-left: 12px; border-left: 1.5px solid var(--border); }
+.side-child { font-size: 12.5px; font-weight: 600; padding: 7px 10px; margin-bottom: 1px; }
+.side-child .ic { width: 14px; height: 14px; opacity: .55; }
+.side-child.active { background: var(--accent-soft); color: var(--accent); box-shadow: none; }
+.side-child.active .ic { opacity: 1; }
 
 .main { flex: 1; min-width: 0; overflow-y: auto; overflow-x: hidden; padding: 22px 30px 70px; }
 
