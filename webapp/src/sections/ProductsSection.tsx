@@ -6,21 +6,19 @@ import { displaySku } from "../util";
 type Preset = { world?: string; brand?: string; category?: string } | null;
 
 export default function ProductsSection({
-  data, preset, onOpenProduct, forceLevel, onPickBrand, onPickCategory,
+  data, preset, onOpenProduct,
 }: {
   data: SiteData;
   gridMode: "grid" | "list";
   preset: Preset;
-  forceLevel?: "brands" | "categories";
   onOpenProduct: (id: string) => void;
-  onPickBrand?: (id: string) => void;
-  onPickCategory?: (id: string) => void;
 }) {
   const [world, setWorld] = useState<string | null>(preset?.world ?? null);
   const [brand, setBrand] = useState<string | null>(preset?.brand ?? null);
   const [category, setCategory] = useState<string | null>(preset?.category ?? null);
   const [family, setFamily] = useState<string | null>(null);
   const [clusterBy, setClusterBy] = useState<string>("none");
+  const [rootView, setRootView] = useState<"world" | "brand" | "category">("world");
 
   // ProductsSection stays mounted across sidebar navigations (only the `section` id changes
   // away and back, or `preset` changes while already on "products") -- without this effect,
@@ -73,78 +71,84 @@ export default function ProductsSection({
 
   function reset() { setWorld(null); setBrand(null); setCategory(null); setFamily(null); }
 
-  if (forceLevel === "brands") {
-    return (
-      <>
-        <div className="section-title">Brands</div>
-        <div className="grid">
-          {data.brands.map((b) => {
-            const n = data.products.filter((p) => p.brand === b.id).length;
-            return (
-              <div key={b.id} className="card folder-card" onClick={() => onPickBrand?.(b.id)}>
-                <IconFolder />
-                <div className="folder-name">{b.name}</div>
-                <div className="folder-meta">{n} products · {b.domain}</div>
-              </div>
-            );
-          })}
-        </div>
-      </>
-    );
-  }
-
-  if (forceLevel === "categories") {
-    return (
-      <>
-        <div className="section-title">All categories</div>
-        <div className="grid">
-          {data.categories.map((c) => {
-            const n = data.products.filter((p) => p.category === c.id).length;
-            return (
-              <div key={c.id} className="card folder-card" onClick={() => onPickCategory?.(c.id)}>
-                <IconFolder />
-                <div className="folder-name">{c.name}</div>
-                <div className="folder-meta">{brandsMap[c.brand]?.name} · {n} products{c.status === "CANDIDATE" ? " · not deep-dived" : ""}</div>
-              </div>
-            );
-          })}
-        </div>
-      </>
-    );
-  }
-
-  // ---------- ROOT: World tiles ----------
+  // ---------- ROOT: World / Brand / Category tabs, all in one place ----------
   if (!world && !brand && !category && !family) {
     return (
       <>
         <div className="crumbs"><span className="crumb current">Versuni</span></div>
-        <div className="section-title">Explore by world</div>
-        <div className="section-sub">Eight worlds of the home. Click one to see its products.</div>
-        <div className="world-grid">
-          {data.worlds.map((w) => {
-            const prods = data.products.filter((p) => p.world === w.id);
-            const fams = new Set(prods.map((p) => p.family)).size;
-            const imaged = prods.filter((p) => p.thumbExact).length;
-            const collageImgs = prods.filter((p) => p.thumb).slice(0, 4);
-            const pct = prods.length ? Math.round((imaged / prods.length) * 100) : 0;
-            return (
-              <div key={w.id} className="world-tile" onClick={() => setWorld(w.id)}>
-                <div className="collage">
-                  {Array.from({ length: 4 }).map((_, i) =>
-                    collageImgs[i] ? <img key={i} src={collageImgs[i].thumb!} loading="lazy" /> : <div key={i} className="empty" />
-                  )}
-                </div>
-                <h3>{w.name}</h3>
-                <div className="tagline">{w.tagline}</div>
-                <div className="stats-row">
-                  <span className="counts"><b>{prods.length}</b> products · <b>{fams}</b> families</span>
-                  <span className="open-cta">OPEN →</span>
-                </div>
-                <div className="coverage-bar"><div className="fill" style={{ width: `${pct}%` }} /></div>
-              </div>
-            );
-          })}
+        <div className="cluster-bar" style={{ marginBottom: 4 }}>
+          <label>Explore by</label>
+          <button className={"chip" + (rootView === "world" ? " active" : "")} onClick={() => setRootView("world")}>World</button>
+          <button className={"chip" + (rootView === "brand" ? " active" : "")} onClick={() => setRootView("brand")}>Brand</button>
+          <button className={"chip" + (rootView === "category" ? " active" : "")} onClick={() => setRootView("category")}>Category</button>
         </div>
+
+        {rootView === "world" && (
+          <>
+            <div className="section-sub">Eight worlds of the home. Click one to see its products.</div>
+            <div className="world-grid">
+              {data.worlds.map((w) => {
+                const prods = data.products.filter((p) => p.world === w.id);
+                const fams = new Set(prods.map((p) => p.family)).size;
+                const imaged = prods.filter((p) => p.thumbExact).length;
+                const collageImgs = prods.filter((p) => p.thumb).slice(0, 4);
+                const pct = prods.length ? Math.round((imaged / prods.length) * 100) : 0;
+                return (
+                  <div key={w.id} className="world-tile" onClick={() => setWorld(w.id)}>
+                    <div className="collage">
+                      {Array.from({ length: 4 }).map((_, i) =>
+                        collageImgs[i] ? <img key={i} src={collageImgs[i].thumb!} loading="lazy" /> : <div key={i} className="empty" />
+                      )}
+                    </div>
+                    <h3>{w.name}</h3>
+                    <div className="tagline">{w.tagline}</div>
+                    <div className="stats-row">
+                      <span className="counts"><b>{prods.length}</b> products · <b>{fams}</b> families</span>
+                      <span className="open-cta">OPEN →</span>
+                    </div>
+                    <div className="coverage-bar"><div className="fill" style={{ width: `${pct}%` }} /></div>
+                  </div>
+                );
+              })}
+            </div>
+          </>
+        )}
+
+        {rootView === "brand" && (
+          <>
+            <div className="section-sub">{data.brands.length} brands. Click one to see its products.</div>
+            <div className="grid">
+              {data.brands.map((b) => {
+                const n = data.products.filter((p) => p.brand === b.id).length;
+                return (
+                  <div key={b.id} className="card folder-card" onClick={() => setBrand(b.id)}>
+                    <IconFolder />
+                    <div className="folder-name">{b.name}</div>
+                    <div className="folder-meta">{n} products · {b.domain}</div>
+                  </div>
+                );
+              })}
+            </div>
+          </>
+        )}
+
+        {rootView === "category" && (
+          <>
+            <div className="section-sub">{data.categories.length} categories. Click one to see its products.</div>
+            <div className="grid">
+              {data.categories.map((c) => {
+                const n = data.products.filter((p) => p.category === c.id).length;
+                return (
+                  <div key={c.id} className="card folder-card" onClick={() => setCategory(c.id)}>
+                    <IconFolder />
+                    <div className="folder-name">{c.name}</div>
+                    <div className="folder-meta">{brandsMap[c.brand]?.name} · {n} products{c.status === "CANDIDATE" ? " · not deep-dived" : ""}</div>
+                  </div>
+                );
+              })}
+            </div>
+          </>
+        )}
       </>
     );
   }

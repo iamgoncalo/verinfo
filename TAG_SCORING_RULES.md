@@ -127,6 +127,21 @@ independently collected data, never inferred from the Versuni side).
   integration for that specific model (a real, sourced fact — e.g. Coway
   Airmega 150's base model). **RULE_DERIVED.**
 
+### DIGITAL — honest gap row (2026-08-27)
+Every product with zero rows under DIGITAL previously had no way to
+distinguish "confirmed not connected" from "connectivity never researched."
+Added a `tag=Unclassified, score=3, ESTIMATED_JUDGMENT` row for the 62
+products with no `connectivity` spec on file, mirroring the pre-existing
+INTELLIGENCE `Unclassified` pattern — an honest gap marker, not a claim of
+"no connectivity." **ESTIMATED_JUDGMENT.**
+
+### AVAILABILITY — market breadth (2026-08-27, new realm)
+One row per product from the `region` field already on `products.csv` (no
+new research). `tag = "Sold in: <region>"`, score by breadth: `Global` -> 10,
+a multi-market notation containing "/" (e.g. "IT/EU") -> 8, a single market
+-> 5. **RULE_DERIVED** — directly read off the product's own record, no
+judgment involved.
+
 ## Regeneration
 
 Rebuilt by re-running the tag-scoring script against current

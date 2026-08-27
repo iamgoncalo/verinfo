@@ -1086,3 +1086,141 @@ philips-gc-gc628-86,USER_JOB,De-wrinkle clothes quickly,6,CANDIDATE,"Inherited f
 philips-gc-gc628-86,USER_JOB,Avoid ironing board hassle,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Garment Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
 philips-gc-gc628-86,NEED,time saving,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Garment Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
 philips-gc-gc628-86,NEED,low effort,6,CANDIDATE,"Inherited from category-level behavior fabric for 'Garment Care' -- AI-proposed, not consumer-evidence-backed for this exact SKU.",2026-08-27
+preethi-mg-zodiac-mg218,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+preethi-mg-zodiac-mg218,AVAILABILITY,Sold in: India,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+preethi-mg-zodiac2-mg255,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+preethi-mg-zodiac2-mg255,AVAILABILITY,Sold in: India,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+preethi-mg-blueleaf-mg281,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+preethi-mg-blueleaf-mg281,AVAILABILITY,Sold in: India,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+preethi-mg-diamond-mg214,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+preethi-mg-diamond-mg214,AVAILABILITY,Sold in: India,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+preethi-mg-ecoplus-mg138,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+preethi-mg-ecoplus-mg138,AVAILABILITY,Sold in: USA/Canada,8,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+preethi-gs-glamsteel-3b,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+preethi-gs-glamsteel-3b,AVAILABILITY,Sold in: India,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+preethi-gs-silverin-2b,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+preethi-gs-silverin-2b,AVAILABILITY,Sold in: India,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+preethi-gs-valentino-gts121,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+preethi-gs-valentino-gts121,AVAILABILITY,Sold in: India,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+preethi-ic-ic125,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+preethi-ic-ic125,AVAILABILITY,Sold in: India,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+preethi-ic-ic116,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+preethi-ic-ic116,AVAILABILITY,Sold in: India,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+preethi-ch-kh311,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+preethi-ch-kh311,AVAILABILITY,Sold in: India,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+preethi-ch-kh317,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+preethi-ch-kh317,AVAILABILITY,Sold in: India,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+preethi-pc-pc024,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+preethi-pc-pc024,AVAILABILITY,Sold in: India,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+preethi-cw-kadai26,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+preethi-cw-kadai26,AVAILABILITY,Sold in: India,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+preethi-cw-csw037,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+preethi-cw-csw037,AVAILABILITY,Sold in: India,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-air-ac0650-20,AVAILABILITY,Sold in: UK,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-air-ac0651-10,AVAILABILITY,Sold in: UK,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-air-ac0850-41,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+philips-air-ac0850-41,AVAILABILITY,Sold in: US,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-air-ac0920-10,AVAILABILITY,Sold in: UK,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-air-ac0950-10,AVAILABILITY,Sold in: UK,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-air-ac0951-13,AVAILABILITY,Sold in: UK,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-air-ac1715-41,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+philips-air-ac1715-41,AVAILABILITY,Sold in: US,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-air-ac2889-40,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+philips-air-ac2889-40,AVAILABILITY,Sold in: US,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-air-ac2220-10,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+philips-air-ac2220-10,AVAILABILITY,Sold in: UK,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-air-ac3033-73,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+philips-air-ac3033-73,AVAILABILITY,Sold in: AU,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-air-ac3220-10,AVAILABILITY,Sold in: UK,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-air-ac3420-10,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+philips-air-ac3420-10,AVAILABILITY,Sold in: UK,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-air-ac4220-12,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+philips-air-ac4220-12,AVAILABILITY,Sold in: AU,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-air-amf220-15,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+philips-air-amf220-15,AVAILABILITY,Sold in: ZA,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-air-amf765-30,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+philips-air-amf765-30,AVAILABILITY,Sold in: UK,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-air-amf870-35,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+philips-air-amf870-35,AVAILABILITY,Sold in: UK,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-air-ac5659-40,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+philips-air-ac5659-40,AVAILABILITY,Sold in: US,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-cf-bar305-00,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+philips-cf-bar305-00,AVAILABILITY,Sold in: US,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-cf-psa3218-01,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+philips-cf-psa3218-01,AVAILABILITY,Sold in: US,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-cf-ep3347-90,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+philips-cf-ep3347-90,AVAILABILITY,Sold in: US,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-cf-ep8757-20,AVAILABILITY,Sold in: US,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+lor-barista-cf-lm8018,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+lor-barista-cf-lm8018,AVAILABILITY,Sold in: Global,10,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+senseo-cf-original-nl,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+senseo-cf-original-nl,AVAILABILITY,Sold in: NL,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+saeco-cf-xelsis-suprema-sm8889,AVAILABILITY,Sold in: EU,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+saeco-cf-xelsis-deluxe-sm8782,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+saeco-cf-xelsis-deluxe-sm8782,AVAILABILITY,Sold in: EU,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+saeco-cf-granaroma-sm6480,AVAILABILITY,Sold in: EU,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+gaggia-cf-classicup,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+gaggia-cf-classicup,AVAILABILITY,Sold in: IT/EU,8,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-hs-hsp5500-02,AVAILABILITY,Sold in: India,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-hs-hsp5300-01,AVAILABILITY,Sold in: Singapore,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-pet-paw5320-02,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+philips-pet-paw5320-02,AVAILABILITY,Sold in: UK,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-pet-paw3210-02,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+philips-pet-paw3210-02,AVAILABILITY,Sold in: UK,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-garden-rsl3000-10,AVAILABILITY,Sold in: France,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+walita-af-na150-00,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+walita-af-na150-00,AVAILABILITY,Sold in: Brazil,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+walita-af-ri9270-90,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+walita-af-ri9270-90,AVAILABILITY,Sold in: Brazil,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+walita-af-ai551-09,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+walita-af-ai551-09,AVAILABILITY,Sold in: Brazil,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+walita-cf-ep4441-53,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+walita-cf-ep4441-53,AVAILABILITY,Sold in: Brazil,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+walita-cf-ep5441-55,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+walita-cf-ep5441-55,AVAILABILITY,Sold in: Brazil,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+walita-fp-hr7304-90,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+walita-fp-hr7304-90,AVAILABILITY,Sold in: Brazil,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+walita-vac-xc2011-01,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+walita-vac-xc2011-01,AVAILABILITY,Sold in: Brazil,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+walita-hum-hu1510-04,AVAILABILITY,Sold in: Brazil,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-air-ac1715-10-br,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+philips-air-ac1715-10-br,AVAILABILITY,Sold in: Brazil,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-af-na110-00,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+philips-af-na110-00,AVAILABILITY,Sold in: US,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-af-na220-00,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+philips-af-na220-00,AVAILABILITY,Sold in: US,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-af-na352-00,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+philips-af-na352-00,AVAILABILITY,Sold in: UK,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-af-na555-00,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+philips-af-na555-00,AVAILABILITY,Sold in: US,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-af-hd9880-90,AVAILABILITY,Sold in: Singapore,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-ck-hd3095-87,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+philips-ck-hd3095-87,AVAILABILITY,Sold in: US,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-bl-hr2767-00,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+philips-bl-hr2767-00,AVAILABILITY,Sold in: Bahrain,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-jc-hr1855-70r1,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+philips-jc-hr1855-70r1,AVAILABILITY,Sold in: UK,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-jc-hr1897-34,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+philips-jc-hr1897-34,AVAILABILITY,Sold in: US,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-bf-hd2383-22,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+philips-bf-hd2383-22,AVAILABILITY,Sold in: Global,10,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-bf-hd9365-10,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+philips-bf-hd9365-10,AVAILABILITY,Sold in: Global,10,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-fc-xu7100-01,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+philips-fc-xu7100-01,AVAILABILITY,Sold in: UK,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-fc-xw9383-01,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+philips-fc-xw9383-01,AVAILABILITY,Sold in: UK,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-fc-fc6904-01,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+philips-fc-fc6904-01,AVAILABILITY,Sold in: UK,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-fc-fc9729-09,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+philips-fc-fc9729-09,AVAILABILITY,Sold in: UK,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-fc-fc8577-09,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+philips-fc-fc8577-09,AVAILABILITY,Sold in: UK,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-gc-gc215-20,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+philips-gc-gc215-20,AVAILABILITY,Sold in: UK,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-gc-gc9650-80,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+philips-gc-gc9650-80,AVAILABILITY,Sold in: UK,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-gc-gc9682-86,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+philips-gc-gc9682-86,AVAILABILITY,Sold in: UK,5,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27
+philips-gc-gc628-86,DIGITAL,Unclassified,3,ESTIMATED_JUDGMENT,No connectivity spec on file for this SKU or its family to classify from.,2026-08-27
+philips-gc-gc628-86,AVAILABILITY,Sold in: Global,10,RULE_DERIVED,Directly observed `region` field on this product's own record in products.csv.,2026-08-27

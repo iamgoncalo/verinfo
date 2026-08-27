@@ -2,7 +2,7 @@ import { useMemo, useState, type ReactElement } from "react";
 import siteData from "./data/site-data.json";
 import VersuniLogo from "./VersuniLogo";
 import type { SiteData, Product } from "./types";
-import { IconSearch, IconGrid, IconList, IconHome, IconTag, IconLeaf, IconCoin, IconTarget, IconBook, IconLayers, IconGlobe, IconFlame, IconCup, IconWind, IconDroplet, IconShirt, IconCamera, IconPaw, IconSprout } from "./icons";
+import { IconSearch, IconGrid, IconList, IconHome, IconLeaf, IconCoin, IconTarget, IconBook, IconLayers, IconGlobe, IconFlame, IconCup, IconWind, IconDroplet, IconShirt, IconCamera, IconPaw, IconSprout } from "./icons";
 
 const WORLD_ICON: Record<string, ReactElement> = {
   food: <IconFlame />, coffee: <IconCup />, air: <IconWind />, clean: <IconDroplet />,
@@ -20,7 +20,7 @@ import SearchResults from "./sections/SearchResults";
 
 const DATA = siteData as unknown as SiteData;
 
-export type Section = "products" | "brands" | "categories" | "house" | "tags" | "competitors" | "economics" | "distribution" | "sources";
+export type Section = "products" | "house" | "tags" | "competitors" | "economics" | "distribution" | "sources";
 
 export default function App() {
   const [section, setSection] = useState<Section>("products");
@@ -39,9 +39,7 @@ export default function App() {
   }
 
   const sideItems: { id: Section; label: string; icon: ReactElement; count?: number }[] = [
-    { id: "products", label: "All Products", icon: <IconHome />, count: DATA.products.length },
-    { id: "brands", label: "Brands", icon: <IconTag />, count: DATA.brands.length },
-    { id: "categories", label: "Categories", icon: <IconGrid />, count: DATA.categories.length },
+    { id: "products", label: "Explore", icon: <IconGrid />, count: DATA.products.length },
     { id: "house", label: "House", icon: <IconHome /> },
     { id: "tags", label: "Smart Tags", icon: <IconLayers /> },
     { id: "competitors", label: "Arena", icon: <IconTarget /> },
@@ -114,12 +112,6 @@ export default function App() {
             <>
               {section === "products" && (
                 <ProductsSection data={DATA} gridMode={gridMode} preset={presetScope} onOpenProduct={setOpenProductId} />
-              )}
-              {section === "brands" && (
-                <ProductsSection data={DATA} gridMode={gridMode} preset={null} forceLevel="brands" onOpenProduct={setOpenProductId} onPickBrand={(b) => go("products", { brand: b })} />
-              )}
-              {section === "categories" && (
-                <ProductsSection data={DATA} gridMode={gridMode} preset={null} forceLevel="categories" onOpenProduct={setOpenProductId} onPickCategory={(c) => go("products", { category: c })} />
               )}
               {section === "house" && <HouseSection data={DATA} onOpenProduct={setOpenProductId} />}
               {section === "tags" && <SmartTagsSection data={DATA} onOpenProduct={setOpenProductId} />}
