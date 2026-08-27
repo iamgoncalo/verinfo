@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 import type { SiteData, Competitor, CompetitorProduct, Positioning, Product } from "../types";
-import { IconTarget } from "../icons";
+import { IconTarget, IconClose } from "../icons";
 import { displaySku } from "../util";
 
 export const POSITION_META: Record<Positioning, { color: string; bg: string; label: string }> = {
@@ -48,6 +48,7 @@ export default function CompetitorsSection({ data, onOpenProduct, preset }: {
 }) {
   const [world, setWorld] = useState<string>(preset?.world ?? "all");
   const [mode, setMode] = useState<ModeT>("overview");
+  const [openCompanyId, setOpenCompanyId] = useState<string | null>(null);
 
   const competitorsById = useMemo(() => Object.fromEntries(data.competitors.map((c) => [c.id, c])), [data]);
 
@@ -127,7 +128,7 @@ export default function CompetitorsSection({ data, onOpenProduct, preset }: {
         </span>
       </div>
 
-      {mode === "overview" && <OverviewMode data={data} scoped={scoped} competitorsById={competitorsById} world={world} onJumpTo={setMode} />}
+      {mode === "overview" && <OverviewMode data={data} scoped={scoped} competitorsById={competitorsById} world={world} onOpenCompany={setOpenCompanyId} />}
       {mode === "battle" && <BattleMode data={data} scoped={scoped} competitorsById={competitorsById} onOpenProduct={onOpenProduct} />}
       {mode === "map" && <MapMode scoped={scoped} competitorsById={competitorsById} />}
       {mode === "matrix" && <MatrixMode data={data} scoped={scoped} competitorsById={competitorsById} />}
@@ -141,18 +142,27 @@ export default function CompetitorsSection({ data, onOpenProduct, preset }: {
             {data.competitors
               .filter((c) => world === "all" || scoped.some((p) => p.competitor === c.id))
               .map((c) => (
-                <CompanyCard key={c.id} c={c} productCount={scoped.filter((p) => p.competitor === c.id).length} />
+                <CompanyCard key={c.id} c={c} productCount={scoped.filter((p) => p.competitor === c.id).length} onClick={() => setOpenCompanyId(c.id)} />
               ))}
           </div>
         </>
+      )}
+
+      {openCompanyId && (
+        <CompanyProfileDrawer
+          data={data}
+          competitor={data.competitors.find((c) => c.id === openCompanyId)!}
+          onClose={() => setOpenCompanyId(null)}
+          onOpenProduct={onOpenProduct}
+        />
       )}
     </>
   );
 }
 
-function CompanyCard({ c, productCount }: { c: Competitor; productCount: number }) {
+function CompanyCard({ c, productCount, onClick }: { c: Competitor; productCount: number; onClick: () => void }) {
   return (
-    <a className="company-card" href={`https://${c.domain}`} target="_blank" rel="noopener noreferrer">
+    <div className="company-card" onClick={onClick}>
       <div className="company-card-top">
         <CompanyLogo c={c} />
         <div>
@@ -167,13 +177,16 @@ function CompanyCard({ c, productCount }: { c: Competitor; productCount: number 
         <span>{c.domain}</span>
         <span>{productCount} product{productCount === 1 ? "" : "s"}</span>
       </div>
-    </a>
+    </div>
   );
 }
 
-function OverviewMode({ data, scoped, competitorsById, world, onJumpTo }: {
-  data: SiteData; scoped: CompetitorProduct[]; competitorsById: Record<string, Competitor>; world: string; onJumpTo: (m: ModeT) => void;
+function OverviewMode({ data, scoped, competitorsById, world, onOpenCompany }: {
+  data: SiteData; scoped: CompetitorProduct[]; competitorsById: Record<string, Competitor>; world: string;
+  onOpenCompany: (id: string) => void;
 }) {
+  const [countryFilter, setCountryFilter] = useState<string | null>(null);
+
   const activeCompanies = useMemo(() => {
     const inScope = new Set(scoped.map((p) => p.competitor));
     return data.competitors.filter((c) => world === "all" || inScope.has(c.id));
@@ -193,12 +206,21 @@ function OverviewMode({ data, scoped, competitorsById, world, onJumpTo }: {
   const topByCoverage = useMemo(() => {
     const counts = new Map<string, number>();
     scoped.forEach((p) => counts.set(p.competitor, (counts.get(p.competitor) || 0) + 1));
+    if (countryFilter) {
+      // Country view is an identity listing, not just a coverage ranking -- include every
+      // company HQ'd there even with 0 products, so the count matches the geo-card exactly
+      // (e.g. GARDENA has 0 competing products on file but is still a real German company).
+      return activeCompanies
+        .filter((c) => (c.hqCountry || "Unverified") === countryFilter)
+        .map((c) => ({ c, n: counts.get(c.id) || 0 }))
+        .sort((a, b) => b.n - a.n);
+    }
     return Array.from(counts.entries())
       .map(([id, n]) => ({ c: competitorsById[id], n }))
-      .filter((x) => x.c)
+      .filter((x): x is { c: Competitor; n: number } => !!x.c)
       .sort((a, b) => b.n - a.n)
       .slice(0, 12);
-  }, [scoped, competitorsById]);
+  }, [scoped, competitorsById, countryFilter, activeCompanies]);
 
   const logoCoverage = activeCompanies.length
     ? Math.round((activeCompanies.filter((c) => c.logoState === "VERIFIED_OFFICIAL").length / activeCompanies.length) * 100)
@@ -210,10 +232,15 @@ function OverviewMode({ data, scoped, competitorsById, world, onJumpTo }: {
       <div className="section-sub" style={{ marginTop: -6 }}>
         {activeCompanies.length} real companies, grouped by headquarters country — every HQ traces to that
         company's own official page (see COMPETITOR_POLICY.md), independently re-checked in a hostile audit pass.
+        Click a country to filter the list below to just its companies.
       </div>
       <div className="geo-grid">
         {byCountry.map(([country, comps]) => (
-          <div key={country} className="geo-card">
+          <div
+            key={country}
+            className={"geo-card" + (countryFilter === country ? " active" : "")}
+            onClick={() => setCountryFilter((cur) => (cur === country ? null : country))}
+          >
             <div className="geo-flag">{FLAG[country] || "🏳"}</div>
             <div className="geo-country">{country}</div>
             <div className="geo-count">{comps.length} compan{comps.length === 1 ? "y" : "ies"}</div>
@@ -225,14 +252,18 @@ function OverviewMode({ data, scoped, competitorsById, world, onJumpTo }: {
         ))}
       </div>
 
-      <div className="section-title">Who shows up most</div>
+      <div className="section-title" style={{ display: "flex", alignItems: "center", gap: 10 }}>
+        <span>{countryFilter ? `Companies in ${countryFilter}` : "Who shows up most"}</span>
+        {countryFilter && <button className="chip active" onClick={() => setCountryFilter(null)}>Clear ✕</button>}
+      </div>
       <div className="section-sub" style={{ marginTop: -6 }}>
-        Companies ranked by how many competing products they have in this scope. Click any card to jump into
-        Battle mode for that company's products.
+        {countryFilter
+          ? `${topByCoverage.length} compan${topByCoverage.length === 1 ? "y" : "ies"} headquartered in ${countryFilter}. Click any card for its full profile.`
+          : "Companies ranked by how many competing products they have in this scope. Click any card for its full profile."}
       </div>
       <div className="standout-company-grid">
         {topByCoverage.map(({ c, n }) => (
-          <div key={c.id} className="standout-company-card" onClick={() => onJumpTo("battle")}>
+          <div key={c.id} className="standout-company-card" onClick={() => onOpenCompany(c.id)}>
             <CompanyLogo c={c} size={44} />
             <div className="standout-company-name">{c.name}</div>
             <div className="standout-company-meta">{FLAG[c.hqCountry] || ""} {c.hqCountry}</div>
@@ -764,6 +795,87 @@ function TimelineGap() {
         A real Timeline needs launch-date history per competitor product (when each model/series shipped, what
         changed release over release). That data hasn't been collected in this pass — Battle, Map, and Matrix all
         run on real sourced data; Timeline stays locked rather than showing an invented chronology.
+      </div>
+    </div>
+  );
+}
+
+function CompanyProfileDrawer({ data, competitor, onClose, onOpenProduct }: {
+  data: SiteData; competitor: Competitor; onClose: () => void; onOpenProduct: (id: string) => void;
+}) {
+  const products = data.competitorProducts.filter((p) => p.competitor === competitor.id);
+  const worldsById = Object.fromEntries(data.worlds.map((w) => [w.id, w]));
+  const catsById = Object.fromEntries(data.categories.map((c) => [c.id, c]));
+
+  return (
+    <div className="overlay open" onClick={(e) => { if (e.target === e.currentTarget) onClose(); }}>
+      <div className="drawer">
+        <div className="drawer-head">
+          <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
+            <CompanyLogo c={competitor} size={52} />
+            <div>
+              <h2>{competitor.name}</h2>
+              <div className="meta-line">
+                {FLAG[competitor.hqCountry] || ""} {competitor.hqCity ? `${competitor.hqCity}, ` : ""}{competitor.hqCountry || "HQ not verified"}
+                {competitor.parentCompany && <> · Owned by {competitor.parentCompany}</>}
+              </div>
+            </div>
+          </div>
+          <button className="close-btn" onClick={onClose}><IconClose /></button>
+        </div>
+
+        <div className="drawer-body">
+          <div className="badge-row">
+            <a className="pill" href={`https://${competitor.domain}`} target="_blank" rel="noopener noreferrer">{competitor.domain} ↗</a>
+            <span className="badge neutral">{products.length} product{products.length === 1 ? "" : "s"} competing with Versuni</span>
+          </div>
+
+          {competitor.notes && (
+            <div className="section-sub" style={{ marginTop: 0 }}>{competitor.notes}</div>
+          )}
+
+          <div className="section-title">Products competing with Versuni</div>
+          <div className="pf-competitor-list">
+            {products.map((cp) => {
+              const price = firstPrice(cp);
+              const pos = POSITION_META[cp.positioning];
+              const versuniMatches = data.products.filter((vp) => vp.category === cp.category);
+              const priceCompare = (() => {
+                if (!price) return null;
+                const vpWithPrice = versuniMatches.find((vp) => vp.prices[0] && vp.prices[0].currency === price.currency);
+                if (!vpWithPrice) return null;
+                const vv = parseFloat(vpWithPrice.prices[0].value), cv = parseFloat(price.value);
+                if (isNaN(vv) || isNaN(cv)) return null;
+                return { vp: vpWithPrice, cheaper: cv < vv };
+              })();
+              return (
+                <div key={cp.id} className="pf-competitor-row">
+                  <div className="pf-competitor-mid">
+                    <a href={cp.url} target="_blank" rel="noopener noreferrer" className="pf-competitor-name" style={{ textDecoration: "none" }}>{cp.name}</a>
+                    <div className="pf-competitor-company">
+                      {worldsById[cp.world]?.name} · {catsById[cp.category]?.name}
+                      {priceCompare && (
+                        <>
+                          {" · "}{priceCompare.cheaper ? "cheaper than" : "pricier than"} Versuni's{" "}
+                          <span className="seg" style={{ cursor: "pointer" }} onClick={() => onOpenProduct(priceCompare.vp.id)}>{priceCompare.vp.name}</span>
+                        </>
+                      )}
+                    </div>
+                  </div>
+                  <span className="pf-competitor-badge" style={{ color: pos.color, background: pos.bg }}>{pos.label}</span>
+                  <div className="pf-competitor-price">{price ? `${price.value} ${price.currency}` : "No price on file"}</div>
+                </div>
+              );
+            })}
+          </div>
+
+          {products.some((p) => p.capabilities.length > 0) && (
+            <div className="section-sub" style={{ marginTop: 14 }}>
+              One or more of these products has scored capability data — open it in Battle mode's Distilled view for
+              a direct comparison against a matched Versuni product.
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );

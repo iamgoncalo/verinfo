@@ -19,10 +19,25 @@ connectivity, Versuni wins on filtration, IKEA cheaper) — both fully real,
 traced to actual collected evidence. 36/36 pytest gates passing, `tsc`/
 `vite build` clean, zero console errors on a fresh tab.
 
-Still TODO before the checklist is clear: making Arena's company/country
-cards genuinely clickable (raised directly by the user, not yet fixed),
-scaling capability scoring beyond Air, and the 11 categories (23 products)
-with zero competitor research yet.
+Still TODO before the checklist is clear: scaling capability scoring
+beyond Air, and the 11 categories (23 products) with zero competitor
+research yet.
+
+## 2026-08-27 (later) — Companies and countries now genuinely clickable
+
+Fixed the remaining user complaint. Country cards in Arena Overview now
+filter the company list below them (and while fixing this, caught a real
+count mismatch: Germany's geo-card said 5 companies but the filtered list
+only showed 4, because GARDENA has zero competing products and was
+silently dropped by the coverage-count-based list — fixed so 0-product
+companies still show, honestly labeled "0 products", matching their real
+geo-card count). Every company card anywhere in Arena now opens a real
+profile drawer: logo, HQ, all real competing products with live price
+comparisons against the matched Versuni product, and a click-through into
+that Versuni product's own detail drawer (drawers stack correctly).
+Live-tested the full chain — country filter, a 0-product company, a
+2-product company with real price comparisons, nested navigation — zero
+console errors throughout. 36/36 pytest gates, clean tsc/build.
 
 ## 2026-08-27 — Logos fixed, checklist created, git initialized
 
