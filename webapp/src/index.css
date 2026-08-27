@@ -363,9 +363,9 @@ button { font-family: inherit; }
 .company-card-parent { font-size: 11px; color: var(--text-faint); margin-top: 2px; }
 .company-card-foot { display: flex; justify-content: space-between; margin-top: 10px; font-size: 10.5px; color: var(--text-faint); font-weight: 700; text-transform: uppercase; letter-spacing: .02em; }
 
-.geo-grid { display: flex; flex-wrap: wrap; gap: 12px; margin: 14px 0 30px; }
+.geo-grid { display: flex; flex-wrap: wrap; gap: 14px; margin: 14px 0 30px; }
 .geo-card {
-  flex: 0 0 148px; padding: 16px 14px; border-radius: 14px; background: var(--panel); border: 1px solid var(--border);
+  flex: 0 0 210px; padding: 18px 16px; border-radius: 14px; background: var(--panel); border: 1px solid var(--border);
   text-align: center; display: flex; flex-direction: column; align-items: center; gap: 3px; cursor: pointer;
   transition: transform .12s, box-shadow .12s, border-color .12s;
 }
@@ -373,9 +373,9 @@ button { font-family: inherit; }
 .geo-card.active { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent-soft); }
 .geo-flag { font-size: 26px; line-height: 1; margin-bottom: 2px; }
 .geo-country { font-size: 12.5px; font-weight: 800; color: var(--text); }
-.geo-count { font-size: 11px; color: var(--text-faint); font-weight: 600; margin-bottom: 8px; }
-.geo-logos { display: flex; flex-wrap: wrap; gap: 4px; justify-content: center; }
-.geo-more { font-size: 10.5px; font-weight: 800; color: var(--text-faint); align-self: center; }
+.geo-count { font-size: 11px; color: var(--text-faint); font-weight: 600; margin-bottom: 10px; }
+.geo-logos { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; }
+.geo-more { font-size: 12px; font-weight: 800; color: var(--text-muted); align-self: center; width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; border-radius: 8px; background: var(--panel-2); }
 
 .standout-company-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; margin: 14px 0 24px; }
 .standout-company-card {

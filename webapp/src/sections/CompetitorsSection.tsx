@@ -272,8 +272,8 @@ function OverviewMode({ data, scoped, competitorsById, world, onOpenCompany }: {
             <div className="geo-country">{country}</div>
             <div className="geo-count">{comps.length} compan{comps.length === 1 ? "y" : "ies"}</div>
             <div className="geo-logos">
-              {comps.slice(0, 6).map((c) => <CompanyLogo key={c.id} c={c} size={22} />)}
-              {comps.length > 6 && <span className="geo-more">+{comps.length - 6}</span>}
+              {comps.slice(0, 5).map((c) => <CompanyLogo key={c.id} c={c} size={36} />)}
+              {comps.length > 5 && <span className="geo-more">+{comps.length - 5}</span>}
             </div>
           </div>
         ))}
