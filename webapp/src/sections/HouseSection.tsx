@@ -60,14 +60,17 @@ export default function HouseSection({ data, onOpenProduct }: { data: SiteData; 
     <>
       <div className="crumbs"><span className="crumb current">Space Intelligence</span></div>
       <div className="page-tagline">Products mapped to home zones.</div>
-      <div className="section-sub" style={{ marginTop: -10, maxWidth: 680 }}>
-        A provisional, world-level space map — each world is placed in the zone it primarily operates in.
-        Pick a space archetype to see which zones apply there; product mapping stays the same underneath,
-        only which zones are shown/relevant changes. This is NOT yet a full SpaceMD profile per product
-        (primary/secondary scale, mobility, coverage, placement constraints) — that requires a dedicated
-        modeling pass per family. Zone presence per archetype is <b>ESTIMATED_JUDGMENT</b>, not a measured
-        layout — see the note under each archetype.
-      </div>
+      <details className="page-details">
+        <summary>Details</summary>
+        <div className="section-sub" style={{ maxWidth: 680 }}>
+          A provisional, world-level space map — each world is placed in the zone it primarily operates in.
+          Pick a space archetype to see which zones apply there; product mapping stays the same underneath,
+          only which zones are shown/relevant changes. This is NOT yet a full SpaceMD profile per product
+          (primary/secondary scale, mobility, coverage, placement constraints) — that requires a dedicated
+          modeling pass per family. Zone presence per archetype is <b>ESTIMATED_JUDGMENT</b>, not a measured
+          layout — see the note under each archetype.
+        </div>
+      </details>
 
       <div className="cluster-bar" style={{ marginTop: 18 }}>
         <label>Space type</label>

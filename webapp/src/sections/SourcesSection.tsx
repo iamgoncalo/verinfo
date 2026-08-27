@@ -26,9 +26,12 @@ export default function SourcesSection() {
     <>
       <div className="crumbs"><span className="crumb current">Sources</span></div>
       <div className="page-tagline">Every claim, traced to source.</div>
-      <div className="section-sub" style={{ marginTop: -10 }}>
-        {DATA.sources.length} sources in the manifest — {tierCounts["A"] || 0} Tier A (official brand domains), {tierCounts["B"] || 0} Tier B (retailer/distributor), {tierCounts["C"] || 0} Tier C (discovery-only).
-      </div>
+      <details className="page-details">
+        <summary>Details</summary>
+        <div className="section-sub">
+          {DATA.sources.length} sources in the manifest — {tierCounts["A"] || 0} Tier A (official brand domains), {tierCounts["B"] || 0} Tier B (retailer/distributor), {tierCounts["C"] || 0} Tier C (discovery-only).
+        </div>
+      </details>
       <div className="cluster-bar">
         <label>Tier</label>
         {["all", "A", "B", "C"].map((t) => (

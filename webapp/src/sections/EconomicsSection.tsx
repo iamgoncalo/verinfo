@@ -39,11 +39,14 @@ export default function EconomicsSection({ data, onOpenProduct }: { data: SiteDa
     <>
       <div className="crumbs"><span className="crumb current">Economics</span></div>
       <div className="page-tagline">Real prices, real affordability.</div>
-      <div className="section-sub" style={{ marginTop: -10 }}>
-        {priced.length} of {data.products.length} products have a real observed price on file ({unpriced} do not — logged as gaps, not guessed).
-        Full TCO (energy + consumables + 3/5-year) modeling is not built yet — this view shows real observed prices and
-        NL affordability context only. Affordability is derived context, never WTP.
-      </div>
+      <details className="page-details">
+        <summary>Details</summary>
+        <div className="section-sub">
+          {priced.length} of {data.products.length} products have a real observed price on file ({unpriced} do not — logged as gaps, not guessed).
+          Full TCO (energy + consumables + 3/5-year) modeling is not built yet — this view shows real observed prices and
+          NL affordability context only. Affordability is derived context, never WTP.
+        </div>
+      </details>
 
       <div className="cluster-bar">
         <label>Market</label>

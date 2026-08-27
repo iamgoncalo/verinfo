@@ -104,11 +104,16 @@ button { font-family: inherit; }
 .crumbs .crumb.current { color: var(--text); font-weight: 700; cursor: default; }
 .crumbs .crumb.current:hover { background: none; }
 .crumbs .sep { color: var(--text-faint); font-size: 12px; }
-.page-tagline { font-size: 14.5px; font-weight: 600; color: var(--text-muted); margin: 0 0 16px; }
 
 .section-title { font-size: 12px; font-weight: 700; color: var(--text-muted); margin: 26px 0 12px; text-transform: uppercase; letter-spacing: .05em; }
 .section-title:first-of-type { margin-top: 0; }
 .section-sub { font-size: 12.5px; color: var(--text-faint); margin-top: -8px; margin-bottom: 14px; }
+.page-tagline { font-size: 14.5px; font-weight: 600; color: var(--text-muted); margin: 0 0 6px; }
+.page-details { margin: 0 0 16px; }
+.page-details > summary { cursor: pointer; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; color: var(--text-faint); list-style: revert; }
+.page-details > summary:hover { color: var(--text-muted); }
+.page-details[open] > summary { margin-bottom: 8px; }
+.page-details .section-sub { margin: 0; }
 
 /* ============ World tiles ============ */
 .world-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 18px; }
