@@ -35,6 +35,24 @@ This keeps `IMAGE_COMPLETE` claims honest: "image-complete" here means
 - `UNVERIFIED` — leave the field missing rather than guess. A missing image
   with an `UNKNOWN` status is better than a wrong image.
 
+## Photo vs marketing graphic (2026-08-27)
+
+An initial pass mislabeled many marketing/infographic slides (feature-callout
+banners, "N quality checks" badges, spec/dimension diagrams, wattage
+callouts) as real-photo `image_type`s (ANGLE/DETAIL_CONTROL/etc) because they
+came from the same official gallery as genuine photos. A dedicated visual
+review (10 parallel agents, each downloading and actually looking at every
+image) reclassified all 349 images on file: 106 were true marketing graphics,
+now typed `MARKETING_GRAPHIC`; 4 were broken/blank downloads, now typed
+`UNREADABLE`. Both are excluded from `thumb`/`thumbExact` selection in
+`scripts/build_webapp_data.py` (`sorted_real_images`), and the gallery orders
+real photo types first, `MARKETING_GRAPHIC` last, `UNREADABLE` dropped
+entirely. The product-drawer gallery labels a `MARKETING_GRAPHIC` image as
+such ("Official marketing graphic · not a plain photo") rather than
+presenting it as a photo. One product (`preethi-ch-kh317`) has zero real
+photos on file after this correction — an honest gap, shown as "no image"
+rather than substituting a graphic.
+
 ## Volume discipline
 
 **Updated 2026-08-26 per explicit user instruction: target 3–5 verified

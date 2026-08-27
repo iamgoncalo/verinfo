@@ -96,10 +96,24 @@ for r in digital:
     if r["product_id"]:
         digital_by_pid[r["product_id"]].append(r["app_or_service"])
 
+IMG_TYPE_ORDER = {
+    "HERO_FRONT": 0, "ANGLE": 1, "PRODUCT_IN_CONTEXT": 2, "DETAIL_CONTROL": 3,
+    "SIDE_BACK": 4, "FAMILY_GROUP": 5, "MARKETING_GRAPHIC": 6,
+}
+
+
+def sorted_real_images(imgs):
+    # Drop UNREADABLE (broken/blank downloads) entirely; put real product photos
+    # before marketing/infographic slides so the gallery opens on an actual photo.
+    usable = [i for i in imgs if i["type"] != "UNREADABLE"]
+    usable.sort(key=lambda i: (IMG_TYPE_ORDER.get(i["type"], 8), 0 if i["status"] == "EXACT_VERIFIED" else 1))
+    return usable
+
+
 products_out = []
 for p in products:
-    imgs = images_by_pid.get(p["product_id"], [])
-    exact = [i for i in imgs if i["status"] == "EXACT_VERIFIED"]
+    imgs = sorted_real_images(images_by_pid.get(p["product_id"], []))
+    exact = [i for i in imgs if i["status"] == "EXACT_VERIFIED" and i["type"] != "MARKETING_GRAPHIC"]
     thumb = (exact[0]["url"] if exact else (imgs[0]["url"] if imgs else None))
     cat_id = p["category_id"]
     products_out.append({

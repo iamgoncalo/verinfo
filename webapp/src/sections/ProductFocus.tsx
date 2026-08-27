@@ -66,7 +66,11 @@ export default function ProductFocus({
               <>
                 <div className="gallery-main" onClick={() => setLightbox(true)}>
                   <img src={current.url} alt={product.name} />
-                  <span className="provenance">{current.status === "EXACT_VERIFIED" ? "Official image · exact SKU" : "Official image · family match"}</span>
+                  <span className="provenance">
+                    {current.type === "MARKETING_GRAPHIC"
+                      ? "Official marketing graphic · not a plain photo"
+                      : current.status === "EXACT_VERIFIED" ? "Official image · exact SKU" : "Official image · family match"}
+                  </span>
                   {images.length > 1 && (
                     <>
                       <div className="navbtn prev" onClick={(e) => { e.stopPropagation(); prevImg(); }}><IconChevLeft /></div>

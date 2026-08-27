@@ -128,6 +128,14 @@ export const IconSprout = ({ size = 15 }: P) => (
   </svg>
 );
 
+export const IconDashboard = ({ size = 15 }: P) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+    <rect x="3" y="3" width="18" height="7" rx="1.8" />
+    <rect x="3" y="13" width="8" height="8" rx="1.8" />
+    <rect x="14" y="13" width="7" height="8" rx="1.8" />
+  </svg>
+);
+
 export const IconFolder = ({ size = 40 }: P) => (
   <div style={{
     width: size, height: size * 0.8, borderRadius: 7, flexShrink: 0, position: "relative",

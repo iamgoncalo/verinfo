@@ -2,6 +2,37 @@
 
 Short rolling status. Full detail lives in `CHECKLIST_COMPETITORS.md`.
 
+## 2026-08-27 (latest) — Home dashboard, 3-item nav, real photo/graphic split, real bug fixes
+
+Nav consolidated from 8 sidebar rows (+ a separate 8-row Worlds list, both
+scrollable) down to Home + 3 groups (Explore / Arena / Insights), each with
+its own 2-3 item sub-tab row inside the content area. Sidebar has a fixed 4
+rows now — structurally cannot scroll (`overflow-y` removed, it fits any
+viewport). Added a new Home dashboard (`DashboardSection.tsx`): 6 KPI cards
+computed live from the same site-data.json everything else uses (no
+decorative numbers) -- products/brands/worlds, price coverage (78%),
+competitor coverage (51 companies, 100% category coverage), verified-photo
+coverage (73/76), avg smart tags/product (16.1), source manifest (400,
+95% Tier A) -- each card click-through to its real page, plus a "jump to a
+world" chip row.
+
+Dispatched 10 parallel visual-review agents (each downloading and actually
+looking at every image) across all 349 product images on file: 106 were
+marketing/infographic slides mislabeled as real photos by an earlier pass,
+4 were broken/blank downloads. Both are now correctly typed
+(MARKETING_GRAPHIC / UNREADABLE), excluded from thumbnail selection, and
+the gallery orders real photos first. One product (Preethi Alcor Chimney
+60cm) has zero real photos left -- an honest, now-visible gap.
+
+Also fixed a real bug surfaced while verifying the nav change, not asked
+for but found along the way: 6 duplicate `source_id`s in sources.csv (same
+URL, same ID, two different metadata rows from different research passes)
+were causing a live React "duplicate key" console error in Arena -- merged
+into one row each with combined roles, 406->400 sources, verified zero
+console errors after the fix.
+
+36/36 pytest, clean tsc/build, verified live at 800px and 1400px widths.
+
 ## 2026-08-27 (latest) — Competitor product images 100%, Versuni price coverage 62%->78%
 
 Dispatched 7 parallel research agents: 3 to source the 29 Versuni products

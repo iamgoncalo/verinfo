@@ -2,12 +2,8 @@ import { useMemo, useState, type ReactElement } from "react";
 import siteData from "./data/site-data.json";
 import VersuniLogo from "./VersuniLogo";
 import type { SiteData, Product } from "./types";
-import { IconSearch, IconGrid, IconList, IconHome, IconLeaf, IconCoin, IconTarget, IconBook, IconLayers, IconGlobe, IconFlame, IconCup, IconWind, IconDroplet, IconShirt, IconCamera, IconPaw, IconSprout } from "./icons";
-
-const WORLD_ICON: Record<string, ReactElement> = {
-  food: <IconFlame />, coffee: <IconCup />, air: <IconWind />, clean: <IconDroplet />,
-  clothes: <IconShirt />, home: <IconCamera />, pets: <IconPaw />, garden: <IconSprout />,
-};
+import { IconSearch, IconGrid, IconList, IconCoin, IconTarget, IconDashboard } from "./icons";
+import DashboardSection from "./sections/DashboardSection";
 import ProductsSection from "./sections/ProductsSection";
 import SmartTagsSection from "./sections/SmartTagsSection";
 import EconomicsSection from "./sections/EconomicsSection";
@@ -20,10 +16,10 @@ import SearchResults from "./sections/SearchResults";
 
 const DATA = siteData as unknown as SiteData;
 
-export type Section = "products" | "house" | "tags" | "competitors" | "economics" | "distribution" | "sources";
+export type Section = "home" | "products" | "house" | "tags" | "competitors" | "economics" | "distribution" | "sources";
 
 export default function App() {
-  const [section, setSection] = useState<Section>("products");
+  const [section, setSection] = useState<Section>("home");
   const [search, setSearch] = useState("");
   const [gridMode, setGridMode] = useState<"grid" | "list">("grid");
   const [openProductId, setOpenProductId] = useState<string | null>(null);
@@ -38,20 +34,34 @@ export default function App() {
     setSearch("");
   }
 
-  const sideItems: { id: Section; label: string; icon: ReactElement; count?: number }[] = [
-    { id: "products", label: "Explore", icon: <IconGrid />, count: DATA.products.length },
-    { id: "house", label: "House", icon: <IconHome /> },
-    { id: "tags", label: "Smart Tags", icon: <IconLayers /> },
-    { id: "competitors", label: "Arena", icon: <IconTarget /> },
-    { id: "economics", label: "Economics", icon: <IconCoin /> },
-    { id: "distribution", label: "Distribution", icon: <IconGlobe /> },
-    { id: "sources", label: "Sources", icon: <IconBook /> },
+  // Only 3 persistent top-level destinations -- everything else lives one click deeper as a
+  // sub-tab, so the sidebar never grows past 3 rows and never needs to scroll. "Home" (the
+  // dashboard) is reached via the logo, same convention as most consumer apps, not a 4th row.
+  const GROUP_OF: Record<Section, "explore" | "competitors" | "insights" | "home"> = {
+    home: "home",
+    products: "explore", house: "explore", tags: "explore",
+    competitors: "competitors",
+    economics: "insights", distribution: "insights", sources: "insights",
+  };
+  const activeGroup = GROUP_OF[section];
+
+  const sideItems: { id: Section; label: string; icon: ReactElement; group: "explore" | "competitors" | "insights" }[] = [
+    { id: "products", label: "Explore", icon: <IconGrid />, group: "explore" },
+    { id: "competitors", label: "Arena", icon: <IconTarget />, group: "competitors" },
+    { id: "economics", label: "Insights", icon: <IconCoin />, group: "insights" },
+  ];
+
+  const EXPLORE_TABS: { id: Section; label: string }[] = [
+    { id: "products", label: "Products" }, { id: "house", label: "Space" }, { id: "tags", label: "Smart Tags" },
+  ];
+  const INSIGHTS_TABS: { id: Section; label: string }[] = [
+    { id: "economics", label: "Economics" }, { id: "distribution", label: "Distribution" }, { id: "sources", label: "Sources" },
   ];
 
   return (
     <div className="app">
       <div className="topbar">
-        <div className="brandmark" onClick={() => go("products")}>
+        <div className="brandmark" onClick={() => go("home")}>
           <VersuniLogo height={20} />
           <span className="word2">Product Universe</span>
         </div>
@@ -76,32 +86,24 @@ export default function App() {
 
       <div className="layout">
         <div className="sidebar">
+          <div
+            className={"side-item side-item-home" + (section === "home" && !search ? " active" : "")}
+            onClick={() => go("home")}
+          >
+            <span className="ic"><IconDashboard /></span>
+            Home
+          </div>
           <div className="side-group">
-            <h4>Explore the whole home</h4>
             {sideItems.map((it) => (
               <div
                 key={it.id}
-                className={"side-item" + (section === it.id && !search ? " active" : "")}
+                className={"side-item" + (activeGroup === it.group && !search ? " active" : "")}
                 onClick={() => go(it.id)}
               >
                 <span className="ic">{it.icon}</span>
                 {it.label}
-                {it.count !== undefined && <span className="side-count">{it.count}</span>}
               </div>
             ))}
-          </div>
-          <div className="side-group">
-            <h4>Worlds</h4>
-            {DATA.worlds.map((w) => {
-              const n = DATA.products.filter((p) => p.world === w.id).length;
-              return (
-                <div key={w.id} className="side-item" onClick={() => go("products", { world: w.id })} title={w.tagline}>
-                  <span className="ic">{WORLD_ICON[w.id] || <IconLeaf />}</span>
-                  {w.name}
-                  <span className="side-count">{n}</span>
-                </div>
-              );
-            })}
           </div>
         </div>
 
@@ -110,6 +112,22 @@ export default function App() {
             <SearchResults data={DATA} query={search} onOpenProduct={setOpenProductId} onGo={go} />
           ) : (
             <>
+              {activeGroup === "explore" && (
+                <div className="hub-tabs">
+                  {EXPLORE_TABS.map((t) => (
+                    <button key={t.id} className={section === t.id ? "active" : ""} onClick={() => go(t.id)}>{t.label}</button>
+                  ))}
+                </div>
+              )}
+              {activeGroup === "insights" && (
+                <div className="hub-tabs">
+                  {INSIGHTS_TABS.map((t) => (
+                    <button key={t.id} className={section === t.id ? "active" : ""} onClick={() => go(t.id)}>{t.label}</button>
+                  ))}
+                </div>
+              )}
+
+              {section === "home" && <DashboardSection data={DATA} onGo={go} />}
               {section === "products" && (
                 <ProductsSection data={DATA} gridMode={gridMode} preset={presetScope} onOpenProduct={setOpenProductId} />
               )}
