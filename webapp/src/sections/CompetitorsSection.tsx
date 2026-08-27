@@ -95,14 +95,6 @@ export default function CompetitorsSection({ data, onOpenProduct, preset }: {
       <div className="page-tagline">Versuni compared against real competitors.</div>
 
       <div className="tags-header">
-        <details className="page-details" style={{ marginBottom: 0 }}>
-          <summary>Details</summary>
-          <div className="section-sub" style={{ maxWidth: 620 }}>
-            Who competes with Versuni, at what price, positioned how. Every price and company location traces to an
-            official source — see <b>COMPETITOR_POLICY.md</b>. Coverage so far:{" "}
-            {worldsWithCoverage.map((w) => w.name).join(", ") || "none yet"}.
-          </div>
-        </details>
         <div className="tags-stat-row">
           <div className="tags-stat"><b>{stats.companies}</b>companies</div>
           <div className="tags-stat"><b>{stats.products}</b>products</div>

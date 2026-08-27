@@ -8,7 +8,6 @@ const NL_DISPOSABLE_INCOME = 60200;
 
 export default function EconomicsSection({ data, onOpenProduct }: { data: SiteData; onOpenProduct: (id: string) => void }) {
   const priced = useMemo(() => data.products.filter((p) => p.prices.length > 0), [data]);
-  const unpriced = data.products.length - priced.length;
   const [country, setCountry] = useState<string>("all");
 
   const countries = useMemo(() => {
@@ -39,14 +38,6 @@ export default function EconomicsSection({ data, onOpenProduct }: { data: SiteDa
     <>
       <div className="crumbs"><span className="crumb current">Economics</span></div>
       <div className="page-tagline">Real prices, real affordability.</div>
-      <details className="page-details">
-        <summary>Details</summary>
-        <div className="section-sub">
-          {priced.length} of {data.products.length} products have a real observed price on file ({unpriced} do not — logged as gaps, not guessed).
-          Full TCO (energy + consumables + 3/5-year) modeling is not built yet — this view shows real observed prices and
-          NL affordability context only. Affordability is derived context, never WTP.
-        </div>
-      </details>
 
       <div className="cluster-bar">
         <label>Market</label>

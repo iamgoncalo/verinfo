@@ -125,7 +125,7 @@ button { font-family: inherit; }
 }
 .world-tile:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); border-color: var(--border-strong); }
 .world-tile .collage { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; height: 92px; margin-bottom: 16px; border-radius: var(--radius-sm); overflow: hidden; background: var(--panel-2); }
-.world-tile .collage img { width: 100%; height: 100%; object-fit: cover; }
+.world-tile .collage img { width: 100%; height: 100%; object-fit: cover; transform: scale(1.28); transform-origin: center; }
 .world-tile .collage .empty { background: var(--panel-2); }
 .world-tile h3 { margin: 0 0 4px; font-size: 19px; font-weight: 800; letter-spacing: -.01em; }
 .world-tile .tagline { font-size: 12.5px; color: var(--text-muted); margin-bottom: 14px; flex: 1; }

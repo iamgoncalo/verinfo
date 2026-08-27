@@ -32,14 +32,6 @@ export default function DashboardSection({ data, onGo }: {
     <>
       <div className="crumbs"><span className="crumb current">Dashboard</span></div>
       <div className="page-tagline">The whole intelligence machine, at a glance.</div>
-      <details className="page-details">
-        <summary>Details</summary>
-        <div className="section-sub" style={{ maxWidth: 680 }}>
-          Every number below is computed live from the same frozen evidence that powers the rest of this app — none
-          of it is decorative. Click any card to open the page it comes from. Honest gaps (unpriced products,
-          unimaged SKUs) are shown as coverage, not hidden.
-        </div>
-      </details>
 
       <div className="kpi-grid">
         <div className="kpi-card" onClick={() => onGo("products")}>

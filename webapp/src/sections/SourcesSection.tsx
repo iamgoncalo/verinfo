@@ -16,22 +16,10 @@ export default function SourcesSection() {
     });
   }, [q, tier]);
 
-  const tierCounts = useMemo(() => {
-    const c: Record<string, number> = {};
-    DATA.sources.forEach((s) => { c[s.tier] = (c[s.tier] || 0) + 1; });
-    return c;
-  }, []);
-
   return (
     <>
       <div className="crumbs"><span className="crumb current">Sources</span></div>
       <div className="page-tagline">Every claim, traced to source.</div>
-      <details className="page-details">
-        <summary>Details</summary>
-        <div className="section-sub">
-          {DATA.sources.length} sources in the manifest — {tierCounts["A"] || 0} Tier A (official brand domains), {tierCounts["B"] || 0} Tier B (retailer/distributor), {tierCounts["C"] || 0} Tier C (discovery-only).
-        </div>
-      </details>
       <div className="cluster-bar">
         <label>Tier</label>
         {["all", "A", "B", "C"].map((t) => (

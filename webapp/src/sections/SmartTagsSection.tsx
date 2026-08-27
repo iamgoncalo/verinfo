@@ -194,14 +194,6 @@ export default function SmartTagsSection({ data, onOpenProduct }: { data: SiteDa
       <div className="page-tagline">How every product is described.</div>
 
       <div className="tags-header">
-        <details className="page-details" style={{ marginBottom: 0 }}>
-          <summary>Details</summary>
-          <div className="section-sub" style={{ maxWidth: 620 }}>
-            Every product's full tag profile, distilled to what matters first.
-            <b> Green = observed fact</b> from verified specs. <b style={{ color: "var(--amber)" }}>Amber = hypothesis</b> — AI-proposed,
-            not yet backed by real consumer evidence.
-          </div>
-        </details>
         <div className="tags-stat-row">
           <div className="tags-stat"><b>{stats.ruleDerived}</b>rule-derived</div>
           <div className="tags-stat"><b>{stats.candidate}</b>candidate</div>
