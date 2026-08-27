@@ -1,7 +1,7 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type { SiteData, Competitor, CompetitorProduct, Positioning, Product } from "../types";
 import { IconTarget, IconClose } from "../icons";
-import { displaySku } from "../util";
+import { displaySku, scrollContentToTop } from "../util";
 
 export const POSITION_META: Record<Positioning, { color: string; bg: string; label: string }> = {
   DIRECT: { color: "#b3261e", bg: "#fdf1ef", label: "Direct" },
@@ -49,6 +49,8 @@ export default function CompetitorsSection({ data, onOpenProduct, preset }: {
   const [world, setWorld] = useState<string>(preset?.world ?? "all");
   const [mode, setMode] = useState<ModeT>("overview");
   const [openCompanyId, setOpenCompanyId] = useState<string | null>(null);
+
+  useEffect(() => { scrollContentToTop(); }, [world, mode]);
 
   const competitorsById = useMemo(() => Object.fromEntries(data.competitors.map((c) => [c.id, c])), [data]);
 

@@ -3,6 +3,7 @@ import siteData from "./data/site-data.json";
 import VersuniLogo from "./VersuniLogo";
 import type { SiteData, Product } from "./types";
 import { IconSearch, IconGrid, IconList, IconCoin, IconTarget, IconDashboard, IconHome, IconLayers, IconGlobe, IconBook } from "./icons";
+import { scrollContentToTop } from "./util";
 import DashboardSection from "./sections/DashboardSection";
 import ProductsSection from "./sections/ProductsSection";
 import SmartTagsSection from "./sections/SmartTagsSection";
@@ -28,10 +29,14 @@ export default function App() {
   const productsById = useMemo(() => Object.fromEntries(DATA.products.map((p) => [p.id, p])), []);
   const openProduct: Product | null = openProductId ? productsById[openProductId] : null;
 
+  const [mobileNavOpen, setMobileNavOpen] = useState(false);
+
   function go(sec: Section, scope?: { world?: string; brand?: string; category?: string }) {
     setSection(sec);
     setPresetScope(scope ?? null);
     setSearch("");
+    setMobileNavOpen(false);
+    scrollContentToTop();
   }
 
   // Only 3 persistent top-level destinations -- everything else lives one click deeper as a
@@ -74,6 +79,7 @@ export default function App() {
   return (
     <div className="app">
       <div className="topbar">
+        <button className="mobile-nav-btn" onClick={() => setMobileNavOpen((o) => !o)} aria-label="Menu"><IconList /></button>
         <div className="brandmark" onClick={() => go("home")}>
           <VersuniLogo height={20} />
           <span className="word2">Product Universe</span>
@@ -98,7 +104,8 @@ export default function App() {
       </div>
 
       <div className="layout">
-        <div className="sidebar">
+        {mobileNavOpen && <div className="mobile-nav-backdrop" onClick={() => setMobileNavOpen(false)} />}
+        <div className={"sidebar" + (mobileNavOpen ? " open" : "")}>
           <div
             className={"side-item side-item-home" + (section === "home" && !search ? " active" : "")}
             onClick={() => go("home")}

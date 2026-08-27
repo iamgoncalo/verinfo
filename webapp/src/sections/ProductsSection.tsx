@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState, type ReactElement } from "react";
 import type { SiteData, Product } from "../types";
 import { IconFolder } from "../icons";
-import { displaySku } from "../util";
+import { displaySku, scrollContentToTop } from "../util";
 
 type Preset = { world?: string; brand?: string; category?: string } | null;
 
@@ -30,6 +30,10 @@ export default function ProductsSection({
     setCategory(preset?.category ?? null);
     setFamily(null);
   }, [preset]);
+
+  // Drilling deeper (world -> category -> family -> product) is its own kind of "clicking to a
+  // new page" even though `section` never changes -- reset scroll on every level change too.
+  useEffect(() => { scrollContentToTop(); }, [world, brand, category, family, rootView]);
 
   const worldsMap = useMemo(() => Object.fromEntries(data.worlds.map((w) => [w.id, w])), [data]);
   const brandsMap = useMemo(() => Object.fromEntries(data.brands.map((b) => [b.id, b])), [data]);

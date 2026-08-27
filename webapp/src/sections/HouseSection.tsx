@@ -1,6 +1,7 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type { SiteData } from "../types";
 import { ProductGrid } from "./ProductsSection";
+import { scrollContentToTop } from "../util";
 
 const ZONES: { id: string; name: string; worlds: string[] }[] = [
   { id: "entry", name: "Entry", worlds: ["home"] },
@@ -55,6 +56,8 @@ export default function HouseSection({ data, onOpenProduct }: { data: SiteData; 
   const zoneProducts = zone ? data.products.filter((p) => zone.worlds.includes(p.world)) : [];
 
   const activeZones = useMemo(() => ZONES.filter((z) => spaceType.zoneIds.includes(z.id)), [spaceType]);
+
+  useEffect(() => { scrollContentToTop(); }, [spaceTypeId, zoneId]);
 
   return (
     <>
